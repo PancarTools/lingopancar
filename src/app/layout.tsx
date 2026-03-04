@@ -10,6 +10,11 @@ export const metadata: Metadata = {
 	description:
 		"Master vocabulary with beautiful flashcards. Learn German, English, and more with our elegant language learning app.",
 	viewport: "width=device-width, initial-scale=1.0, maximum-scale=5.0",
+	icons: {
+		icon: "/lingopancarrr.png",
+		shortcut: "/lingopancarrr.png",
+		apple: "/lingopancarrr.png",
+	},
 	openGraph: {
 		title: "LingoPancar - Learn Languages with Elegance",
 		description:
@@ -18,7 +23,7 @@ export const metadata: Metadata = {
 		siteName: "LingoPancar",
 		images: [
 			{
-				url: "/og-image.png",
+				url: "/lingoog.png",
 				width: 1200,
 				height: 630,
 				alt: "LingoPancar - Learn Languages with Elegance",
@@ -32,7 +37,7 @@ export const metadata: Metadata = {
 		title: "LingoPancar - Learn Languages with Elegance",
 		description:
 			"Master vocabulary with beautiful flashcards. Learn German, English, and more with our elegant language learning app.",
-		images: ["/og-image.png"],
+		images: ["/lingoog.png"],
 	},
 };
 
