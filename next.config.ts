@@ -6,7 +6,7 @@ const nextConfig: NextConfig = {
 	images: {
 		unoptimized: true,
 	},
-	basePath: "/lingopancar",
+	// Remove basePath for GitHub Pages - it uses repo name automatically
 };
 
 export default nextConfig;
