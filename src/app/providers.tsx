@@ -3,6 +3,7 @@
 import { createContext, useContext, useEffect, useState, ReactNode } from "react";
 import { User, onAuthStateChanged, signOut as firebaseSignOut } from "firebase/auth";
 import { auth } from "@/lib/firebase";
+import { createOrGetDeck, addCard, getCardsByDeckId } from "@/lib/firebase-service";
 
 interface AuthContextType {
 	user: User | null;
@@ -17,8 +18,39 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 	const [loading, setLoading] = useState(true);
 
 	useEffect(() => {
-		const unsubscribe = onAuthStateChanged(auth!, (currentUser) => {
+		const unsubscribe = onAuthStateChanged(auth!, async (currentUser) => {
 			setUser(currentUser);
+
+			// Create welcome card for new users
+			if (currentUser) {
+				try {
+					const deck = await createOrGetDeck(currentUser.uid);
+
+					// Check if user already has cards (to avoid duplicate welcome cards)
+					const existingCards = await getCardsByDeckId(deck.id);
+
+					if (existingCards.length === 0) {
+						// Add welcome card
+						await addCard(currentUser.uid, deck.id, {
+							prefix: "der",
+							word: "Erfolg",
+							suffix: "",
+							meaning: "success",
+							description: "positives Ergebnis, das man erreichen wollte",
+							examples: [
+								{
+									sentence: "Sie hatte (mit ihrem Projekt) leider keinen Erfolg.",
+									translation: "Unfortunately she wasn't successful (with her project).",
+								},
+							],
+							reviewCount: 0,
+						});
+					}
+				} catch (error) {
+					console.error("Error creating welcome card:", error);
+				}
+			}
+
 			setLoading(false);
 		});
 

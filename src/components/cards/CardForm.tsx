@@ -25,10 +25,24 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 
 	const handleSubmit = async (e: React.FormEvent) => {
 		e.preventDefault();
+
+		// Input validation
 		if (!word.trim() || !meaning.trim()) {
 			setError("Word and meaning are required");
 			return;
 		}
+
+		// Sanitize inputs
+		const sanitizedWord = word.trim().slice(0, 100);
+		const sanitizedMeaning = meaning.trim().slice(0, 200);
+		const sanitizedPrefix = prefix.trim().slice(0, 50);
+		const sanitizedSuffix = suffix.trim().slice(0, 50);
+		const sanitizedDescription = description.trim().slice(0, 300);
+
+		const sanitizedExamples = examples.map((example) => ({
+			sentence: example.sentence.trim().slice(0, 200),
+			translation: example.translation.trim().slice(0, 200),
+		}));
 
 		if (!user) {
 			setError("You must be logged in to create cards");
@@ -39,13 +53,13 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 		setError(null);
 
 		try {
-			const newCard = await addCard(user.uid, deckId, {
-				prefix,
-				word,
-				suffix,
-				meaning,
-				description,
-				examples: examples.filter((ex) => ex.sentence.trim()),
+			const newCard = await addCard(user!.uid, deckId, {
+				prefix: sanitizedPrefix,
+				word: sanitizedWord,
+				suffix: sanitizedSuffix,
+				meaning: sanitizedMeaning,
+				description: sanitizedDescription,
+				examples: sanitizedExamples.filter((ex) => ex.sentence && ex.translation),
 				reviewCount: 0,
 			});
 

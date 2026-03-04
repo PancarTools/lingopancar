@@ -1,9 +1,9 @@
-import { auth, database } from './firebase';
-import { ref, set, get, update, remove, onValue } from 'firebase/database';
-import type { Card, Deck } from './types';
+import { auth, database } from "./firebase";
+import { ref, set, get, update, remove, onValue } from "firebase/database";
+import type { Card, Deck } from "./types";
 
 export async function createOrGetDeck(userId: string): Promise<Deck> {
-	if (!database) throw new Error('Firebase not initialized');
+	if (!database) throw new Error("Firebase not initialized");
 
 	const deckId = `deck_${userId}`;
 	const deckRef = ref(database, `decks/${deckId}`);
@@ -16,7 +16,7 @@ export async function createOrGetDeck(userId: string): Promise<Deck> {
 	const newDeck: Deck = {
 		id: deckId,
 		userId,
-		name: 'My Deck',
+		name: "My Deck",
 		createdAt: Date.now(),
 		cardCount: 0,
 	};
@@ -25,8 +25,12 @@ export async function createOrGetDeck(userId: string): Promise<Deck> {
 	return newDeck;
 }
 
-export async function addCard(userId: string, deckId: string, card: Omit<Card, 'id' | 'userId' | 'deckId' | 'createdAt' | 'updatedAt'>): Promise<Card> {
-	if (!database) throw new Error('Firebase not initialized');
+export async function addCard(
+	userId: string,
+	deckId: string,
+	card: Omit<Card, "id" | "userId" | "deckId" | "createdAt" | "updatedAt">,
+): Promise<Card> {
+	if (!database) throw new Error("Firebase not initialized");
 
 	const cardId = `card_${Date.now()}`;
 	const newCard: Card = {
@@ -53,9 +57,9 @@ export async function addCard(userId: string, deckId: string, card: Omit<Card, '
 }
 
 export async function getCardsByDeckId(deckId: string): Promise<Card[]> {
-	if (!database) throw new Error('Firebase not initialized');
+	if (!database) throw new Error("Firebase not initialized");
 
-	const cardsRef = ref(database, 'cards');
+	const cardsRef = ref(database, "cards");
 	const snapshot = await get(cardsRef);
 
 	if (!snapshot.exists()) return [];
@@ -66,11 +70,11 @@ export async function getCardsByDeckId(deckId: string): Promise<Card[]> {
 
 export function subscribeToCards(deckId: string, callback: (cards: Card[]) => void) {
 	if (!database) {
-		console.error('Firebase not initialized');
+		console.error("Firebase not initialized");
 		return () => {};
 	}
 
-	const cardsRef = ref(database, 'cards');
+	const cardsRef = ref(database, "cards");
 	const unsubscribe = onValue(cardsRef, (snapshot) => {
 		if (!snapshot.exists()) {
 			callback([]);
@@ -86,7 +90,7 @@ export function subscribeToCards(deckId: string, callback: (cards: Card[]) => vo
 }
 
 export async function deleteCard(cardId: string, deckId: string): Promise<void> {
-	if (!database) throw new Error('Firebase not initialized');
+	if (!database) throw new Error("Firebase not initialized");
 
 	const cardRef = ref(database, `cards/${cardId}`);
 	await remove(cardRef);
@@ -101,7 +105,7 @@ export async function deleteCard(cardId: string, deckId: string): Promise<void> 
 }
 
 export async function updateCard(cardId: string, updates: Partial<Card>): Promise<void> {
-	if (!database) throw new Error('Firebase not initialized');
+	if (!database) throw new Error("Firebase not initialized");
 
 	const cardRef = ref(database, `cards/${cardId}`);
 	await update(cardRef, {
