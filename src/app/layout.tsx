@@ -6,8 +6,9 @@ import { AuthProvider } from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-	title: "LingoPancar",
-	description: "Learn languages with flashcards",
+	title: "LingoPancar - Learn Languages with Elegance",
+	description:
+		"Master vocabulary with beautiful flashcards. Learn German, English, and more with our elegant language learning app.",
 	viewport: "width=device-width, initial-scale=1.0, maximum-scale=5.0",
 };
 
