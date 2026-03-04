@@ -64,7 +64,7 @@ export default function ReviewMode({ cards, onExit }: ReviewModeProps) {
 				</div>
 
 				<div
-					className="bg-light dark:bg-dark rounded-2xl shadow-2xl p-6 sm:p-8 md:p-12 min-h-80 sm:min-h-96 flex flex-col justify-center items-center cursor-pointer transition-transform hover:scale-105 border-2 border-secondary border-opacity-20"
+					className="bg-light dark:bg-dark rounded-2xl shadow-2xl p-6 sm:p-8 md:p-12 min-h-80 sm:min-h-96 flex flex-col justify-center items-center cursor-pointer transition-transform hover:scale-(--card-hover-scale) border-2 border-secondary border-opacity-20"
 					onClick={() => setIsFlipped(!isFlipped)}
 				>
 					{!isFlipped ? (
@@ -124,7 +124,7 @@ export default function ReviewMode({ cards, onExit }: ReviewModeProps) {
 						variant="outline"
 						className="border-2 border-secondary text-secondary dark:text-secondary hover:bg-secondary hover:bg-opacity-10 dark:hover:bg-opacity-20"
 					>
-						← Previous
+						←
 					</Button>
 					<Button
 						onClick={() => {
@@ -148,7 +148,7 @@ export default function ReviewMode({ cards, onExit }: ReviewModeProps) {
 						variant="outline"
 						className="border-2 border-secondary text-secondary dark:text-secondary hover:bg-secondary hover:bg-opacity-10 dark:hover:bg-opacity-20"
 					>
-						Next →
+						→
 					</Button>
 				</div>
 			</div>

@@ -24,7 +24,7 @@ export default function CardList({ cards, onCardDeleted }: CardListProps) {
 			{cards.map((card) => (
 				<div
 					key={card.id}
-					className="bg-light dark:bg-dark rounded-xl shadow-md p-4 sm:p-6 hover:shadow-lg transition-shadow border-2 border-primary border-opacity-20"
+					className="bg-light dark:bg-dark rounded-xl shadow-md p-4 sm:p-6 hover:shadow-md hover:scale-(--card-hover-scale) transition-all duration-200 border-2 border-primary border-opacity-20"
 				>
 					<div className="flex justify-between items-start gap-4">
 						<div className="flex-1">

@@ -8,6 +8,7 @@ import CardForm from "@/components/cards/CardForm";
 import ReviewMode from "@/components/review/ReviewMode";
 import { createOrGetDeck, subscribeToCards, deleteCard } from "@/lib/firebase-service";
 import type { Card, Deck } from "@/lib/types";
+import LoadingSpinner from "@/components/ui/loading-spinner";
 
 export default function Dashboard() {
 	const { user, signOut } = useAuth();
@@ -44,22 +45,13 @@ export default function Dashboard() {
 
 	const filteredCards = cards.filter((card) => {
 		const query = searchQuery.toLowerCase();
-		return (
-			card.word.toLowerCase().includes(query) ||
-			card.meaning.toLowerCase().includes(query) ||
-			card.prefix.toLowerCase().includes(query) ||
-			card.suffix.toLowerCase().includes(query) ||
-			card.description.toLowerCase().includes(query)
-		);
+		return card.word.toLowerCase().includes(query) || card.meaning.toLowerCase().includes(query);
 	});
 
 	if (loading) {
 		return (
 			<div className="flex items-center justify-center min-h-screen w-full bg-light dark:bg-dark">
-				<div className="text-center px-4">
-					<div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
-					<p className="text-secondary dark:text-secondary">Loading...</p>
-				</div>
+				<LoadingSpinner />
 			</div>
 		);
 	}
