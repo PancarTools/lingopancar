@@ -6,7 +6,11 @@ const nextConfig: NextConfig = {
 	images: {
 		unoptimized: true,
 	},
-	// Remove basePath for GitHub Pages - it uses repo name automatically
+	// Only apply basePath in production, not in development
+	...(process.env.NODE_ENV === "production" && {
+		basePath: "/lingopancar",
+		assetPrefix: "/lingopancar",
+	}),
 };
 
 export default nextConfig;
