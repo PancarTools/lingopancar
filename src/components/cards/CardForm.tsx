@@ -1,0 +1,203 @@
+"use client";
+
+import { useState } from "react";
+import { Button } from "@/components/ui/button";
+import { addCard } from "@/lib/firebase-service";
+import { useAuth } from "@/app/providers";
+import type { Card } from "@/lib/types";
+
+interface CardFormProps {
+	deckId: string;
+	onCardAdded: (card: Card) => void;
+	onCancel: () => void;
+}
+
+export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProps) {
+	const { user } = useAuth();
+	const [prefix, setPrefix] = useState("");
+	const [word, setWord] = useState("");
+	const [suffix, setSuffix] = useState("");
+	const [meaning, setMeaning] = useState("");
+	const [description, setDescription] = useState("");
+	const [examples, setExamples] = useState([{ sentence: "", translation: "" }]);
+	const [isSubmitting, setIsSubmitting] = useState(false);
+	const [error, setError] = useState<string | null>(null);
+
+	const handleSubmit = async (e: React.FormEvent) => {
+		e.preventDefault();
+		if (!word.trim() || !meaning.trim()) {
+			setError("Word and meaning are required");
+			return;
+		}
+
+		if (!user) {
+			setError("You must be logged in to create cards");
+			return;
+		}
+
+		setIsSubmitting(true);
+		setError(null);
+
+		try {
+			const newCard = await addCard(user.uid, deckId, {
+				prefix,
+				word,
+				suffix,
+				meaning,
+				description,
+				examples: examples.filter((ex) => ex.sentence.trim()),
+				reviewCount: 0,
+			});
+
+			onCardAdded(newCard);
+			setPrefix("");
+			setWord("");
+			setSuffix("");
+			setMeaning("");
+			setDescription("");
+			setExamples([{ sentence: "", translation: "" }]);
+		} catch (err) {
+			setError(err instanceof Error ? err.message : "Failed to create card");
+			console.error("Error creating card:", err);
+		} finally {
+			setIsSubmitting(false);
+		}
+	};
+
+	return (
+		<form
+			onSubmit={handleSubmit}
+			className="bg-light dark:bg-dark rounded-xl shadow-lg p-4 sm:p-6 md:p-8 space-y-4 mb-6 sm:mb-8 border-2 border-primary border-opacity-30"
+		>
+			<h3 className="text-2xl font-semibold text-primary dark:text-primary font-serif">Add New Card</h3>
+
+			{error && (
+				<div className="bg-primary/10 dark:bg-primary/20 border-2 border-primary text-primary dark:text-primary px-4 py-3 rounded-lg font-medium">
+					{error}
+				</div>
+			)}
+
+			<div className="grid grid-cols-3 gap-4">
+				<div>
+					<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Prefix (optional)</label>
+					<input
+						type="text"
+						value={prefix}
+						onChange={(e) => setPrefix(e.target.value)}
+						placeholder="e.g., der"
+						className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+					/>
+				</div>
+				<div>
+					<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Word *</label>
+					<input
+						type="text"
+						value={word}
+						onChange={(e) => setWord(e.target.value)}
+						placeholder="e.g., Haus"
+						className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+					/>
+				</div>
+				<div>
+					<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Suffix (optional)</label>
+					<input
+						type="text"
+						value={suffix}
+						onChange={(e) => setSuffix(e.target.value)}
+						placeholder="e.g., (n)"
+						className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+					/>
+				</div>
+			</div>
+
+			<div>
+				<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Meaning *</label>
+				<input
+					type="text"
+					value={meaning}
+					onChange={(e) => setMeaning(e.target.value)}
+					placeholder="Translation in your native language"
+					className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+				/>
+			</div>
+
+			<div>
+				<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Description (hint)</label>
+				<textarea
+					value={description}
+					onChange={(e) => setDescription(e.target.value)}
+					placeholder="Explanation in the target language"
+					rows={3}
+					className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+				></textarea>
+			</div>
+
+			<div className="space-y-3">
+				<div className="flex justify-between items-center">
+					<label className="block text-sm font-medium text-secondary dark:text-secondary">Example Sentences</label>
+					<button
+						type="button"
+						onClick={() => setExamples([...examples, { sentence: "", translation: "" }])}
+						className="text-sm text-primary hover:text-primary/80 dark:text-primary dark:hover:text-primary/70 font-medium"
+					>
+						+ Add Example
+					</button>
+				</div>
+
+				{examples.map((example, index) => (
+					<div key={index} className="space-y-2 p-3 bg-light border-2 border-secondary border-opacity-20 rounded-lg">
+						<input
+							type="text"
+							value={example.sentence}
+							onChange={(e) => {
+								const newExamples = [...examples];
+								newExamples[index].sentence = e.target.value;
+								setExamples(newExamples);
+							}}
+							placeholder="Example sentence"
+							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white text-dark"
+						/>
+						<input
+							type="text"
+							value={example.translation || ""}
+							onChange={(e) => {
+								const newExamples = [...examples];
+								newExamples[index].translation = e.target.value;
+								setExamples(newExamples);
+							}}
+							placeholder="Translation (optional)"
+							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white text-dark"
+						/>
+						{examples.length > 1 && (
+							<button
+								type="button"
+								onClick={() => setExamples(examples.filter((_, i) => i !== index))}
+								className="text-sm text-primary hover:text-primary/80 font-medium"
+							>
+								Remove
+							</button>
+						)}
+					</div>
+				))}
+			</div>
+
+			<div className="flex gap-3 justify-end">
+				<Button
+					type="button"
+					onClick={onCancel}
+					variant="outline"
+					className="border-2 border-secondary text-secondary hover:bg-secondary hover:bg-opacity-10"
+				>
+					Cancel
+				</Button>
+				<Button
+					type="submit"
+					disabled={isSubmitting}
+					className="bg-primary hover:bg-primary/90 text-light font-semibold"
+				>
+					{isSubmitting ? "Creating..." : "Create Card"}
+				</Button>
+			</div>
+		</form>
+	);
+}
