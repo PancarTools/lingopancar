@@ -1,5 +1,5 @@
 import { auth, database } from "./firebase";
-import { ref, set, get, update, remove, onValue } from "firebase/database";
+import { ref, set, get, update, remove, onValue, query, orderByChild, equalTo } from "firebase/database";
 import type { Card, Deck } from "./types";
 
 export async function createOrGetDeck(userId: string): Promise<Deck> {
@@ -59,13 +59,13 @@ export async function addCard(
 export async function getCardsByDeckId(deckId: string): Promise<Card[]> {
 	if (!database) throw new Error("Firebase not initialized");
 
-	const cardsRef = ref(database, "cards");
-	const snapshot = await get(cardsRef);
+	const cardsQuery = query(ref(database, "cards"), orderByChild("deckId"), equalTo(deckId));
+	const snapshot = await get(cardsQuery);
 
 	if (!snapshot.exists()) return [];
 
 	const allCards = snapshot.val() as Record<string, Card>;
-	return Object.values(allCards).filter((card) => card.deckId === deckId);
+	return Object.values(allCards);
 }
 
 export function subscribeToCards(deckId: string, callback: (cards: Card[]) => void) {
@@ -74,16 +74,15 @@ export function subscribeToCards(deckId: string, callback: (cards: Card[]) => vo
 		return () => {};
 	}
 
-	const cardsRef = ref(database, "cards");
-	const unsubscribe = onValue(cardsRef, (snapshot) => {
+	const cardsQuery = query(ref(database, "cards"), orderByChild("deckId"), equalTo(deckId));
+	const unsubscribe = onValue(cardsQuery, (snapshot) => {
 		if (!snapshot.exists()) {
 			callback([]);
 			return;
 		}
 
 		const allCards = snapshot.val() as Record<string, Card>;
-		const deckCards = Object.values(allCards).filter((card) => card.deckId === deckId);
-		callback(deckCards);
+		callback(Object.values(allCards));
 	});
 
 	return unsubscribe;

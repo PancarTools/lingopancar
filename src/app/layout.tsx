@@ -6,6 +6,7 @@ import { AuthProvider } from "./providers";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+	metadataBase: new URL("https://pancartools.github.io"),
 	title: "LingoPancar - Learn Languages with Elegance",
 	description:
 		"Master vocabulary with beautiful flashcards. Learn German, English, and more with our elegant language learning app.",
@@ -23,7 +24,7 @@ export const metadata: Metadata = {
 		siteName: "LingoPancar",
 		images: [
 			{
-				url: "/lingoog.png",
+				url: "https://pancartools.github.io/lingopancar/lingoog.png",
 				width: 1200,
 				height: 630,
 				alt: "LingoPancar - Learn Languages with Elegance",
@@ -37,7 +38,7 @@ export const metadata: Metadata = {
 		title: "LingoPancar - Learn Languages with Elegance",
 		description:
 			"Master vocabulary with beautiful flashcards. Learn German, English, and more with our elegant language learning app.",
-		images: ["/lingoog.png"],
+		images: ["https://pancartools.github.io/lingopancar/lingoog.png"],
 	},
 };
 
