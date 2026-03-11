@@ -27,13 +27,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 					const deck = await createOrGetDeck(currentUser.uid);
 
 					// Check if user already has cards (to avoid duplicate welcome cards)
-					const existingCards = await getCardsByDeckId(deck.id);
+					const existingCards = await getCardsByDeckId(currentUser.uid, deck.id);
 
 					if (existingCards.length === 0) {
 						// Add welcome card
 						await addCard(currentUser.uid, deck.id, {
 							prefix: "der",
-							word: "Erfolg",
+							main: "Erfolg",
 							suffix: "",
 							meaning: "success",
 							description: "positives Ergebnis, das man erreichen wollte",

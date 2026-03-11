@@ -8,7 +8,7 @@ export interface Card {
 	userId: string;
 	deckId: string;
 	prefix: string;
-	word: string;
+	main: string;
 	suffix: string;
 	meaning: string;
 	description: string;

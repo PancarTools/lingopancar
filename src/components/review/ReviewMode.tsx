@@ -79,7 +79,7 @@ export default function ReviewMode({ cards, onExit }: ReviewModeProps) {
 									</span>
 								)}
 								<span className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary dark:text-primary font-serif">
-									{currentCard.word}
+									{currentCard.main}
 								</span>
 								{currentCard.suffix && (
 									<span className="text-secondary dark:text-secondary italic text-lg font-light">

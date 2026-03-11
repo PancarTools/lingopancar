@@ -32,7 +32,7 @@ export default function CardList({ cards, onCardDeleted }: CardListProps) {
 								{card.prefix && (
 									<span className="text-secondary dark:text-secondary italic font-light">{card.prefix}</span>
 								)}
-								<span className="text-3xl font-bold text-primary dark:text-primary font-serif">{card.word}</span>
+								<span className="text-3xl font-bold text-primary dark:text-primary font-serif">{card.main}</span>
 								{card.suffix && (
 									<span className="text-secondary dark:text-secondary italic font-light">{card.suffix}</span>
 								)}

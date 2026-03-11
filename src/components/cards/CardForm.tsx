@@ -15,7 +15,7 @@ interface CardFormProps {
 export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProps) {
 	const { user } = useAuth();
 	const [prefix, setPrefix] = useState("");
-	const [word, setWord] = useState("");
+	const [main, setMain] = useState("");
 	const [suffix, setSuffix] = useState("");
 	const [meaning, setMeaning] = useState("");
 	const [description, setDescription] = useState("");
@@ -27,13 +27,13 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 		e.preventDefault();
 
 		// Input validation
-		if (!word.trim() || !meaning.trim()) {
-			setError("Word and meaning are required");
+		if (!main.trim() || !meaning.trim()) {
+			setError("Main and meaning are required");
 			return;
 		}
 
 		// Sanitize inputs
-		const sanitizedWord = word.trim().slice(0, 100);
+		const sanitizedMain = main.trim().slice(0, 100);
 		const sanitizedMeaning = meaning.trim().slice(0, 200);
 		const sanitizedPrefix = prefix.trim().slice(0, 50);
 		const sanitizedSuffix = suffix.trim().slice(0, 50);
@@ -55,7 +55,7 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 		try {
 			const newCard = await addCard(user!.uid, deckId, {
 				prefix: sanitizedPrefix,
-				word: sanitizedWord,
+				main: sanitizedMain,
 				suffix: sanitizedSuffix,
 				meaning: sanitizedMeaning,
 				description: sanitizedDescription,
@@ -65,7 +65,7 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 
 			onCardAdded(newCard);
 			setPrefix("");
-			setWord("");
+			setMain("");
 			setSuffix("");
 			setMeaning("");
 			setDescription("");
@@ -103,11 +103,11 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 					/>
 				</div>
 				<div>
-					<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Word *</label>
+					<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Main *</label>
 					<input
 						type="text"
-						value={word}
-						onChange={(e) => setWord(e.target.value)}
+						value={main}
+						onChange={(e) => setMain(e.target.value)}
 						placeholder="e.g., Haus"
 						className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
 					/>

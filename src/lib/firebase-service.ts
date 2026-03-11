@@ -1,4 +1,4 @@
-import { auth, database } from "./firebase";
+import { database } from "./firebase";
 import { ref, set, get, update, remove, onValue, query, orderByChild, equalTo } from "firebase/database";
 import type { Card, Deck } from "./types";
 
@@ -6,7 +6,7 @@ export async function createOrGetDeck(userId: string): Promise<Deck> {
 	if (!database) throw new Error("Firebase not initialized");
 
 	const deckId = `deck_${userId}`;
-	const deckRef = ref(database, `decks/${deckId}`);
+	const deckRef = ref(database, `users/${userId}/decks/${deckId}`);
 	const snapshot = await get(deckRef);
 
 	if (snapshot.exists()) {
@@ -42,11 +42,11 @@ export async function addCard(
 		updatedAt: Date.now(),
 	};
 
-	const cardRef = ref(database, `cards/${cardId}`);
+	const cardRef = ref(database, `users/${userId}/cards/${cardId}`);
 	await set(cardRef, newCard);
 
 	// Update deck card count
-	const deckRef = ref(database, `decks/${deckId}`);
+	const deckRef = ref(database, `users/${userId}/decks/${deckId}`);
 	const deckSnapshot = await get(deckRef);
 	if (deckSnapshot.exists()) {
 		const deck = deckSnapshot.val();
@@ -56,10 +56,10 @@ export async function addCard(
 	return newCard;
 }
 
-export async function getCardsByDeckId(deckId: string): Promise<Card[]> {
+export async function getCardsByDeckId(userId: string, deckId: string): Promise<Card[]> {
 	if (!database) throw new Error("Firebase not initialized");
 
-	const cardsQuery = query(ref(database, "cards"), orderByChild("deckId"), equalTo(deckId));
+	const cardsQuery = query(ref(database, `users/${userId}/cards`), orderByChild("deckId"), equalTo(deckId));
 	const snapshot = await get(cardsQuery);
 
 	if (!snapshot.exists()) return [];
@@ -68,13 +68,13 @@ export async function getCardsByDeckId(deckId: string): Promise<Card[]> {
 	return Object.values(allCards);
 }
 
-export function subscribeToCards(deckId: string, callback: (cards: Card[]) => void) {
+export function subscribeToCards(userId: string, deckId: string, callback: (cards: Card[]) => void) {
 	if (!database) {
 		console.error("Firebase not initialized");
 		return () => {};
 	}
 
-	const cardsQuery = query(ref(database, "cards"), orderByChild("deckId"), equalTo(deckId));
+	const cardsQuery = query(ref(database, `users/${userId}/cards`), orderByChild("deckId"), equalTo(deckId));
 	const unsubscribe = onValue(cardsQuery, (snapshot) => {
 		if (!snapshot.exists()) {
 			callback([]);
@@ -88,14 +88,14 @@ export function subscribeToCards(deckId: string, callback: (cards: Card[]) => vo
 	return unsubscribe;
 }
 
-export async function deleteCard(cardId: string, deckId: string): Promise<void> {
+export async function deleteCard(userId: string, cardId: string, deckId: string): Promise<void> {
 	if (!database) throw new Error("Firebase not initialized");
 
-	const cardRef = ref(database, `cards/${cardId}`);
+	const cardRef = ref(database, `users/${userId}/cards/${cardId}`);
 	await remove(cardRef);
 
 	// Update deck card count
-	const deckRef = ref(database, `decks/${deckId}`);
+	const deckRef = ref(database, `users/${userId}/decks/${deckId}`);
 	const deckSnapshot = await get(deckRef);
 	if (deckSnapshot.exists()) {
 		const deck = deckSnapshot.val();
@@ -103,10 +103,10 @@ export async function deleteCard(cardId: string, deckId: string): Promise<void> 
 	}
 }
 
-export async function updateCard(cardId: string, updates: Partial<Card>): Promise<void> {
+export async function updateCard(userId: string, cardId: string, updates: Partial<Card>): Promise<void> {
 	if (!database) throw new Error("Firebase not initialized");
 
-	const cardRef = ref(database, `cards/${cardId}`);
+	const cardRef = ref(database, `users/${userId}/cards/${cardId}`);
 	await update(cardRef, {
 		...updates,
 		updatedAt: Date.now(),

@@ -1,7 +1,7 @@
 "use client";
 
 import { useAuth } from "@/app/providers";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { Button } from "@/components/ui/button";
 import CardList from "@/components/cards/CardList";
 import CardForm from "@/components/cards/CardForm";
@@ -19,19 +19,13 @@ export default function Dashboard() {
 	const [searchQuery, setSearchQuery] = useState("");
 	const [isReviewMode, setIsReviewMode] = useState(false);
 
-	useEffect(() => {
-		if (user) {
-			loadDeck();
-		}
-	}, [user]);
-
-	const loadDeck = async () => {
+	const loadDeck = useCallback(async () => {
 		try {
 			setLoading(true);
 			const userDeck = await createOrGetDeck(user!.uid);
 			setDeck(userDeck);
 
-			const unsubscribe = subscribeToCards(userDeck.id, (updatedCards: Card[]) => {
+			const unsubscribe = subscribeToCards(user!.uid, userDeck.id, (updatedCards: Card[]) => {
 				setCards(updatedCards);
 			});
 
@@ -41,11 +35,17 @@ export default function Dashboard() {
 			console.error("Error loading deck:", error);
 			setLoading(false);
 		}
-	};
+	}, [user]);
+
+	useEffect(() => {
+		if (user) {
+			loadDeck();
+		}
+	}, [user, loadDeck]);
 
 	const filteredCards = cards.filter((card) => {
 		const query = searchQuery.toLowerCase();
-		return card.word.toLowerCase().includes(query) || card.meaning.toLowerCase().includes(query);
+		return card.main.toLowerCase().includes(query) || card.meaning.toLowerCase().includes(query);
 	});
 
 	if (loading) {
@@ -125,9 +125,9 @@ export default function Dashboard() {
 				<CardList
 					cards={filteredCards}
 					onCardDeleted={async (id: string) => {
-						if (deck) {
+						if (deck && user) {
 							try {
-								await deleteCard(id, deck.id);
+								await deleteCard(user.uid, id, deck.id);
 								setCards(cards.filter((c) => c.id !== id));
 							} catch (error) {
 								console.error("Error deleting card:", error);
