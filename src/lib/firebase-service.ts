@@ -1,6 +1,6 @@
 import { database } from "./firebase";
 import { ref, set, get, update, remove, onValue, query, orderByChild, equalTo } from "firebase/database";
-import type { Card, Deck } from "./types";
+import type { Card, Deck, SimpleCard } from "./types";
 
 export async function createOrGetDeck(userId: string): Promise<Deck> {
 	if (!database) throw new Error("Firebase not initialized");
@@ -25,22 +25,24 @@ export async function createOrGetDeck(userId: string): Promise<Deck> {
 	return newDeck;
 }
 
-export async function addCard(
-	userId: string,
-	deckId: string,
-	card: Omit<Card, "id" | "userId" | "deckId" | "createdAt" | "updatedAt">,
-): Promise<Card> {
+type CardInput =
+	| Omit<SimpleCard, "id" | "userId" | "deckId" | "createdAt" | "updatedAt">
+	| Omit<Card, "id" | "userId" | "deckId" | "createdAt" | "updatedAt">;
+
+export async function addCard(userId: string, deckId: string, card: CardInput): Promise<Card> {
 	if (!database) throw new Error("Firebase not initialized");
 
 	const cardId = `card_${Date.now()}`;
+	const now = Date.now();
+
 	const newCard: Card = {
-		...card,
+		...(card as Record<string, unknown>),
 		id: cardId,
 		userId,
 		deckId,
-		createdAt: Date.now(),
-		updatedAt: Date.now(),
-	};
+		createdAt: now,
+		updatedAt: now,
+	} as Card;
 
 	const cardRef = ref(database, `users/${userId}/cards/${cardId}`);
 	await set(cardRef, newCard);

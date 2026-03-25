@@ -4,7 +4,8 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { addCard } from "@/lib/firebase-service";
 import { useAuth } from "@/app/providers";
-import type { Card } from "@/lib/types";
+import { CARD_TYPE } from "@/lib/types";
+import type { Card, CardType } from "@/lib/types";
 
 interface CardFormProps {
 	deckId: string;
@@ -14,6 +15,7 @@ interface CardFormProps {
 
 export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProps) {
 	const { user } = useAuth();
+	const [cardType, setCardType] = useState<CardType>(CARD_TYPE.DETAILED);
 	const [prefix, setPrefix] = useState("");
 	const [main, setMain] = useState("");
 	const [suffix, setSuffix] = useState("");
@@ -53,15 +55,27 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 		setError(null);
 
 		try {
-			const newCard = await addCard(user!.uid, deckId, {
-				prefix: sanitizedPrefix,
-				main: sanitizedMain,
-				suffix: sanitizedSuffix,
-				meaning: sanitizedMeaning,
-				description: sanitizedDescription,
-				examples: sanitizedExamples.filter((ex) => ex.sentence && ex.translation),
-				reviewCount: 0,
-			});
+			const cardData =
+				cardType === CARD_TYPE.SIMPLE
+					? {
+							type: CARD_TYPE.SIMPLE,
+							main: sanitizedMain,
+							meaning: sanitizedMeaning,
+							description: sanitizedDescription,
+							reviewCount: 0,
+						}
+					: {
+							type: CARD_TYPE.DETAILED,
+							prefix: sanitizedPrefix,
+							main: sanitizedMain,
+							suffix: sanitizedSuffix,
+							meaning: sanitizedMeaning,
+							description: sanitizedDescription,
+							examples: sanitizedExamples.filter((ex) => ex.sentence && ex.translation),
+							reviewCount: 0,
+						};
+
+			const newCard = await addCard(user!.uid, deckId, cardData);
 
 			onCardAdded(newCard);
 			setPrefix("");
@@ -83,7 +97,33 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 			onSubmit={handleSubmit}
 			className="bg-light dark:bg-dark rounded-xl shadow-lg p-4 sm:p-6 md:p-8 space-y-4 mb-6 sm:mb-8 border-2 border-primary border-opacity-30"
 		>
-			<h3 className="text-2xl font-semibold text-primary dark:text-primary font-serif">Add New Card</h3>
+			<div className="flex justify-between items-center">
+				<h3 className="text-2xl font-semibold text-primary dark:text-primary font-serif">Add New Card</h3>
+				<div className="flex gap-2">
+					<button
+						type="button"
+						onClick={() => setCardType(CARD_TYPE.SIMPLE)}
+						className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+							cardType === CARD_TYPE.SIMPLE
+								? "bg-primary text-light"
+								: "bg-secondary/20 text-secondary hover:bg-secondary/30"
+						}`}
+					>
+						Simple
+					</button>
+					<button
+						type="button"
+						onClick={() => setCardType(CARD_TYPE.DETAILED)}
+						className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+							cardType === CARD_TYPE.DETAILED
+								? "bg-primary text-light"
+								: "bg-secondary/20 text-secondary hover:bg-secondary/30"
+						}`}
+					>
+						Detailed
+					</button>
+				</div>
+			</div>
 
 			{error && (
 				<div className="bg-primary/10 dark:bg-primary/20 border-2 border-primary text-primary dark:text-primary px-4 py-3 rounded-lg font-medium">
@@ -91,109 +131,159 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 				</div>
 			)}
 
-			<div className="grid grid-cols-3 gap-4">
-				<div>
-					<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Prefix (optional)</label>
-					<input
-						type="text"
-						value={prefix}
-						onChange={(e) => setPrefix(e.target.value)}
-						placeholder="e.g., der"
-						className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
-					/>
-				</div>
-				<div>
-					<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Main *</label>
-					<input
-						type="text"
-						value={main}
-						onChange={(e) => setMain(e.target.value)}
-						placeholder="e.g., Haus"
-						className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
-					/>
-				</div>
-				<div>
-					<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Suffix (optional)</label>
-					<input
-						type="text"
-						value={suffix}
-						onChange={(e) => setSuffix(e.target.value)}
-						placeholder="e.g., (n)"
-						className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
-					/>
-				</div>
-			</div>
-
-			<div>
-				<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Meaning *</label>
-				<input
-					type="text"
-					value={meaning}
-					onChange={(e) => setMeaning(e.target.value)}
-					placeholder="Translation in your native language"
-					className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
-				/>
-			</div>
-
-			<div>
-				<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Description (hint)</label>
-				<textarea
-					value={description}
-					onChange={(e) => setDescription(e.target.value)}
-					placeholder="Explanation in the target language"
-					rows={3}
-					className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
-				></textarea>
-			</div>
-
-			<div className="space-y-3">
-				<div className="flex justify-between items-center">
-					<label className="block text-sm font-medium text-secondary dark:text-secondary">Example Sentences</label>
-					<button
-						type="button"
-						onClick={() => setExamples([...examples, { sentence: "", translation: "" }])}
-						className="text-sm text-primary hover:text-primary/80 dark:text-primary dark:hover:text-primary/70 font-medium"
-					>
-						+ Add Example
-					</button>
-				</div>
-
-				{examples.map((example, index) => (
-					<div key={index} className="space-y-2 p-3 bg-light border-2 border-secondary border-opacity-20 rounded-lg">
+			{cardType === CARD_TYPE.SIMPLE ? (
+				<div className="space-y-4">
+					<div>
+						<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Main *</label>
 						<input
 							type="text"
-							value={example.sentence}
-							onChange={(e) => {
-								const newExamples = [...examples];
-								newExamples[index].sentence = e.target.value;
-								setExamples(newExamples);
-							}}
-							placeholder="Example sentence"
-							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white text-dark"
+							value={main}
+							onChange={(e) => setMain(e.target.value)}
+							placeholder="e.g., Haus"
+							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
 						/>
+					</div>
+
+					<div>
+						<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Meaning *</label>
 						<input
 							type="text"
-							value={example.translation || ""}
-							onChange={(e) => {
-								const newExamples = [...examples];
-								newExamples[index].translation = e.target.value;
-								setExamples(newExamples);
-							}}
-							placeholder="Translation (optional)"
-							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white text-dark"
+							value={meaning}
+							onChange={(e) => setMeaning(e.target.value)}
+							placeholder="Translation in your native language"
+							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
 						/>
-						{examples.length > 1 && (
+					</div>
+
+					<div>
+						<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">
+							Description (optional)
+						</label>
+						<textarea
+							value={description}
+							onChange={(e) => setDescription(e.target.value)}
+							placeholder="Additional notes or explanation"
+							rows={3}
+							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+						></textarea>
+					</div>
+				</div>
+			) : (
+				<div className="space-y-4">
+					<div className="grid grid-cols-3 gap-4">
+						<div>
+							<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">
+								Prefix (optional)
+							</label>
+							<input
+								type="text"
+								value={prefix}
+								onChange={(e) => setPrefix(e.target.value)}
+								placeholder="e.g., der"
+								className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+							/>
+						</div>
+						<div>
+							<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Main *</label>
+							<input
+								type="text"
+								value={main}
+								onChange={(e) => setMain(e.target.value)}
+								placeholder="e.g., Haus"
+								className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+							/>
+						</div>
+						<div>
+							<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">
+								Suffix (optional)
+							</label>
+							<input
+								type="text"
+								value={suffix}
+								onChange={(e) => setSuffix(e.target.value)}
+								placeholder="e.g., (n)"
+								className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+							/>
+						</div>
+					</div>
+
+					<div>
+						<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Meaning *</label>
+						<input
+							type="text"
+							value={meaning}
+							onChange={(e) => setMeaning(e.target.value)}
+							placeholder="Translation in your native language"
+							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+						/>
+					</div>
+
+					<div>
+						<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">
+							Description (hint)
+						</label>
+						<textarea
+							value={description}
+							onChange={(e) => setDescription(e.target.value)}
+							placeholder="Explanation in the target language"
+							rows={3}
+							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+						></textarea>
+					</div>
+
+					<div className="space-y-3">
+						<div className="flex justify-between items-center">
+							<label className="block text-sm font-medium text-secondary dark:text-secondary">Example Sentences</label>
 							<button
 								type="button"
-								onClick={() => setExamples(examples.filter((_, i) => i !== index))}
-								className="text-sm text-primary hover:text-primary/80 font-medium"
+								onClick={() => setExamples([...examples, { sentence: "", translation: "" }])}
+								className="text-sm text-primary hover:text-primary/80 dark:text-primary dark:hover:text-primary/70 font-medium"
 							>
-								Remove
+								+ Add Example
 							</button>
-						)}
+						</div>
+
+						{examples.map((example, index) => (
+							<div
+								key={index}
+								className="space-y-2 p-3 bg-light border-2 border-secondary border-opacity-20 rounded-lg"
+							>
+								<input
+									type="text"
+									value={example.sentence}
+									onChange={(e) => {
+										const newExamples = [...examples];
+										newExamples[index].sentence = e.target.value;
+										setExamples(newExamples);
+									}}
+									placeholder="Example sentence"
+									className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white text-dark"
+								/>
+								<input
+									type="text"
+									value={example.translation || ""}
+									onChange={(e) => {
+										const newExamples = [...examples];
+										newExamples[index].translation = e.target.value;
+										setExamples(newExamples);
+									}}
+									placeholder="Translation (optional)"
+									className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white text-dark"
+								/>
+								{examples.length > 1 && (
+									<button
+										type="button"
+										onClick={() => setExamples(examples.filter((_, i) => i !== index))}
+										className="text-sm text-primary hover:text-primary/80 font-medium"
+									>
+										Remove
+									</button>
+								)}
+							</div>
+						))}
 					</div>
-				))}
-			</div>
+				</div>
+			)}
 
 			<div className="flex gap-3 justify-end">
 				<Button
