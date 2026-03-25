@@ -1,0 +1,1383 @@
+[
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Streit",
+		"suffix": "",
+		"meaning": "argument, dispute (pl -igkeiten)",
+		"description": "A conflict between people.",
+		"examples": [{ "sentence": "Sie hatten gestern einen Streit.", "translation": "They had an argument yesterday." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Gesellschaft",
+		"suffix": "",
+		"meaning": "society, company (pl -en)",
+		"description": "Used for both social context and business entities.",
+		"examples": [
+			{
+				"sentence": "In unserer Gesellschaft ist Bildung wichtig.",
+				"translation": "Education is important in our society."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Rechtsanwalt",
+		"suffix": "",
+		"meaning": "lawyer (pl -e)",
+		"description": "A legal professional.",
+		"examples": [{ "sentence": "Ich brauche einen guten Rechtsanwalt.", "translation": "I need a good lawyer." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "Erfahrung",
+		"suffix": "",
+		"meaning": "experience (pl -en)",
+		"description": "Knowledge gained through practice.",
+		"examples": [
+			{ "sentence": "Er hat viel Erfahrung im Beruf.", "translation": "He has a lot of experience in his job." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "das",
+		"main": "Gedicht",
+		"suffix": "",
+		"meaning": "poem (pl -e)",
+		"description": "A short literary text in verse.",
+		"examples": [{ "sentence": "Sie schreibt ein schönes Gedicht.", "translation": "She writes a beautiful poem." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Rede",
+		"suffix": "",
+		"meaning": "speech (pl -n)",
+		"description": "A formal talk given to an audience.",
+		"examples": [{ "sentence": "Seine Rede war sehr motivierend.", "translation": "His speech was very motivating." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Bewerbung",
+		"suffix": "",
+		"meaning": "application (pl -en)",
+		"description": "A job or school application.",
+		"examples": [
+			{ "sentence": "Ich habe meine Bewerbung gestern geschickt.", "translation": "I sent my application yesterday." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Werbebrief",
+		"suffix": "",
+		"meaning": "promotional letter (pl -e)",
+		"description": "A letter used for advertising.",
+		"examples": [
+			{ "sentence": "Die Firma schickte einen Werbebrief.", "translation": "The company sent a promotional letter." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "statt",
+		"suffix": "",
+		"meaning": "instead of",
+		"description": "Used to express substitution.",
+		"examples": [{ "sentence": "Ich trinke Tee statt Kaffee.", "translation": "I drink tea instead of coffee." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "wegwerfen",
+		"suffix": "",
+		"meaning": "to throw away (warf weg, hat weggeworfen)",
+		"description": "To discard something.",
+		"examples": [
+			{ "sentence": "Wir sollen Plastik nicht wegwerfen.", "translation": "We should not throw plastic away." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "reparieren",
+		"suffix": "",
+		"meaning": "to repair (reparierte, hat repariert)",
+		"description": "To fix something broken.",
+		"examples": [{ "sentence": "Kannst du mein Fahrrad reparieren?", "translation": "Can you repair my bicycle?" }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "kümmern",
+		"suffix": "sich um + Akk.",
+		"meaning": "to take care (kümmerte, hat gekümmert)",
+		"description": "Reflexive verb for caring about/for something.",
+		"examples": [{ "sentence": "Ich kümmere mich um die Kinder.", "translation": "I take care of the children." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "bestreiten",
+		"suffix": "",
+		"meaning": "to dispute, to manage (bestritt, hat bestritten)",
+		"description": "Can mean deny or cover costs.",
+		"examples": [{ "sentence": "Er bestreitet die Aussage.", "translation": "He disputes the statement." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "aufpassen",
+		"suffix": "auf + Akk.",
+		"meaning": "to pay attention (passte auf, hat aufgepasst)",
+		"description": "To be careful or attentive.",
+		"examples": [{ "sentence": "Pass im Verkehr gut auf!", "translation": "Pay close attention in traffic!" }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "steuern",
+		"suffix": "",
+		"meaning": "to control, steer (steuerte, hat gesteuert)",
+		"description": "To direct movement or process.",
+		"examples": [{ "sentence": "Er steuert das Boot sicher.", "translation": "He steers the boat safely." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "ersetzen",
+		"suffix": "",
+		"meaning": "to replace (ersetzte, hat ersetzt)",
+		"description": "To put one thing in place of another.",
+		"examples": [
+			{ "sentence": "Wir müssen das alte Teil ersetzen.", "translation": "We need to replace the old part." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "brennen",
+		"suffix": "",
+		"meaning": "to burn (brannte, hat gebrannt)",
+		"description": "To be on fire or cause fire.",
+		"examples": [{ "sentence": "Das Licht brennt noch.", "translation": "The light is still on." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "ablenken",
+		"suffix": "",
+		"meaning": "to distract (lenkte ab, hat abgelenkt)",
+		"description": "To divert attention.",
+		"examples": [{ "sentence": "Lärm kann mich leicht ablenken.", "translation": "Noise can distract me easily." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "raten",
+		"suffix": "",
+		"meaning": "to advise, guess (riet, hat geraten)",
+		"description": "Used for giving advice or guessing.",
+		"examples": [{ "sentence": "Ich rate dir zu einer Pause.", "translation": "I advise you to take a break." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "bitten",
+		"suffix": "um + Akk.",
+		"meaning": "to ask, request (bat, hat gebeten)",
+		"description": "To ask someone for something.",
+		"examples": [{ "sentence": "Ich bitte dich um Hilfe.", "translation": "I ask you for help." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "bestehen",
+		"suffix": "aus + Dat.",
+		"meaning": "to exist, pass (bestand, hat bestanden)",
+		"description": "Can mean consist of or pass an exam.",
+		"examples": [{ "sentence": "Die Prüfung hat sie bestanden.", "translation": "She passed the exam." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "verdienen",
+		"suffix": "",
+		"meaning": "to earn, deserve (verdiente, hat verdient)",
+		"description": "Used for salary or merit.",
+		"examples": [{ "sentence": "Sie verdient sehr gut.", "translation": "She earns very well." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "versuchen",
+		"suffix": "",
+		"meaning": "to try (versuchte, hat versucht)",
+		"description": "To make an attempt.",
+		"examples": [
+			{ "sentence": "Ich versuche, mehr Deutsch zu sprechen.", "translation": "I try to speak more German." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "unterstützen",
+		"suffix": "",
+		"meaning": "to support (unterstützte, hat unterstützt)",
+		"description": "To help someone actively.",
+		"examples": [{ "sentence": "Freunde unterstützen einander.", "translation": "Friends support each other." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "sorgen",
+		"suffix": "sich um + Akk.",
+		"meaning": "to worry, care (sorgte, hat gesorgt)",
+		"description": "To care for or be worried about.",
+		"examples": [{ "sentence": "Sie sorgt sich um ihre Familie.", "translation": "She worries about her family." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "betreuen",
+		"suffix": "",
+		"meaning": "to care for (betreute, hat betreut)",
+		"description": "To supervise or look after.",
+		"examples": [
+			{ "sentence": "Er betreut die neuen Teilnehmer.", "translation": "He looks after the new participants." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "zunehmen",
+		"suffix": "",
+		"meaning": "to increase (nahm zu, hat zugenommen)",
+		"description": "To grow in amount or intensity.",
+		"examples": [{ "sentence": "Der Verkehr nimmt zu.", "translation": "Traffic is increasing." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "feststellen",
+		"suffix": "",
+		"meaning": "to determine, notice (stellte fest, hat festgestellt)",
+		"description": "To identify or observe something clearly.",
+		"examples": [
+			{ "sentence": "Der Arzt stellte eine Verbesserung fest.", "translation": "The doctor noticed an improvement." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "verstärken",
+		"suffix": "",
+		"meaning": "to strengthen (verstärkte, hat verstärkt)",
+		"description": "To make stronger.",
+		"examples": [
+			{ "sentence": "Wir müssen die Wirkung verstärken.", "translation": "We need to strengthen the effect." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "simple",
+		"main": "von ... bis zu reichen",
+		"meaning": "to range from ... to ...",
+		"description": "Use this structure to express limits on a scale, amount, or time span.",
+		"reviewCount": 0
+	},
+	{
+		"type": "simple",
+		"main": "was die Musik angeht",
+		"meaning": "as far as music is concerned",
+		"description": "Use this pattern to introduce a topic and give your opinion about it.",
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "laufen",
+		"suffix": "",
+		"meaning": "to run (lief, ist gelaufen)",
+		"description": "To run or function.",
+		"examples": [{ "sentence": "Er läuft jeden Morgen im Park.", "translation": "He runs in the park every morning." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "genießen",
+		"suffix": "",
+		"meaning": "to enjoy (genoss, hat genossen)",
+		"description": "To take pleasure in something.",
+		"examples": [{ "sentence": "Wir genießen das schöne Wetter.", "translation": "We enjoy the beautiful weather." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "gewöhnen",
+		"suffix": "sich an + Akk.",
+		"meaning": "to get used to someone/something (gewöhnte, hat gewöhnt)",
+		"description": "Reflexive verb used for becoming accustomed to a person or situation.",
+		"examples": [
+			{
+				"sentence": "Ich habe mich schnell an meinen neuen Kollegen gewöhnt.",
+				"translation": "I got used to my new colleague quickly."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "übertreiben",
+		"suffix": "",
+		"meaning": "to exaggerate (übertrieb, hat übertrieben)",
+		"description": "To overdo or overstate.",
+		"examples": [{ "sentence": "Du übertreibst ein bisschen.", "translation": "You are exaggerating a little." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Gemeinschaft",
+		"suffix": "",
+		"meaning": "community (pl -en)",
+		"description": "A group living/working together.",
+		"examples": [
+			{ "sentence": "Die Gemeinschaft hilft allen Mitgliedern.", "translation": "The community helps all members." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Solidarität",
+		"suffix": "",
+		"meaning": "solidarity",
+		"description": "Unity and mutual support.",
+		"examples": [
+			{
+				"sentence": "In schwierigen Zeiten ist Solidarität wichtig.",
+				"translation": "Solidarity is important in difficult times."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "das",
+		"main": "Ziel",
+		"suffix": "",
+		"meaning": "goal, target (pl -e)",
+		"description": "Something you aim to achieve.",
+		"examples": [{ "sentence": "Unser Ziel ist klar.", "translation": "Our goal is clear." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Voraussetzung",
+		"suffix": "",
+		"meaning": "requirement (pl -en)",
+		"description": "A necessary condition.",
+		"examples": [
+			{ "sentence": "Deutschkenntnisse sind eine Voraussetzung.", "translation": "German skills are a requirement." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Wohnungsgesellschaft",
+		"suffix": "",
+		"meaning": "housing company (pl -en)",
+		"description": "A company that manages residential buildings.",
+		"examples": [
+			{
+				"sentence": "Die Wohnungsgesellschaft renoviert das Gebäude.",
+				"translation": "The housing company is renovating the building."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Umweltschutz",
+		"suffix": "",
+		"meaning": "environmental protection",
+		"description": "Actions that protect nature and the environment.",
+		"examples": [
+			{
+				"sentence": "Umweltschutz ist heute sehr wichtig.",
+				"translation": "Environmental protection is very important today."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "umweltfreundlich",
+		"suffix": "",
+		"meaning": "environmentally friendly",
+		"description": "Not harmful to the environment.",
+		"examples": [
+			{
+				"sentence": "Wir benutzen umweltfreundliche Produkte.",
+				"translation": "We use environmentally friendly products."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Meisterbetrieb",
+		"suffix": "",
+		"meaning": "master-certified business (pl -e)",
+		"description": "A company run by certified master craftspeople.",
+		"examples": [
+			{
+				"sentence": "Das ist ein anerkannter Meisterbetrieb.",
+				"translation": "This is a recognized master-certified business."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "reagieren",
+		"suffix": "auf + Akk.",
+		"meaning": "to react (reagierte, hat reagiert)",
+		"description": "To respond to something.",
+		"examples": [
+			{
+				"sentence": "Sie reagiert schnell auf Probleme.",
+				"translation": "She reacts quickly to problems."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "umweltbewusst",
+		"suffix": "",
+		"meaning": "environmentally conscious",
+		"description": "Aware of and careful about environmental impact.",
+		"examples": [
+			{
+				"sentence": "Er lebt sehr umweltbewusst.",
+				"translation": "He lives very environmentally consciously."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Verantwortung",
+		"suffix": "für + Akk.",
+		"meaning": "responsibility",
+		"description": "Duty or accountability for something.",
+		"examples": [
+			{
+				"sentence": "Sie trägt Verantwortung für das Team.",
+				"translation": "She carries responsibility for the team."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Maßnahme",
+		"suffix": "",
+		"meaning": "measure, action (pl -n)",
+		"description": "A specific action taken to solve a problem.",
+		"examples": [
+			{
+				"sentence": "Die Maßnahme war sehr effektiv.",
+				"translation": "The measure was very effective."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Schritt",
+		"suffix": "",
+		"meaning": "step (pl -e)",
+		"description": "A stage in a process.",
+		"examples": [
+			{
+				"sentence": "Das ist der erste Schritt.",
+				"translation": "That is the first step."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Richtung",
+		"suffix": "",
+		"meaning": "direction (pl -en)",
+		"description": "Way or orientation.",
+		"examples": [
+			{
+				"sentence": "In welche Richtung gehen wir?",
+				"translation": "In which direction are we going?"
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "das",
+		"main": "Seniorenheim",
+		"suffix": "",
+		"meaning": "nursing home (pl -e)",
+		"description": "A home for elderly people who need care.",
+		"examples": [
+			{
+				"sentence": "Ihre Großmutter lebt im Seniorenheim.",
+				"translation": "Her grandmother lives in a nursing home."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Pflege",
+		"suffix": "",
+		"meaning": "care, nursing",
+		"description": "Support and treatment for people in need.",
+		"examples": [
+			{
+				"sentence": "Die Pflege älterer Menschen ist anspruchsvoll.",
+				"translation": "Caring for older people is demanding."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Sinn",
+		"suffix": "",
+		"meaning": "sense, meaning (pl -e)",
+		"description": "Purpose or meaning of something.",
+		"examples": [
+			{
+				"sentence": "Was ist der Sinn dieser Übung?",
+				"translation": "What is the point of this exercise?"
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "sinnvoll",
+		"suffix": "",
+		"meaning": "meaningful, sensible",
+		"description": "Useful and reasonable.",
+		"examples": [
+			{
+				"sentence": "Das ist eine sinnvolle Lösung.",
+				"translation": "That is a sensible solution."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Ernährung",
+		"suffix": "",
+		"meaning": "nutrition, diet",
+		"description": "The way people eat.",
+		"examples": [
+			{
+				"sentence": "Gesunde Ernährung ist wichtig.",
+				"translation": "A healthy diet is important."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Brandunfall",
+		"suffix": "",
+		"meaning": "fire accident (pl -fälle)",
+		"description": "An accident caused by fire.",
+		"examples": [
+			{
+				"sentence": "Der Brandunfall verursachte großen Schaden.",
+				"translation": "The fire accident caused major damage."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "das",
+		"main": "Umland",
+		"suffix": "",
+		"meaning": "surrounding area",
+		"description": "Area around a city or region.",
+		"examples": [
+			{
+				"sentence": "Viele Menschen wohnen im Umland.",
+				"translation": "Many people live in the surrounding area."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Unaufmerksamkeit",
+		"suffix": "",
+		"meaning": "inattention",
+		"description": "Lack of attention.",
+		"examples": [
+			{
+				"sentence": "Ein Unfall passierte wegen Unaufmerksamkeit.",
+				"translation": "An accident happened due to inattention."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Überschrift",
+		"suffix": "",
+		"meaning": "headline (pl -en)",
+		"description": "Title at the top of an article or section.",
+		"examples": [
+			{
+				"sentence": "Die Überschrift macht neugierig.",
+				"translation": "The headline makes you curious."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Betreuungsstelle",
+		"suffix": "",
+		"meaning": "care office (pl -n)",
+		"description": "Office responsible for support and care services.",
+		"examples": [
+			{
+				"sentence": "Die Betreuungsstelle hilft den Familien.",
+				"translation": "The care office helps families."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "das",
+		"main": "Verhältnis",
+		"suffix": "zu + Dat.",
+		"meaning": "relationship, ratio (pl -se)",
+		"description": "A relation between things or people.",
+		"examples": [
+			{
+				"sentence": "Sie hat ein gutes Verhältnis zu ihren Kollegen.",
+				"translation": "She has a good relationship with her colleagues."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Vorsicht",
+		"suffix": "",
+		"meaning": "caution",
+		"description": "Carefulness to avoid danger.",
+		"examples": [
+			{
+				"sentence": "Vorsicht auf der nassen Straße!",
+				"translation": "Caution on the wet road!"
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Vorliebe",
+		"suffix": "für + Akk.",
+		"meaning": "preference (pl -n)",
+		"description": "A strong liking for something.",
+		"examples": [
+			{
+				"sentence": "Er hat eine Vorliebe für klassische Musik.",
+				"translation": "He has a preference for classical music."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Spannung",
+		"suffix": "",
+		"meaning": "tension, suspense (pl -en)",
+		"description": "Mental or physical strain; suspense.",
+		"examples": [
+			{
+				"sentence": "Die Spannung im Film war groß.",
+				"translation": "The suspense in the movie was high."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Förderung",
+		"suffix": "",
+		"meaning": "support, promotion (pl -en)",
+		"description": "Financial or practical support for development.",
+		"examples": [
+			{
+				"sentence": "Die Förderung hilft kleinen Unternehmen.",
+				"translation": "The support helps small companies."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Wohnanlage",
+		"suffix": "",
+		"meaning": "residential complex (pl -n)",
+		"description": "Group of residential buildings.",
+		"examples": [
+			{
+				"sentence": "Die neue Wohnanlage hat einen Garten.",
+				"translation": "The new residential complex has a garden."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Verband",
+		"suffix": "",
+		"meaning": "association (pl -ände)",
+		"description": "An organized group or federation.",
+		"examples": [
+			{
+				"sentence": "Der Verband organisiert das Treffen.",
+				"translation": "The association organizes the meeting."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Schulden",
+		"suffix": "",
+		"meaning": "debts",
+		"description": "Money that someone owes.",
+		"examples": [
+			{
+				"sentence": "Er hat keine Schulden mehr.",
+				"translation": "He has no debts anymore."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "schuldenfrei",
+		"suffix": "",
+		"meaning": "debt-free",
+		"description": "Without any debts.",
+		"examples": [
+			{
+				"sentence": "Nach Jahren ist sie endlich schuldenfrei.",
+				"translation": "After years, she is finally debt-free."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Inhalt",
+		"suffix": "",
+		"meaning": "content (pl -e)",
+		"description": "What something contains.",
+		"examples": [
+			{
+				"sentence": "Der Inhalt des Buches ist spannend.",
+				"translation": "The content of the book is exciting."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "kurzentschlossen",
+		"suffix": "",
+		"meaning": "decisive at short notice",
+		"description": "Making decisions quickly in a situation.",
+		"examples": [
+			{
+				"sentence": "Sie handelte kurzentschlossen.",
+				"translation": "She acted decisively at short notice."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "bedeutend",
+		"suffix": "",
+		"meaning": "important, significant",
+		"description": "Having strong importance or influence.",
+		"examples": [
+			{ "sentence": "Das ist eine bedeutende Entscheidung.", "translation": "That is a significant decision." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "unbescholten",
+		"suffix": "",
+		"meaning": "of good character, with no criminal record",
+		"description": "Used to describe someone with a clean reputation.",
+		"examples": [
+			{
+				"sentence": "Er gilt als unbescholtener Bürger.",
+				"translation": "He is considered a citizen of good character."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Umgangsform",
+		"suffix": "",
+		"meaning": "manner, social form (pl -en)",
+		"description": "Polite and accepted social behavior.",
+		"examples": [
+			{
+				"sentence": "Gute Umgangsformen sind wichtig.",
+				"translation": "Good manners are important."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Hauptportier",
+		"suffix": "",
+		"meaning": "chief porter (pl -s)",
+		"description": "Head concierge or chief doorman.",
+		"examples": [
+			{
+				"sentence": "Der Hauptportier begrüßte die Gäste.",
+				"translation": "The chief porter welcomed the guests."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "das",
+		"main": "Schreiben",
+		"suffix": "",
+		"meaning": "writing, letter",
+		"description": "A written message or letter.",
+		"examples": [
+			{
+				"sentence": "Ich habe Ihr Schreiben erhalten.",
+				"translation": "I received your letter."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "das",
+		"main": "Ersatzteil",
+		"suffix": "",
+		"meaning": "spare part (pl -e)",
+		"description": "A replacement part for repair.",
+		"examples": [{ "sentence": "Wir brauchen ein neues Ersatzteil.", "translation": "We need a new spare part." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Angestellte",
+		"suffix": "",
+		"meaning": "employee (pl -n)",
+		"description": "A person employed by a company.",
+		"examples": [
+			{ "sentence": "Die Angestellte arbeitet im Büro.", "translation": "The employee works in the office." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Senkung",
+		"suffix": "",
+		"meaning": "reduction, lowering (pl -en)",
+		"description": "A decrease in level or amount.",
+		"examples": [
+			{ "sentence": "Die Senkung der Kosten war nötig.", "translation": "The reduction of costs was necessary." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "erhören",
+		"suffix": "",
+		"meaning": "to grant a request (erhörte, hat erhört)",
+		"description": "To fulfill or grant what someone asks for.",
+		"examples": [{ "sentence": "Der Wunsch wurde erhört.", "translation": "The wish was granted." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "beliebt",
+		"suffix": "bei + Dat.",
+		"meaning": "popular",
+		"description": "Liked by many people.",
+		"examples": [{ "sentence": "Das Restaurant ist sehr beliebt.", "translation": "The restaurant is very popular." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Erziehung",
+		"suffix": "",
+		"meaning": "upbringing, education (pl -en)",
+		"description": "The process of raising and educating children.",
+		"examples": [{ "sentence": "Eine gute Erziehung ist wichtig.", "translation": "A good upbringing is important." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "unbedingt",
+		"suffix": "",
+		"meaning": "absolutely, definitely",
+		"description": "Expresses strong necessity or certainty.",
+		"examples": [{ "sentence": "Das musst du unbedingt sehen.", "translation": "You absolutely have to see that." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "bequem",
+		"suffix": "",
+		"meaning": "comfortable",
+		"description": "Providing comfort.",
+		"examples": [{ "sentence": "Der Stuhl ist sehr bequem.", "translation": "The chair is very comfortable." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "bisher",
+		"suffix": "",
+		"meaning": "so far, until now",
+		"description": "Refers to time up to the present.",
+		"examples": [{ "sentence": "Bisher läuft alles gut.", "translation": "So far everything is going well." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "dabei",
+		"suffix": "",
+		"meaning": "in the process, with it",
+		"description": "Used in many contexts to indicate participation or process.",
+		"examples": [
+			{ "sentence": "Ich bin gerade dabei zu lernen.", "translation": "I am currently in the process of studying." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Leiter",
+		"suffix": "",
+		"meaning": "ladder (pl -n)",
+		"description": "Tool used to climb up.",
+		"examples": [{ "sentence": "Stell die Leiter an die Wand.", "translation": "Place the ladder against the wall." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Obdachlose",
+		"suffix": "",
+		"meaning": "homeless person",
+		"description": "A person without permanent housing.",
+		"examples": [
+			{
+				"sentence": "Die Obdachlose sucht einen Schlafplatz.",
+				"translation": "The homeless woman is looking for a place to sleep."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Schützling",
+		"suffix": "",
+		"meaning": "protégé, ward (pl -e)",
+		"description": "Someone under the protection or mentorship of another.",
+		"examples": [{ "sentence": "Der Trainer hilft seinem Schützling.", "translation": "The coach helps his protégé." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "besonders",
+		"suffix": "",
+		"meaning": "especially",
+		"description": "Used to emphasize a specific point.",
+		"examples": [{ "sentence": "Ich mag besonders diesen Teil.", "translation": "I especially like this part." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "Einweg",
+		"suffix": "",
+		"meaning": "single-use",
+		"description": "Intended for one-time use only.",
+		"examples": [
+			{
+				"sentence": "Einwegprodukte belasten die Umwelt.",
+				"translation": "Single-use products burden the environment."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "dagegen",
+		"suffix": "",
+		"meaning": "against it, on the other hand",
+		"description": "Used for opposition or contrast.",
+		"examples": [{ "sentence": "Ich bin dagegen.", "translation": "I am against it." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Hingabe",
+		"suffix": "",
+		"meaning": "devotion, dedication",
+		"description": "Strong commitment and dedication.",
+		"examples": [{ "sentence": "Sie arbeitet mit großer Hingabe.", "translation": "She works with great dedication." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "reich",
+		"suffix": "an + Dat.",
+		"meaning": "rich, abundant",
+		"description": "Used with the preposition an to describe abundance.",
+		"examples": [
+			{
+				"sentence": "Das Obst ist reich an Vitaminen.",
+				"translation": "The fruit is rich in vitamins."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Angehörige",
+		"suffix": "",
+		"meaning": "relative, family member",
+		"description": "A person belonging to one’s family.",
+		"examples": [
+			{ "sentence": "Die Angehörigen waren sehr besorgt.", "translation": "The relatives were very worried." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "gemeinsam",
+		"suffix": "",
+		"meaning": "together",
+		"description": "Done jointly with others.",
+		"examples": [{ "sentence": "Wir lösen das gemeinsam.", "translation": "We will solve it together." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "allerdings",
+		"suffix": "",
+		"meaning": "however, though",
+		"description": "Introduces a contrast or limitation.",
+		"examples": [
+			{ "sentence": "Es ist möglich, allerdings teuer.", "translation": "It is possible, however expensive." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "verantwortlich",
+		"suffix": "für + Akk.",
+		"meaning": "responsible",
+		"description": "Having responsibility for something.",
+		"examples": [{ "sentence": "Wer ist dafür verantwortlich?", "translation": "Who is responsible for that?" }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "nun",
+		"suffix": "",
+		"meaning": "now",
+		"description": "Used for transition or current state.",
+		"examples": [{ "sentence": "Nun beginnen wir mit der Übung.", "translation": "Now we begin with the exercise." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "erreichbar",
+		"suffix": "",
+		"meaning": "reachable, attainable",
+		"description": "Possible to contact or achieve.",
+		"examples": [{ "sentence": "Das Ziel ist erreichbar.", "translation": "The goal is attainable." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Aufbau",
+		"suffix": "",
+		"meaning": "structure, setup (pl -ten)",
+		"description": "Arrangement or composition of parts.",
+		"examples": [
+			{ "sentence": "Der Aufbau des Textes ist klar.", "translation": "The structure of the text is clear." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "befüllen",
+		"suffix": "mit + Dat.",
+		"meaning": "to fill (befüllte, hat befüllt)",
+		"description": "To fill a container with something.",
+		"examples": [
+			{ "sentence": "Er befüllt die Flasche mit Wasser.", "translation": "He fills the bottle with water." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "überlegen",
+		"suffix": "",
+		"meaning": "to consider (überlegte, hat überlegt)",
+		"description": "To think carefully before deciding.",
+		"examples": [{ "sentence": "Ich muss es mir noch überlegen.", "translation": "I still have to think it over." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Bescheid",
+		"suffix": "",
+		"meaning": "notice, information (pl -e)",
+		"description": "Information or official notification.",
+		"examples": [{ "sentence": "Gib mir bitte Bescheid.", "translation": "Please let me know." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "klappen",
+		"suffix": "",
+		"meaning": "to work out (klappte, hat geklappt)",
+		"description": "To succeed or function as planned.",
+		"examples": [{ "sentence": "Der Plan hat gut geklappt.", "translation": "The plan worked out well." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "bestimmt",
+		"suffix": "",
+		"meaning": "certainly, definitely",
+		"description": "Expresses confidence or certainty.",
+		"examples": [{ "sentence": "Das wird bestimmt gut.", "translation": "That will certainly be good." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "unvergesslich",
+		"suffix": "",
+		"meaning": "unforgettable",
+		"description": "So remarkable that it is not forgotten.",
+		"examples": [
+			{ "sentence": "Das war ein unvergesslicher Abend.", "translation": "That was an unforgettable evening." }
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "höchstens",
+		"suffix": "",
+		"meaning": "at most",
+		"description": "Indicates an upper limit.",
+		"examples": [{ "sentence": "Wir bleiben höchstens eine Stunde.", "translation": "We will stay at most one hour." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "gespannt",
+		"suffix": "auf + Akk.",
+		"meaning": "excited, curious",
+		"description": "Looking forward to something with interest.",
+		"examples": [{ "sentence": "Ich bin gespannt auf das Ergebnis.", "translation": "I am excited about the result." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "schlank",
+		"suffix": "",
+		"meaning": "slim",
+		"description": "Having a slender body shape.",
+		"examples": [{ "sentence": "Sie ist groß und schlank.", "translation": "She is tall and slim." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Turnverein",
+		"suffix": "",
+		"meaning": "gymnastics club (pl -e)",
+		"description": "A sports club focused on gymnastics and training.",
+		"examples": [{ "sentence": "Er ist im Turnverein aktiv.", "translation": "He is active in the gymnastics club." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "nötig",
+		"suffix": "",
+		"meaning": "necessary",
+		"description": "Required for a specific purpose.",
+		"examples": [{ "sentence": "Das ist nicht nötig.", "translation": "That is not necessary." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "unheimlich",
+		"suffix": "",
+		"meaning": "incredibly, eerie",
+		"description": "Can mean very/intensely or spooky depending on context.",
+		"examples": [{ "sentence": "Das war unheimlich spannend.", "translation": "That was incredibly exciting." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "beweglich",
+		"suffix": "",
+		"meaning": "flexible, mobile",
+		"description": "Able to move easily.",
+		"examples": [{ "sentence": "Kinder sind oft sehr beweglich.", "translation": "Children are often very flexible." }],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "nämlich",
+		"suffix": "",
+		"meaning": "namely",
+		"description": "Used to explain or specify.",
+		"examples": [
+			{ "sentence": "Ich kann heute nicht, nämlich ich bin krank.", "translation": "I can't today, namely I'm sick." }
+		],
+		"reviewCount": 0
+	}
+]

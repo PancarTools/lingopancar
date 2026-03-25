@@ -54,6 +54,7 @@ export default function ReviewMode({ cards, userId, onExit }: ReviewModeProps) {
 	}
 
 	const currentCard = cards[currentIndex];
+	const currentExamples = Array.isArray(currentCard.examples) ? currentCard.examples : [];
 	const progress = `${currentIndex + 1} / ${cards.length}`;
 
 	return (
@@ -121,10 +122,10 @@ export default function ReviewMode({ cards, userId, onExit }: ReviewModeProps) {
 							{currentCard.description && (
 								<p className="text-dark dark:text-light italic mb-6 font-light">{currentCard.description}</p>
 							)}
-							{currentCard.examples.length > 0 && (
+							{currentExamples.length > 0 && (
 								<div className="text-left space-y-3 mt-6 pt-6 border-t-2 border-primary border-opacity-20">
 									<p className="text-sm font-medium text-secondary dark:text-secondary">Examples:</p>
-									{currentCard.examples.map((example, idx) => (
+									{currentExamples.map((example, idx) => (
 										<div key={idx} className="text-sm text-dark dark:text-light">
 											<p className="font-medium">{example.sentence}</p>
 											{example.translation && (

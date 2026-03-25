@@ -6,7 +6,13 @@ import { Button } from "@/components/ui/button";
 import CardList from "@/components/cards/CardList";
 import CardForm from "@/components/cards/CardForm";
 import ReviewMode from "@/components/review/ReviewMode";
-import { createOrGetDeck, subscribeToCards, deleteCard } from "@/lib/firebase-service";
+import {
+	createOrGetDeck,
+	subscribeToCards,
+	deleteCard,
+	getDemoDeckLoadedState,
+	loadDemoDeck,
+} from "@/lib/firebase-service";
 import type { Card, Deck } from "@/lib/types";
 import LoadingSpinner from "@/components/ui/loading-spinner";
 
@@ -18,12 +24,16 @@ export default function Dashboard() {
 	const [showForm, setShowForm] = useState(false);
 	const [searchQuery, setSearchQuery] = useState("");
 	const [isReviewMode, setIsReviewMode] = useState(false);
+	const [demoDeckLoaded, setDemoDeckLoaded] = useState(false);
+	const [isLoadingDemoDeck, setIsLoadingDemoDeck] = useState(false);
 
 	const loadDeck = useCallback(async () => {
 		try {
 			setLoading(true);
 			const userDeck = await createOrGetDeck(user!.uid);
 			setDeck(userDeck);
+			const isLoaded = await getDemoDeckLoadedState(user!.uid);
+			setDemoDeckLoaded(isLoaded);
 
 			const unsubscribe = subscribeToCards(user!.uid, userDeck.id, (updatedCards: Card[]) => {
 				setCards(updatedCards);
@@ -36,6 +46,20 @@ export default function Dashboard() {
 			setLoading(false);
 		}
 	}, [user]);
+
+	const handleLoadDemoDeck = async () => {
+		if (!user || !deck || demoDeckLoaded) return;
+
+		try {
+			setIsLoadingDemoDeck(true);
+			await loadDemoDeck(user.uid, deck.id);
+			setDemoDeckLoaded(true);
+		} catch (error) {
+			console.error("Error loading demo deck:", error);
+		} finally {
+			setIsLoadingDemoDeck(false);
+		}
+	};
 
 	useEffect(() => {
 		if (user) {
@@ -86,6 +110,15 @@ export default function Dashboard() {
 						{deck?.name || "My Deck"}
 					</h2>
 					<div className="flex gap-2 sm:gap-3 w-full sm:w-auto">
+						{!demoDeckLoaded && (
+							<Button
+								onClick={handleLoadDemoDeck}
+								disabled={isLoadingDemoDeck}
+								className="flex-1 sm:flex-none bg-dark hover:bg-dark/90 dark:bg-light dark:hover:bg-light/90 text-light dark:text-dark font-semibold text-xs sm:text-sm px-2 sm:px-4 py-2"
+							>
+								{isLoadingDemoDeck ? "Loading..." : "Load Demo Deck"}
+							</Button>
+						)}
 						<Button
 							onClick={() => setIsReviewMode(true)}
 							className="flex-1 sm:flex-none bg-secondary hover:bg-secondary/90 dark:bg-secondary dark:hover:bg-secondary/80 text-light dark:text-light font-semibold text-xs sm:text-sm px-2 sm:px-4 py-2"
