@@ -3,15 +3,19 @@ export interface Example {
 	translation?: string;
 }
 
-export interface Card {
+export type CardType = "simple" | "detailed";
+export interface SimpleCard {
 	id: string;
 	userId: string;
 	deckId: string;
-	prefix: string;
+	type: CardType;
 	main: string;
-	suffix: string;
 	meaning: string;
 	description: string;
+}
+export interface Card extends SimpleCard {
+	prefix: string;
+	suffix: string;
 	examples: Example[];
 	createdAt: number;
 	updatedAt: number;

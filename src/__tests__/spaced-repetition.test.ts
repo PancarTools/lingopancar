@@ -49,6 +49,7 @@ describe("Spaced Repetition System", () => {
 				id: "card1",
 				userId: "user123",
 				deckId: "deck1",
+				type: "detailed",
 				prefix: "der",
 				main: "Test",
 				suffix: "",
@@ -76,6 +77,7 @@ describe("Spaced Repetition System", () => {
 				id: "card1",
 				userId: "user123",
 				deckId: "deck1",
+				type: "detailed",
 				prefix: "der",
 				main: "Test",
 				suffix: "",
@@ -101,6 +103,7 @@ describe("Spaced Repetition System", () => {
 				id: "card1",
 				userId: "user123",
 				deckId: "deck1",
+				type: "detailed",
 				prefix: "der",
 				main: "Test",
 				suffix: "",
@@ -125,6 +128,7 @@ describe("Spaced Repetition System", () => {
 				id: "card1",
 				userId: "user123",
 				deckId: "deck1",
+				type: "detailed",
 				prefix: "der",
 				main: "Test",
 				suffix: "",
@@ -156,6 +160,7 @@ describe("Spaced Repetition System", () => {
 					id: "card1",
 					userId: "user123",
 					deckId: "deck1",
+					type: "detailed",
 					prefix: "der",
 					main: "Test1",
 					suffix: "",
@@ -171,6 +176,7 @@ describe("Spaced Repetition System", () => {
 					id: "card2",
 					userId: "user123",
 					deckId: "deck1",
+					type: "detailed",
 					prefix: "der",
 					main: "Test2",
 					suffix: "",
@@ -197,6 +203,7 @@ describe("Spaced Repetition System", () => {
 					id: "card1",
 					userId: "user123",
 					deckId: "deck1",
+					type: "detailed",
 					prefix: "der",
 					main: "Test",
 					suffix: "",
@@ -224,6 +231,7 @@ describe("Spaced Repetition System", () => {
 					id: "card1",
 					userId: "user123",
 					deckId: "deck1",
+					type: "detailed",
 					prefix: "der",
 					main: "Overdue",
 					suffix: "",
@@ -239,6 +247,7 @@ describe("Spaced Repetition System", () => {
 					id: "card2",
 					userId: "user123",
 					deckId: "deck1",
+					type: "detailed",
 					prefix: "der",
 					main: "New",
 					suffix: "",
@@ -265,6 +274,7 @@ describe("Spaced Repetition System", () => {
 					id: "card1",
 					userId: "user123",
 					deckId: "deck1",
+					type: "detailed",
 					prefix: "der",
 					main: "Future",
 					suffix: "",
@@ -280,6 +290,7 @@ describe("Spaced Repetition System", () => {
 					id: "card2",
 					userId: "user123",
 					deckId: "deck1",
+					type: "detailed",
 					prefix: "der",
 					main: "New",
 					suffix: "",
@@ -308,6 +319,7 @@ describe("Spaced Repetition System", () => {
 					id: "card1",
 					userId: "user123",
 					deckId: "deck1",
+					type: "detailed",
 					prefix: "der",
 					main: "New",
 					suffix: "",
@@ -323,6 +335,7 @@ describe("Spaced Repetition System", () => {
 					id: "card2",
 					userId: "user123",
 					deckId: "deck1",
+					type: "detailed",
 					prefix: "der",
 					main: "Learning",
 					suffix: "",
@@ -338,6 +351,7 @@ describe("Spaced Repetition System", () => {
 					id: "card3",
 					userId: "user123",
 					deckId: "deck1",
+					type: "detailed",
 					prefix: "der",
 					main: "Mastered",
 					suffix: "",
@@ -366,7 +380,8 @@ describe("Spaced Repetition System", () => {
 			const baseCard = {
 				id: "card1",
 				userId: "user123",
-				deckId: "deck1",
+				deckId: "card1",
+				type: "detailed" as const,
 				prefix: "der",
 				main: "Test",
 				suffix: "",
@@ -392,10 +407,13 @@ describe("Spaced Repetition System", () => {
 			const firstBatch = mockCards.slice(0, 10);
 
 			// Initialize cards with spaced repetition (reset reviewCount to 0)
-			const initializedCards = firstBatch.map((card) => ({
-				...initializeCardForSpacedRepetition(card),
-				reviewCount: 0, // Reset for this test
-			}));
+			const initializedCards = firstBatch.map(
+				(card) =>
+					({
+						...initializeCardForSpacedRepetition(card),
+						reviewCount: 0, // Reset for this test
+					}) as Card,
+			);
 
 			// Simulate marking cards with different quality scores
 			const markedCards = initializedCards.map((card, index) => {
@@ -452,7 +470,10 @@ describe("Spaced Repetition System", () => {
 
 			// Get second batch (10 new cards)
 			const secondBatch = mockCards.slice(10, 20);
-			const newCards = secondBatch.map((card) => initializeCardForSpacedRepetition(card));
+			const newCards = secondBatch.map((card) => ({
+				...initializeCardForSpacedRepetition(card),
+				type: "detailed",
+			}));
 
 			// Combine: 2 unreviewed from first batch + 10 new from second batch
 			const nextSession = [...unreviewed, ...newCards];
@@ -466,6 +487,7 @@ describe("Spaced Repetition System", () => {
 				id: "card1",
 				userId: "user123",
 				deckId: "deck1",
+				type: "detailed",
 				prefix: "der",
 				main: "Test",
 				suffix: "",
