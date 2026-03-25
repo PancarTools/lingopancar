@@ -99,28 +99,25 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 		>
 			<div className="flex justify-between items-center">
 				<h3 className="text-2xl font-semibold text-primary dark:text-primary font-serif">Add New Card</h3>
-				<div className="flex gap-2">
+				<div className="flex items-center gap-3">
+					<span className="text-sm font-medium text-secondary dark:text-secondary">
+						{cardType === CARD_TYPE.SIMPLE ? "Simple" : "Detailed"}
+					</span>
 					<button
 						type="button"
-						onClick={() => setCardType(CARD_TYPE.SIMPLE)}
-						className={`px-4 py-2 rounded-lg font-medium transition-colors ${
-							cardType === CARD_TYPE.SIMPLE
-								? "bg-primary text-light"
-								: "bg-secondary/20 text-secondary hover:bg-secondary/30"
-						}`}
-					>
-						Simple
-					</button>
-					<button
-						type="button"
-						onClick={() => setCardType(CARD_TYPE.DETAILED)}
-						className={`px-4 py-2 rounded-lg font-medium transition-colors ${
+						onClick={() => setCardType(cardType === CARD_TYPE.SIMPLE ? CARD_TYPE.DETAILED : CARD_TYPE.SIMPLE)}
+						className={`relative inline-flex h-8 w-14 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 dark:focus:ring-offset-dark ${
 							cardType === CARD_TYPE.DETAILED
-								? "bg-primary text-light"
-								: "bg-secondary/20 text-secondary hover:bg-secondary/30"
+								? "bg-primary hover:bg-primary/90"
+								: "bg-secondary/30 hover:bg-secondary/40"
 						}`}
+						aria-label="Toggle card type"
 					>
-						Detailed
+						<span
+							className={`inline-block h-6 w-6 transform rounded-full bg-light shadow-lg transition-transform ${
+								cardType === CARD_TYPE.DETAILED ? "translate-x-7" : "translate-x-1"
+							}`}
+						/>
 					</button>
 				</div>
 			</div>
