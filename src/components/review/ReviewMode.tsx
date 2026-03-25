@@ -2,16 +2,40 @@
 
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { updateCard } from "@/lib/firebase-service";
 import type { Card } from "@/lib/types";
 
 interface ReviewModeProps {
 	cards: Card[];
+	userId: string;
 	onExit: () => void;
 }
 
-export default function ReviewMode({ cards, onExit }: ReviewModeProps) {
+export default function ReviewMode({ cards, userId, onExit }: ReviewModeProps) {
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const [isFlipped, setIsFlipped] = useState(false);
+
+	const handleMarkAndNext = async () => {
+		const currentCard = cards[currentIndex];
+
+		// Update card review stats
+		try {
+			await updateCard(userId, currentCard.id, {
+				reviewCount: (currentCard.reviewCount || 0) + 1,
+				lastReviewedAt: Date.now(),
+			});
+		} catch (error) {
+			console.error("Error updating card review stats:", error);
+		}
+
+		// Move to next card or exit
+		setIsFlipped(false);
+		if (currentIndex === cards.length - 1) {
+			onExit();
+		} else {
+			setCurrentIndex(currentIndex + 1);
+		}
+	};
 
 	if (cards.length === 0) {
 		return (
@@ -127,14 +151,7 @@ export default function ReviewMode({ cards, onExit }: ReviewModeProps) {
 						←
 					</Button>
 					<Button
-						onClick={() => {
-							setIsFlipped(false);
-							if (currentIndex === cards.length - 1) {
-								onExit();
-							} else {
-								setCurrentIndex(currentIndex + 1);
-							}
-						}}
+						onClick={handleMarkAndNext}
 						className="bg-secondary hover:bg-secondary/90 dark:bg-secondary dark:hover:bg-secondary/80 text-light dark:text-light font-semibold"
 					>
 						{currentIndex === cards.length - 1 ? "Finish" : "Mark & Next"}

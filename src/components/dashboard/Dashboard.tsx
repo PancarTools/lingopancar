@@ -57,7 +57,7 @@ export default function Dashboard() {
 	}
 
 	if (isReviewMode) {
-		return <ReviewMode cards={cards} onExit={() => setIsReviewMode(false)} />;
+		return <ReviewMode cards={cards} userId={user!.uid} onExit={() => setIsReviewMode(false)} />;
 	}
 
 	return (
