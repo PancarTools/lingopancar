@@ -5,7 +5,7 @@
 	--color-secondary: #0c6291;
 	--color-accent: #3d7b46;
 	--color-light: #fbfef9;
-	--color-dark: #080f0f;
+	--color-dark: #121212;
 	--card-hover-scale: 1.01;
 }
 
@@ -17,8 +17,8 @@ body {
 
 @media (prefers-color-scheme: dark) {
 	body {
-		background: #1a1a1a;
-		color: #e8e8e8;
+		background: var(--color-dark);
+		color: var(--color-light);
 	}
 }
 
