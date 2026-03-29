@@ -108,7 +108,7 @@ export default function Dashboard() {
 	}
 
 	return (
-		<div className="min-h-screen w-full bg-light dark:bg-dark">
+		<div className="min-h-dvh w-full bg-light dark:bg-dark">
 			{isLoadingDemoDeck && (
 				<div className="fixed inset-0 z-60 flex items-center justify-center bg-dark/60 backdrop-blur-sm">
 					<div className="flex flex-col items-center gap-3 rounded-xl border-2 border-primary border-opacity-30 bg-light dark:bg-dark px-6 py-5 shadow-2xl">
@@ -136,7 +136,7 @@ export default function Dashboard() {
 				</div>
 			</nav>
 
-			<main className="w-full max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-6 sm:py-8">
+			<main className="w-full max-w-225 mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-6 sm:py-8">
 				<div className="mb-6 sm:mb-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
 					<h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary dark:text-primary font-serif">
 						{deck?.name || "My Deck"}
