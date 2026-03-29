@@ -62,6 +62,7 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 							main: sanitizedMain,
 							meaning: sanitizedMeaning,
 							description: sanitizedDescription,
+							examples: sanitizedExamples.filter((ex) => ex.sentence),
 							reviewCount: 0,
 						}
 					: {
@@ -71,7 +72,7 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 							suffix: sanitizedSuffix,
 							meaning: sanitizedMeaning,
 							description: sanitizedDescription,
-							examples: sanitizedExamples.filter((ex) => ex.sentence && ex.translation),
+							examples: sanitizedExamples.filter((ex) => ex.sentence),
 							reviewCount: 0,
 						};
 
@@ -163,6 +164,60 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 							rows={3}
 							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
 						></textarea>
+					</div>
+
+					<div className="space-y-3">
+						<div className="flex justify-between items-center">
+							<label className="block text-sm font-medium text-secondary dark:text-secondary">
+								Example Sentences (optional)
+							</label>
+							<button
+								type="button"
+								onClick={() => setExamples([...examples, { sentence: "", translation: "" }])}
+								className="text-sm text-primary hover:text-primary/80 dark:text-primary dark:hover:text-primary/70 font-medium"
+							>
+								+ Add Example
+							</button>
+						</div>
+
+						{examples.map((example, index) => (
+							<div
+								key={index}
+								className="space-y-2 p-3 bg-light border-2 border-secondary border-opacity-20 rounded-lg"
+							>
+								<input
+									type="text"
+									value={example.sentence}
+									onChange={(e) => {
+										const newExamples = [...examples];
+										newExamples[index].sentence = e.target.value;
+										setExamples(newExamples);
+									}}
+									placeholder="Example sentence"
+									className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white text-dark"
+								/>
+								<input
+									type="text"
+									value={example.translation || ""}
+									onChange={(e) => {
+										const newExamples = [...examples];
+										newExamples[index].translation = e.target.value;
+										setExamples(newExamples);
+									}}
+									placeholder="Translation (optional)"
+									className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white text-dark"
+								/>
+								{examples.length > 1 && (
+									<button
+										type="button"
+										onClick={() => setExamples(examples.filter((_, i) => i !== index))}
+										className="text-sm text-primary hover:text-primary/80 font-medium"
+									>
+										Remove
+									</button>
+								)}
+							</div>
+						))}
 					</div>
 				</div>
 			) : (

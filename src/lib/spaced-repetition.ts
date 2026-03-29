@@ -86,6 +86,16 @@ export function getCardsForReview(cards: Card[]): Card[] {
 	});
 }
 
+export function getTopReviewCards(cards: Card[], limit: number = 10): Card[] {
+	return [...cards]
+		.sort((a, b) => {
+			const aReviewAt = a.nextReviewAt ?? a.createdAt;
+			const bReviewAt = b.nextReviewAt ?? b.createdAt;
+			return aReviewAt - bReviewAt;
+		})
+		.slice(0, limit);
+}
+
 /**
  * Get cards sorted by review priority
  * Priority: overdue > due today > new cards > future reviews

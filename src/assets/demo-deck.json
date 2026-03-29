@@ -317,6 +317,12 @@
 		"main": "von ... bis zu reichen",
 		"meaning": "to range from ... to ...",
 		"description": "Use this structure to express limits on a scale, amount, or time span.",
+		"examples": [
+			{
+				"sentence": "Die Preise reichen von zehn bis zu fünfzig Euro.",
+				"translation": "The prices range from ten to fifty euros."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -324,6 +330,12 @@
 		"main": "was die Musik angeht",
 		"meaning": "as far as music is concerned",
 		"description": "Use this pattern to introduce a topic and give your opinion about it.",
+		"examples": [
+			{
+				"sentence": "Was die Musik angeht, höre ich am liebsten Jazz.",
+				"translation": "As far as music is concerned, I prefer listening to jazz."
+			}
+		],
 		"reviewCount": 0
 	},
 	{

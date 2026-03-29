@@ -18,6 +18,7 @@ export interface SimpleCard {
 	main: string;
 	meaning: string;
 	description: string;
+	examples?: Example[];
 	createdAt: number;
 	updatedAt: number;
 	reviewCount: number;

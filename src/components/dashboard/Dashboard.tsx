@@ -14,7 +14,9 @@ import {
 	loadDemoDeck,
 } from "@/lib/firebase-service";
 import type { Card, Deck } from "@/lib/types";
+import { getTopReviewCards } from "@/lib/spaced-repetition";
 import LoadingSpinner from "@/components/ui/loading-spinner";
+import LoadingText from "@/components/ui/loading-text";
 
 export default function Dashboard() {
 	const { user, signOut } = useAuth();
@@ -24,8 +26,29 @@ export default function Dashboard() {
 	const [showForm, setShowForm] = useState(false);
 	const [searchQuery, setSearchQuery] = useState("");
 	const [isReviewMode, setIsReviewMode] = useState(false);
+	const [showStudyOptions, setShowStudyOptions] = useState(false);
+	const [reviewCards, setReviewCards] = useState<Card[]>([]);
 	const [demoDeckLoaded, setDemoDeckLoaded] = useState(false);
 	const [isLoadingDemoDeck, setIsLoadingDemoDeck] = useState(false);
+
+	const getRandomSessionCards = (allCards: Card[], limit: number = 10) => {
+		const shuffled = [...allCards].sort(() => Math.random() - 0.5);
+		return shuffled.slice(0, limit);
+	};
+
+	const handleStartDueStudy = () => {
+		const session = getTopReviewCards(cards, 10);
+		setReviewCards(session);
+		setShowStudyOptions(false);
+		setIsReviewMode(true);
+	};
+
+	const handleStartRandomStudy = () => {
+		const session = getRandomSessionCards(cards, 10);
+		setReviewCards(session);
+		setShowStudyOptions(false);
+		setIsReviewMode(true);
+	};
 
 	const loadDeck = useCallback(async () => {
 		try {
@@ -81,12 +104,21 @@ export default function Dashboard() {
 	}
 
 	if (isReviewMode) {
-		return <ReviewMode cards={cards} userId={user!.uid} onExit={() => setIsReviewMode(false)} />;
+		return <ReviewMode cards={reviewCards} userId={user!.uid} onExit={() => setIsReviewMode(false)} />;
 	}
 
 	return (
 		<div className="min-h-screen w-full bg-light dark:bg-dark">
-			<nav className="bg-gradient-to-r from-primary to-primary/80 dark:from-primary dark:to-primary/70 shadow-lg border-b-4 border-secondary">
+			{isLoadingDemoDeck && (
+				<div className="fixed inset-0 z-60 flex items-center justify-center bg-dark/60 backdrop-blur-sm">
+					<div className="flex flex-col items-center gap-3 rounded-xl border-2 border-primary border-opacity-30 bg-light dark:bg-dark px-6 py-5 shadow-2xl">
+						<LoadingSpinner />
+						<LoadingText className="text-sm font-medium text-primary dark:text-primary" />
+					</div>
+				</div>
+			)}
+
+			<nav className="bg-linear-to-r from-primary to-primary/80 dark:from-primary dark:to-primary/70 shadow-lg border-b-4 border-secondary">
 				<div className="w-full max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-3 sm:py-4 flex justify-between items-center gap-2 sm:gap-4">
 					<h1 className="text-2xl sm:text-3xl font-bold text-light dark:text-light font-serif truncate">LingoPancar</h1>
 					<div className="flex items-center gap-2 sm:gap-4">
@@ -114,16 +146,17 @@ export default function Dashboard() {
 							<Button
 								onClick={handleLoadDemoDeck}
 								disabled={isLoadingDemoDeck}
-								className="flex-1 sm:flex-none bg-dark hover:bg-dark/90 dark:bg-light dark:hover:bg-light/90 text-light dark:text-dark font-semibold text-xs sm:text-sm px-2 sm:px-4 py-2"
+								variant="outline"
+								className="flex-1 sm:flex-none border-2 border-secondary text-secondary dark:text-secondary hover:text-secondary dark:hover:text-secondary hover:bg-secondary hover:bg-opacity-10 dark:hover:bg-opacity-20 font-semibold text-xs sm:text-sm px-2 sm:px-4 py-2"
 							>
-								{isLoadingDemoDeck ? "Loading..." : "Load Demo Deck"}
+								{isLoadingDemoDeck ? <LoadingText className="text-xs sm:text-sm" /> : "Load Demo Deck"}
 							</Button>
 						)}
 						<Button
-							onClick={() => setIsReviewMode(true)}
+							onClick={() => setShowStudyOptions(true)}
 							className="flex-1 sm:flex-none bg-secondary hover:bg-secondary/90 dark:bg-secondary dark:hover:bg-secondary/80 text-light dark:text-light font-semibold text-xs sm:text-sm px-2 sm:px-4 py-2"
 						>
-							Study ({cards.length})
+							Study ({Math.min(cards.length, 10)})
 						</Button>
 						<Button
 							onClick={() => setShowForm(!showForm)}
@@ -168,6 +201,46 @@ export default function Dashboard() {
 						}
 					}}
 				/>
+
+				{showStudyOptions && (
+					<div className="fixed inset-0 z-50 flex items-center justify-center bg-dark/60 p-4">
+						<div className="w-full max-w-md rounded-xl border-2 border-primary border-opacity-30 bg-light dark:bg-dark p-6 shadow-2xl">
+							<h3 className="text-xl font-semibold text-primary dark:text-primary font-serif mb-2">
+								Start Study Session
+							</h3>
+							<p className="text-sm text-secondary dark:text-secondary mb-6">
+								Choose how to select this 10-card batch.
+							</p>
+
+							<div className="space-y-3">
+								<Button
+									onClick={handleStartDueStudy}
+									disabled={cards.length === 0}
+									className="w-full bg-secondary hover:bg-secondary/90 dark:bg-secondary dark:hover:bg-secondary/80 text-light dark:text-light font-semibold"
+								>
+									Study Due ({getTopReviewCards(cards, 10).length})
+								</Button>
+								<Button
+									onClick={handleStartRandomStudy}
+									disabled={cards.length === 0}
+									className="w-full bg-primary hover:bg-primary/90 dark:bg-primary dark:hover:bg-primary/80 text-light dark:text-light font-semibold"
+								>
+									Study Random ({Math.min(cards.length, 10)})
+								</Button>
+							</div>
+
+							<div className="mt-4 flex justify-end">
+								<Button
+									onClick={() => setShowStudyOptions(false)}
+									variant="outline"
+									className="border-2 border-secondary text-secondary dark:text-secondary hover:bg-secondary hover:bg-opacity-10 dark:hover:bg-opacity-20"
+								>
+									Cancel
+								</Button>
+							</div>
+						</div>
+					</div>
+				)}
 			</main>
 		</div>
 	);

@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { updateCard } from "@/lib/firebase-service";
+import { getNextReviewStep, getReviewCardUpdates, type ReviewFeedback } from "@/lib/review-session";
 import type { Card } from "@/lib/types";
 
 interface ReviewModeProps {
@@ -15,25 +16,24 @@ export default function ReviewMode({ cards, userId, onExit }: ReviewModeProps) {
 	const [currentIndex, setCurrentIndex] = useState(0);
 	const [isFlipped, setIsFlipped] = useState(false);
 
-	const handleMarkAndNext = async () => {
+	const handleFeedbackAndNext = async (feedback: ReviewFeedback) => {
 		const currentCard = cards[currentIndex];
 
 		// Update card review stats
 		try {
-			await updateCard(userId, currentCard.id, {
-				reviewCount: (currentCard.reviewCount || 0) + 1,
-				lastReviewedAt: Date.now(),
-			});
+			const updates = getReviewCardUpdates(currentCard, feedback);
+			await updateCard(userId, currentCard.id, updates);
 		} catch (error) {
 			console.error("Error updating card review stats:", error);
 		}
 
 		// Move to next card or exit
 		setIsFlipped(false);
-		if (currentIndex === cards.length - 1) {
+		const { nextIndex, shouldExit } = getNextReviewStep(currentIndex, cards.length);
+		if (shouldExit) {
 			onExit();
 		} else {
-			setCurrentIndex(currentIndex + 1);
+			setCurrentIndex(nextIndex);
 		}
 	};
 
@@ -58,7 +58,7 @@ export default function ReviewMode({ cards, userId, onExit }: ReviewModeProps) {
 	const progress = `${currentIndex + 1} / ${cards.length}`;
 
 	return (
-		<div className="min-h-screen w-full bg-gradient-to-br from-light to-light dark:from-dark dark:to-dark p-4 sm:p-6 md:p-8">
+		<div className="min-h-screen w-full bg-linear-to-br from-light to-light dark:from-dark dark:to-dark p-4 sm:p-6 md:p-8">
 			<div className="w-full max-w-2xl mx-auto">
 				<div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6 sm:mb-8">
 					<h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary dark:text-primary font-serif">
@@ -151,12 +151,27 @@ export default function ReviewMode({ cards, userId, onExit }: ReviewModeProps) {
 					>
 						←
 					</Button>
-					<Button
-						onClick={handleMarkAndNext}
-						className="bg-secondary hover:bg-secondary/90 dark:bg-secondary dark:hover:bg-secondary/80 text-light dark:text-light font-semibold"
-					>
-						{currentIndex === cards.length - 1 ? "Finish" : "Mark & Next"}
-					</Button>
+					<div className="flex flex-wrap gap-2 justify-center">
+						<Button
+							onClick={() => handleFeedbackAndNext("again")}
+							className="bg-primary hover:bg-primary/90 dark:bg-primary dark:hover:bg-primary/80 text-light dark:text-light font-semibold"
+						>
+							Again
+						</Button>
+						<Button
+							onClick={() => handleFeedbackAndNext("meh")}
+							variant="outline"
+							className="border-2 border-secondary text-secondary dark:text-secondary hover:text-secondary dark:hover:text-secondary hover:bg-secondary hover:bg-opacity-10 dark:hover:bg-opacity-20 font-semibold"
+						>
+							Meh
+						</Button>
+						<Button
+							onClick={() => handleFeedbackAndNext("yay")}
+							className="bg-secondary hover:bg-secondary/90 dark:bg-secondary dark:hover:bg-secondary/80 text-light dark:text-light font-semibold"
+						>
+							{currentIndex === cards.length - 1 ? "Yay & Finish" : "Yay"}
+						</Button>
+					</div>
 					<Button
 						onClick={() => {
 							setIsFlipped(false);

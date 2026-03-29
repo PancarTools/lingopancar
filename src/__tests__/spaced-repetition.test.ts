@@ -3,6 +3,7 @@ import {
 	calculateNextInterval,
 	updateCardAfterReview,
 	getCardsForReview,
+	getTopReviewCards,
 	sortCardsByReviewPriority,
 	getDeckStats,
 	initializeCardForSpacedRepetition,
@@ -220,6 +221,109 @@ describe("Spaced Repetition System", () => {
 			const dueCards = getCardsForReview(cards);
 
 			expect(dueCards).toHaveLength(1);
+		});
+	});
+
+	describe("getTopReviewCards", () => {
+		it("should return top cards ordered by nextReviewAt ascending", () => {
+			const now = Date.now();
+			const cards: Card[] = [
+				{
+					id: "card1",
+					userId: "user123",
+					deckId: "deck1",
+					type: "detailed",
+					prefix: "der",
+					main: "Late",
+					suffix: "",
+					meaning: "late",
+					description: "test",
+					examples: [],
+					createdAt: now,
+					updatedAt: now,
+					reviewCount: 0,
+					nextReviewAt: now + 5000,
+				},
+				{
+					id: "card2",
+					userId: "user123",
+					deckId: "deck1",
+					type: "detailed",
+					prefix: "der",
+					main: "Soon",
+					suffix: "",
+					meaning: "soon",
+					description: "test",
+					examples: [],
+					createdAt: now,
+					updatedAt: now,
+					reviewCount: 0,
+					nextReviewAt: now + 1000,
+				},
+				{
+					id: "card3",
+					userId: "user123",
+					deckId: "deck1",
+					type: "detailed",
+					prefix: "der",
+					main: "Now",
+					suffix: "",
+					meaning: "now",
+					description: "test",
+					examples: [],
+					createdAt: now,
+					updatedAt: now,
+					reviewCount: 0,
+					nextReviewAt: now,
+				},
+			];
+
+			const top = getTopReviewCards(cards, 2);
+
+			expect(top).toHaveLength(2);
+			expect(top[0].id).toBe("card3");
+			expect(top[1].id).toBe("card2");
+		});
+
+		it("should use createdAt fallback when nextReviewAt is missing", () => {
+			const now = Date.now();
+			const cards: Card[] = [
+				{
+					id: "card1",
+					userId: "user123",
+					deckId: "deck1",
+					type: "detailed",
+					prefix: "der",
+					main: "Older",
+					suffix: "",
+					meaning: "older",
+					description: "test",
+					examples: [],
+					createdAt: now - 10000,
+					updatedAt: now,
+					reviewCount: 0,
+				},
+				{
+					id: "card2",
+					userId: "user123",
+					deckId: "deck1",
+					type: "detailed",
+					prefix: "der",
+					main: "Newer",
+					suffix: "",
+					meaning: "newer",
+					description: "test",
+					examples: [],
+					createdAt: now - 1000,
+					updatedAt: now,
+					reviewCount: 0,
+				},
+			];
+
+			const top = getTopReviewCards(cards, 1);
+
+			expect(top).toHaveLength(1);
+			expect(top[0].id).toBe("card1");
 		});
 	});
 

@@ -3,6 +3,7 @@
 import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { auth } from "@/lib/firebase";
 import { Button } from "@/components/ui/button";
+import LoadingText from "@/components/ui/loading-text";
 import { useState } from "react";
 
 export default function AuthPage() {
@@ -41,7 +42,7 @@ export default function AuthPage() {
 					disabled={loading}
 					className="w-full bg-primary hover:bg-primary/90 dark:bg-primary dark:hover:bg-primary/80 text-light dark:text-light font-semibold py-3 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
 				>
-					{loading ? "Signing in..." : "Sign in with Google"}
+					{loading ? <LoadingText className="text-light dark:text-light" /> : "Sign in with Google"}
 				</Button>
 
 				<p className="text-center text-secondary dark:text-secondary text-sm mt-8 font-light">
