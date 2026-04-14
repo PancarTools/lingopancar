@@ -200,6 +200,9 @@ export default function Dashboard() {
 							}
 						}
 					}}
+					onCardUpdated={(updatedCard: Card) => {
+						setCards(cards.map((c) => (c.id === updatedCard.id ? updatedCard : c)));
+					}}
 				/>
 
 				{showStudyOptions && (

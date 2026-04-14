@@ -3,14 +3,18 @@
 import { useState } from "react";
 import type { Card } from "@/lib/types";
 import { Button } from "@/components/ui/button";
+import { Trash2, Pen } from "lucide-react";
+import EditCardForm from "./EditCardForm";
 
 interface CardListProps {
 	cards: Card[];
 	onCardDeleted: (id: string) => void;
+	onCardUpdated: (card: Card) => void;
 }
 
-export default function CardList({ cards, onCardDeleted }: CardListProps) {
+export default function CardList({ cards, onCardDeleted, onCardUpdated }: CardListProps) {
 	const [pendingDeleteId, setPendingDeleteId] = useState<string | null>(null);
+	const [pendingEditCard, setPendingEditCard] = useState<Card | null>(null);
 
 	if (cards.length === 0) {
 		return (
@@ -34,13 +38,24 @@ export default function CardList({ cards, onCardDeleted }: CardListProps) {
 							key={card.id}
 							className="bg-light dark:bg-dark rounded-xl shadow-md p-4 sm:p-6 hover:shadow-md hover:scale-(--card-hover-scale) transition-all duration-200 border-2 border-primary border-opacity-20 overflow-hidden relative"
 						>
-							<Button
-								onClick={() => setPendingDeleteId(card.id)}
-								variant="destructive"
-								className="text-sm bg-primary hover:bg-primary/90 text-light absolute top-4 right-4"
-							>
-								Delete
-							</Button>
+							<div className="absolute top-4 right-4 flex gap-2">
+								<Button
+									onClick={() => setPendingEditCard(card)}
+									variant="outline"
+									className="text-sm bg-light dark:bg-dark border-2 border-secondary text-secondary hover:bg-secondary hover:bg-opacity-10 dark:hover:bg-opacity-20 p-2"
+									title="Edit"
+								>
+									<Pen className="w-4 h-4" />
+								</Button>
+								<Button
+									onClick={() => setPendingDeleteId(card.id)}
+									variant="destructive"
+									className="text-sm bg-primary hover:bg-primary/90 text-light p-2"
+									title="Delete"
+								>
+									<Trash2 className="w-4 h-4" />
+								</Button>
+							</div>
 							<div>
 								<div className="flex items-baseline gap-2 mb-2 pr-20">
 									{card.prefix && (
@@ -118,6 +133,21 @@ export default function CardList({ cards, onCardDeleted }: CardListProps) {
 								Delete
 							</Button>
 						</div>
+					</div>
+				</div>
+			)}
+
+			{pendingEditCard && (
+				<div className="fixed inset-0 z-50 flex items-center justify-center bg-dark/60 p-4">
+					<div className="w-full max-w-2xl max-h-[90vh] overflow-y-auto rounded-xl border-2 border-primary border-opacity-30 bg-light dark:bg-dark p-4 sm:p-6 shadow-2xl">
+						<EditCardForm
+							card={pendingEditCard}
+							onCardUpdated={(updatedCard) => {
+								onCardUpdated(updatedCard);
+								setPendingEditCard(null);
+							}}
+							onCancel={() => setPendingEditCard(null)}
+						/>
 					</div>
 				</div>
 			)}
