@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import type { Card } from "@/lib/types";
 import { Button } from "@/components/ui/button";
 
@@ -9,6 +10,8 @@ interface CardListProps {
 }
 
 export default function CardList({ cards, onCardDeleted }: CardListProps) {
+	const [pendingDeleteId, setPendingDeleteId] = useState<string | null>(null);
+
 	if (cards.length === 0) {
 		return (
 			<div className="text-center py-12">
@@ -20,19 +23,26 @@ export default function CardList({ cards, onCardDeleted }: CardListProps) {
 	}
 
 	return (
-		<div className="grid gap-3 sm:gap-4">
-			{cards.map((card) => {
-				const examples = Array.isArray(card.examples) ? card.examples : [];
-				const extra = typeof card.extra === "string" ? { info: card.extra, subInfo: "" } : card.extra;
+		<>
+			<div className="grid gap-3 sm:gap-4">
+				{cards.map((card) => {
+					const examples = Array.isArray(card.examples) ? card.examples : [];
+					const extra = typeof card.extra === "string" ? { info: card.extra, subInfo: "" } : card.extra;
 
-				return (
-					<div
-						key={card.id}
-						className="bg-light dark:bg-dark rounded-xl shadow-md p-4 sm:p-6 hover:shadow-md hover:scale-(--card-hover-scale) transition-all duration-200 border-2 border-primary border-opacity-20"
-					>
-						<div className="flex justify-between items-start gap-4">
-							<div className="flex-1">
-								<div className="flex items-baseline gap-2 mb-2">
+					return (
+						<div
+							key={card.id}
+							className="bg-light dark:bg-dark rounded-xl shadow-md p-4 sm:p-6 hover:shadow-md hover:scale-(--card-hover-scale) transition-all duration-200 border-2 border-primary border-opacity-20 overflow-hidden relative"
+						>
+							<Button
+								onClick={() => setPendingDeleteId(card.id)}
+								variant="destructive"
+								className="text-sm bg-primary hover:bg-primary/90 text-light absolute top-4 right-4"
+							>
+								Delete
+							</Button>
+							<div>
+								<div className="flex items-baseline gap-2 mb-2 pr-20">
 									{card.prefix && (
 										<span className="text-secondary dark:text-secondary italic font-light">{card.prefix}</span>
 									)}
@@ -74,18 +84,43 @@ export default function CardList({ cards, onCardDeleted }: CardListProps) {
 									)}
 								</div>
 							</div>
+						</div>
+					);
+				})}
+			</div>
 
+			{pendingDeleteId && (
+				<div className="fixed inset-0 z-50 flex items-center justify-center bg-dark/60 p-4">
+					<div className="w-full max-w-md rounded-xl border-2 border-primary border-opacity-30 bg-light dark:bg-dark p-6 shadow-2xl">
+						<h3 className="text-xl font-semibold text-primary dark:text-primary font-serif mb-2">Confirm Delete</h3>
+						<p className="text-sm text-secondary dark:text-secondary mb-6">
+							Are you sure you want to delete this card? This action cannot be undone.
+						</p>
+
+						<div className="flex gap-3 justify-end">
 							<Button
-								onClick={() => onCardDeleted(card.id)}
+								onClick={() => setPendingDeleteId(null)}
+								variant="outline"
+								className="border-2 border-secondary text-secondary dark:text-secondary hover:bg-secondary hover:bg-opacity-10 dark:hover:bg-opacity-20"
+							>
+								Cancel
+							</Button>
+							<Button
+								onClick={() => {
+									if (pendingDeleteId) {
+										onCardDeleted(pendingDeleteId);
+									}
+									setPendingDeleteId(null);
+								}}
 								variant="destructive"
-								className="text-sm bg-primary hover:bg-primary/90 text-light"
+								className="bg-primary hover:bg-primary/90 dark:bg-primary dark:hover:bg-primary/80 text-light dark:text-light"
 							>
 								Delete
 							</Button>
 						</div>
 					</div>
-				);
-			})}
-		</div>
+				</div>
+			)}
+		</>
 	);
 }
