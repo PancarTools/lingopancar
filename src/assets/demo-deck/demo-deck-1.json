@@ -6,17 +6,17 @@
 		"suffix": "",
 		"meaning": "argument, dispute (pl -igkeiten)",
 		"extra": {
-			"info": "Der Begriff bezeichnet eine Auseinandersetzung, bei der unterschiedliche Positionen emotional oder sachlich aufeinanderprallen.",
-			"subInfo": "A conflict between people."
+			"info": "Ein Streit ist, wenn zwei oder mehr Personen verschiedener Meinung sind und sich darüber ärgern.",
+			"subInfo": "An argument is when two or more people have different opinions and get upset about it."
 		},
 		"examples": [
 			{
-				"sentence": "Während der Sitzung, in der über die Prioritäten des Projekts entschieden wurde, entstand ein Streit, der nur durch eine moderierte Klärung beigelegt werden konnte.",
-				"translation": "During the meeting in which project priorities were decided, an argument arose that could only be resolved through moderated clarification."
+				"sentence": "Im Bus gab es einen Streit zwischen zwei Fahrgästen, die wegen des lauten Telefons genervt waren.",
+				"translation": "There was an argument on the bus between two passengers who were annoyed by the loud phone."
 			},
 			{
-				"sentence": "Nachdem sie den Bericht unterschiedlich interpretiert hatten, ist ein Streit entstanden, den das Team erst am nächsten Tag gemeinsam aufgelöst hat.",
-				"translation": "After they had interpreted the report differently, a dispute emerged that the team only resolved together the next day."
+				"sentence": "Nachdem wir uns über das Geld gestritten hatten, sagte mein Bruder, dass wir später in Ruhe reden sollten.",
+				"translation": "After we had argued about the money, my brother said that we should talk calmly later."
 			}
 		],
 		"reviewCount": 0
@@ -28,17 +28,17 @@
 		"suffix": "",
 		"meaning": "society, company (pl -en)",
 		"extra": {
-			"info": "Der Ausdruck beschreibt sowohl ein soziales Gemeinwesen als auch eine organisatorische oder wirtschaftliche Einheit.",
-			"subInfo": "Used for both social context and business entities."
+			"info": "Gesellschaft kann alle Menschen in einem Land meinen oder auch eine Firma.",
+			"subInfo": "Society can mean all the people in a country, or it can also mean a company."
 		},
 		"examples": [
 			{
-				"sentence": "In einer pluralen Gesellschaft, in der Menschen mit sehr unterschiedlichen Hintergründen zusammenleben, spielt Bildung eine zentrale Rolle für Teilhabe und Aufstieg.",
-				"translation": "In a pluralistic society where people from very different backgrounds live together, education plays a central role in participation and upward mobility."
+				"sentence": "In einer Gesellschaft, in der viele Menschen zusammenleben, muss man auch an andere denken.",
+				"translation": "In a society in which many people live together, you also have to think about others."
 			},
 			{
-				"sentence": "Nachdem die Gesellschaft ihre internen Prozesse modernisiert hatte, konnte sie komplexe Kundenanfragen deutlich schneller und strukturierter bearbeiten.",
-				"translation": "After the company had modernized its internal processes, it was able to handle complex customer requests much faster and more systematically."
+				"sentence": "Nachdem die Gesellschaft neue Regeln eingeführt hatte, sagte die Chefin, dass die Arbeit jetzt leichter sei.",
+				"translation": "After the company had introduced new rules, the boss said that the work was now easier."
 			}
 		],
 		"reviewCount": 0
@@ -50,17 +50,17 @@
 		"suffix": "",
 		"meaning": "lawyer (pl -e)",
 		"extra": {
-			"info": "Ein Rechtsanwalt ist eine juristisch qualifizierte Person, die Mandanten professionell berät und vor Gericht vertreten kann.",
-			"subInfo": "A legal professional."
+			"info": "Ein Rechtsanwalt hilft Menschen bei rechtlichen Problemen und spricht für sie vor Gericht.",
+			"subInfo": "A lawyer helps people with legal problems and speaks for them in court."
 		},
 		"examples": [
 			{
-				"sentence": "Da der Vertrag mehrere unklare Klauseln enthielt, hat der Rechtsanwalt jedes Detail erläutert, bevor wir eine verbindliche Entscheidung getroffen haben.",
-				"translation": "Since the contract contained several unclear clauses, the lawyer explained every detail before we made a binding decision."
+				"sentence": "Wir sind zu einem Rechtsanwalt gegangen, der unseren Vertrag genau gelesen hat.",
+				"translation": "We went to a lawyer who read our contract carefully."
 			},
 			{
-				"sentence": "Nachdem der Rechtsanwalt die Unterlagen sorgfältig geprüft hatte, hat er eine Strategie entwickelt, mit der wir den Fall rechtssicher abschließen konnten.",
-				"translation": "After the lawyer had carefully reviewed the documents, he developed a strategy that allowed us to close the case in a legally secure way."
+				"sentence": "Nachdem der Rechtsanwalt mit dem Vermieter gesprochen hatte, sagte er, dass wir nichts extra zahlen müssten.",
+				"translation": "After the lawyer had spoken with the landlord, he said that we would not have to pay anything extra."
 			}
 		],
 		"reviewCount": 0
@@ -72,17 +72,17 @@
 		"suffix": "",
 		"meaning": "experience (pl -en)",
 		"extra": {
-			"info": "Erfahrung bezeichnet Wissen und Urteilskraft, die man durch wiederholte Praxis und reflektierte Beobachtung gewinnt.",
-			"subInfo": "Knowledge gained through practice."
+			"info": "Erfahrung ist Wissen, das man durch eigenes Tun und durch viele Situationen bekommt.",
+			"subInfo": "Experience is knowledge that you get through doing things yourself and through many situations."
 		},
 		"examples": [
 			{
-				"sentence": "Obwohl die Aufgabe neu wirkte, konnten wir sie dank langjähriger Erfahrung im Team effizient strukturieren und ohne größere Fehler umsetzen.",
-				"translation": "Although the task seemed new, we were able to structure it efficiently and implement it without major errors thanks to the team’s long experience."
+				"sentence": "Mit etwas Erfahrung kann man auch Aufgaben lösen, die am Anfang schwierig wirken.",
+				"translation": "With some experience, you can also solve tasks that seem difficult at first."
 			},
 			{
-				"sentence": "Nachdem sie in mehreren Projekten unter Zeitdruck gearbeitet hatte, hat ihre Erfahrung die Qualität der Entscheidungen spürbar verbessert.",
-				"translation": "After she had worked under time pressure in several projects, her experience noticeably improved the quality of decisions."
+				"sentence": "Nachdem sie ein Jahr im Hotel gearbeitet hatte, hatte sie genug Erfahrung für die neue Stelle.",
+				"translation": "After she had worked in the hotel for a year, she had enough experience for the new position."
 			}
 		],
 		"reviewCount": 0
@@ -94,17 +94,17 @@
 		"suffix": "",
 		"meaning": "poem (pl -e)",
 		"extra": {
-			"info": "Ein Gedicht ist ein literarischer Text, der mit sprachlicher Verdichtung, Rhythmus und Bildhaftigkeit arbeitet.",
-			"subInfo": "A short literary text in verse."
+			"info": "Ein Gedicht ist ein kurzer Text, der oft Rhythmus, Bilder und Gefühle hat.",
+			"subInfo": "A poem is a short text that often has rhythm, images, and feelings."
 		},
 		"examples": [
 			{
-				"sentence": "Im Seminar wurde ein Gedicht analysiert, dessen Metaphern erst nach genauer Betrachtung der historischen Bezüge vollständig verständlich waren.",
-				"translation": "In the seminar, a poem was analyzed whose metaphors only became fully understandable after close examination of the historical references."
+				"sentence": "In der Schule haben wir ein Gedicht gelesen, das von einer Reise ans Meer erzählt.",
+				"translation": "At school we read a poem that tells about a trip to the sea."
 			},
 			{
-				"sentence": "Nachdem sie das Gedicht mehrfach laut gelesen hatte, hat sie den inneren Rhythmus erkannt und die Interpretation überzeugender präsentiert.",
-				"translation": "After she had read the poem aloud several times, she recognized its inner rhythm and presented the interpretation more convincingly."
+				"sentence": "Nachdem sie das Gedicht zweimal laut gelesen hatte, sagte sie, dass sie es jetzt besser verstehe.",
+				"translation": "After she had read the poem aloud twice, she said that she understood it better now."
 			}
 		],
 		"reviewCount": 0
@@ -116,17 +116,17 @@
 		"suffix": "",
 		"meaning": "speech (pl -n)",
 		"extra": {
-			"info": "Eine Rede ist ein strukturierter mündlicher Vortrag, mit dem Inhalte argumentativ und wirkungsorientiert vermittelt werden.",
-			"subInfo": "A formal talk given to an audience."
+			"info": "Eine Rede ist, wenn jemand vor anderen Leuten über ein Thema spricht.",
+			"subInfo": "A speech is when someone talks about a topic in front of other people."
 		},
 		"examples": [
 			{
-				"sentence": "Obwohl die Zuhörenden aus unterschiedlichen Fachbereichen kamen, blieb die Rede dank präziser Gliederung und klarer Übergänge bis zum Ende nachvollziehbar.",
-				"translation": "Although the audience came from different professional fields, the speech remained understandable until the end thanks to precise structure and clear transitions."
+				"sentence": "Bei der Feier hielt der Direktor eine Rede, in der er dem Team für die gute Arbeit dankte.",
+				"translation": "At the celebration, the director gave a speech in which he thanked the team for the good work."
 			},
 			{
-				"sentence": "Nachdem sie die Rede mehrfach überarbeitet hatte, hat sie zentrale Argumente pointierter formuliert und das Publikum deutlich stärker erreicht.",
-				"translation": "After she had revised the speech several times, she phrased key arguments more sharply and reached the audience much more effectively."
+				"sentence": "Nachdem sie ihre Rede zu Hause geübt hatte, sprach sie vor der Klasse viel ruhiger.",
+				"translation": "After she had practiced her speech at home, she spoke much more calmly in front of the class."
 			}
 		],
 		"reviewCount": 0
@@ -138,17 +138,17 @@
 		"suffix": "",
 		"meaning": "application (pl -en)",
 		"extra": {
-			"info": "Eine Bewerbung ist eine formale Darstellung der Qualifikationen, mit der man sich um eine Stelle oder Ausbildung bewirbt.",
-			"subInfo": "A job or school application."
+			"info": "Eine Bewerbung ist ein Text oder eine Mappe, mit der man sich um eine Arbeit oder Ausbildung bewirbt.",
+			"subInfo": "An application is a text or folder that you use to apply for a job or training place."
 		},
 		"examples": [
 			{
-				"sentence": "Da die Ausschreibung sehr spezifische Anforderungen enthielt, wurde die Bewerbung gezielt auf die erwarteten Kompetenzen und Projekterfahrungen zugeschnitten.",
-				"translation": "Since the posting contained very specific requirements, the application was tailored precisely to the expected skills and project experience."
+				"sentence": "Für die Bewerbung habe ich ein Foto und Zeugnisse mitgeschickt, die noch aktuell waren.",
+				"translation": "For the application, I sent a photo and certificates that were still up to date."
 			},
 			{
-				"sentence": "Nachdem er die Bewerbung um ein zusätzliches Motivationsschreiben ergänzt hatte, hat er deutlich schneller eine Rückmeldung erhalten.",
-				"translation": "After he had added an additional motivation letter to the application, he received feedback much faster."
+				"sentence": "Nachdem er seine Bewerbung per E-Mail geschickt hatte, bekam er schon nach zwei Tagen eine Antwort.",
+				"translation": "After he had sent his application by email, he got an answer after only two days."
 			}
 		],
 		"reviewCount": 0
@@ -160,17 +160,17 @@
 		"suffix": "",
 		"meaning": "promotional letter (pl -e)",
 		"extra": {
-			"info": "Ein Werbebrief ist ein zielgruppenorientiertes Schreiben, das Aufmerksamkeit erzeugen und zu einer konkreten Handlung motivieren soll.",
-			"subInfo": "A letter used for advertising."
+			"info": "Ein Werbebrief ist ein Brief oder eine Nachricht, mit der eine Firma ein Produkt oder Angebot zeigen will.",
+			"subInfo": "A promotional letter is a letter or message that a company uses to present a product or offer."
 		},
 		"examples": [
 			{
-				"sentence": "Damit neue Kundinnen und Kunden den Mehrwert sofort erkennen konnten, enthielt der Werbebrief eine differenzierte Nutzenargumentation mit klaren Beispielen.",
-				"translation": "So that new customers could immediately recognize the value, the promotional letter contained a differentiated value argumentation with clear examples."
+				"sentence": "Mit einem Werbebrief hat das Geschäft auf ein neues Angebot aufmerksam gemacht, das nur diese Woche galt.",
+				"translation": "With a promotional letter, the store drew attention to a new offer that was valid only this week."
 			},
 			{
-				"sentence": "Nachdem das Marketing-Team den Werbebrief sprachlich vereinfacht hatte, hat sich die Rücklaufquote im Vergleich zum Vormonat deutlich verbessert.",
-				"translation": "After the marketing team had simplified the promotional letter linguistically, the response rate improved significantly compared to the previous month."
+				"sentence": "Nachdem das Team den Werbebrief kürzer geschrieben hatte, sagte der Chef, dass ihn jetzt mehr Leute lesen würden.",
+				"translation": "After the team had written the promotional letter more briefly, the boss said that more people would read it now."
 			}
 		],
 		"reviewCount": 0
@@ -182,17 +182,17 @@
 		"suffix": "",
 		"meaning": "instead of",
 		"extra": {
-			"info": "Die Präposition drückt eine Ersetzung aus und zeigt, dass etwas an die Stelle einer anderen Möglichkeit tritt.",
-			"subInfo": "Used to express substitution."
+			"info": "Statt zeigt, dass man etwas anderes macht oder nimmt als zuerst gedacht.",
+			"subInfo": "Instead of shows that you do or take something different from what was first planned."
 		},
 		"examples": [
 			{
-				"sentence": "Statt eine vorschnelle Entscheidung zu treffen, haben wir mehrere Szenarien verglichen, um die langfristigen Folgen besser einschätzen zu können.",
-				"translation": "Instead of making a hasty decision, we compared several scenarios to better assess the long-term consequences."
+				"sentence": "Statt mit dem Auto sind wir mit dem Zug gefahren, der trotz des Regens pünktlich ankam.",
+				"translation": "Instead of going by car, we traveled by train, which arrived on time despite the rain."
 			},
 			{
-				"sentence": "Nachdem das Team statt kurzfristiger Lösungen eine nachhaltige Strategie gewählt hatte, haben sich die Ergebnisse stabilisiert.",
-				"translation": "After the team had chosen a sustainable strategy instead of short-term solutions, the results stabilized."
+				"sentence": "Nachdem sie statt Kaffee lieber Tee bestellt hatte, sagte sie, dass sie abends besser schlafen wolle.",
+				"translation": "After she had ordered tea instead of coffee, she said that she wanted to sleep better in the evening."
 			}
 		],
 		"reviewCount": 0
@@ -204,17 +204,17 @@
 		"suffix": "",
 		"meaning": "to throw away (warf weg, hat weggeworfen)",
 		"extra": {
-			"info": "Das Verb bedeutet, etwas bewusst zu entsorgen, weil es als unbrauchbar oder nicht mehr notwendig betrachtet wird.",
-			"subInfo": "To discard something."
+			"info": "Wegwerfen bedeutet, dass man etwas in den Müll tut, weil man es nicht mehr haben oder benutzen will.",
+			"subInfo": "To throw something away means to put it in the trash because you no longer want to have or use it."
 		},
 		"examples": [
 			{
-				"sentence": "Wenn man Materialien vorschnell wegwerfen würde, gingen wertvolle Ressourcen verloren, die durch Wiederverwendung sinnvoll eingebunden werden könnten.",
-				"translation": "If one were to throw materials away too quickly, valuable resources would be lost that could be meaningfully integrated through reuse."
+				"sentence": "Bitte wirf die Flasche nicht weg, die wir für das Bastelprojekt morgen noch brauchen.",
+				"translation": "Please do not throw away the bottle that we still need for the craft project tomorrow."
 			},
 			{
-				"sentence": "Nachdem wir die defekten Teile nicht sofort weggeworfen hatten, haben wir mehrere Komponenten repariert und erneut eingesetzt.",
-				"translation": "After we had not thrown the defective parts away immediately, we repaired several components and reused them."
+				"sentence": "Nachdem er die kaputten Schuhe weggeworfen hatte, merkte er, dass die Schlüssel noch darin waren.",
+				"translation": "After he had thrown away the broken shoes, he noticed that the keys were still inside them."
 			}
 		],
 		"reviewCount": 0
@@ -226,17 +226,17 @@
 		"suffix": "",
 		"meaning": "to repair (reparierte, hat repariert)",
 		"extra": {
-			"info": "Das Verb beschreibt die fachgerechte Instandsetzung eines beschädigten Gegenstands oder Systems.",
-			"subInfo": "To fix something broken."
+			"info": "Reparieren bedeutet, etwas Kaputtes wieder in Ordnung zu bringen.",
+			"subInfo": "To repair means to make something broken work properly again."
 		},
 		"examples": [
 			{
-				"sentence": "Damit das Gerät langfristig zuverlässig funktioniert, sollte man nicht nur den sichtbaren Schaden reparieren, sondern auch die Ursache präzise analysieren.",
-				"translation": "To ensure the device works reliably in the long term, one should not only repair the visible damage but also analyze the cause precisely."
+				"sentence": "Mein Onkel hat das Fahrrad repariert, das seit dem Unfall vor der Garage stand.",
+				"translation": "My uncle repaired the bicycle that had been standing in front of the garage since the accident."
 			},
 			{
-				"sentence": "Nachdem die Technikerin die Leitungen repariert hatte, hat das System wieder stabil gearbeitet und keine Ausfälle mehr verursacht.",
-				"translation": "After the technician had repaired the lines, the system worked stably again and caused no further failures."
+				"sentence": "Nachdem die Technikerin das Kabel repariert hatte, sagte sie, dass der Computer wieder normal laufen würde.",
+				"translation": "After the technician had repaired the cable, she said that the computer would work normally again."
 			}
 		],
 		"reviewCount": 0
@@ -248,17 +248,17 @@
 		"suffix": "sich um + Akk.",
 		"meaning": "to take care (kümmerte, hat gekümmert)",
 		"extra": {
-			"info": "Als reflexives Verb drückt es aus, dass man Verantwortung übernimmt und sich aktiv um Personen oder Aufgaben bemüht.",
-			"subInfo": "Reflexive verb for caring about/for something."
+			"info": "Sich um jemanden oder etwas kümmern bedeutet, Zeit dafür zu geben und zu helfen.",
+			"subInfo": "To take care of someone or something means to give time to it and help."
 		},
 		"examples": [
 			{
-				"sentence": "Wenn sich niemand systematisch um die Nachbereitung kümmern würde, gingen wichtige Erkenntnisse aus den Projekten schnell verloren.",
-				"translation": "If no one took systematic care of follow-up work, important insights from the projects would quickly be lost."
+				"sentence": "Während ich im Urlaub war, hat sich meine Nachbarin um die Blumen gekümmert, die auf dem Balkon standen.",
+				"translation": "While I was on vacation, my neighbor took care of the flowers that were standing on the balcony."
 			},
 			{
-				"sentence": "Nachdem sie sich mehrere Monate um die Koordination gekümmert hatte, hat sich die Zusammenarbeit zwischen den Teams deutlich verbessert.",
-				"translation": "After she had taken care of coordination for several months, collaboration between the teams improved significantly."
+				"sentence": "Nachdem er sich eine Woche lang um seinen kranken Vater gekümmert hatte, brauchte er selbst etwas Ruhe.",
+				"translation": "After he had taken care of his sick father for a week, he needed some rest himself."
 			}
 		],
 		"reviewCount": 0

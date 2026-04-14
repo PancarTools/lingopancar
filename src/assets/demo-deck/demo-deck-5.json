@@ -6,17 +6,17 @@
 		"suffix": "",
 		"meaning": "direction (pl -en)",
 		"extra": {
-			"info": "Richtung beschreibt eine räumliche oder strategische Orientierung, in die sich etwas bewegt oder entwickelt.",
-			"subInfo": "Way or orientation."
+			"info": "Eine Richtung zeigt, wohin man geht, fährt oder denkt.",
+			"subInfo": "A direction is the way in which something is facing or pointing."
 		},
 		"examples": [
 			{
-				"sentence": "Damit Ressourcen effizient eingesetzt werden, muss die Richtung klar definiert sein und regelmäßig an neue Erkenntnisse angepasst werden.",
-				"translation": "For resources to be used efficiently, the direction must be clearly defined and regularly adapted to new insights."
+				"sentence": "Am Bahnhof fragte ich einen Mann, der einen Stadtplan in der Hand hatte, nach der richtigen Richtung.",
+				"translation": "At the station, I asked a man who had a city map in his hand for the right direction."
 			},
 			{
-				"sentence": "Nachdem das Team eine gemeinsame Richtung festgelegt hatte, haben sich Prioritäten und Zuständigkeiten schneller geklärt.",
-				"translation": "After the team had defined a common direction, priorities and responsibilities were clarified faster."
+				"sentence": "Nachdem wir eine klare Richtung festgelegt hatten, sagte unsere Lehrerin, dass die Arbeit jetzt leichter werde.",
+				"translation": "After we had set a clear direction, our teacher said that the work would now become easier."
 			}
 		],
 		"reviewCount": 0
@@ -28,17 +28,17 @@
 		"suffix": "",
 		"meaning": "nursing home (pl -e)",
 		"extra": {
-			"info": "Ein Seniorenheim ist eine Einrichtung, in der ältere Menschen mit Unterstützungsbedarf professionell betreut werden.",
-			"subInfo": "A home for elderly people who need care."
+			"info": "Ein Seniorenheim ist ein Ort, an dem alte Menschen wohnen und Hilfe bekommen.",
+			"subInfo": "A nursing home is a place where elderly people live and receive care."
 		},
 		"examples": [
 			{
-				"sentence": "Damit Bewohnerinnen und Bewohner im Seniorenheim selbstbestimmt leben können, braucht es neben Pflege auch soziale Teilhabeangebote.",
-				"translation": "So that residents in a nursing home can live self-determined lives, social participation opportunities are needed in addition to care."
+				"sentence": "Meine Tante besucht jede Woche ihre Mutter im Seniorenheim, das nicht weit von ihrem Haus liegt.",
+				"translation": "My aunt visits her mother every week in the nursing home that is not far from her house."
 			},
 			{
-				"sentence": "Nachdem das Seniorenheim zusätzliche Fachkräfte eingestellt hatte, hat sich die Betreuungsqualität deutlich verbessert.",
-				"translation": "After the nursing home had hired additional skilled staff, the quality of care improved significantly."
+				"sentence": "Nachdem das Seniorenheim neue Pfleger eingestellt hatte, sagte der Leiter, dass die Bewohner jetzt mehr Ruhe hätten.",
+				"translation": "After the nursing home had hired new caregivers, the director said that the residents now had more calm."
 			}
 		],
 		"reviewCount": 0
@@ -50,17 +50,17 @@
 		"suffix": "",
 		"meaning": "care, nursing",
 		"extra": {
-			"info": "Pflege umfasst fachliche und menschliche Unterstützung für Personen, die im Alltag oder medizinisch Hilfe benötigen.",
-			"subInfo": "Support and treatment for people in need."
+			"info": "Pflege ist Hilfe für Menschen, die im Alltag oder bei Krankheit Unterstützung brauchen.",
+			"subInfo": "Care is support for people who need help in everyday life or when they are ill."
 		},
 		"examples": [
 			{
-				"sentence": "Qualitativ gute Pflege erfordert nicht nur medizinisches Wissen, sondern auch kommunikative Kompetenz und langfristige Kontinuität.",
-				"translation": "High-quality care requires not only medical knowledge but also communication skills and long-term continuity."
+				"sentence": "Gute Pflege ist wichtig für Menschen, die nach einer Operation noch nicht allein leben können.",
+				"translation": "Good care is important for people who cannot yet live on their own after an operation."
 			},
 			{
-				"sentence": "Nachdem die Pflege interdisziplinär organisiert worden war, hat sich die Belastung im Team deutlich reduziert.",
-				"translation": "After care had been organized in an interdisciplinary way, the workload in the team was significantly reduced."
+				"sentence": "Nachdem die Pflege besser organisiert worden war, merkte das Team, dass der Alltag ruhiger lief.",
+				"translation": "After the care had been organized better, the team noticed that everyday life ran more calmly."
 			}
 		],
 		"reviewCount": 0
@@ -72,17 +72,17 @@
 		"suffix": "",
 		"meaning": "sense, meaning (pl -e)",
 		"extra": {
-			"info": "Sinn bezeichnet den Zweck, die inhaltliche Bedeutung oder den nachvollziehbaren Nutzen einer Handlung oder Aussage.",
-			"subInfo": "Purpose or meaning of something."
+			"info": "Sinn kann der Zweck oder die Bedeutung von etwas sein.",
+			"subInfo": "Sense is the purpose or meaning of something."
 		},
 		"examples": [
 			{
-				"sentence": "Der Sinn dieser Methode erschließt sich erst dann vollständig, wenn man ihre Wirkung in verschiedenen Kontexten vergleicht.",
-				"translation": "The purpose of this method only becomes fully clear when you compare its effect across different contexts."
+				"sentence": "Am Anfang verstand ich den Sinn der Übung nicht, die wir jeden Morgen wiederholen mussten.",
+				"translation": "At first I did not understand the purpose of the exercise that we had to repeat every morning."
 			},
 			{
-				"sentence": "Nachdem wir den Sinn des Prozesses gemeinsam geklärt hatten, hat die Akzeptanz im Team spürbar zugenommen.",
-				"translation": "After we had clarified the purpose of the process together, acceptance in the team increased noticeably."
+				"sentence": "Nachdem der Lehrer den Sinn der Regel erklärt hatte, sagten viele Schüler, dass sie sie jetzt besser verstünden.",
+				"translation": "After the teacher had explained the purpose of the rule, many students said that they understood it better now."
 			}
 		],
 		"reviewCount": 0
@@ -94,17 +94,17 @@
 		"suffix": "",
 		"meaning": "meaningful, sensible",
 		"extra": {
-			"info": "Das Adjektiv beschreibt Entscheidungen oder Handlungen, die begründet, nützlich und im Kontext angemessen sind.",
-			"subInfo": "Useful and reasonable."
+			"info": "Sinnvoll bedeutet, dass etwas nützlich und gut überlegt ist.",
+			"subInfo": "Sensible means that something is useful and well thought out."
 		},
 		"examples": [
 			{
-				"sentence": "Eine sinnvolle Priorisierung berücksichtigt sowohl kurzfristige Engpässe als auch langfristige strategische Ziele.",
-				"translation": "A sensible prioritization considers both short-term bottlenecks and long-term strategic goals."
+				"sentence": "Es ist sinnvoll, Essen mitzunehmen, wenn man einen langen Ausflug macht.",
+				"translation": "It is sensible to take food with you when you go on a long trip."
 			},
 			{
-				"sentence": "Nachdem die Alternativen geprüft worden waren, hat sich die vorgeschlagene Lösung als besonders sinnvoll erwiesen.",
-				"translation": "After the alternatives had been reviewed, the proposed solution proved particularly sensible."
+				"sentence": "Nachdem wir alle Möglichkeiten geprüft hatten, sagte mein Bruder, dass der frühere Zug am sinnvollsten sei.",
+				"translation": "After we had checked all possibilities, my brother said that the earlier train was the most sensible."
 			}
 		],
 		"reviewCount": 0
@@ -116,17 +116,17 @@
 		"suffix": "",
 		"meaning": "nutrition, diet",
 		"extra": {
-			"info": "Ernährung beschreibt Art und Qualität der Nahrungsaufnahme sowie deren Auswirkungen auf Gesundheit und Leistungsfähigkeit.",
-			"subInfo": "The way people eat."
+			"info": "Ernährung beschreibt, was und wie Menschen essen.",
+			"subInfo": "Nutrition is what and how people eat."
 		},
 		"examples": [
 			{
-				"sentence": "Eine ausgewogene Ernährung trägt besonders dann zur Stabilität bei, wenn Arbeitsbelastung, Schlaf und Bewegung miteinander abgestimmt werden.",
-				"translation": "A balanced diet contributes to stability especially when workload, sleep, and exercise are aligned."
+				"sentence": "Eine gute Ernährung ist wichtig für Kinder, die in der Schule lange konzentriert bleiben sollen.",
+				"translation": "Good nutrition is important for children who should stay focused for a long time at school."
 			},
 			{
-				"sentence": "Nachdem sie ihre Ernährung schrittweise umgestellt hatte, hat sich ihr Energielevel über den Tag hinweg deutlich verbessert.",
-				"translation": "After she had gradually changed her diet, her energy level improved significantly throughout the day."
+				"sentence": "Nachdem sie ihre Ernährung geändert hatte, sagte sie, dass sie sich morgens viel besser fühle.",
+				"translation": "After she had changed her diet, she said that she felt much better in the mornings."
 			}
 		],
 		"reviewCount": 0
@@ -138,17 +138,17 @@
 		"suffix": "",
 		"meaning": "fire accident (pl -fälle)",
 		"extra": {
-			"info": "Ein Brandunfall ist ein Schadensereignis, bei dem durch Feuer Personen, Gebäude oder Infrastruktur gefährdet werden.",
-			"subInfo": "An accident caused by fire."
+			"info": "Ein Brandunfall ist ein Unfall, bei dem Feuer entsteht und Schaden macht.",
+			"subInfo": "A fire accident is an accident in which fire starts and causes damage."
 		},
 		"examples": [
 			{
-				"sentence": "Da Sicherheitsabstände nicht eingehalten wurden, führte ein kleiner Defekt zu einem Brandunfall mit erheblichen Folgekosten.",
-				"translation": "Since safety distances were not observed, a minor defect led to a fire accident with significant follow-up costs."
+				"sentence": "Der Brandunfall begann in der Küche, wo ein altes Kabel plötzlich heiß geworden war.",
+				"translation": "The fire accident began in the kitchen, where an old cable had suddenly become hot."
 			},
 			{
-				"sentence": "Nachdem der Brandunfall detailliert untersucht worden war, hat das Unternehmen seine Schutzmaßnahmen deutlich verschärft.",
-				"translation": "After the fire accident had been investigated in detail, the company significantly tightened its safety measures."
+				"sentence": "Nachdem der Brandunfall untersucht worden war, sagte der Chef, dass neue Regeln nötig seien.",
+				"translation": "After the fire accident had been investigated, the boss said that new rules were necessary."
 			}
 		],
 		"reviewCount": 0
@@ -160,17 +160,17 @@
 		"suffix": "",
 		"meaning": "surrounding area",
 		"extra": {
-			"info": "Das Umland bezeichnet die Gebiete außerhalb einer Stadt, die wirtschaftlich und infrastrukturell eng mit ihr verbunden sind.",
-			"subInfo": "Area around a city or region."
+			"info": "Das Umland ist das Gebiet rund um eine Stadt.",
+			"subInfo": "The surrounding area is the region around a city."
 		},
 		"examples": [
 			{
-				"sentence": "Damit Pendelwege reduziert werden, müssen Verkehrskonzepte die Verbindungen zwischen Stadtzentrum und Umland systematisch verbessern.",
-				"translation": "To reduce commuting distances, transport concepts must systematically improve connections between the city center and surrounding areas."
+				"sentence": "Viele Menschen aus dem Umland fahren morgens mit dem Zug in die Stadt, wo sie arbeiten.",
+				"translation": "Many people from the surrounding area travel into the city by train in the morning, where they work."
 			},
 			{
-				"sentence": "Nachdem sich die Mieten im Zentrum stark erhöht hatten, sind viele Familien ins Umland gezogen.",
-				"translation": "After rents in the center had risen sharply, many families moved to the surrounding area."
+				"sentence": "Nachdem die Mieten teurer geworden waren, sagte meine Schwester, dass sie lieber ins Umland ziehen wolle.",
+				"translation": "After the rents had become more expensive, my sister said that she would rather move to the surrounding area."
 			}
 		],
 		"reviewCount": 0
@@ -182,17 +182,17 @@
 		"suffix": "",
 		"meaning": "inattention",
 		"extra": {
-			"info": "Unaufmerksamkeit beschreibt eine nachlassende Konzentration, durch die Fehler, Risiken oder Missverständnisse entstehen können.",
-			"subInfo": "Lack of attention."
+			"info": "Unaufmerksamkeit bedeutet, dass man kurz nicht gut aufpasst.",
+			"subInfo": "Inattention is when you are not paying attention for a short time."
 		},
 		"examples": [
 			{
-				"sentence": "Selbst kurze Unaufmerksamkeit kann in komplexen Abläufen gravierende Folgen haben, wenn sicherheitsrelevante Schritte übersprungen werden.",
-				"translation": "Even brief inattention can have serious consequences in complex processes if safety-relevant steps are skipped."
+				"sentence": "Wegen einer kurzen Unaufmerksamkeit verpasste ich die Haltestelle, an der ich aussteigen musste.",
+				"translation": "Because of a brief moment of inattention, I missed the stop where I had to get off."
 			},
 			{
-				"sentence": "Nachdem der Vorfall auf Unaufmerksamkeit zurückgeführt worden war, hat das Team verbindliche Kontrollpunkte eingeführt.",
-				"translation": "After the incident had been traced back to inattention, the team introduced binding checkpoints."
+				"sentence": "Nachdem der Fehler durch Unaufmerksamkeit passiert war, sagte der Lehrer, dass wir langsamer arbeiten sollten.",
+				"translation": "After the mistake had happened because of inattention, the teacher said that we should work more slowly."
 			}
 		],
 		"reviewCount": 0
@@ -204,17 +204,17 @@
 		"suffix": "",
 		"meaning": "headline (pl -en)",
 		"extra": {
-			"info": "Eine Überschrift fasst den Kern eines Abschnitts prägnant zusammen und steuert die Erwartung der Lesenden.",
-			"subInfo": "Title at the top of an article or section."
+			"info": "Eine Überschrift ist der Titel über einem Text oder einem Abschnitt.",
+			"subInfo": "A headline is the title above a text or a section."
 		},
 		"examples": [
 			{
-				"sentence": "Eine präzise Überschrift sollte nicht nur Aufmerksamkeit erzeugen, sondern auch den inhaltlichen Rahmen des Textes klar markieren.",
-				"translation": "A precise headline should not only attract attention but also clearly mark the content scope of the text."
+				"sentence": "Die Überschrift war so groß, dass man sie schon von der anderen Straßenseite lesen konnte.",
+				"translation": "The headline was so large that you could already read it from the other side of the street."
 			},
 			{
-				"sentence": "Nachdem die Redaktion die Überschrift überarbeitet hatte, hat sich die Lesedauer des Artikels deutlich erhöht.",
-				"translation": "After the editorial team had revised the headline, the article’s reading time increased significantly."
+				"sentence": "Nachdem die Zeitung die Überschrift geändert hatte, sagten viele Leser, dass der Artikel klarer wirke.",
+				"translation": "After the newspaper had changed the headline, many readers said that the article seemed clearer."
 			}
 		],
 		"reviewCount": 0
@@ -226,17 +226,17 @@
 		"suffix": "",
 		"meaning": "care office (pl -n)",
 		"extra": {
-			"info": "Eine Betreuungsstelle ist eine organisatorische Anlaufstelle, die Unterstützung koordiniert und Betroffene fachlich begleitet.",
-			"subInfo": "Office responsible for support and care services."
+			"info": "Eine Betreuungsstelle ist ein Büro oder eine Stelle, die Hilfe organisiert.",
+			"subInfo": "A care office is an office or service that organizes help."
 		},
 		"examples": [
 			{
-				"sentence": "Wenn soziale Leistungen fragmentiert sind, übernimmt die Betreuungsstelle eine zentrale Rolle bei der abgestimmten Fallkoordination.",
-				"translation": "When social services are fragmented, the care office takes a central role in coordinated case management."
+				"sentence": "Die Betreuungsstelle half der Familie, die nach dem Unfall schnell viele Formulare brauchte.",
+				"translation": "The care office helped the family that quickly needed many forms after the accident."
 			},
 			{
-				"sentence": "Nachdem die Betreuungsstelle ihre Prozesse digitalisiert hatte, hat sie Anfragen schneller und transparenter bearbeitet.",
-				"translation": "After the care office had digitized its processes, it handled requests faster and more transparently."
+				"sentence": "Nachdem die Betreuungsstelle neue Computer bekommen hatte, sagte die Leiterin, dass die Arbeit jetzt schneller gehe.",
+				"translation": "After the care office had received new computers, the director said that the work now went faster."
 			}
 		],
 		"reviewCount": 0

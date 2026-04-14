@@ -6,17 +6,17 @@
 		"suffix": "sich um + Akk.",
 		"meaning": "to worry, care (sorgte, hat gesorgt)",
 		"extra": {
-			"info": "Das Verb kann Fürsorge ausdrücken oder ein emotionales Besorgtsein über eine Person oder Entwicklung beschreiben.",
-			"subInfo": "To care for or be worried about."
+			"info": "Sich sorgen kann heißen, dass man sich um jemanden kümmert oder dass man Angst um etwas hat.",
+			"subInfo": "To worry can mean that you take care of someone or that you are worried about something."
 		},
 		"examples": [
 			{
-				"sentence": "Wenn sich Führungskräfte nicht systematisch um transparente Kommunikation sorgen, entstehen in kritischen Phasen schnell unnötige Unsicherheiten.",
-				"translation": "If leaders do not ensure transparent communication systematically, unnecessary uncertainties arise quickly in critical phases."
+				"sentence": "Seit dem Unfall sorgt sich die Mutter um ihren Sohn, der jetzt allein in die Schule läuft.",
+				"translation": "Since the accident, the mother has been worrying about her son, who now walks to school alone."
 			},
 			{
-				"sentence": "Nachdem sie sich über Wochen um die betroffenen Familien gesorgt hatte, hat sie zusätzliche Unterstützungsangebote organisiert.",
-				"translation": "After she had worried about the affected families for weeks, she organized additional support services."
+				"sentence": "Nachdem sich die Nachbarn um den alten Mann gesorgt hatten, sagten sie, dass sie öfter nach ihm sehen würden.",
+				"translation": "After the neighbors had worried about the old man, they said that they would check on him more often."
 			}
 		],
 		"reviewCount": 0
@@ -28,17 +28,17 @@
 		"suffix": "",
 		"meaning": "to care for (betreute, hat betreut)",
 		"extra": {
-			"info": "Das Verb beschreibt die kontinuierliche fachliche oder persönliche Begleitung von Menschen, Gruppen oder Projekten.",
-			"subInfo": "To supervise or look after."
+			"info": "Betreuen bedeutet, dass man sich regelmäßig um Menschen, Gruppen oder Aufgaben kümmert.",
+			"subInfo": "To care for means that you regularly look after people, groups, or tasks."
 		},
 		"examples": [
 			{
-				"sentence": "Da die Anforderungen im Programm sehr unterschiedlich waren, musste jede Gruppe individuell betreut werden, um vergleichbare Lernfortschritte zu sichern.",
-				"translation": "Since the requirements in the program were very different, each group had to be supervised individually to ensure comparable learning progress."
+				"sentence": "Im Ferienlager hat sie eine Gruppe betreut, die aus acht Kindern aus verschiedenen Städten bestand.",
+				"translation": "At the holiday camp, she looked after a group that consisted of eight children from different cities."
 			},
 			{
-				"sentence": "Nachdem sie die neuen Teilnehmenden über mehrere Wochen betreut hatte, hat sich deren Selbstständigkeit deutlich erhöht.",
-				"translation": "After she had supervised the new participants for several weeks, their independence increased significantly."
+				"sentence": "Nachdem er die neuen Schüler einen Monat lang betreut hatte, merkte er, dass sie viel sicherer geworden waren.",
+				"translation": "After he had looked after the new students for a month, he noticed that they had become much more confident."
 			}
 		],
 		"reviewCount": 0
@@ -50,17 +50,17 @@
 		"suffix": "",
 		"meaning": "to increase (nahm zu, hat zugenommen)",
 		"extra": {
-			"info": "Das Verb drückt aus, dass Menge, Intensität oder Häufigkeit einer Entwicklung messbar wächst.",
-			"subInfo": "To grow in amount or intensity."
+			"info": "Zunehmen bedeutet, dass etwas mehr, stärker oder häufiger wird.",
+			"subInfo": "To increase means that something becomes more, stronger, or more frequent."
 		},
 		"examples": [
 			{
-				"sentence": "Wenn die Nachfrage saisonal zunimmt, müssen Kapazitäten frühzeitig angepasst werden, damit Lieferketten stabil bleiben.",
-				"translation": "When demand increases seasonally, capacities must be adjusted early so that supply chains remain stable."
+				"sentence": "Im Winter nimmt der Verkehr auf der Straße zu, weil viele Leute mit dem Auto zur Arbeit fahren.",
+				"translation": "In winter, traffic on the road increases because many people drive to work by car."
 			},
 			{
-				"sentence": "Nachdem die Komplexität der Aufgaben zugenommen hatte, hat das Team zusätzliche Abstimmungsrunden eingeführt.",
-				"translation": "After the complexity of the tasks had increased, the team introduced additional coordination rounds."
+				"sentence": "Nachdem der Lärm in der Stadt zugenommen hatte, sagte mein Onkel, dass er lieber aufs Land ziehen wolle.",
+				"translation": "After the noise in the city had increased, my uncle said that he would rather move to the countryside."
 			}
 		],
 		"reviewCount": 0
@@ -72,17 +72,17 @@
 		"suffix": "",
 		"meaning": "to determine, notice (stellte fest, hat festgestellt)",
 		"extra": {
-			"info": "Das Verb beschreibt das eindeutige Erkennen oder dokumentierte Festhalten eines Ergebnisses oder Zustands.",
-			"subInfo": "To identify or observe something clearly."
+			"info": "Feststellen bedeutet, dass man etwas klar bemerkt oder erkennt.",
+			"subInfo": "To notice or determine means that you clearly recognize something."
 		},
 		"examples": [
 			{
-				"sentence": "Durch den Vergleich mehrerer Messreihen ließ sich feststellen, dass die Maßnahme nicht nur kurzfristig, sondern auch langfristig wirksam war.",
-				"translation": "By comparing several measurement series, it could be determined that the measure was effective not only in the short term but also in the long term."
+				"sentence": "Am Morgen stellte ich fest, dass mein Fahrrad, das gestern noch vor dem Haus stand, verschwunden war.",
+				"translation": "In the morning, I noticed that my bicycle, which had still been in front of the house yesterday, was gone."
 			},
 			{
-				"sentence": "Nachdem die Prüferin alle Unterlagen ausgewertet hatte, hat sie eine klare Abweichung vom Standard festgestellt.",
-				"translation": "After the auditor had evaluated all documents, she determined a clear deviation from the standard."
+				"sentence": "Nachdem die Ärztin mich untersucht hatte, stellte sie fest, dass ich ein paar Tage Ruhe brauchte.",
+				"translation": "After the doctor had examined me, she determined that I needed a few days of rest."
 			}
 		],
 		"reviewCount": 0
@@ -94,17 +94,17 @@
 		"suffix": "",
 		"meaning": "to strengthen (verstärkte, hat verstärkt)",
 		"extra": {
-			"info": "Das Verb bedeutet, eine Wirkung, Struktur oder Tendenz gezielt zu intensivieren.",
-			"subInfo": "To make stronger."
+			"info": "Verstärken bedeutet, dass man etwas stärker macht.",
+			"subInfo": "To strengthen means that you make something stronger."
 		},
 		"examples": [
 			{
-				"sentence": "Um die Aussagekraft der Ergebnisse zu verstärken, wurden quantitative Daten mit qualitativen Rückmeldungen systematisch kombiniert.",
-				"translation": "To strengthen the explanatory power of the results, quantitative data was systematically combined with qualitative feedback."
+				"sentence": "Der Wind verstärkte den Regen, der schon seit dem Morgen gegen die Fenster schlug.",
+				"translation": "The wind made the rain stronger, which had already been hitting the windows since the morning."
 			},
 			{
-				"sentence": "Nachdem das Team die Kommunikation verstärkt hatte, hat sich die Abstimmung zwischen den Bereichen deutlich verbessert.",
-				"translation": "After the team had intensified communication, coordination between departments improved significantly."
+				"sentence": "Nachdem die Schule die Kontrollen verstärkt hatte, sagten viele Eltern, dass sie sich sicherer fühlten.",
+				"translation": "After the school had increased the checks, many parents said that they felt safer."
 			}
 		],
 		"reviewCount": 0
@@ -114,17 +114,17 @@
 		"main": "von ... bis zu reichen",
 		"meaning": "to range from ... to ...",
 		"extra": {
-			"info": "Diese Struktur verwendet man, um Spannweiten bei Mengen, Werten oder Zeitangaben präzise auszudrücken.",
-			"subInfo": "Use this structure to express limits on a scale, amount, or time span."
+			"info": "Mit dieser Struktur zeigt man, wie groß ein Bereich ist, zum Beispiel bei Preisen, Zeiten oder Zahlen.",
+			"subInfo": "With this structure, you show how large a range is, for example for prices, times, or numbers."
 		},
 		"examples": [
 			{
-				"sentence": "Die Bearbeitungsdauer kann je nach Komplexität von wenigen Stunden bis zu mehreren Wochen reichen, weshalb wir mit flexiblen Fristen planen.",
-				"translation": "Depending on complexity, processing time can range from a few hours to several weeks, which is why we plan with flexible deadlines."
+				"sentence": "Die Preise in diesem Laden reichen von fünf Euro bis zu fast hundert Euro, je nachdem, was man kauft.",
+				"translation": "The prices in this shop range from five euros to almost one hundred euros, depending on what you buy."
 			},
 			{
-				"sentence": "Nachdem wir die historischen Daten ausgewertet hatten, hat sich gezeigt, dass die Kosten von 2.000 bis zu 12.000 Euro reichten.",
-				"translation": "After we had evaluated historical data, it became clear that costs ranged from 2,000 to 12,000 euros."
+				"sentence": "Nachdem wir die Zeiten verglichen hatten, sahen wir, dass der Unterricht von acht Uhr bis zu halb vier reichte.",
+				"translation": "After we had compared the times, we saw that the classes ranged from eight o'clock until half past three."
 			}
 		],
 		"reviewCount": 0
@@ -134,17 +134,17 @@
 		"main": "was die Musik angeht",
 		"meaning": "as far as music is concerned",
 		"extra": {
-			"info": "Mit dieser Wendung führt man ein Thema ein und markiert klar, aus welcher Perspektive man dazu Stellung nimmt.",
-			"subInfo": "Use this pattern to introduce a topic and give your opinion about it."
+			"info": "Mit dieser Wendung sagt man, über welches Thema man gerade spricht und welche Meinung man dazu hat.",
+			"subInfo": "With this expression, you say which topic you are talking about and what your opinion on it is."
 		},
 		"examples": [
 			{
-				"sentence": "Was die Musik angeht, bevorzuge ich Kompositionen, die trotz komplexer Harmonik eine klare emotionale Entwicklung erkennen lassen.",
-				"translation": "As far as music is concerned, I prefer compositions that show a clear emotional development despite complex harmony."
+				"sentence": "Was die Musik angeht, höre ich am liebsten Lieder, die ich auch im Auto mitsingen kann.",
+				"translation": "As far as music is concerned, I most like listening to songs that I can also sing along to in the car."
 			},
 			{
-				"sentence": "Was die Musik angeht, hat sich mein Geschmack verändert, nachdem ich mich intensiver mit zeitgenössischen Arrangements beschäftigt hatte.",
-				"translation": "As far as music is concerned, my taste changed after I had engaged more intensively with contemporary arrangements."
+				"sentence": "Was die Musik angeht, sagte mein Bruder, dass er nach dem Konzert jetzt mehr Jazz hören wolle.",
+				"translation": "As far as music is concerned, my brother said that after the concert he now wanted to listen to more jazz."
 			}
 		],
 		"reviewCount": 0
@@ -156,17 +156,17 @@
 		"suffix": "",
 		"meaning": "to run (lief, ist gelaufen)",
 		"extra": {
-			"info": "Das Verb kann körperliche Bewegung bezeichnen oder beschreiben, dass ein Prozess technisch und organisatorisch funktioniert.",
-			"subInfo": "To run or function."
+			"info": "Laufen kann heißen, dass jemand rennt oder geht. Es kann auch heißen, dass etwas gut funktioniert.",
+			"subInfo": "To run can mean that someone runs or walks. It can also mean that something works well."
 		},
 		"examples": [
 			{
-				"sentence": "Damit die Einführung reibungslos laufen kann, wurden sämtliche Schnittstellen vorab getestet und mit klaren Verantwortlichkeiten dokumentiert.",
-				"translation": "So that the rollout can run smoothly, all interfaces were tested in advance and documented with clear responsibilities."
+				"sentence": "Jeden Morgen laufe ich durch den Park, der direkt hinter unserem Haus beginnt.",
+				"translation": "Every morning I run through the park that begins directly behind our house."
 			},
 			{
-				"sentence": "Nachdem das System mehrere Wochen stabil gelaufen war, haben wir zusätzliche Funktionen ohne Unterbrechung freigeschaltet.",
-				"translation": "After the system had run stably for several weeks, we enabled additional features without interruption."
+				"sentence": "Nachdem das neue Programm einige Tage gut gelaufen war, sagte der Chef, dass wir es überall nutzen könnten.",
+				"translation": "After the new program had run well for a few days, the boss said that we could use it everywhere."
 			}
 		],
 		"reviewCount": 0
@@ -178,17 +178,17 @@
 		"suffix": "",
 		"meaning": "to enjoy (genoss, hat genossen)",
 		"extra": {
-			"info": "Das Verb drückt aus, dass man etwas bewusst als angenehm erlebt und diesen positiven Zustand wertschätzt.",
-			"subInfo": "To take pleasure in something."
+			"info": "Genießen bedeutet, dass man etwas Schönes oder Angenehmes bewusst erlebt.",
+			"subInfo": "To enjoy means that you consciously experience something beautiful or pleasant."
 		},
 		"examples": [
 			{
-				"sentence": "Obwohl der Alltag oft hektisch ist, sollte man Momente genießen, in denen Konzentration, Ruhe und Klarheit gleichzeitig möglich werden.",
-				"translation": "Although daily life is often hectic, one should enjoy moments in which focus, calm, and clarity become possible at the same time."
+				"sentence": "Am See haben wir den warmen Abend genossen, obwohl es am Nachmittag noch stark geregnet hatte.",
+				"translation": "At the lake, we enjoyed the warm evening although it had still rained heavily in the afternoon."
 			},
 			{
-				"sentence": "Nachdem wir die Ergebnisse präsentiert hatten, haben wir den gemeinsamen Erfolg in entspannter Atmosphäre genossen.",
-				"translation": "After we had presented the results, we enjoyed the shared success in a relaxed atmosphere."
+				"sentence": "Nachdem sie ihre Prüfungen geschafft hatte, genoss sie mit ihren Freunden einen ruhigen Abend im Garten.",
+				"translation": "After she had passed her exams, she enjoyed a quiet evening in the garden with her friends."
 			}
 		],
 		"reviewCount": 0
@@ -200,17 +200,17 @@
 		"suffix": "sich an + Akk.",
 		"meaning": "to get used to someone/something (gewöhnte, hat gewöhnt)",
 		"extra": {
-			"info": "Als reflexives Verb beschreibt es den Prozess, sich schrittweise an neue Bedingungen, Personen oder Abläufe anzupassen.",
-			"subInfo": "Reflexive verb used for becoming accustomed to a person or situation."
+			"info": "Sich an etwas gewöhnen bedeutet, dass etwas mit der Zeit normal für einen wird.",
+			"subInfo": "To get used to something means that it becomes normal for you over time."
 		},
 		"examples": [
 			{
-				"sentence": "Wer in ein internationales Team wechselt, muss sich an unterschiedliche Kommunikationsstile gewöhnen, um Missverständnisse nachhaltig zu vermeiden.",
-				"translation": "Anyone moving to an international team must get used to different communication styles in order to avoid misunderstandings sustainably."
+				"sentence": "Am Anfang konnte ich mich nicht an das frühe Aufstehen gewöhnen, das in meinem neuen Job nötig war.",
+				"translation": "At first I could not get used to getting up early, which was necessary in my new job."
 			},
 			{
-				"sentence": "Nachdem sie sich an den neuen Arbeitsrhythmus gewöhnt hatte, hat sie komplexe Aufgaben deutlich effizienter organisiert.",
-				"translation": "After she had gotten used to the new work rhythm, she organized complex tasks much more efficiently."
+				"sentence": "Nachdem sich die Kinder an die neue Lehrerin gewöhnt hatten, sagten sie, dass der Unterricht jetzt leichter sei.",
+				"translation": "After the children had gotten used to the new teacher, they said that the lessons were easier now."
 			}
 		],
 		"reviewCount": 0
@@ -222,17 +222,17 @@
 		"suffix": "",
 		"meaning": "to exaggerate (übertrieb, hat übertrieben)",
 		"extra": {
-			"info": "Das Verb bedeutet, etwas über das realistische Maß hinaus darzustellen oder in Intensität unverhältnismäßig zu steigern.",
-			"subInfo": "To overdo or overstate."
+			"info": "Übertreiben bedeutet, dass man etwas zu stark sagt oder macht.",
+			"subInfo": "To exaggerate means that you say or do something too strongly."
 		},
 		"examples": [
 			{
-				"sentence": "Wenn man Risiken übertreiben würde, könnten sinnvolle Innovationen aus reiner Vorsicht unnötig verzögert werden.",
-				"translation": "If risks were exaggerated, useful innovations could be unnecessarily delayed out of pure caution."
+				"sentence": "Du übertreibst ein bisschen, wenn du sagst, dass dieser kleine Fehler alles kaputtmacht.",
+				"translation": "You exaggerate a little when you say that this small mistake ruins everything."
 			},
 			{
-				"sentence": "Nachdem der Bericht die Probleme stark übertrieben hatte, hat das Gremium die Bewertung mit belastbaren Daten korrigiert.",
-				"translation": "After the report had greatly exaggerated the problems, the committee corrected the assessment with reliable data."
+				"sentence": "Nachdem er die Geschichte stark übertrieben hatte, sagte seine Schwester, dass ihm das niemand glauben würde.",
+				"translation": "After he had greatly exaggerated the story, his sister said that nobody would believe him."
 			}
 		],
 		"reviewCount": 0
@@ -244,17 +244,17 @@
 		"suffix": "",
 		"meaning": "community (pl -en)",
 		"extra": {
-			"info": "Der Begriff bezeichnet eine soziale Gruppe, die durch gemeinsame Werte, Ziele oder gegenseitige Verantwortung verbunden ist.",
-			"subInfo": "A group living/working together."
+			"info": "Eine Gemeinschaft ist eine Gruppe von Menschen, die zusammenlebt oder sich gegenseitig hilft.",
+			"subInfo": "A community is a group of people who live together or help one another."
 		},
 		"examples": [
 			{
-				"sentence": "In einer belastbaren Gemeinschaft werden Konflikte nicht verdrängt, sondern transparent bearbeitet, damit langfristiges Vertrauen erhalten bleibt.",
-				"translation": "In a resilient community, conflicts are not suppressed but handled transparently so that long-term trust is maintained."
+				"sentence": "In unserer Gemeinschaft hilft man alten Leuten, die nicht mehr allein einkaufen gehen können.",
+				"translation": "In our community, people help elderly people who can no longer go shopping on their own."
 			},
 			{
-				"sentence": "Nachdem die Gemeinschaft verbindliche Regeln beschlossen hatte, hat sich die Zusammenarbeit spürbar verbessert.",
-				"translation": "After the community had adopted binding rules, collaboration improved noticeably."
+				"sentence": "Nachdem die Gemeinschaft neue Regeln beschlossen hatte, sagte der Bürgermeister, dass das Zusammenleben ruhiger geworden sei.",
+				"translation": "After the community had decided on new rules, the mayor said that living together had become calmer."
 			}
 		],
 		"reviewCount": 0

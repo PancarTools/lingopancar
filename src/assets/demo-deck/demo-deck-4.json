@@ -6,17 +6,17 @@
 		"suffix": "",
 		"meaning": "solidarity",
 		"extra": {
-			"info": "Solidarität beschreibt die aktive Bereitschaft, Verantwortung zu teilen und andere auch unter Belastung verlässlich zu unterstützen.",
-			"subInfo": "Unity and mutual support."
+			"info": "Solidarität bedeutet, dass Menschen zusammenhalten und einander helfen.",
+			"subInfo": "Solidarity means that people stand together and help one another."
 		},
 		"examples": [
 			{
-				"sentence": "Gerade in Krisenzeiten zeigt sich Solidarität daran, dass Ressourcen fair verteilt und besonders verletzliche Gruppen gezielt geschützt werden.",
-				"translation": "Especially in times of crisis, solidarity is shown by distributing resources fairly and protecting particularly vulnerable groups."
+				"sentence": "In unserer Straße zeigte man Solidarität mit der Familie, die nach dem Brand schnell Hilfe brauchte.",
+				"translation": "In our street, people showed solidarity with the family that needed help quickly after the fire."
 			},
 			{
-				"sentence": "Nachdem die Belegschaft geschlossen Solidarität gezeigt hatte, hat die Geschäftsleitung mehrere strittige Maßnahmen zurückgenommen.",
-				"translation": "After the workforce had shown solidarity as one, management withdrew several disputed measures."
+				"sentence": "Nachdem die Kollegen Solidarität gezeigt hatten, sagte die Chefin, dass sie die Entscheidung noch einmal prüfen würde.",
+				"translation": "After the colleagues had shown solidarity, the boss said that she would review the decision again."
 			}
 		],
 		"reviewCount": 0
@@ -28,17 +28,17 @@
 		"suffix": "",
 		"meaning": "goal, target (pl -e)",
 		"extra": {
-			"info": "Ein Ziel ist ein konkret definierter Zustand, auf den Handlungen strategisch ausgerichtet werden.",
-			"subInfo": "Something you aim to achieve."
+			"info": "Ein Ziel ist etwas, das man erreichen will.",
+			"subInfo": "A goal is something that you want to achieve."
 		},
 		"examples": [
 			{
-				"sentence": "Damit das Ziel realistisch erreichbar bleibt, müssen Zwischenetappen klar formuliert und regelmäßig anhand messbarer Kriterien überprüft werden.",
-				"translation": "To keep the goal realistically achievable, intermediate stages must be clearly formulated and regularly reviewed against measurable criteria."
+				"sentence": "Unser Ziel ist ein neuer Spielplatz, der auch für kleine Kinder sicher ist.",
+				"translation": "Our goal is a new playground that is also safe for small children."
 			},
 			{
-				"sentence": "Nachdem das Team das strategische Ziel präzisiert hatte, hat sich die Priorisierung im Tagesgeschäft deutlich vereinfacht.",
-				"translation": "After the team had specified the strategic goal, prioritization in daily operations became much easier."
+				"sentence": "Nachdem wir das Ziel klar besprochen hatten, sagte der Trainer, dass wir ruhiger arbeiten könnten.",
+				"translation": "After we had discussed the goal clearly, the coach said that we could work more calmly."
 			}
 		],
 		"reviewCount": 0
@@ -50,17 +50,17 @@
 		"suffix": "",
 		"meaning": "requirement (pl -en)",
 		"extra": {
-			"info": "Eine Voraussetzung ist eine notwendige Bedingung, die erfüllt sein muss, bevor ein weiterer Schritt sinnvoll möglich ist.",
-			"subInfo": "A necessary condition."
+			"info": "Eine Voraussetzung ist etwas, das zuerst da sein oder passieren muss.",
+			"subInfo": "A requirement is something that must exist or happen first."
 		},
 		"examples": [
 			{
-				"sentence": "Für die Teilnahme am Programm ist eine stabile Datenbasis Voraussetzung, damit Entscheidungen nicht auf bloßen Annahmen beruhen.",
-				"translation": "A stable data basis is a prerequisite for participating in the program so that decisions are not based on mere assumptions."
+				"sentence": "Für diesen Kurs ist gute Aussprache keine Voraussetzung, aber regelmäßiges Üben ist wichtig.",
+				"translation": "Good pronunciation is not a requirement for this course, but practicing regularly is important."
 			},
 			{
-				"sentence": "Nachdem wir die technischen Voraussetzungen geschaffen hatten, hat die Einführung ohne größere Verzögerungen begonnen.",
-				"translation": "After we had created the technical prerequisites, the rollout began without major delays."
+				"sentence": "Nachdem die Schule alle Voraussetzungen erfüllt hatte, sagte die Stadt, dass das Projekt starten könne.",
+				"translation": "After the school had fulfilled all requirements, the city said that the project could start."
 			}
 		],
 		"reviewCount": 0
@@ -72,17 +72,17 @@
 		"suffix": "",
 		"meaning": "housing company (pl -en)",
 		"extra": {
-			"info": "Eine Wohnungsgesellschaft ist ein Unternehmen, das Wohngebäude verwaltet, instand hält und organisatorisch betreut.",
-			"subInfo": "A company that manages residential buildings."
+			"info": "Eine Wohnungsgesellschaft ist eine Firma, die Wohnungen und Häuser verwaltet.",
+			"subInfo": "A housing company is a firm that manages apartments and houses."
 		},
 		"examples": [
 			{
-				"sentence": "Da die Wohnungsgesellschaft langfristig plant, wurden Sanierung, Energieeffizienz und soziale Infrastruktur in einem gemeinsamen Konzept gebündelt.",
-				"translation": "Since the housing company plans long-term, renovation, energy efficiency, and social infrastructure were bundled into one shared concept."
+				"sentence": "Die Wohnungsgesellschaft hat den Hof gereinigt, in dem die Kinder jeden Nachmittag spielen.",
+				"translation": "The housing company cleaned the courtyard in which the children play every afternoon."
 			},
 			{
-				"sentence": "Nachdem die Wohnungsgesellschaft den Modernisierungsplan veröffentlicht hatte, hat sie zusätzliche Sprechstunden für die Mieter angeboten.",
-				"translation": "After the housing company had published the modernization plan, it offered additional consultation hours for tenants."
+				"sentence": "Nachdem die Wohnungsgesellschaft den Brief geschickt hatte, sagten viele Mieter, dass sie noch Fragen hätten.",
+				"translation": "After the housing company had sent the letter, many tenants said that they still had questions."
 			}
 		],
 		"reviewCount": 0
@@ -94,17 +94,17 @@
 		"suffix": "",
 		"meaning": "environmental protection",
 		"extra": {
-			"info": "Umweltschutz umfasst Maßnahmen, die natürliche Lebensgrundlagen erhalten und negative ökologische Folgen menschlichen Handelns reduzieren.",
-			"subInfo": "Actions that protect nature and the environment."
+			"info": "Umweltschutz bedeutet, dass man Natur, Luft, Wasser und Tiere schützt.",
+			"subInfo": "Environmental protection means that you protect nature, air, water, and animals."
 		},
 		"examples": [
 			{
-				"sentence": "Effektiver Umweltschutz setzt voraus, dass Politik, Wirtschaft und Zivilgesellschaft abgestimmt handeln, statt isolierte Einzelmaßnahmen zu verfolgen.",
-				"translation": "Effective environmental protection requires coordinated action by politics, business, and civil society instead of isolated individual measures."
+				"sentence": "Für den Umweltschutz sammeln viele Schüler Müll, der am Wochenende im Park liegen geblieben ist.",
+				"translation": "For environmental protection, many students collect trash that was left in the park over the weekend."
 			},
 			{
-				"sentence": "Nachdem die Stadt ein umfassendes Konzept für Umweltschutz beschlossen hatte, hat sie den Verkehr schrittweise emissionsärmer gestaltet.",
-				"translation": "After the city had adopted a comprehensive environmental protection concept, it gradually made transportation lower-emission."
+				"sentence": "Nachdem die Stadt mehr für den Umweltschutz getan hatte, sagte der Bürgermeister, dass die Luft sauberer geworden sei.",
+				"translation": "After the city had done more for environmental protection, the mayor said that the air had become cleaner."
 			}
 		],
 		"reviewCount": 0
@@ -116,17 +116,17 @@
 		"suffix": "",
 		"meaning": "environmentally friendly",
 		"extra": {
-			"info": "Das Adjektiv beschreibt Produkte oder Prozesse, die Ressourcen schonen und Umweltbelastungen möglichst gering halten.",
-			"subInfo": "Not harmful to the environment."
+			"info": "Umweltfreundlich beschreibt etwas, das gut für die Umwelt ist oder ihr wenig schadet.",
+			"subInfo": "Environmentally friendly describes something that is good for the environment or does little harm to it."
 		},
 		"examples": [
 			{
-				"sentence": "Damit Produktionsketten wirklich umweltfreundlich werden, müssen Materialauswahl, Transportwege und Energiequellen gemeinsam optimiert werden.",
-				"translation": "To make production chains truly environmentally friendly, material selection, transport routes, and energy sources must be optimized together."
+				"sentence": "Wir benutzen jetzt umweltfreundliche Flaschen, die man viele Male wieder füllen kann.",
+				"translation": "We now use environmentally friendly bottles that can be filled again many times."
 			},
 			{
-				"sentence": "Nachdem das Unternehmen auf umweltfreundliche Verpackungen umgestellt hatte, hat es den Plastikverbrauch deutlich gesenkt.",
-				"translation": "After the company had switched to environmentally friendly packaging, it significantly reduced plastic consumption."
+				"sentence": "Nachdem das Café auf umweltfreundliche Verpackungen umgestellt hatte, sagten viele Kunden, dass sie das gut fanden.",
+				"translation": "After the café had switched to environmentally friendly packaging, many customers said that they liked that."
 			}
 		],
 		"reviewCount": 0
@@ -138,17 +138,17 @@
 		"suffix": "",
 		"meaning": "master-certified business (pl -e)",
 		"extra": {
-			"info": "Ein Meisterbetrieb ist ein Handwerksunternehmen mit qualifizierter Leitung, das hohe fachliche Standards und Ausbildungsqualität gewährleistet.",
-			"subInfo": "A company run by certified master craftspeople."
+			"info": "Ein Meisterbetrieb ist ein Handwerksbetrieb, der von einer Person mit Meistertitel geleitet wird.",
+			"subInfo": "A master-certified business is a craft business that is run by a person with a master qualification."
 		},
 		"examples": [
 			{
-				"sentence": "Da ein Meisterbetrieb strenge Qualitätsrichtlinien einhält, erwarten Kundinnen und Kunden nachvollziehbare Prozesse sowie verlässliche Ergebnisse.",
-				"translation": "Since a master-certified business follows strict quality standards, customers expect transparent processes and reliable results."
+				"sentence": "Viele Leute gehen lieber zu einem Meisterbetrieb, der schon lange in der Stadt bekannt ist.",
+				"translation": "Many people prefer to go to a master-certified business that has been well known in the city for a long time."
 			},
 			{
-				"sentence": "Nachdem der Betrieb offiziell als Meisterbetrieb anerkannt worden war, hat sich die Nachfrage nach seinen Leistungen deutlich erhöht.",
-				"translation": "After the business had been officially recognized as a master-certified company, demand for its services increased significantly."
+				"sentence": "Nachdem der Betrieb als Meisterbetrieb anerkannt worden war, sagte der Besitzer, dass nun mehr Kunden kommen würden.",
+				"translation": "After the business had been recognized as a master-certified company, the owner said that more customers would now come."
 			}
 		],
 		"reviewCount": 0
@@ -160,17 +160,17 @@
 		"suffix": "auf + Akk.",
 		"meaning": "to react (reagierte, hat reagiert)",
 		"extra": {
-			"info": "Das Verb beschreibt eine gezielte Antwort auf einen Impuls, ein Problem oder eine Veränderung.",
-			"subInfo": "To respond to something."
+			"info": "Reagieren bedeutet, dass man auf etwas antwortet oder etwas tut, weil etwas passiert ist.",
+			"subInfo": "To react means that you answer or do something because something has happened."
 		},
 		"examples": [
 			{
-				"sentence": "In dynamischen Projekten muss man flexibel reagieren, sobald neue Informationen die ursprünglichen Annahmen grundlegend verändern.",
-				"translation": "In dynamic projects, one must react flexibly as soon as new information fundamentally changes initial assumptions."
+				"sentence": "Der Fahrer reagierte schnell auf das Kind, das plötzlich auf die Straße lief.",
+				"translation": "The driver reacted quickly to the child who suddenly ran onto the street."
 			},
 			{
-				"sentence": "Nachdem das Team auf die Störung schnell reagiert hatte, hat es den Betrieb ohne längeren Ausfall stabilisiert.",
-				"translation": "After the team had reacted quickly to the disruption, it stabilized operations without a prolonged outage."
+				"sentence": "Nachdem die Lehrerin auf die Nachricht reagiert hatte, sagte sie, dass wir morgen früher kommen sollten.",
+				"translation": "After the teacher had reacted to the message, she said that we should come earlier tomorrow."
 			}
 		],
 		"reviewCount": 0
@@ -182,17 +182,17 @@
 		"suffix": "",
 		"meaning": "environmentally conscious",
 		"extra": {
-			"info": "Das Adjektiv beschreibt eine Haltung, bei der ökologische Folgen im Alltag und bei Entscheidungen bewusst berücksichtigt werden.",
-			"subInfo": "Aware of and careful about environmental impact."
+			"info": "Umweltbewusst beschreibt Menschen, die im Alltag an die Umwelt denken.",
+			"subInfo": "Environmentally conscious describes people who think about the environment in everyday life."
 		},
 		"examples": [
 			{
-				"sentence": "Wer wirklich umweltbewusst lebt, reduziert nicht nur Abfall, sondern hinterfragt auch Konsummuster, Mobilität und Energieeinsatz.",
-				"translation": "Those who truly live environmentally consciously not only reduce waste but also question consumption patterns, mobility, and energy use."
+				"sentence": "Meine Schwester lebt sehr umweltbewusst und kauft oft Dinge, die man lange benutzen kann.",
+				"translation": "My sister lives very environmentally consciously and often buys things that can be used for a long time."
 			},
 			{
-				"sentence": "Nachdem sie ihr Verhalten schrittweise umweltbewusster gestaltet hatte, hat sie ihren ökologischen Fußabdruck messbar verringert.",
-				"translation": "After she had gradually made her behavior more environmentally conscious, she measurably reduced her ecological footprint."
+				"sentence": "Nachdem er umweltbewusster gelebt hatte, sagte er, dass er jetzt viel seltener das Auto benutze.",
+				"translation": "After he had lived in a more environmentally conscious way, he said that he now used the car much less often."
 			}
 		],
 		"reviewCount": 0
@@ -204,17 +204,17 @@
 		"suffix": "für + Akk.",
 		"meaning": "responsibility",
 		"extra": {
-			"info": "Verantwortung bezeichnet die Verpflichtung, für Entscheidungen und deren Folgen nachvollziehbar einzustehen.",
-			"subInfo": "Duty or accountability for something."
+			"info": "Verantwortung bedeutet, dass man für etwas zuständig ist und für Folgen einstehen muss.",
+			"subInfo": "Responsibility means that you are in charge of something and must answer for the consequences."
 		},
 		"examples": [
 			{
-				"sentence": "Wer Verantwortung für ein Team übernimmt, muss Prioritäten transparent kommunizieren und Konflikte lösungsorientiert moderieren.",
-				"translation": "Anyone who takes responsibility for a team must communicate priorities transparently and moderate conflicts in a solution-oriented way."
+				"sentence": "Sie trägt Verantwortung für die Kinder, die jeden Morgen mit dem Bus zur Schule fahren.",
+				"translation": "She carries responsibility for the children who take the bus to school every morning."
 			},
 			{
-				"sentence": "Nachdem sie die Verantwortung für das Projekt übernommen hatte, hat sie die Rollenverteilung klarer strukturiert.",
-				"translation": "After she had taken responsibility for the project, she structured role distribution more clearly."
+				"sentence": "Nachdem er die Verantwortung für das Projekt übernommen hatte, sagte er, dass alle Aufgaben klar verteilt werden müssten.",
+				"translation": "After he had taken responsibility for the project, he said that all tasks would have to be clearly divided."
 			}
 		],
 		"reviewCount": 0
@@ -226,17 +226,17 @@
 		"suffix": "",
 		"meaning": "measure, action (pl -n)",
 		"extra": {
-			"info": "Eine Maßnahme ist ein gezielter Schritt, der zur Lösung eines Problems oder zur Erreichung eines Ziels dient.",
-			"subInfo": "A specific action taken to solve a problem."
+			"info": "Eine Maßnahme ist eine Handlung, mit der man ein Problem lösen oder etwas verbessern will.",
+			"subInfo": "A measure is an action that you take to solve a problem or improve something."
 		},
 		"examples": [
 			{
-				"sentence": "Damit die Maßnahme nachhaltig wirkt, muss sie nicht nur kurzfristige Symptome, sondern auch strukturelle Ursachen adressieren.",
-				"translation": "For the measure to have sustainable impact, it must address not only short-term symptoms but also structural causes."
+				"sentence": "Die neue Maßnahme hilft den Familien, die wegen der hohen Preise weniger einkaufen können.",
+				"translation": "The new measure helps the families who can buy less because of the high prices."
 			},
 			{
-				"sentence": "Nachdem die Maßnahme in mehreren Pilotbereichen getestet worden war, hat man sie unter klaren Kriterien ausgerollt.",
-				"translation": "After the measure had been tested in several pilot areas, it was rolled out under clear criteria."
+				"sentence": "Nachdem die Maßnahme an zwei Schulen getestet worden war, sagte die Stadt, dass sie auch anderswo eingesetzt werden könne.",
+				"translation": "After the measure had been tested at two schools, the city said that it could also be used elsewhere."
 			}
 		],
 		"reviewCount": 0
@@ -248,17 +248,17 @@
 		"suffix": "",
 		"meaning": "step (pl -e)",
 		"extra": {
-			"info": "Ein Schritt bezeichnet eine einzelne Etappe innerhalb eines größeren Ablaufs oder Entwicklungsprozesses.",
-			"subInfo": "A stage in a process."
+			"info": "Ein Schritt ist ein Teil von einem Weg oder von einem Plan.",
+			"subInfo": "A step is one part of a path or of a plan."
 		},
 		"examples": [
 			{
-				"sentence": "Der entscheidende Schritt bestand darin, zunächst die Abhängigkeiten sichtbar zu machen, bevor weitere Aufgaben verteilt wurden.",
-				"translation": "The crucial step was to make dependencies visible first before assigning further tasks."
+				"sentence": "Der erste Schritt war ein Gespräch mit der Frau, die schon lange in diesem Haus wohnt.",
+				"translation": "The first step was a conversation with the woman who has lived in this house for a long time."
 			},
 			{
-				"sentence": "Nachdem der erste Schritt sauber dokumentiert worden war, hat sich der restliche Ablauf deutlich stabiler entwickelt.",
-				"translation": "After the first step had been properly documented, the rest of the process developed much more stably."
+				"sentence": "Nachdem wir den ersten Schritt gemacht hatten, sagte unser Lehrer, dass der Rest leichter werden würde.",
+				"translation": "After we had taken the first step, our teacher said that the rest would become easier."
 			}
 		],
 		"reviewCount": 0

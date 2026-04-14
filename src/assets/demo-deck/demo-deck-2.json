@@ -6,17 +6,17 @@
 		"suffix": "",
 		"meaning": "to dispute, to manage (bestritt, hat bestritten)",
 		"extra": {
-			"info": "Das Verb kann entweder bedeuten, eine Behauptung zurückzuweisen, oder den Lebensunterhalt beziehungsweise Kosten zu tragen.",
-			"subInfo": "Can mean deny or cover costs."
+			"info": "Bestreiten kann heißen, dass man sagt, etwas sei nicht wahr. Es kann auch heißen, dass man mit Geld sein Leben bezahlt.",
+			"subInfo": "To dispute can mean that you say something is not true. It can also mean that you pay for your life with your own money."
 		},
 		"examples": [
 			{
-				"sentence": "Da die Datenlage widersprüchlich war, konnte die Expertin die Schlussfolgerung nachvollziehbar bestreiten, ohne den Gesamtbefund pauschal abzulehnen.",
-				"translation": "Since the data situation was contradictory, the expert was able to plausibly dispute the conclusion without rejecting the overall findings outright."
+				"sentence": "Er bestritt den Vorwurf, den sein Nachbar gestern vor allen Leuten gemacht hatte.",
+				"translation": "He denied the accusation that his neighbor had made yesterday in front of everyone."
 			},
 			{
-				"sentence": "Nachdem er die Ausbildung abgeschlossen hatte, hat er seinen Lebensunterhalt vollständig selbst bestritten.",
-				"translation": "After he had completed his training, he fully supported himself financially."
+				"sentence": "Nachdem sie ihre Ausbildung beendet hatte, konnte sie ihren Lebensunterhalt allein bestreiten.",
+				"translation": "After she had finished her training, she was able to support herself on her own."
 			}
 		],
 		"reviewCount": 0
@@ -28,17 +28,17 @@
 		"suffix": "auf + Akk.",
 		"meaning": "to pay attention (passte auf, hat aufgepasst)",
 		"extra": {
-			"info": "Das Verb bedeutet, aufmerksam und vorsichtig zu handeln, insbesondere in Situationen mit erhöhtem Risiko.",
-			"subInfo": "To be careful or attentive."
+			"info": "Aufpassen bedeutet, dass man gut hinschaut oder hinhört und vorsichtig ist.",
+			"subInfo": "To pay attention means that you look or listen carefully and are cautious."
 		},
 		"examples": [
 			{
-				"sentence": "Damit bei der Auswertung keine Fehler entstehen, muss man aufpassen, welche Annahmen den Berechnungen tatsächlich zugrunde liegen.",
-				"translation": "To avoid errors in evaluation, one must pay close attention to which assumptions actually underlie the calculations."
+				"sentence": "Du musst auf die kleine Straße aufpassen, die rechts neben der Kirche beginnt.",
+				"translation": "You have to watch for the small street that begins to the right of the church."
 			},
 			{
-				"sentence": "Nachdem die Fahrerin auf den nassen Straßenbelag aufgepasst hatte, hat sie auch in der Kurve die Kontrolle behalten.",
-				"translation": "After the driver had paid attention to the wet road surface, she kept control even in the curve."
+				"sentence": "Nachdem der Vater kurz nicht aufgepasst hatte, sagte die Mutter, dass das Kind nicht allein weglaufen dürfe.",
+				"translation": "After the father had not paid attention for a moment, the mother said that the child must not run off alone."
 			}
 		],
 		"reviewCount": 0
@@ -50,17 +50,17 @@
 		"suffix": "",
 		"meaning": "to control, steer (steuerte, hat gesteuert)",
 		"extra": {
-			"info": "Das Verb beschreibt das gezielte Lenken von Bewegungen, Prozessen oder Ressourcen mithilfe bewusster Entscheidungen.",
-			"subInfo": "To direct movement or process."
+			"info": "Steuern bedeutet, dass man etwas lenkt oder kontrolliert, zum Beispiel ein Auto oder einen Ablauf.",
+			"subInfo": "To steer or control means that you guide or control something, for example a car or a process."
 		},
 		"examples": [
 			{
-				"sentence": "In komplexen Projekten muss man Prioritäten so steuern, dass kurzfristige Anforderungen und langfristige Ziele gleichzeitig berücksichtigt werden.",
-				"translation": "In complex projects, priorities must be managed so that short-term demands and long-term goals are considered at the same time."
+				"sentence": "Auf der schmalen Straße musste sie das Auto langsam steuern, weil dort viele Kinder unterwegs waren.",
+				"translation": "On the narrow road, she had to steer the car slowly because many children were out there."
 			},
 			{
-				"sentence": "Nachdem sie den Ablauf präziser gesteuert hatte, haben sich die Übergaben zwischen den Teams deutlich reibungsloser gestaltet.",
-				"translation": "After she had managed the process more precisely, handovers between the teams became significantly smoother."
+				"sentence": "Nachdem er den Ablauf im Lager besser gesteuert hatte, sagte der Chef, dass morgens weniger Chaos herrsche.",
+				"translation": "After he had controlled the process in the warehouse better, the boss said that there was less chaos in the mornings."
 			}
 		],
 		"reviewCount": 0
@@ -72,17 +72,17 @@
 		"suffix": "",
 		"meaning": "to replace (ersetzte, hat ersetzt)",
 		"extra": {
-			"info": "Das Verb bedeutet, etwas durch eine funktional passende Alternative auszutauschen.",
-			"subInfo": "To put one thing in place of another."
+			"info": "Ersetzen bedeutet, dass man eine Sache wegnimmt und eine andere an ihre Stelle setzt.",
+			"subInfo": "To replace means that you remove one thing and put another in its place."
 		},
 		"examples": [
 			{
-				"sentence": "Falls eine Komponente ausfällt, sollte man sie nicht provisorisch, sondern durch ein technisch gleichwertiges Teil ersetzen.",
-				"translation": "If a component fails, it should not be replaced provisionally but with a technically equivalent part."
+				"sentence": "Wir mussten die Lampe ersetzen, die nach dem Sturm nicht mehr funktionierte.",
+				"translation": "We had to replace the lamp that no longer worked after the storm."
 			},
 			{
-				"sentence": "Nachdem wir die veraltete Schnittstelle ersetzt hatten, hat die Datenübertragung deutlich stabiler funktioniert.",
-				"translation": "After we had replaced the outdated interface, data transfer worked much more reliably."
+				"sentence": "Nachdem der Hausmeister das alte Schloss ersetzt hatte, ließ sich die Tür wieder leicht öffnen.",
+				"translation": "After the caretaker had replaced the old lock, the door could be opened easily again."
 			}
 		],
 		"reviewCount": 0
@@ -94,17 +94,17 @@
 		"suffix": "",
 		"meaning": "to burn (brannte, hat gebrannt)",
 		"extra": {
-			"info": "Das Verb beschreibt sowohl das Entstehen von Feuer als auch das Leuchten oder starke Empfinden von Hitze.",
-			"subInfo": "To be on fire or cause fire."
+			"info": "Brennen bedeutet, dass etwas Feuer fängt, Feuer hat oder sehr heiß ist.",
+			"subInfo": "To burn means that something catches fire, has fire, or is very hot."
 		},
 		"examples": [
 			{
-				"sentence": "Da die Sicherheitsvorschriften missachtet wurden, konnte ein kleiner Defekt ausreichen, damit das Material innerhalb weniger Sekunden zu brennen begann.",
-				"translation": "Since safety regulations were ignored, a minor defect was enough for the material to start burning within seconds."
+				"sentence": "Im Garten brannte ein kleines Feuer, an dem wir uns nach dem Regen gewärmt haben.",
+				"translation": "A small fire was burning in the garden, where we warmed ourselves after the rain."
 			},
 			{
-				"sentence": "Nachdem die Kerze mehrere Stunden unbeaufsichtigt gebrannt hatte, hat der Rauchmelder rechtzeitig Alarm ausgelöst.",
-				"translation": "After the candle had burned unattended for several hours, the smoke detector triggered an alarm in time."
+				"sentence": "Nachdem die Kerze zu lange gebrannt hatte, sagte mein Vater, dass wir besser das Fenster öffnen sollten.",
+				"translation": "After the candle had burned for too long, my father said that we should better open the window."
 			}
 		],
 		"reviewCount": 0
@@ -116,17 +116,17 @@
 		"suffix": "",
 		"meaning": "to distract (lenkte ab, hat abgelenkt)",
 		"extra": {
-			"info": "Das Verb bedeutet, die Aufmerksamkeit von einer Aufgabe oder einem Ziel auf etwas anderes zu lenken.",
-			"subInfo": "To divert attention."
+			"info": "Ablenken bedeutet, dass jemand nicht mehr gut bei einer Sache bleibt, weil etwas anderes wichtiger wirkt.",
+			"subInfo": "To distract means that someone can no longer stay focused on something because something else seems more important."
 		},
 		"examples": [
 			{
-				"sentence": "Wenn Benachrichtigungen dauerhaft eingeblendet werden, können sie selbst erfahrene Mitarbeitende ablenken und die Qualität komplexer Entscheidungen mindern.",
-				"translation": "If notifications are constantly displayed, they can distract even experienced staff and reduce the quality of complex decisions."
+				"sentence": "Das laute Radio hat mich beim Lernen abgelenkt, obwohl ich die Tür schon geschlossen hatte.",
+				"translation": "The loud radio distracted me while studying, although I had already closed the door."
 			},
 			{
-				"sentence": "Nachdem das Team unnötige Meetings gestrichen hatte, haben sich die Mitglieder weniger ablenken lassen und fokussierter gearbeitet.",
-				"translation": "After the team had removed unnecessary meetings, members were distracted less and worked more focused."
+				"sentence": "Nachdem sie ihr Handy in die Tasche gelegt hatte, merkte sie, dass sie sich viel weniger ablenken ließ.",
+				"translation": "After she had put her phone into her bag, she noticed that she let herself be distracted much less."
 			}
 		],
 		"reviewCount": 0
@@ -138,17 +138,17 @@
 		"suffix": "",
 		"meaning": "to advise, guess (riet, hat geraten)",
 		"extra": {
-			"info": "Das Verb wird verwendet, um einen Vorschlag zu geben oder auf Basis begrenzter Informationen eine Vermutung zu äußern.",
-			"subInfo": "Used for giving advice or guessing."
+			"info": "Raten kann heißen, dass man einen Tipp gibt oder dass man etwas nicht genau weiß und es nur vermutet.",
+			"subInfo": "To advise or guess can mean that you give advice or that you do not know something exactly and only guess it."
 		},
 		"examples": [
 			{
-				"sentence": "Da die Datenlage noch unvollständig war, konnte die Analystin nur vorsichtig raten, welche Maßnahme kurzfristig den größten Effekt haben würde.",
-				"translation": "Since the data situation was still incomplete, the analyst could only cautiously estimate which measure would have the greatest short-term effect."
+				"sentence": "Ich konnte nur raten, wie alt der Mann war, der vor uns in der Schlange stand.",
+				"translation": "I could only guess how old the man was who was standing in line in front of us."
 			},
 			{
-				"sentence": "Nachdem er die bisherigen Ergebnisse sorgfältig verglichen hatte, hat er mir geraten, die Prioritäten neu zu ordnen.",
-				"translation": "After he had carefully compared the previous results, he advised me to reorder the priorities."
+				"sentence": "Nachdem die Ärztin mich untersucht hatte, riet sie mir, für ein paar Tage zu Hause zu bleiben.",
+				"translation": "After the doctor had examined me, she advised me to stay at home for a few days."
 			}
 		],
 		"reviewCount": 0
@@ -160,17 +160,17 @@
 		"suffix": "um + Akk.",
 		"meaning": "to ask, request (bat, hat gebeten)",
 		"extra": {
-			"info": "Das Verb drückt eine höfliche oder dringende Bitte aus, bei der man Unterstützung oder etwas Konkretes verlangt.",
-			"subInfo": "To ask someone for something."
+			"info": "Bitten bedeutet, dass man jemanden höflich um Hilfe oder um eine Sache fragt.",
+			"subInfo": "To ask means that you politely ask someone for help or for something."
 		},
 		"examples": [
 			{
-				"sentence": "Bevor wir den Vertrag finalisierten, mussten wir die Rechtsabteilung um eine detaillierte Prüfung der Haftungsklauseln bitten.",
-				"translation": "Before finalizing the contract, we had to ask the legal department for a detailed review of the liability clauses."
+				"sentence": "Ich habe die Nachbarin um etwas Zucker gebeten, weil die Läden schon zu waren.",
+				"translation": "I asked the neighbor for some sugar because the shops were already closed."
 			},
 			{
-				"sentence": "Nachdem sie die Situation erklärt hatte, hat sie das Team ausdrücklich um eine kurzfristige Unterstützung gebeten.",
-				"translation": "After she had explained the situation, she explicitly asked the team for short-term support."
+				"sentence": "Nachdem er den Fehler erklärt hatte, bat er den Lehrer um noch eine Chance.",
+				"translation": "After he had explained the mistake, he asked the teacher for one more chance."
 			}
 		],
 		"reviewCount": 0
@@ -182,17 +182,17 @@
 		"suffix": "aus + Dat.",
 		"meaning": "to exist, pass (bestand, hat bestanden)",
 		"extra": {
-			"info": "Das Verb kann entweder ausdrücken, woraus etwas zusammengesetzt ist, oder dass eine Prüfung erfolgreich absolviert wurde.",
-			"subInfo": "Can mean consist of or pass an exam."
+			"info": "Bestehen kann heißen, dass etwas aus Teilen gemacht ist. Es kann auch heißen, dass man eine Prüfung schafft.",
+			"subInfo": "To exist or pass can mean that something is made of parts. It can also mean that you pass an exam."
 		},
 		"examples": [
 			{
-				"sentence": "Da das Konzept aus mehreren voneinander abhängigen Modulen besteht, muss jede Änderung systemisch und nicht isoliert bewertet werden.",
-				"translation": "Since the concept consists of several interdependent modules, every change must be evaluated systemically rather than in isolation."
+				"sentence": "Die Suppe besteht aus Gemüse, das meine Großmutter frisch vom Markt geholt hat.",
+				"translation": "The soup consists of vegetables that my grandmother brought fresh from the market."
 			},
 			{
-				"sentence": "Nachdem sie sich monatelang vorbereitet hatte, hat sie die anspruchsvolle Prüfung im ersten Versuch bestanden.",
-				"translation": "After she had prepared for months, she passed the demanding exam on her first attempt."
+				"sentence": "Nachdem er sich viele Wochen vorbereitet hatte, bestand er die Prüfung schon beim ersten Mal.",
+				"translation": "After he had prepared for many weeks, he passed the exam on the first try."
 			}
 		],
 		"reviewCount": 0
@@ -204,17 +204,17 @@
 		"suffix": "",
 		"meaning": "to earn, deserve (verdiente, hat verdient)",
 		"extra": {
-			"info": "Das Verb kann bedeuten, finanziell etwas zu erwirtschaften oder aufgrund von Leistung eine Anerkennung zu erhalten.",
-			"subInfo": "Used for salary or merit."
+			"info": "Verdienen kann heißen, dass man Geld für seine Arbeit bekommt. Es kann auch heißen, dass man etwas durch sein Verhalten wert ist.",
+			"subInfo": "To earn or deserve can mean that you get money for your work. It can also mean that you are worthy of something because of your actions."
 		},
 		"examples": [
 			{
-				"sentence": "Wer Verantwortung für komplexe Prozesse übernimmt, sollte nicht nur angemessen verdienen, sondern auch strukturell entlastet werden.",
-				"translation": "Anyone who takes responsibility for complex processes should not only earn appropriately but also be structurally relieved."
+				"sentence": "In den Ferien verdient sie Geld in einem Café, das direkt am Fluss liegt.",
+				"translation": "During the holidays, she earns money in a café that is located right by the river."
 			},
 			{
-				"sentence": "Nachdem sie das Projekt unter schwierigen Bedingungen erfolgreich abgeschlossen hatte, hat sie eine besondere Anerkennung verdient.",
-				"translation": "After she had successfully completed the project under difficult conditions, she deserved special recognition."
+				"sentence": "Nachdem er mir bei dem Umzug geholfen hatte, sagte ich, dass er eine Pause verdient habe.",
+				"translation": "After he had helped me with the move, I said that he deserved a break."
 			}
 		],
 		"reviewCount": 0
@@ -226,17 +226,17 @@
 		"suffix": "",
 		"meaning": "to try (versuchte, hat versucht)",
 		"extra": {
-			"info": "Das Verb drückt aus, dass man einen bewussten Versuch unternimmt, ein Ziel trotz Unsicherheit zu erreichen.",
-			"subInfo": "To make an attempt."
+			"info": "Versuchen bedeutet, dass man etwas machen will, auch wenn man nicht sicher ist, ob es klappt.",
+			"subInfo": "To try means that you want to do something even if you are not sure whether it will work."
 		},
 		"examples": [
 			{
-				"sentence": "Obwohl die Rahmenbedingungen ungünstig waren, haben wir versucht, die Umsetzung durch klare Abstimmungen und regelmäßiges Feedback zu stabilisieren.",
-				"translation": "Although the conditions were unfavorable, we tried to stabilize implementation through clear coordination and regular feedback."
+				"sentence": "Obwohl es schon spät war, versuchten wir noch den letzten Bus zu erreichen.",
+				"translation": "Although it was already late, we still tried to catch the last bus."
 			},
 			{
-				"sentence": "Nachdem sie verschiedene Lösungswege verglichen hatte, hat sie versucht, den effizientesten Ansatz schrittweise zu testen.",
-				"translation": "After she had compared different solution paths, she tried to test the most efficient approach step by step."
+				"sentence": "Nachdem er mit dem Nachbarn gesprochen hatte, versuchte er, das Problem ohne Streit zu lösen.",
+				"translation": "After he had spoken with the neighbor, he tried to solve the problem without an argument."
 			}
 		],
 		"reviewCount": 0
@@ -248,17 +248,17 @@
 		"suffix": "",
 		"meaning": "to support (unterstützte, hat unterstützt)",
 		"extra": {
-			"info": "Das Verb beschreibt aktive Hilfe, durch die andere Personen oder Prozesse wirksam gestärkt werden.",
-			"subInfo": "To help someone actively."
+			"info": "Unterstützen bedeutet, dass man jemandem hilft, damit es leichter für ihn oder sie wird.",
+			"subInfo": "To support means that you help someone so that things become easier for him or her."
 		},
 		"examples": [
 			{
-				"sentence": "Damit neue Mitarbeitende schnell handlungsfähig werden, sollte man sie nicht nur fachlich, sondern auch organisatorisch gezielt unterstützen.",
-				"translation": "To ensure new employees become operational quickly, they should be supported not only professionally but also organizationally."
+				"sentence": "Meine Freunde haben mich bei dem Umzug unterstützt, der wegen des Regens besonders anstrengend war.",
+				"translation": "My friends supported me with the move, which was especially tiring because of the rain."
 			},
 			{
-				"sentence": "Nachdem das Team die Prioritäten abgestimmt hatte, hat es die Umsetzung mit klar verteilten Rollen gegenseitig unterstützt.",
-				"translation": "After the team had aligned priorities, it supported implementation mutually with clearly distributed roles."
+				"sentence": "Nachdem die Lehrerin den Plan erklärt hatte, unterstützte sie die Kinder bei der Gruppenarbeit.",
+				"translation": "After the teacher had explained the plan, she supported the children during the group work."
 			}
 		],
 		"reviewCount": 0

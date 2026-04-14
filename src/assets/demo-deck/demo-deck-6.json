@@ -6,17 +6,17 @@
 		"suffix": "zu + Dat.",
 		"meaning": "relationship, ratio (pl -se)",
 		"extra": {
-			"info": "Verhältnis beschreibt eine Beziehung zwischen Personen, Größen oder Faktoren, die inhaltlich oder quantitativ bestimmt ist.",
-			"subInfo": "A relation between things or people."
+			"info": "Ein Verhältnis ist eine Beziehung zwischen Menschen oder Dingen.",
+			"subInfo": "A relationship is a connection between people or things."
 		},
 		"examples": [
 			{
-				"sentence": "Ein stabiles Verhältnis zwischen Führung und Team entsteht nur dann, wenn Kritik transparent und respektvoll eingebracht werden kann.",
-				"translation": "A stable relationship between leadership and team only emerges when criticism can be expressed transparently and respectfully."
+				"sentence": "Sie hat ein gutes Verhältnis zu ihrer Chefin, die ihr bei Problemen oft hilft.",
+				"translation": "She has a good relationship with her boss, who often helps her with problems."
 			},
 			{
-				"sentence": "Nachdem sie das Verhältnis zu ihren Kolleginnen und Kollegen aktiv verbessert hatte, hat sich die Zusammenarbeit spürbar entspannt.",
-				"translation": "After she had actively improved her relationship with colleagues, collaboration became noticeably more relaxed."
+				"sentence": "Nachdem sie offen miteinander gesprochen hatten, sagte er, dass ihr Verhältnis jetzt viel besser sei.",
+				"translation": "After they had spoken openly with each other, he said that their relationship was much better now."
 			}
 		],
 		"reviewCount": 0
@@ -28,17 +28,17 @@
 		"suffix": "",
 		"meaning": "caution",
 		"extra": {
-			"info": "Vorsicht bezeichnet ein umsichtiges Verhalten, mit dem Risiken erkannt und potenzielle Schäden vermieden werden.",
-			"subInfo": "Carefulness to avoid danger."
+			"info": "Vorsicht bedeutet, dass man aufpasst, damit nichts Schlimmes passiert.",
+			"subInfo": "Caution means being careful to avoid something bad from happening."
 		},
 		"examples": [
 			{
-				"sentence": "Bei unklaren Rahmenbedingungen ist Vorsicht geboten, weil kleine Fehlannahmen in komplexen Prozessen schnell große Wirkung entfalten.",
-				"translation": "Under unclear conditions, caution is necessary because small wrong assumptions can quickly have major effects in complex processes."
+				"sentence": "Auf der nassen Treppe ist Vorsicht nötig, weil man dort leicht ausrutschen kann.",
+				"translation": "Caution is necessary on the wet stairs because you can easily slip there."
 			},
 			{
-				"sentence": "Nachdem der Hinweis auf erhöhte Vorsicht veröffentlicht worden war, hat sich die Zahl der Zwischenfälle reduziert.",
-				"translation": "After the notice calling for increased caution had been published, the number of incidents decreased."
+				"sentence": "Nachdem es fast einen Unfall gegeben hatte, sagte die Mutter, dass wir mehr Vorsicht brauchen.",
+				"translation": "After there had almost been an accident, the mother said that we needed more caution."
 			}
 		],
 		"reviewCount": 0
@@ -50,17 +50,17 @@
 		"suffix": "für + Akk.",
 		"meaning": "preference (pl -n)",
 		"extra": {
-			"info": "Eine Vorliebe beschreibt eine ausgeprägte persönliche Präferenz für bestimmte Inhalte, Stile oder Handlungsweisen.",
-			"subInfo": "A strong liking for something."
+			"info": "Eine Vorliebe ist, wenn man etwas besonders gern mag.",
+			"subInfo": "A preference is when you especially like something."
 		},
 		"examples": [
 			{
-				"sentence": "Ihre Vorliebe für analytische Methoden hat die Projektplanung geprägt, weil Entscheidungen konsequent datenbasiert getroffen wurden.",
-				"translation": "Her preference for analytical methods shaped project planning because decisions were made consistently on a data basis."
+				"sentence": "Meine Schwester hat eine Vorliebe für alte Filme, die sie am Wochenende gern anschaut.",
+				"translation": "My sister has a preference for old films that she likes to watch on weekends."
 			},
 			{
-				"sentence": "Nachdem er seine Vorliebe für klassische Musik wiederentdeckt hatte, hat er regelmäßig Konzerte besucht.",
-				"translation": "After he had rediscovered his preference for classical music, he attended concerts regularly."
+				"sentence": "Nachdem er seine Vorliebe für Jazz entdeckt hatte, erzählte er, dass er bald ein Konzert besuchen wolle.",
+				"translation": "After he had discovered his preference for jazz, he said that he wanted to attend a concert soon."
 			}
 		],
 		"reviewCount": 0
@@ -72,17 +72,17 @@
 		"suffix": "",
 		"meaning": "tension, suspense (pl -en)",
 		"extra": {
-			"info": "Spannung kann sowohl emotionale Erwartung als auch psychischen oder physischen Druck in einer Situation bezeichnen.",
-			"subInfo": "Mental or physical strain; suspense."
+			"info": "Spannung kann ein nervöses Gefühl oder große Erwartung sein.",
+			"subInfo": "Tension can be a nervous feeling or great expectation."
 		},
 		"examples": [
 			{
-				"sentence": "Die Spannung blieb bis zum Schluss erhalten, weil neue Informationen sorgfältig dosiert und strategisch platziert wurden.",
-				"translation": "The suspense remained until the end because new information was carefully dosed and strategically placed."
+				"sentence": "Vor dem Spiel war die Spannung im Stadion groß, weil beide Teams gewinnen wollten.",
+				"translation": "Before the match, the tension in the stadium was great because both teams wanted to win."
 			},
 			{
-				"sentence": "Nachdem die Spannung im Team über Wochen zugenommen hatte, hat die Moderation ein klärendes Gespräch initiiert.",
-				"translation": "After tension in the team had increased over weeks, moderation initiated a clarifying discussion."
+				"sentence": "Nachdem die Spannung im Team gestiegen war, sagte die Chefin, dass wir ruhig miteinander reden sollten.",
+				"translation": "After the tension in the team had risen, the boss said that we should speak calmly with each other."
 			}
 		],
 		"reviewCount": 0
@@ -94,17 +94,17 @@
 		"suffix": "",
 		"meaning": "support, promotion (pl -en)",
 		"extra": {
-			"info": "Förderung umfasst finanzielle, strukturelle oder inhaltliche Unterstützung, die Entwicklung und Teilhabe erleichtert.",
-			"subInfo": "Financial or practical support for development."
+			"info": "Förderung ist Hilfe, zum Beispiel mit Geld, Zeit oder guten Angeboten.",
+			"subInfo": "Support is help, for example with money, time, or good offers."
 		},
 		"examples": [
 			{
-				"sentence": "Wirksame Förderung entsteht dann, wenn Mittel nicht pauschal verteilt, sondern entlang klarer Bedarfsanalysen priorisiert werden.",
-				"translation": "Effective support arises when funds are not distributed indiscriminately but prioritized along clear needs analyses."
+				"sentence": "Ohne Förderung könnten viele Kinder nicht an dem Kurs teilnehmen, der jeden Dienstag stattfindet.",
+				"translation": "Without support, many children could not take part in the course that takes place every Tuesday."
 			},
 			{
-				"sentence": "Nachdem die Förderung bewilligt worden war, hat das Unternehmen die geplanten Investitionen schneller umgesetzt.",
-				"translation": "After funding had been approved, the company implemented the planned investments faster."
+				"sentence": "Nachdem die Förderung bewilligt worden war, meinte der Trainer, dass das Projekt endlich starten könne.",
+				"translation": "After the support had been approved, the coach said that the project could finally start."
 			}
 		],
 		"reviewCount": 0
@@ -116,17 +116,17 @@
 		"suffix": "",
 		"meaning": "residential complex (pl -n)",
 		"extra": {
-			"info": "Eine Wohnanlage ist ein baulich zusammenhängender Komplex mit mehreren Wohnungen und gemeinsamer Infrastruktur.",
-			"subInfo": "Group of residential buildings."
+			"info": "Eine Wohnanlage ist eine Gruppe von Häusern oder Wohnungen, die zusammengehören.",
+			"subInfo": "A residential complex is a group of houses or apartments that belong together."
 		},
 		"examples": [
 			{
-				"sentence": "Moderne Wohnanlagen sollten nicht nur verdichtet bauen, sondern auch soziale Räume schaffen, die Begegnung und Teilhabe ermöglichen.",
-				"translation": "Modern residential complexes should not only build densely but also create social spaces that enable interaction and participation."
+				"sentence": "In der neuen Wohnanlage gibt es einen Hof, in dem die Kinder jeden Abend spielen.",
+				"translation": "In the new residential complex, there is a courtyard where the children play every evening."
 			},
 			{
-				"sentence": "Nachdem die Wohnanlage umfassend saniert worden war, hat sich die Lebensqualität der Bewohner deutlich erhöht.",
-				"translation": "After the residential complex had been comprehensively renovated, residents’ quality of life increased significantly."
+				"sentence": "Nachdem die Wohnanlage renoviert worden war, sagten viele Bewohner, dass sie sich dort wohler fühlten.",
+				"translation": "After the residential complex had been renovated, many residents said that they felt more comfortable there."
 			}
 		],
 		"reviewCount": 0
@@ -138,17 +138,17 @@
 		"suffix": "",
 		"meaning": "association (pl -ände)",
 		"extra": {
-			"info": "Ein Verband ist ein organisierter Zusammenschluss, der gemeinsame Interessen koordiniert und nach außen vertritt.",
-			"subInfo": "An organized group or federation."
+			"info": "Ein Verband ist eine organisierte Gruppe, die gemeinsame Interessen vertritt.",
+			"subInfo": "An association is an organized group that represents shared interests."
 		},
 		"examples": [
 			{
-				"sentence": "Der Verband übernimmt eine wichtige Koordinationsfunktion, wenn unterschiedliche Akteure mit teilweise konkurrierenden Interessen zusammenarbeiten.",
-				"translation": "The association takes on an important coordination role when different actors with partly competing interests work together."
+				"sentence": "Der Verband hilft kleinen Vereinen, die allein oft nicht genug Geld haben.",
+				"translation": "The association helps small clubs that often do not have enough money on their own."
 			},
 			{
-				"sentence": "Nachdem der Verband neue Standards beschlossen hatte, haben sich die Mitgliedsorganisationen daran schrittweise angepasst.",
-				"translation": "After the association had adopted new standards, member organizations adapted to them step by step."
+				"sentence": "Nachdem der Verband neue Regeln beschlossen hatte, sagte unser Trainer, dass vieles klarer geworden sei.",
+				"translation": "After the association had decided on new rules, our coach said that many things had become clearer."
 			}
 		],
 		"reviewCount": 0
@@ -160,17 +160,17 @@
 		"suffix": "",
 		"meaning": "debts",
 		"extra": {
-			"info": "Schulden sind finanzielle Verpflichtungen, die gegenüber Gläubigern innerhalb vereinbarter Fristen zurückgezahlt werden müssen.",
-			"subInfo": "Money that someone owes."
+			"info": "Schulden sind Geld, das man anderen zurückzahlen muss.",
+			"subInfo": "Debts are money that you have to pay back to other people."
 		},
 		"examples": [
 			{
-				"sentence": "Ohne eine tragfähige Tilgungsstrategie können Schulden langfristig Handlungsspielräume einschränken und zusätzlichen Druck erzeugen.",
-				"translation": "Without a viable repayment strategy, debts can limit room for action in the long term and create additional pressure."
+				"sentence": "Wegen seiner Schulden konnte er keine Reise machen, obwohl er das lange geplant hatte.",
+				"translation": "Because of his debts, he could not take a trip although he had planned it for a long time."
 			},
 			{
-				"sentence": "Nachdem er seine Schulden systematisch umstrukturiert hatte, hat sich seine finanzielle Situation stabilisiert.",
-				"translation": "After he had systematically restructured his debts, his financial situation stabilized."
+				"sentence": "Nachdem sie ihre Schulden langsam bezahlt hatte, sagte sie, dass sie endlich ruhiger schlafen könne.",
+				"translation": "After she had slowly paid off her debts, she said that she could finally sleep more calmly."
 			}
 		],
 		"reviewCount": 0
@@ -182,17 +182,17 @@
 		"suffix": "",
 		"meaning": "debt-free",
 		"extra": {
-			"info": "Das Adjektiv beschreibt den Zustand, keine offenen finanziellen Verbindlichkeiten mehr zu haben.",
-			"subInfo": "Without any debts."
+			"info": "Schuldenfrei bedeutet, dass man keine Schulden mehr hat.",
+			"subInfo": "Debt-free means that you no longer have any debts."
 		},
 		"examples": [
 			{
-				"sentence": "Wirklich schuldenfrei bleibt man nur dann, wenn Ausgaben, Rücklagen und langfristige Verpflichtungen realistisch austariert sind.",
-				"translation": "You remain truly debt-free only when expenses, reserves, and long-term obligations are balanced realistically."
+				"sentence": "Er war froh, als er nach vielen Jahren endlich schuldenfrei war und wieder sparen konnte.",
+				"translation": "He was happy when, after many years, he was finally debt-free and could save money again."
 			},
 			{
-				"sentence": "Nachdem sie ihren Rückzahlungsplan konsequent umgesetzt hatte, war sie zum Jahresende vollständig schuldenfrei.",
-				"translation": "After she had implemented her repayment plan consistently, she was completely debt-free by year-end."
+				"sentence": "Nachdem das Paar den Kredit ganz bezahlt hatte, erzählten sie, dass sie jetzt schuldenfrei seien.",
+				"translation": "After the couple had paid the loan in full, they said that they were now debt-free."
 			}
 		],
 		"reviewCount": 0
@@ -204,17 +204,17 @@
 		"suffix": "",
 		"meaning": "content (pl -e)",
 		"extra": {
-			"info": "Inhalt bezeichnet die inhaltliche Substanz eines Textes, Vortrags oder Mediums, unabhängig von seiner äußeren Form.",
-			"subInfo": "What something contains."
+			"info": "Der Inhalt ist das, was in einem Text, Film oder Paket drin ist.",
+			"subInfo": "The content is what is inside a text, film, or package."
 		},
 		"examples": [
 			{
-				"sentence": "Der Inhalt sollte nicht nur informativ sein, sondern auch logisch aufgebaut, damit komplexe Argumente nachvollziehbar bleiben.",
-				"translation": "Content should not only be informative but also logically structured so that complex arguments remain understandable."
+				"sentence": "Der Inhalt des Briefes, den ich gestern bekommen habe, war für mich eine große Überraschung.",
+				"translation": "The content of the letter that I got yesterday was a big surprise for me."
 			},
 			{
-				"sentence": "Nachdem wir den Inhalt neu strukturiert hatten, hat die Präsentation deutlich klarer gewirkt.",
-				"translation": "After we had restructured the content, the presentation appeared much clearer."
+				"sentence": "Nachdem wir den Inhalt des Vortrags besprochen hatten, sagte der Lehrer, dass alles gut verstanden worden sei.",
+				"translation": "After we had discussed the content of the presentation, the teacher said that everything had been understood well."
 			}
 		],
 		"reviewCount": 0
@@ -226,17 +226,17 @@
 		"suffix": "",
 		"meaning": "decisive at short notice",
 		"extra": {
-			"info": "Das Adjektiv beschreibt ein schnelles, entschlossenes Handeln in unerwarteten oder zeitkritischen Situationen.",
-			"subInfo": "Making decisions quickly in a situation."
+			"info": "Kurzentschlossen bedeutet, dass man sehr schnell etwas entscheidet und macht.",
+			"subInfo": "Decisive at short notice means that you decide and do something very quickly."
 		},
 		"examples": [
 			{
-				"sentence": "In kritischen Momenten ist es hilfreich, kurzentschlossen zu handeln, sofern die wichtigsten Risiken parallel abgesichert werden.",
-				"translation": "In critical moments, it is helpful to act decisively at short notice, provided the key risks are mitigated in parallel."
+				"sentence": "Als es zu regnen begann, fuhren wir kurzentschlossen nach Hause, obwohl wir länger bleiben wollten.",
+				"translation": "When it started to rain, we decided at short notice to drive home although we had wanted to stay longer."
 			},
 			{
-				"sentence": "Nachdem sie die Lage präzise eingeschätzt hatte, hat sie kurzentschlossen eingegriffen und größeren Schaden verhindert.",
-				"translation": "After she had assessed the situation precisely, she intervened decisively at short notice and prevented greater damage."
+				"sentence": "Nachdem sie den Anruf bekommen hatte, handelte sie kurzentschlossen und sagte, dass wir sofort losfahren müssten.",
+				"translation": "After she had received the call, she acted at short notice and said that we had to leave immediately."
 			}
 		],
 		"reviewCount": 0
