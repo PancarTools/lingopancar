@@ -95,7 +95,7 @@
 		"meaning": "ladder (pl -n)",
 		"extra": {
 			"info": "Eine Leiter ist ein Hilfsmittel, mit dem man nach oben steigt.",
-			"subInfo": "A ladder is a tool with which you climb upward."
+			"subInfo": "A ladder is a tool you use to climb up."
 		},
 		"examples": [
 			{
@@ -183,7 +183,7 @@
 		"meaning": "single-use",
 		"extra": {
 			"info": "Einweg beschreibt Dinge, die man nur einmal benutzt.",
-			"subInfo": "Single-use describes things that you use only one time."
+			"subInfo": "Single-use describes things that you use only once."
 		},
 		"examples": [
 			{

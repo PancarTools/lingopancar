@@ -12,7 +12,7 @@
 		"examples": [
 			{
 				"sentence": "Im Bus gab es einen Streit zwischen zwei Fahrgästen, die wegen des lauten Telefons genervt waren.",
-				"translation": "There was an argument on the bus between two passengers who were annoyed by the loud phone."
+				"translation": "There was an argument on the bus between two passengers who were annoyed by the loud phone call."
 			},
 			{
 				"sentence": "Nachdem wir uns über das Geld gestritten hatten, sagte mein Bruder, dass wir später in Ruhe reden sollten.",
@@ -100,7 +100,7 @@
 		"examples": [
 			{
 				"sentence": "In der Schule haben wir ein Gedicht gelesen, das von einer Reise ans Meer erzählt.",
-				"translation": "At school we read a poem that tells about a trip to the sea."
+				"translation": "At school we read a poem about a trip to the sea."
 			},
 			{
 				"sentence": "Nachdem sie das Gedicht zweimal laut gelesen hatte, sagte sie, dass sie es jetzt besser verstehe.",
@@ -183,7 +183,7 @@
 		"meaning": "instead of",
 		"extra": {
 			"info": "Statt zeigt, dass man etwas anderes macht oder nimmt als zuerst gedacht.",
-			"subInfo": "Instead of shows that you do or take something different from what was first planned."
+			"subInfo": "Instead of is used when you do or take something different from what was first planned."
 		},
 		"examples": [
 			{
@@ -249,7 +249,7 @@
 		"meaning": "to take care (kümmerte, hat gekümmert)",
 		"extra": {
 			"info": "Sich um jemanden oder etwas kümmern bedeutet, Zeit dafür zu geben und zu helfen.",
-			"subInfo": "To take care of someone or something means to give time to it and help."
+			"subInfo": "To take care of someone or something means to spend time on it and help."
 		},
 		"examples": [
 			{
