@@ -1,0 +1,266 @@
+[
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "bestreiten",
+		"suffix": "",
+		"meaning": "to dispute, to manage (bestritt, hat bestritten)",
+		"extra": {
+			"info": "Das Verb kann entweder bedeuten, eine Behauptung zurückzuweisen, oder den Lebensunterhalt beziehungsweise Kosten zu tragen.",
+			"subInfo": "Can mean deny or cover costs."
+		},
+		"examples": [
+			{
+				"sentence": "Da die Datenlage widersprüchlich war, konnte die Expertin die Schlussfolgerung nachvollziehbar bestreiten, ohne den Gesamtbefund pauschal abzulehnen.",
+				"translation": "Since the data situation was contradictory, the expert was able to plausibly dispute the conclusion without rejecting the overall findings outright."
+			},
+			{
+				"sentence": "Nachdem er die Ausbildung abgeschlossen hatte, hat er seinen Lebensunterhalt vollständig selbst bestritten.",
+				"translation": "After he had completed his training, he fully supported himself financially."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "aufpassen",
+		"suffix": "auf + Akk.",
+		"meaning": "to pay attention (passte auf, hat aufgepasst)",
+		"extra": {
+			"info": "Das Verb bedeutet, aufmerksam und vorsichtig zu handeln, insbesondere in Situationen mit erhöhtem Risiko.",
+			"subInfo": "To be careful or attentive."
+		},
+		"examples": [
+			{
+				"sentence": "Damit bei der Auswertung keine Fehler entstehen, muss man aufpassen, welche Annahmen den Berechnungen tatsächlich zugrunde liegen.",
+				"translation": "To avoid errors in evaluation, one must pay close attention to which assumptions actually underlie the calculations."
+			},
+			{
+				"sentence": "Nachdem die Fahrerin auf den nassen Straßenbelag aufgepasst hatte, hat sie auch in der Kurve die Kontrolle behalten.",
+				"translation": "After the driver had paid attention to the wet road surface, she kept control even in the curve."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "steuern",
+		"suffix": "",
+		"meaning": "to control, steer (steuerte, hat gesteuert)",
+		"extra": {
+			"info": "Das Verb beschreibt das gezielte Lenken von Bewegungen, Prozessen oder Ressourcen mithilfe bewusster Entscheidungen.",
+			"subInfo": "To direct movement or process."
+		},
+		"examples": [
+			{
+				"sentence": "In komplexen Projekten muss man Prioritäten so steuern, dass kurzfristige Anforderungen und langfristige Ziele gleichzeitig berücksichtigt werden.",
+				"translation": "In complex projects, priorities must be managed so that short-term demands and long-term goals are considered at the same time."
+			},
+			{
+				"sentence": "Nachdem sie den Ablauf präziser gesteuert hatte, haben sich die Übergaben zwischen den Teams deutlich reibungsloser gestaltet.",
+				"translation": "After she had managed the process more precisely, handovers between the teams became significantly smoother."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "ersetzen",
+		"suffix": "",
+		"meaning": "to replace (ersetzte, hat ersetzt)",
+		"extra": {
+			"info": "Das Verb bedeutet, etwas durch eine funktional passende Alternative auszutauschen.",
+			"subInfo": "To put one thing in place of another."
+		},
+		"examples": [
+			{
+				"sentence": "Falls eine Komponente ausfällt, sollte man sie nicht provisorisch, sondern durch ein technisch gleichwertiges Teil ersetzen.",
+				"translation": "If a component fails, it should not be replaced provisionally but with a technically equivalent part."
+			},
+			{
+				"sentence": "Nachdem wir die veraltete Schnittstelle ersetzt hatten, hat die Datenübertragung deutlich stabiler funktioniert.",
+				"translation": "After we had replaced the outdated interface, data transfer worked much more reliably."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "brennen",
+		"suffix": "",
+		"meaning": "to burn (brannte, hat gebrannt)",
+		"extra": {
+			"info": "Das Verb beschreibt sowohl das Entstehen von Feuer als auch das Leuchten oder starke Empfinden von Hitze.",
+			"subInfo": "To be on fire or cause fire."
+		},
+		"examples": [
+			{
+				"sentence": "Da die Sicherheitsvorschriften missachtet wurden, konnte ein kleiner Defekt ausreichen, damit das Material innerhalb weniger Sekunden zu brennen begann.",
+				"translation": "Since safety regulations were ignored, a minor defect was enough for the material to start burning within seconds."
+			},
+			{
+				"sentence": "Nachdem die Kerze mehrere Stunden unbeaufsichtigt gebrannt hatte, hat der Rauchmelder rechtzeitig Alarm ausgelöst.",
+				"translation": "After the candle had burned unattended for several hours, the smoke detector triggered an alarm in time."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "ablenken",
+		"suffix": "",
+		"meaning": "to distract (lenkte ab, hat abgelenkt)",
+		"extra": {
+			"info": "Das Verb bedeutet, die Aufmerksamkeit von einer Aufgabe oder einem Ziel auf etwas anderes zu lenken.",
+			"subInfo": "To divert attention."
+		},
+		"examples": [
+			{
+				"sentence": "Wenn Benachrichtigungen dauerhaft eingeblendet werden, können sie selbst erfahrene Mitarbeitende ablenken und die Qualität komplexer Entscheidungen mindern.",
+				"translation": "If notifications are constantly displayed, they can distract even experienced staff and reduce the quality of complex decisions."
+			},
+			{
+				"sentence": "Nachdem das Team unnötige Meetings gestrichen hatte, haben sich die Mitglieder weniger ablenken lassen und fokussierter gearbeitet.",
+				"translation": "After the team had removed unnecessary meetings, members were distracted less and worked more focused."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "raten",
+		"suffix": "",
+		"meaning": "to advise, guess (riet, hat geraten)",
+		"extra": {
+			"info": "Das Verb wird verwendet, um einen Vorschlag zu geben oder auf Basis begrenzter Informationen eine Vermutung zu äußern.",
+			"subInfo": "Used for giving advice or guessing."
+		},
+		"examples": [
+			{
+				"sentence": "Da die Datenlage noch unvollständig war, konnte die Analystin nur vorsichtig raten, welche Maßnahme kurzfristig den größten Effekt haben würde.",
+				"translation": "Since the data situation was still incomplete, the analyst could only cautiously estimate which measure would have the greatest short-term effect."
+			},
+			{
+				"sentence": "Nachdem er die bisherigen Ergebnisse sorgfältig verglichen hatte, hat er mir geraten, die Prioritäten neu zu ordnen.",
+				"translation": "After he had carefully compared the previous results, he advised me to reorder the priorities."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "bitten",
+		"suffix": "um + Akk.",
+		"meaning": "to ask, request (bat, hat gebeten)",
+		"extra": {
+			"info": "Das Verb drückt eine höfliche oder dringende Bitte aus, bei der man Unterstützung oder etwas Konkretes verlangt.",
+			"subInfo": "To ask someone for something."
+		},
+		"examples": [
+			{
+				"sentence": "Bevor wir den Vertrag finalisierten, mussten wir die Rechtsabteilung um eine detaillierte Prüfung der Haftungsklauseln bitten.",
+				"translation": "Before finalizing the contract, we had to ask the legal department for a detailed review of the liability clauses."
+			},
+			{
+				"sentence": "Nachdem sie die Situation erklärt hatte, hat sie das Team ausdrücklich um eine kurzfristige Unterstützung gebeten.",
+				"translation": "After she had explained the situation, she explicitly asked the team for short-term support."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "bestehen",
+		"suffix": "aus + Dat.",
+		"meaning": "to exist, pass (bestand, hat bestanden)",
+		"extra": {
+			"info": "Das Verb kann entweder ausdrücken, woraus etwas zusammengesetzt ist, oder dass eine Prüfung erfolgreich absolviert wurde.",
+			"subInfo": "Can mean consist of or pass an exam."
+		},
+		"examples": [
+			{
+				"sentence": "Da das Konzept aus mehreren voneinander abhängigen Modulen besteht, muss jede Änderung systemisch und nicht isoliert bewertet werden.",
+				"translation": "Since the concept consists of several interdependent modules, every change must be evaluated systemically rather than in isolation."
+			},
+			{
+				"sentence": "Nachdem sie sich monatelang vorbereitet hatte, hat sie die anspruchsvolle Prüfung im ersten Versuch bestanden.",
+				"translation": "After she had prepared for months, she passed the demanding exam on her first attempt."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "verdienen",
+		"suffix": "",
+		"meaning": "to earn, deserve (verdiente, hat verdient)",
+		"extra": {
+			"info": "Das Verb kann bedeuten, finanziell etwas zu erwirtschaften oder aufgrund von Leistung eine Anerkennung zu erhalten.",
+			"subInfo": "Used for salary or merit."
+		},
+		"examples": [
+			{
+				"sentence": "Wer Verantwortung für komplexe Prozesse übernimmt, sollte nicht nur angemessen verdienen, sondern auch strukturell entlastet werden.",
+				"translation": "Anyone who takes responsibility for complex processes should not only earn appropriately but also be structurally relieved."
+			},
+			{
+				"sentence": "Nachdem sie das Projekt unter schwierigen Bedingungen erfolgreich abgeschlossen hatte, hat sie eine besondere Anerkennung verdient.",
+				"translation": "After she had successfully completed the project under difficult conditions, she deserved special recognition."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "versuchen",
+		"suffix": "",
+		"meaning": "to try (versuchte, hat versucht)",
+		"extra": {
+			"info": "Das Verb drückt aus, dass man einen bewussten Versuch unternimmt, ein Ziel trotz Unsicherheit zu erreichen.",
+			"subInfo": "To make an attempt."
+		},
+		"examples": [
+			{
+				"sentence": "Obwohl die Rahmenbedingungen ungünstig waren, haben wir versucht, die Umsetzung durch klare Abstimmungen und regelmäßiges Feedback zu stabilisieren.",
+				"translation": "Although the conditions were unfavorable, we tried to stabilize implementation through clear coordination and regular feedback."
+			},
+			{
+				"sentence": "Nachdem sie verschiedene Lösungswege verglichen hatte, hat sie versucht, den effizientesten Ansatz schrittweise zu testen.",
+				"translation": "After she had compared different solution paths, she tried to test the most efficient approach step by step."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "unterstützen",
+		"suffix": "",
+		"meaning": "to support (unterstützte, hat unterstützt)",
+		"extra": {
+			"info": "Das Verb beschreibt aktive Hilfe, durch die andere Personen oder Prozesse wirksam gestärkt werden.",
+			"subInfo": "To help someone actively."
+		},
+		"examples": [
+			{
+				"sentence": "Damit neue Mitarbeitende schnell handlungsfähig werden, sollte man sie nicht nur fachlich, sondern auch organisatorisch gezielt unterstützen.",
+				"translation": "To ensure new employees become operational quickly, they should be supported not only professionally but also organizationally."
+			},
+			{
+				"sentence": "Nachdem das Team die Prioritäten abgestimmt hatte, hat es die Umsetzung mit klar verteilten Rollen gegenseitig unterstützt.",
+				"translation": "After the team had aligned priorities, it supported implementation mutually with clearly distributed roles."
+			}
+		],
+		"reviewCount": 0
+	}
+]

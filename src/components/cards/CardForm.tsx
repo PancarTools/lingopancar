@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { addCard } from "@/lib/firebase-service";
 import { useAuth } from "@/app/providers";
 import { CARD_TYPE } from "@/lib/types";
-import type { Card, CardType } from "@/lib/types";
+import type { Card, CardExtra, CardType } from "@/lib/types";
 
 interface CardFormProps {
 	deckId: string;
@@ -20,7 +20,8 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 	const [main, setMain] = useState("");
 	const [suffix, setSuffix] = useState("");
 	const [meaning, setMeaning] = useState("");
-	const [description, setDescription] = useState("");
+	const [extraInfo, setExtraInfo] = useState("");
+	const [extraSubInfo, setExtraSubInfo] = useState("");
 	const [examples, setExamples] = useState([{ sentence: "", translation: "" }]);
 	const [isSubmitting, setIsSubmitting] = useState(false);
 	const [error, setError] = useState<string | null>(null);
@@ -39,7 +40,10 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 		const sanitizedMeaning = meaning.trim().slice(0, 200);
 		const sanitizedPrefix = prefix.trim().slice(0, 50);
 		const sanitizedSuffix = suffix.trim().slice(0, 50);
-		const sanitizedDescription = description.trim().slice(0, 300);
+		const sanitizedExtra: CardExtra = {
+			info: extraInfo.trim().slice(0, 300),
+			subInfo: extraSubInfo.trim().slice(0, 300),
+		};
 
 		const sanitizedExamples = examples.map((example) => ({
 			sentence: example.sentence.trim().slice(0, 200),
@@ -55,35 +59,35 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 		setError(null);
 
 		try {
-			const cardData =
+			const sanitizedExampleItems = sanitizedExamples.filter((ex) => ex.sentence);
+			const newCard =
 				cardType === CARD_TYPE.SIMPLE
-					? {
+					? await addCard(user.uid, deckId, {
 							type: CARD_TYPE.SIMPLE,
 							main: sanitizedMain,
 							meaning: sanitizedMeaning,
-							description: sanitizedDescription,
-							examples: sanitizedExamples.filter((ex) => ex.sentence),
+							extra: sanitizedExtra,
+							examples: sanitizedExampleItems,
 							reviewCount: 0,
-						}
-					: {
+						})
+					: await addCard(user.uid, deckId, {
 							type: CARD_TYPE.DETAILED,
 							prefix: sanitizedPrefix,
 							main: sanitizedMain,
 							suffix: sanitizedSuffix,
 							meaning: sanitizedMeaning,
-							description: sanitizedDescription,
-							examples: sanitizedExamples.filter((ex) => ex.sentence),
+							extra: sanitizedExtra,
+							examples: sanitizedExampleItems,
 							reviewCount: 0,
-						};
-
-			const newCard = await addCard(user!.uid, deckId, cardData);
+						});
 
 			onCardAdded(newCard);
 			setPrefix("");
 			setMain("");
 			setSuffix("");
 			setMeaning("");
-			setDescription("");
+			setExtraInfo("");
+			setExtraSubInfo("");
 			setExamples([{ sentence: "", translation: "" }]);
 		} catch (err) {
 			setError(err instanceof Error ? err.message : "Failed to create card");
@@ -155,12 +159,25 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 
 					<div>
 						<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">
-							Description (optional)
+							Definition (German, optional)
 						</label>
 						<textarea
-							value={description}
-							onChange={(e) => setDescription(e.target.value)}
-							placeholder="Additional notes or explanation"
+							value={extraInfo}
+							onChange={(e) => setExtraInfo(e.target.value)}
+							placeholder="Kurze Erklärung auf Deutsch"
+							rows={3}
+							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+						></textarea>
+					</div>
+
+					<div>
+						<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">
+							Definition Translation (English, optional)
+						</label>
+						<textarea
+							value={extraSubInfo}
+							onChange={(e) => setExtraSubInfo(e.target.value)}
+							placeholder="English translation of the German definition"
 							rows={3}
 							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
 						></textarea>
@@ -272,12 +289,25 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 
 					<div>
 						<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">
-							Description (hint)
+							Definition (German)
 						</label>
 						<textarea
-							value={description}
-							onChange={(e) => setDescription(e.target.value)}
-							placeholder="Explanation in the target language"
+							value={extraInfo}
+							onChange={(e) => setExtraInfo(e.target.value)}
+							placeholder="Erklärung auf Deutsch"
+							rows={3}
+							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+						></textarea>
+					</div>
+
+					<div>
+						<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">
+							Definition Translation (English)
+						</label>
+						<textarea
+							value={extraSubInfo}
+							onChange={(e) => setExtraSubInfo(e.target.value)}
+							placeholder="English translation"
 							rows={3}
 							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
 						></textarea>

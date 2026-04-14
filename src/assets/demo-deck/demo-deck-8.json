@@ -1,0 +1,244 @@
+[
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "unbedingt",
+		"suffix": "",
+		"meaning": "absolutely, definitely",
+		"extra": {
+			"info": "Das Adverb verstärkt eine Aussage und drückt aus, dass etwas zwingend notwendig oder sehr sicher ist.",
+			"subInfo": "Expresses strong necessity or certainty."
+		},
+		"examples": [
+			{
+				"sentence": "Wenn wir den Termin halten wollen, müssen wir die offenen Punkte unbedingt heute priorisieren und verbindlich zuordnen.",
+				"translation": "If we want to keep the deadline, we absolutely must prioritize the open points today and assign them bindingly."
+			},
+			{
+				"sentence": "Nachdem wir die Risiken neu bewertet hatten, mussten wir unbedingt zusätzliche Sicherheitsprüfungen einplanen.",
+				"translation": "After we had reassessed the risks, we absolutely had to schedule additional safety checks."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "bequem",
+		"suffix": "",
+		"meaning": "comfortable",
+		"extra": {
+			"info": "Das Adjektiv beschreibt etwas, das körperlich oder organisatorisch angenehm ist und wenig Anstrengung verursacht.",
+			"subInfo": "Providing comfort."
+		},
+		"examples": [
+			{
+				"sentence": "Eine bequem nutzbare Oberfläche reduziert Fehler, weil zentrale Funktionen ohne Umwege erreichbar bleiben.",
+				"translation": "A comfortably usable interface reduces errors because central functions remain accessible without detours."
+			},
+			{
+				"sentence": "Nachdem wir ergonomische Möbel getestet hatten, war der neue Arbeitsplatz deutlich bequemer als zuvor.",
+				"translation": "After we had tested ergonomic furniture, the new workspace was much more comfortable than before."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "bisher",
+		"suffix": "",
+		"meaning": "so far, until now",
+		"extra": {
+			"info": "Das Adverb markiert den zeitlichen Verlauf bis zum aktuellen Zeitpunkt und verweist auf einen bisherigen Stand.",
+			"subInfo": "Refers to time up to the present."
+		},
+		"examples": [
+			{
+				"sentence": "Bisher haben wir die Ziele erreicht, obwohl mehrere externe Faktoren die ursprüngliche Planung erschwert haben.",
+				"translation": "So far we have reached the goals, although several external factors made the original planning more difficult."
+			},
+			{
+				"sentence": "Nachdem wir die Zahlen erneut geprüft hatten, blieb der Verlauf bisher stabiler als erwartet.",
+				"translation": "After we had rechecked the figures, the development remained more stable than expected so far."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "dabei",
+		"suffix": "",
+		"meaning": "in the process, with it",
+		"extra": {
+			"info": "Das Wort zeigt Beteiligung, gleichzeitiges Geschehen oder den Verlauf eines laufenden Prozesses an.",
+			"subInfo": "Used in many contexts to indicate participation or process."
+		},
+		"examples": [
+			{
+				"sentence": "Wir sind dabei, die Abläufe zu standardisieren, damit Übergaben zwischen den Teams verlässlich funktionieren.",
+				"translation": "We are in the process of standardizing workflows so that handovers between teams function reliably."
+			},
+			{
+				"sentence": "Nachdem sie wochenlang dabei gewesen war, den Leitfaden zu überarbeiten, hat sie die finale Version veröffentlicht.",
+				"translation": "After she had been working on revising the guideline for weeks, she published the final version."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Leiter",
+		"suffix": "",
+		"meaning": "ladder (pl -n)",
+		"extra": {
+			"info": "Eine Leiter ist ein Hilfsmittel zum sicheren Erreichen höherer Positionen bei Wartungs-, Bau- oder Haushaltsarbeiten.",
+			"subInfo": "Tool used to climb up."
+		},
+		"examples": [
+			{
+				"sentence": "Bevor die Arbeiten beginnen, muss die Leiter stabil gesichert werden, damit bei Belastung keine Unfallgefahr entsteht.",
+				"translation": "Before work begins, the ladder must be secured stably so that no accident risk arises under load."
+			},
+			{
+				"sentence": "Nachdem die Leiter korrekt positioniert worden war, hat das Team die Reparatur in kurzer Zeit abgeschlossen.",
+				"translation": "After the ladder had been positioned correctly, the team completed the repair in a short time."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Obdachlose",
+		"suffix": "",
+		"meaning": "homeless person",
+		"extra": {
+			"info": "Das Substantiv bezeichnet eine Frau ohne festen Wohnsitz, die auf soziale Unterstützung angewiesen sein kann.",
+			"subInfo": "A person without permanent housing."
+		},
+		"examples": [
+			{
+				"sentence": "Die Obdachlose erhielt erst dann Zugang zu stabiler Hilfe, als mehrere Stellen ihre Angebote besser aufeinander abgestimmt hatten.",
+				"translation": "The homeless woman only gained access to stable support once several institutions had coordinated their services better."
+			},
+			{
+				"sentence": "Nachdem die Obdachlose eine feste Beratung bekommen hatte, hat sich ihre Wohnsituation schrittweise stabilisiert.",
+				"translation": "After the homeless woman had received consistent counseling, her housing situation gradually stabilized."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Schützling",
+		"suffix": "",
+		"meaning": "protégé, ward (pl -e)",
+		"extra": {
+			"info": "Ein Schützling ist eine Person, die unter besonderer Förderung, Betreuung oder dem Schutz einer erfahreneren Person steht.",
+			"subInfo": "Someone under the protection or mentorship of another."
+		},
+		"examples": [
+			{
+				"sentence": "Der Mentor unterstützte seinen Schützling gezielt, damit fachliche Stärken sichtbar wurden und Selbstvertrauen wachsen konnte.",
+				"translation": "The mentor supported his protégé purposefully so that professional strengths became visible and confidence could grow."
+			},
+			{
+				"sentence": "Nachdem der Schützling regelmäßig Feedback erhalten hatte, hat er seine Leistung konstant verbessert.",
+				"translation": "After the protégé had received regular feedback, he improved his performance consistently."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "besonders",
+		"suffix": "",
+		"meaning": "especially",
+		"extra": {
+			"info": "Das Adverb hebt einen Aspekt hervor und verstärkt dessen Bedeutung innerhalb einer Aussage.",
+			"subInfo": "Used to emphasize a specific point."
+		},
+		"examples": [
+			{
+				"sentence": "Besonders in komplexen Projekten lohnt sich eine klare Dokumentation, weil spätere Entscheidungen darauf aufbauen.",
+				"translation": "Especially in complex projects, clear documentation is worthwhile because later decisions build on it."
+			},
+			{
+				"sentence": "Nachdem die Anforderungen konkretisiert worden waren, wurde besonders auf die Qualitätssicherung geachtet.",
+				"translation": "After the requirements had been specified, special attention was paid to quality assurance."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "Einweg",
+		"suffix": "",
+		"meaning": "single-use",
+		"extra": {
+			"info": "Einweg beschreibt Produkte, die nur einmal verwendet und danach entsorgt werden.",
+			"subInfo": "Intended for one-time use only."
+		},
+		"examples": [
+			{
+				"sentence": "Einwegverpackungen verursachen hohe Abfallmengen, wenn keine wirksamen Rücknahme- und Mehrwegsysteme etabliert werden.",
+				"translation": "Single-use packaging causes high waste volumes if no effective return and reusable systems are established."
+			},
+			{
+				"sentence": "Nachdem der Betrieb Einwegmaterialien reduziert hatte, hat sich sein ökologischer Fußabdruck merklich verbessert.",
+				"translation": "After the company had reduced single-use materials, its ecological footprint improved noticeably."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "dagegen",
+		"suffix": "",
+		"meaning": "against it, on the other hand",
+		"extra": {
+			"info": "Das Wort wird genutzt, um Widerspruch auszudrücken oder einen kontrastierenden Standpunkt einzuleiten.",
+			"subInfo": "Used for opposition or contrast."
+		},
+		"examples": [
+			{
+				"sentence": "Viele befürworteten den Vorschlag, ich war dagegen, weil zentrale Risiken bislang nicht belastbar bewertet worden waren.",
+				"translation": "Many supported the proposal; I was against it because key risks had not yet been reliably assessed."
+			},
+			{
+				"sentence": "Nachdem zusätzliche Daten vorgelegen hatten, sprach jedoch kaum noch jemand dagegen.",
+				"translation": "After additional data had become available, hardly anyone argued against it anymore."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Hingabe",
+		"suffix": "",
+		"meaning": "devotion, dedication",
+		"extra": {
+			"info": "Hingabe beschreibt ein intensives, engagiertes Handeln, bei dem Aufmerksamkeit und Einsatz über längere Zeit konstant bleiben.",
+			"subInfo": "Strong commitment and dedication."
+		},
+		"examples": [
+			{
+				"sentence": "Mit großer Hingabe entwickelte sie ein Konzept, das fachliche Präzision mit sozialer Verantwortung verknüpfte.",
+				"translation": "With great dedication, she developed a concept that combined professional precision with social responsibility."
+			},
+			{
+				"sentence": "Nachdem das Team monatelang mit Hingabe an der Lösung gearbeitet hatte, wurde das Ergebnis breit anerkannt.",
+				"translation": "After the team had worked on the solution with dedication for months, the result was widely recognized."
+			}
+		],
+		"reviewCount": 0
+	}
+]

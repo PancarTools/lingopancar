@@ -1,0 +1,244 @@
+[
+	{
+		"type": "detailed",
+		"prefix": "das",
+		"main": "Verhältnis",
+		"suffix": "zu + Dat.",
+		"meaning": "relationship, ratio (pl -se)",
+		"extra": {
+			"info": "Verhältnis beschreibt eine Beziehung zwischen Personen, Größen oder Faktoren, die inhaltlich oder quantitativ bestimmt ist.",
+			"subInfo": "A relation between things or people."
+		},
+		"examples": [
+			{
+				"sentence": "Ein stabiles Verhältnis zwischen Führung und Team entsteht nur dann, wenn Kritik transparent und respektvoll eingebracht werden kann.",
+				"translation": "A stable relationship between leadership and team only emerges when criticism can be expressed transparently and respectfully."
+			},
+			{
+				"sentence": "Nachdem sie das Verhältnis zu ihren Kolleginnen und Kollegen aktiv verbessert hatte, hat sich die Zusammenarbeit spürbar entspannt.",
+				"translation": "After she had actively improved her relationship with colleagues, collaboration became noticeably more relaxed."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Vorsicht",
+		"suffix": "",
+		"meaning": "caution",
+		"extra": {
+			"info": "Vorsicht bezeichnet ein umsichtiges Verhalten, mit dem Risiken erkannt und potenzielle Schäden vermieden werden.",
+			"subInfo": "Carefulness to avoid danger."
+		},
+		"examples": [
+			{
+				"sentence": "Bei unklaren Rahmenbedingungen ist Vorsicht geboten, weil kleine Fehlannahmen in komplexen Prozessen schnell große Wirkung entfalten.",
+				"translation": "Under unclear conditions, caution is necessary because small wrong assumptions can quickly have major effects in complex processes."
+			},
+			{
+				"sentence": "Nachdem der Hinweis auf erhöhte Vorsicht veröffentlicht worden war, hat sich die Zahl der Zwischenfälle reduziert.",
+				"translation": "After the notice calling for increased caution had been published, the number of incidents decreased."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Vorliebe",
+		"suffix": "für + Akk.",
+		"meaning": "preference (pl -n)",
+		"extra": {
+			"info": "Eine Vorliebe beschreibt eine ausgeprägte persönliche Präferenz für bestimmte Inhalte, Stile oder Handlungsweisen.",
+			"subInfo": "A strong liking for something."
+		},
+		"examples": [
+			{
+				"sentence": "Ihre Vorliebe für analytische Methoden hat die Projektplanung geprägt, weil Entscheidungen konsequent datenbasiert getroffen wurden.",
+				"translation": "Her preference for analytical methods shaped project planning because decisions were made consistently on a data basis."
+			},
+			{
+				"sentence": "Nachdem er seine Vorliebe für klassische Musik wiederentdeckt hatte, hat er regelmäßig Konzerte besucht.",
+				"translation": "After he had rediscovered his preference for classical music, he attended concerts regularly."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Spannung",
+		"suffix": "",
+		"meaning": "tension, suspense (pl -en)",
+		"extra": {
+			"info": "Spannung kann sowohl emotionale Erwartung als auch psychischen oder physischen Druck in einer Situation bezeichnen.",
+			"subInfo": "Mental or physical strain; suspense."
+		},
+		"examples": [
+			{
+				"sentence": "Die Spannung blieb bis zum Schluss erhalten, weil neue Informationen sorgfältig dosiert und strategisch platziert wurden.",
+				"translation": "The suspense remained until the end because new information was carefully dosed and strategically placed."
+			},
+			{
+				"sentence": "Nachdem die Spannung im Team über Wochen zugenommen hatte, hat die Moderation ein klärendes Gespräch initiiert.",
+				"translation": "After tension in the team had increased over weeks, moderation initiated a clarifying discussion."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Förderung",
+		"suffix": "",
+		"meaning": "support, promotion (pl -en)",
+		"extra": {
+			"info": "Förderung umfasst finanzielle, strukturelle oder inhaltliche Unterstützung, die Entwicklung und Teilhabe erleichtert.",
+			"subInfo": "Financial or practical support for development."
+		},
+		"examples": [
+			{
+				"sentence": "Wirksame Förderung entsteht dann, wenn Mittel nicht pauschal verteilt, sondern entlang klarer Bedarfsanalysen priorisiert werden.",
+				"translation": "Effective support arises when funds are not distributed indiscriminately but prioritized along clear needs analyses."
+			},
+			{
+				"sentence": "Nachdem die Förderung bewilligt worden war, hat das Unternehmen die geplanten Investitionen schneller umgesetzt.",
+				"translation": "After funding had been approved, the company implemented the planned investments faster."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Wohnanlage",
+		"suffix": "",
+		"meaning": "residential complex (pl -n)",
+		"extra": {
+			"info": "Eine Wohnanlage ist ein baulich zusammenhängender Komplex mit mehreren Wohnungen und gemeinsamer Infrastruktur.",
+			"subInfo": "Group of residential buildings."
+		},
+		"examples": [
+			{
+				"sentence": "Moderne Wohnanlagen sollten nicht nur verdichtet bauen, sondern auch soziale Räume schaffen, die Begegnung und Teilhabe ermöglichen.",
+				"translation": "Modern residential complexes should not only build densely but also create social spaces that enable interaction and participation."
+			},
+			{
+				"sentence": "Nachdem die Wohnanlage umfassend saniert worden war, hat sich die Lebensqualität der Bewohner deutlich erhöht.",
+				"translation": "After the residential complex had been comprehensively renovated, residents’ quality of life increased significantly."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Verband",
+		"suffix": "",
+		"meaning": "association (pl -ände)",
+		"extra": {
+			"info": "Ein Verband ist ein organisierter Zusammenschluss, der gemeinsame Interessen koordiniert und nach außen vertritt.",
+			"subInfo": "An organized group or federation."
+		},
+		"examples": [
+			{
+				"sentence": "Der Verband übernimmt eine wichtige Koordinationsfunktion, wenn unterschiedliche Akteure mit teilweise konkurrierenden Interessen zusammenarbeiten.",
+				"translation": "The association takes on an important coordination role when different actors with partly competing interests work together."
+			},
+			{
+				"sentence": "Nachdem der Verband neue Standards beschlossen hatte, haben sich die Mitgliedsorganisationen daran schrittweise angepasst.",
+				"translation": "After the association had adopted new standards, member organizations adapted to them step by step."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Schulden",
+		"suffix": "",
+		"meaning": "debts",
+		"extra": {
+			"info": "Schulden sind finanzielle Verpflichtungen, die gegenüber Gläubigern innerhalb vereinbarter Fristen zurückgezahlt werden müssen.",
+			"subInfo": "Money that someone owes."
+		},
+		"examples": [
+			{
+				"sentence": "Ohne eine tragfähige Tilgungsstrategie können Schulden langfristig Handlungsspielräume einschränken und zusätzlichen Druck erzeugen.",
+				"translation": "Without a viable repayment strategy, debts can limit room for action in the long term and create additional pressure."
+			},
+			{
+				"sentence": "Nachdem er seine Schulden systematisch umstrukturiert hatte, hat sich seine finanzielle Situation stabilisiert.",
+				"translation": "After he had systematically restructured his debts, his financial situation stabilized."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "schuldenfrei",
+		"suffix": "",
+		"meaning": "debt-free",
+		"extra": {
+			"info": "Das Adjektiv beschreibt den Zustand, keine offenen finanziellen Verbindlichkeiten mehr zu haben.",
+			"subInfo": "Without any debts."
+		},
+		"examples": [
+			{
+				"sentence": "Wirklich schuldenfrei bleibt man nur dann, wenn Ausgaben, Rücklagen und langfristige Verpflichtungen realistisch austariert sind.",
+				"translation": "You remain truly debt-free only when expenses, reserves, and long-term obligations are balanced realistically."
+			},
+			{
+				"sentence": "Nachdem sie ihren Rückzahlungsplan konsequent umgesetzt hatte, war sie zum Jahresende vollständig schuldenfrei.",
+				"translation": "After she had implemented her repayment plan consistently, she was completely debt-free by year-end."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Inhalt",
+		"suffix": "",
+		"meaning": "content (pl -e)",
+		"extra": {
+			"info": "Inhalt bezeichnet die inhaltliche Substanz eines Textes, Vortrags oder Mediums, unabhängig von seiner äußeren Form.",
+			"subInfo": "What something contains."
+		},
+		"examples": [
+			{
+				"sentence": "Der Inhalt sollte nicht nur informativ sein, sondern auch logisch aufgebaut, damit komplexe Argumente nachvollziehbar bleiben.",
+				"translation": "Content should not only be informative but also logically structured so that complex arguments remain understandable."
+			},
+			{
+				"sentence": "Nachdem wir den Inhalt neu strukturiert hatten, hat die Präsentation deutlich klarer gewirkt.",
+				"translation": "After we had restructured the content, the presentation appeared much clearer."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "kurzentschlossen",
+		"suffix": "",
+		"meaning": "decisive at short notice",
+		"extra": {
+			"info": "Das Adjektiv beschreibt ein schnelles, entschlossenes Handeln in unerwarteten oder zeitkritischen Situationen.",
+			"subInfo": "Making decisions quickly in a situation."
+		},
+		"examples": [
+			{
+				"sentence": "In kritischen Momenten ist es hilfreich, kurzentschlossen zu handeln, sofern die wichtigsten Risiken parallel abgesichert werden.",
+				"translation": "In critical moments, it is helpful to act decisively at short notice, provided the key risks are mitigated in parallel."
+			},
+			{
+				"sentence": "Nachdem sie die Lage präzise eingeschätzt hatte, hat sie kurzentschlossen eingegriffen und größeren Schaden verhindert.",
+				"translation": "After she had assessed the situation precisely, she intervened decisively at short notice and prevented greater damage."
+			}
+		],
+		"reviewCount": 0
+	}
+]

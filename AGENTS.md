@@ -1,11 +1,13 @@
 # LingoPancar — Context Handoff (for future AI sessions)
 
 ## Project Snapshot
+
 - Stack: `Next.js 16` + `React 19` + `TypeScript` + `Tailwind v4` + `Firebase Realtime DB` + `Vitest`.
 - Purpose: language flashcards with spaced repetition study sessions.
 - Main review flow: pick 10 cards, collect feedback (`again` / `meh` / `yay`), update SR fields, persist per card.
 
 ## High-Value File Map
+
 ```text
 src/
   app/
@@ -20,9 +22,15 @@ src/
     ui/loading-spinner.tsx    # Brand spinner
     ui/loading-text.tsx       # Rotating multilingual loading label
   lib/
+    types.ts                  # Card types incl. extra/legacy description shape
     spaced-repetition.ts      # Core SM-2-like scheduling + due selection
     review-session.ts         # Pure helpers for feedback mapping / next-step
     firebase-service.ts       # Realtime DB reads/writes (cards, decks, demo)
+  assets/
+    demo-deck.ts              # Aggregates demo deck chunks into one export
+    demo-deck/
+      demo-deck-1.json ...    # Chunked demo cards (1..10)
+      demo-deck-10.json
   __tests__/
     review-integration.test.ts
     review-session.test.ts
@@ -32,6 +40,7 @@ src/
 ```
 
 ## Core Behavior Decisions
+
 - Feedback mapping is fixed:
   - `again -> 1`
   - `meh -> 2`
@@ -40,13 +49,20 @@ src/
   - Card update is sent to Firebase **immediately on each feedback click** (not end-of-session batch).
 - Due selection:
   - `getTopReviewCards(cards, 10)` using `nextReviewAt` fallback to `createdAt`.
+- Card metadata schema:
+  - Primary shape is `extra: { info, subInfo }`.
+  - Legacy shape `description: { definition, translation }` is still read as fallback in UI.
+- Demo deck structure:
+  - Demo cards are split into 10 files under `src/assets/demo-deck/` and merged in `src/assets/demo-deck.ts`.
 
 ## Testing Strategy Used
+
 - Deterministic tests use `vi.useFakeTimers()`.
 - Integration test (`23-card complex`) uses hardcoded per-session expected reviewed IDs (`sessionResults`) plus rule checks.
 - `createDeck` baseline now starts from **1 day before mocked now** to keep timestamps intuitive in logs.
 
 ## Important Recent UI/UX Changes
+
 - Demo deck loading now blocks UI with full-screen overlay spinner.
 - Shared rotating loading text (`LoadingText`) added and reused in:
   - spinner,
@@ -61,16 +77,19 @@ src/
 - Theme tokens moved to CSS vars in `globals.css`; dark token updated to `#121212`.
 
 ## Commands
+
 - Dev server: `npm run dev`
 - Tests (non-watch): `npm test -- --run`
 - Single test file: `npm test -- --run src/__tests__/review-integration.test.ts`
 
 ## Known Notes
+
 - Next warning currently appears in dev:
   - `Unsupported metadata viewport is configured in metadata export in /`.
   - Needs moving viewport config to `viewport` export in app router metadata.
 
 ## Working Conventions for Future AI Runs
+
 - Keep changes TypeScript-first and minimal.
 - After code changes, run tests in non-watch mode.
 - Prefer editing shared primitives (`ui/button`, shared loading components) for global behavior changes.

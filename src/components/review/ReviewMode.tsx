@@ -55,6 +55,8 @@ export default function ReviewMode({ cards, userId, onExit }: ReviewModeProps) {
 
 	const currentCard = cards[currentIndex];
 	const currentExamples = Array.isArray(currentCard.examples) ? currentCard.examples : [];
+	const currentExtra =
+		typeof currentCard.extra === "string" ? { info: currentCard.extra, subInfo: "" } : currentCard.extra;
 	const progress = `${currentIndex + 1} / ${cards.length}`;
 
 	return (
@@ -119,8 +121,11 @@ export default function ReviewMode({ cards, userId, onExit }: ReviewModeProps) {
 							<p className="text-3xl font-semibold text-primary dark:text-primary mb-4 font-serif">
 								{currentCard.meaning}
 							</p>
-							{currentCard.description && (
-								<p className="text-dark dark:text-light italic mb-6 font-light">{currentCard.description}</p>
+							{currentExtra && (
+								<div className="mb-6 space-y-1">
+									<p className="text-dark dark:text-light italic font-light">{currentExtra.info}</p>
+									<p className="text-secondary dark:text-secondary italic font-light">{currentExtra.subInfo}</p>
+								</div>
 							)}
 							{currentExamples.length > 0 && (
 								<div className="text-left space-y-3 mt-6 pt-6 border-t-2 border-primary border-opacity-20">

@@ -5,8 +5,20 @@
 		"main": "Streit",
 		"suffix": "",
 		"meaning": "argument, dispute (pl -igkeiten)",
-		"description": "A conflict between people.",
-		"examples": [{ "sentence": "Sie hatten gestern einen Streit.", "translation": "They had an argument yesterday." }],
+		"description": {
+			"definition": "Der Begriff bezeichnet eine Auseinandersetzung, bei der unterschiedliche Positionen emotional oder sachlich aufeinanderprallen.",
+			"translation": "A conflict between people."
+		},
+		"examples": [
+			{
+				"sentence": "Während der Sitzung, in der über die Prioritäten des Projekts entschieden wurde, entstand ein Streit, der nur durch eine moderierte Klärung beigelegt werden konnte.",
+				"translation": "During the meeting in which project priorities were decided, an argument arose that could only be resolved through moderated clarification."
+			},
+			{
+				"sentence": "Nachdem sie den Bericht unterschiedlich interpretiert hatten, ist ein Streit entstanden, den das Team erst am nächsten Tag gemeinsam aufgelöst hat.",
+				"translation": "After they had interpreted the report differently, a dispute emerged that the team only resolved together the next day."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -15,11 +27,18 @@
 		"main": "Gesellschaft",
 		"suffix": "",
 		"meaning": "society, company (pl -en)",
-		"description": "Used for both social context and business entities.",
+		"description": {
+			"definition": "Der Ausdruck beschreibt sowohl ein soziales Gemeinwesen als auch eine organisatorische oder wirtschaftliche Einheit.",
+			"translation": "Used for both social context and business entities."
+		},
 		"examples": [
 			{
-				"sentence": "In unserer Gesellschaft ist Bildung wichtig.",
-				"translation": "Education is important in our society."
+				"sentence": "In einer pluralen Gesellschaft, in der Menschen mit sehr unterschiedlichen Hintergründen zusammenleben, spielt Bildung eine zentrale Rolle für Teilhabe und Aufstieg.",
+				"translation": "In a pluralistic society where people from very different backgrounds live together, education plays a central role in participation and upward mobility."
+			},
+			{
+				"sentence": "Nachdem die Gesellschaft ihre internen Prozesse modernisiert hatte, konnte sie komplexe Kundenanfragen deutlich schneller und strukturierter bearbeiten.",
+				"translation": "After the company had modernized its internal processes, it was able to handle complex customer requests much faster and more systematically."
 			}
 		],
 		"reviewCount": 0
@@ -30,8 +49,20 @@
 		"main": "Rechtsanwalt",
 		"suffix": "",
 		"meaning": "lawyer (pl -e)",
-		"description": "A legal professional.",
-		"examples": [{ "sentence": "Ich brauche einen guten Rechtsanwalt.", "translation": "I need a good lawyer." }],
+		"description": {
+			"definition": "Ein Rechtsanwalt ist eine juristisch qualifizierte Person, die Mandanten professionell berät und vor Gericht vertreten kann.",
+			"translation": "A legal professional."
+		},
+		"examples": [
+			{
+				"sentence": "Da der Vertrag mehrere unklare Klauseln enthielt, hat der Rechtsanwalt jedes Detail erläutert, bevor wir eine verbindliche Entscheidung getroffen haben.",
+				"translation": "Since the contract contained several unclear clauses, the lawyer explained every detail before we made a binding decision."
+			},
+			{
+				"sentence": "Nachdem der Rechtsanwalt die Unterlagen sorgfältig geprüft hatte, hat er eine Strategie entwickelt, mit der wir den Fall rechtssicher abschließen konnten.",
+				"translation": "After the lawyer had carefully reviewed the documents, he developed a strategy that allowed us to close the case in a legally secure way."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -40,9 +71,19 @@
 		"main": "Erfahrung",
 		"suffix": "",
 		"meaning": "experience (pl -en)",
-		"description": "Knowledge gained through practice.",
+		"description": {
+			"definition": "Erfahrung bezeichnet Wissen und Urteilskraft, die man durch wiederholte Praxis und reflektierte Beobachtung gewinnt.",
+			"translation": "Knowledge gained through practice."
+		},
 		"examples": [
-			{ "sentence": "Er hat viel Erfahrung im Beruf.", "translation": "He has a lot of experience in his job." }
+			{
+				"sentence": "Obwohl die Aufgabe neu wirkte, konnten wir sie dank langjähriger Erfahrung im Team effizient strukturieren und ohne größere Fehler umsetzen.",
+				"translation": "Although the task seemed new, we were able to structure it efficiently and implement it without major errors thanks to the team’s long experience."
+			},
+			{
+				"sentence": "Nachdem sie in mehreren Projekten unter Zeitdruck gearbeitet hatte, hat ihre Erfahrung die Qualität der Entscheidungen spürbar verbessert.",
+				"translation": "After she had worked under time pressure in several projects, her experience noticeably improved the quality of decisions."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -52,8 +93,20 @@
 		"main": "Gedicht",
 		"suffix": "",
 		"meaning": "poem (pl -e)",
-		"description": "A short literary text in verse.",
-		"examples": [{ "sentence": "Sie schreibt ein schönes Gedicht.", "translation": "She writes a beautiful poem." }],
+		"description": {
+			"definition": "Ein Gedicht ist ein literarischer Text, der mit sprachlicher Verdichtung, Rhythmus und Bildhaftigkeit arbeitet.",
+			"translation": "A short literary text in verse."
+		},
+		"examples": [
+			{
+				"sentence": "Im Seminar wurde ein Gedicht analysiert, dessen Metaphern erst nach genauer Betrachtung der historischen Bezüge vollständig verständlich waren.",
+				"translation": "In the seminar, a poem was analyzed whose metaphors only became fully understandable after close examination of the historical references."
+			},
+			{
+				"sentence": "Nachdem sie das Gedicht mehrfach laut gelesen hatte, hat sie den inneren Rhythmus erkannt und die Interpretation überzeugender präsentiert.",
+				"translation": "After she had read the poem aloud several times, she recognized its inner rhythm and presented the interpretation more convincingly."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -62,8 +115,20 @@
 		"main": "Rede",
 		"suffix": "",
 		"meaning": "speech (pl -n)",
-		"description": "A formal talk given to an audience.",
-		"examples": [{ "sentence": "Seine Rede war sehr motivierend.", "translation": "His speech was very motivating." }],
+		"description": {
+			"definition": "Eine Rede ist ein strukturierter mündlicher Vortrag, mit dem Inhalte argumentativ und wirkungsorientiert vermittelt werden.",
+			"translation": "A formal talk given to an audience."
+		},
+		"examples": [
+			{
+				"sentence": "Obwohl die Zuhörenden aus unterschiedlichen Fachbereichen kamen, blieb die Rede dank präziser Gliederung und klarer Übergänge bis zum Ende nachvollziehbar.",
+				"translation": "Although the audience came from different professional fields, the speech remained understandable until the end thanks to precise structure and clear transitions."
+			},
+			{
+				"sentence": "Nachdem sie die Rede mehrfach überarbeitet hatte, hat sie zentrale Argumente pointierter formuliert und das Publikum deutlich stärker erreicht.",
+				"translation": "After she had revised the speech several times, she phrased key arguments more sharply and reached the audience much more effectively."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -72,9 +137,19 @@
 		"main": "Bewerbung",
 		"suffix": "",
 		"meaning": "application (pl -en)",
-		"description": "A job or school application.",
+		"description": {
+			"definition": "Eine Bewerbung ist eine formale Darstellung der Qualifikationen, mit der man sich um eine Stelle oder Ausbildung bewirbt.",
+			"translation": "A job or school application."
+		},
 		"examples": [
-			{ "sentence": "Ich habe meine Bewerbung gestern geschickt.", "translation": "I sent my application yesterday." }
+			{
+				"sentence": "Da die Ausschreibung sehr spezifische Anforderungen enthielt, wurde die Bewerbung gezielt auf die erwarteten Kompetenzen und Projekterfahrungen zugeschnitten.",
+				"translation": "Since the posting contained very specific requirements, the application was tailored precisely to the expected skills and project experience."
+			},
+			{
+				"sentence": "Nachdem er die Bewerbung um ein zusätzliches Motivationsschreiben ergänzt hatte, hat er deutlich schneller eine Rückmeldung erhalten.",
+				"translation": "After he had added an additional motivation letter to the application, he received feedback much faster."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -84,9 +159,19 @@
 		"main": "Werbebrief",
 		"suffix": "",
 		"meaning": "promotional letter (pl -e)",
-		"description": "A letter used for advertising.",
+		"description": {
+			"definition": "Ein Werbebrief ist ein zielgruppenorientiertes Schreiben, das Aufmerksamkeit erzeugen und zu einer konkreten Handlung motivieren soll.",
+			"translation": "A letter used for advertising."
+		},
 		"examples": [
-			{ "sentence": "Die Firma schickte einen Werbebrief.", "translation": "The company sent a promotional letter." }
+			{
+				"sentence": "Damit neue Kundinnen und Kunden den Mehrwert sofort erkennen konnten, enthielt der Werbebrief eine differenzierte Nutzenargumentation mit klaren Beispielen.",
+				"translation": "So that new customers could immediately recognize the value, the promotional letter contained a differentiated value argumentation with clear examples."
+			},
+			{
+				"sentence": "Nachdem das Marketing-Team den Werbebrief sprachlich vereinfacht hatte, hat sich die Rücklaufquote im Vergleich zum Vormonat deutlich verbessert.",
+				"translation": "After the marketing team had simplified the promotional letter linguistically, the response rate improved significantly compared to the previous month."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -96,8 +181,20 @@
 		"main": "statt",
 		"suffix": "",
 		"meaning": "instead of",
-		"description": "Used to express substitution.",
-		"examples": [{ "sentence": "Ich trinke Tee statt Kaffee.", "translation": "I drink tea instead of coffee." }],
+		"description": {
+			"definition": "Die Präposition drückt eine Ersetzung aus und zeigt, dass etwas an die Stelle einer anderen Möglichkeit tritt.",
+			"translation": "Used to express substitution."
+		},
+		"examples": [
+			{
+				"sentence": "Statt eine vorschnelle Entscheidung zu treffen, haben wir mehrere Szenarien verglichen, um die langfristigen Folgen besser einschätzen zu können.",
+				"translation": "Instead of making a hasty decision, we compared several scenarios to better assess the long-term consequences."
+			},
+			{
+				"sentence": "Nachdem das Team statt kurzfristiger Lösungen eine nachhaltige Strategie gewählt hatte, haben sich die Ergebnisse stabilisiert.",
+				"translation": "After the team had chosen a sustainable strategy instead of short-term solutions, the results stabilized."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -106,9 +203,19 @@
 		"main": "wegwerfen",
 		"suffix": "",
 		"meaning": "to throw away (warf weg, hat weggeworfen)",
-		"description": "To discard something.",
+		"description": {
+			"definition": "Das Verb bedeutet, etwas bewusst zu entsorgen, weil es als unbrauchbar oder nicht mehr notwendig betrachtet wird.",
+			"translation": "To discard something."
+		},
 		"examples": [
-			{ "sentence": "Wir sollen Plastik nicht wegwerfen.", "translation": "We should not throw plastic away." }
+			{
+				"sentence": "Wenn man Materialien vorschnell wegwerfen würde, gingen wertvolle Ressourcen verloren, die durch Wiederverwendung sinnvoll eingebunden werden könnten.",
+				"translation": "If one were to throw materials away too quickly, valuable resources would be lost that could be meaningfully integrated through reuse."
+			},
+			{
+				"sentence": "Nachdem wir die defekten Teile nicht sofort weggeworfen hatten, haben wir mehrere Komponenten repariert und erneut eingesetzt.",
+				"translation": "After we had not thrown the defective parts away immediately, we repaired several components and reused them."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -118,8 +225,20 @@
 		"main": "reparieren",
 		"suffix": "",
 		"meaning": "to repair (reparierte, hat repariert)",
-		"description": "To fix something broken.",
-		"examples": [{ "sentence": "Kannst du mein Fahrrad reparieren?", "translation": "Can you repair my bicycle?" }],
+		"description": {
+			"definition": "Das Verb beschreibt die fachgerechte Instandsetzung eines beschädigten Gegenstands oder Systems.",
+			"translation": "To fix something broken."
+		},
+		"examples": [
+			{
+				"sentence": "Damit das Gerät langfristig zuverlässig funktioniert, sollte man nicht nur den sichtbaren Schaden reparieren, sondern auch die Ursache präzise analysieren.",
+				"translation": "To ensure the device works reliably in the long term, one should not only repair the visible damage but also analyze the cause precisely."
+			},
+			{
+				"sentence": "Nachdem die Technikerin die Leitungen repariert hatte, hat das System wieder stabil gearbeitet und keine Ausfälle mehr verursacht.",
+				"translation": "After the technician had repaired the lines, the system worked stably again and caused no further failures."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -128,8 +247,20 @@
 		"main": "kümmern",
 		"suffix": "sich um + Akk.",
 		"meaning": "to take care (kümmerte, hat gekümmert)",
-		"description": "Reflexive verb for caring about/for something.",
-		"examples": [{ "sentence": "Ich kümmere mich um die Kinder.", "translation": "I take care of the children." }],
+		"description": {
+			"definition": "Als reflexives Verb drückt es aus, dass man Verantwortung übernimmt und sich aktiv um Personen oder Aufgaben bemüht.",
+			"translation": "Reflexive verb for caring about/for something."
+		},
+		"examples": [
+			{
+				"sentence": "Wenn sich niemand systematisch um die Nachbereitung kümmern würde, gingen wichtige Erkenntnisse aus den Projekten schnell verloren.",
+				"translation": "If no one took systematic care of follow-up work, important insights from the projects would quickly be lost."
+			},
+			{
+				"sentence": "Nachdem sie sich mehrere Monate um die Koordination gekümmert hatte, hat sich die Zusammenarbeit zwischen den Teams deutlich verbessert.",
+				"translation": "After she had taken care of coordination for several months, collaboration between the teams improved significantly."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -138,8 +269,20 @@
 		"main": "bestreiten",
 		"suffix": "",
 		"meaning": "to dispute, to manage (bestritt, hat bestritten)",
-		"description": "Can mean deny or cover costs.",
-		"examples": [{ "sentence": "Er bestreitet die Aussage.", "translation": "He disputes the statement." }],
+		"description": {
+			"definition": "Das Verb kann entweder bedeuten, eine Behauptung zurückzuweisen, oder den Lebensunterhalt beziehungsweise Kosten zu tragen.",
+			"translation": "Can mean deny or cover costs."
+		},
+		"examples": [
+			{
+				"sentence": "Da die Datenlage widersprüchlich war, konnte die Expertin die Schlussfolgerung nachvollziehbar bestreiten, ohne den Gesamtbefund pauschal abzulehnen.",
+				"translation": "Since the data situation was contradictory, the expert was able to plausibly dispute the conclusion without rejecting the overall findings outright."
+			},
+			{
+				"sentence": "Nachdem er die Ausbildung abgeschlossen hatte, hat er seinen Lebensunterhalt vollständig selbst bestritten.",
+				"translation": "After he had completed his training, he fully supported himself financially."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -148,8 +291,20 @@
 		"main": "aufpassen",
 		"suffix": "auf + Akk.",
 		"meaning": "to pay attention (passte auf, hat aufgepasst)",
-		"description": "To be careful or attentive.",
-		"examples": [{ "sentence": "Pass im Verkehr gut auf!", "translation": "Pay close attention in traffic!" }],
+		"description": {
+			"definition": "Das Verb bedeutet, aufmerksam und vorsichtig zu handeln, insbesondere in Situationen mit erhöhtem Risiko.",
+			"translation": "To be careful or attentive."
+		},
+		"examples": [
+			{
+				"sentence": "Damit bei der Auswertung keine Fehler entstehen, muss man aufpassen, welche Annahmen den Berechnungen tatsächlich zugrunde liegen.",
+				"translation": "To avoid errors in evaluation, one must pay close attention to which assumptions actually underlie the calculations."
+			},
+			{
+				"sentence": "Nachdem die Fahrerin auf den nassen Straßenbelag aufgepasst hatte, hat sie auch in der Kurve die Kontrolle behalten.",
+				"translation": "After the driver had paid attention to the wet road surface, she kept control even in the curve."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -158,8 +313,20 @@
 		"main": "steuern",
 		"suffix": "",
 		"meaning": "to control, steer (steuerte, hat gesteuert)",
-		"description": "To direct movement or process.",
-		"examples": [{ "sentence": "Er steuert das Boot sicher.", "translation": "He steers the boat safely." }],
+		"description": {
+			"definition": "Das Verb beschreibt das gezielte Lenken von Bewegungen, Prozessen oder Ressourcen mithilfe bewusster Entscheidungen.",
+			"translation": "To direct movement or process."
+		},
+		"examples": [
+			{
+				"sentence": "In komplexen Projekten muss man Prioritäten so steuern, dass kurzfristige Anforderungen und langfristige Ziele gleichzeitig berücksichtigt werden.",
+				"translation": "In complex projects, priorities must be managed so that short-term demands and long-term goals are considered at the same time."
+			},
+			{
+				"sentence": "Nachdem sie den Ablauf präziser gesteuert hatte, haben sich die Übergaben zwischen den Teams deutlich reibungsloser gestaltet.",
+				"translation": "After she had managed the process more precisely, handovers between the teams became significantly smoother."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -168,9 +335,19 @@
 		"main": "ersetzen",
 		"suffix": "",
 		"meaning": "to replace (ersetzte, hat ersetzt)",
-		"description": "To put one thing in place of another.",
+		"description": {
+			"definition": "Das Verb bedeutet, etwas durch eine funktional passende Alternative auszutauschen.",
+			"translation": "To put one thing in place of another."
+		},
 		"examples": [
-			{ "sentence": "Wir müssen das alte Teil ersetzen.", "translation": "We need to replace the old part." }
+			{
+				"sentence": "Falls eine Komponente ausfällt, sollte man sie nicht provisorisch, sondern durch ein technisch gleichwertiges Teil ersetzen.",
+				"translation": "If a component fails, it should not be replaced provisionally but with a technically equivalent part."
+			},
+			{
+				"sentence": "Nachdem wir die veraltete Schnittstelle ersetzt hatten, hat die Datenübertragung deutlich stabiler funktioniert.",
+				"translation": "After we had replaced the outdated interface, data transfer worked much more reliably."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -180,8 +357,20 @@
 		"main": "brennen",
 		"suffix": "",
 		"meaning": "to burn (brannte, hat gebrannt)",
-		"description": "To be on fire or cause fire.",
-		"examples": [{ "sentence": "Das Licht brennt noch.", "translation": "The light is still on." }],
+		"description": {
+			"definition": "Das Verb beschreibt sowohl das Entstehen von Feuer als auch das Leuchten oder starke Empfinden von Hitze.",
+			"translation": "To be on fire or cause fire."
+		},
+		"examples": [
+			{
+				"sentence": "Da die Sicherheitsvorschriften missachtet wurden, konnte ein kleiner Defekt ausreichen, damit das Material innerhalb weniger Sekunden zu brennen begann.",
+				"translation": "Since safety regulations were ignored, a minor defect was enough for the material to start burning within seconds."
+			},
+			{
+				"sentence": "Nachdem die Kerze mehrere Stunden unbeaufsichtigt gebrannt hatte, hat der Rauchmelder rechtzeitig Alarm ausgelöst.",
+				"translation": "After the candle had burned unattended for several hours, the smoke detector triggered an alarm in time."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -190,8 +379,20 @@
 		"main": "ablenken",
 		"suffix": "",
 		"meaning": "to distract (lenkte ab, hat abgelenkt)",
-		"description": "To divert attention.",
-		"examples": [{ "sentence": "Lärm kann mich leicht ablenken.", "translation": "Noise can distract me easily." }],
+		"description": {
+			"definition": "Das Verb bedeutet, die Aufmerksamkeit von einer Aufgabe oder einem Ziel auf etwas anderes zu lenken.",
+			"translation": "To divert attention."
+		},
+		"examples": [
+			{
+				"sentence": "Wenn Benachrichtigungen dauerhaft eingeblendet werden, können sie selbst erfahrene Mitarbeitende ablenken und die Qualität komplexer Entscheidungen mindern.",
+				"translation": "If notifications are constantly displayed, they can distract even experienced staff and reduce the quality of complex decisions."
+			},
+			{
+				"sentence": "Nachdem das Team unnötige Meetings gestrichen hatte, haben sich die Mitglieder weniger ablenken lassen und fokussierter gearbeitet.",
+				"translation": "After the team had removed unnecessary meetings, members were distracted less and worked more focused."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -200,8 +401,20 @@
 		"main": "raten",
 		"suffix": "",
 		"meaning": "to advise, guess (riet, hat geraten)",
-		"description": "Used for giving advice or guessing.",
-		"examples": [{ "sentence": "Ich rate dir zu einer Pause.", "translation": "I advise you to take a break." }],
+		"description": {
+			"definition": "Das Verb wird verwendet, um einen Vorschlag zu geben oder auf Basis begrenzter Informationen eine Vermutung zu äußern.",
+			"translation": "Used for giving advice or guessing."
+		},
+		"examples": [
+			{
+				"sentence": "Da die Datenlage noch unvollständig war, konnte die Analystin nur vorsichtig raten, welche Maßnahme kurzfristig den größten Effekt haben würde.",
+				"translation": "Since the data situation was still incomplete, the analyst could only cautiously estimate which measure would have the greatest short-term effect."
+			},
+			{
+				"sentence": "Nachdem er die bisherigen Ergebnisse sorgfältig verglichen hatte, hat er mir geraten, die Prioritäten neu zu ordnen.",
+				"translation": "After he had carefully compared the previous results, he advised me to reorder the priorities."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -210,8 +423,20 @@
 		"main": "bitten",
 		"suffix": "um + Akk.",
 		"meaning": "to ask, request (bat, hat gebeten)",
-		"description": "To ask someone for something.",
-		"examples": [{ "sentence": "Ich bitte dich um Hilfe.", "translation": "I ask you for help." }],
+		"description": {
+			"definition": "Das Verb drückt eine höfliche oder dringende Bitte aus, bei der man Unterstützung oder etwas Konkretes verlangt.",
+			"translation": "To ask someone for something."
+		},
+		"examples": [
+			{
+				"sentence": "Bevor wir den Vertrag finalisierten, mussten wir die Rechtsabteilung um eine detaillierte Prüfung der Haftungsklauseln bitten.",
+				"translation": "Before finalizing the contract, we had to ask the legal department for a detailed review of the liability clauses."
+			},
+			{
+				"sentence": "Nachdem sie die Situation erklärt hatte, hat sie das Team ausdrücklich um eine kurzfristige Unterstützung gebeten.",
+				"translation": "After she had explained the situation, she explicitly asked the team for short-term support."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -220,8 +445,20 @@
 		"main": "bestehen",
 		"suffix": "aus + Dat.",
 		"meaning": "to exist, pass (bestand, hat bestanden)",
-		"description": "Can mean consist of or pass an exam.",
-		"examples": [{ "sentence": "Die Prüfung hat sie bestanden.", "translation": "She passed the exam." }],
+		"description": {
+			"definition": "Das Verb kann entweder ausdrücken, woraus etwas zusammengesetzt ist, oder dass eine Prüfung erfolgreich absolviert wurde.",
+			"translation": "Can mean consist of or pass an exam."
+		},
+		"examples": [
+			{
+				"sentence": "Da das Konzept aus mehreren voneinander abhängigen Modulen besteht, muss jede Änderung systemisch und nicht isoliert bewertet werden.",
+				"translation": "Since the concept consists of several interdependent modules, every change must be evaluated systemically rather than in isolation."
+			},
+			{
+				"sentence": "Nachdem sie sich monatelang vorbereitet hatte, hat sie die anspruchsvolle Prüfung im ersten Versuch bestanden.",
+				"translation": "After she had prepared for months, she passed the demanding exam on her first attempt."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -230,8 +467,20 @@
 		"main": "verdienen",
 		"suffix": "",
 		"meaning": "to earn, deserve (verdiente, hat verdient)",
-		"description": "Used for salary or merit.",
-		"examples": [{ "sentence": "Sie verdient sehr gut.", "translation": "She earns very well." }],
+		"description": {
+			"definition": "Das Verb kann bedeuten, finanziell etwas zu erwirtschaften oder aufgrund von Leistung eine Anerkennung zu erhalten.",
+			"translation": "Used for salary or merit."
+		},
+		"examples": [
+			{
+				"sentence": "Wer Verantwortung für komplexe Prozesse übernimmt, sollte nicht nur angemessen verdienen, sondern auch strukturell entlastet werden.",
+				"translation": "Anyone who takes responsibility for complex processes should not only earn appropriately but also be structurally relieved."
+			},
+			{
+				"sentence": "Nachdem sie das Projekt unter schwierigen Bedingungen erfolgreich abgeschlossen hatte, hat sie eine besondere Anerkennung verdient.",
+				"translation": "After she had successfully completed the project under difficult conditions, she deserved special recognition."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -240,9 +489,19 @@
 		"main": "versuchen",
 		"suffix": "",
 		"meaning": "to try (versuchte, hat versucht)",
-		"description": "To make an attempt.",
+		"description": {
+			"definition": "Das Verb drückt aus, dass man einen bewussten Versuch unternimmt, ein Ziel trotz Unsicherheit zu erreichen.",
+			"translation": "To make an attempt."
+		},
 		"examples": [
-			{ "sentence": "Ich versuche, mehr Deutsch zu sprechen.", "translation": "I try to speak more German." }
+			{
+				"sentence": "Obwohl die Rahmenbedingungen ungünstig waren, haben wir versucht, die Umsetzung durch klare Abstimmungen und regelmäßiges Feedback zu stabilisieren.",
+				"translation": "Although the conditions were unfavorable, we tried to stabilize implementation through clear coordination and regular feedback."
+			},
+			{
+				"sentence": "Nachdem sie verschiedene Lösungswege verglichen hatte, hat sie versucht, den effizientesten Ansatz schrittweise zu testen.",
+				"translation": "After she had compared different solution paths, she tried to test the most efficient approach step by step."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -252,8 +511,20 @@
 		"main": "unterstützen",
 		"suffix": "",
 		"meaning": "to support (unterstützte, hat unterstützt)",
-		"description": "To help someone actively.",
-		"examples": [{ "sentence": "Freunde unterstützen einander.", "translation": "Friends support each other." }],
+		"description": {
+			"definition": "Das Verb beschreibt aktive Hilfe, durch die andere Personen oder Prozesse wirksam gestärkt werden.",
+			"translation": "To help someone actively."
+		},
+		"examples": [
+			{
+				"sentence": "Damit neue Mitarbeitende schnell handlungsfähig werden, sollte man sie nicht nur fachlich, sondern auch organisatorisch gezielt unterstützen.",
+				"translation": "To ensure new employees become operational quickly, they should be supported not only professionally but also organizationally."
+			},
+			{
+				"sentence": "Nachdem das Team die Prioritäten abgestimmt hatte, hat es die Umsetzung mit klar verteilten Rollen gegenseitig unterstützt.",
+				"translation": "After the team had aligned priorities, it supported implementation mutually with clearly distributed roles."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -262,8 +533,20 @@
 		"main": "sorgen",
 		"suffix": "sich um + Akk.",
 		"meaning": "to worry, care (sorgte, hat gesorgt)",
-		"description": "To care for or be worried about.",
-		"examples": [{ "sentence": "Sie sorgt sich um ihre Familie.", "translation": "She worries about her family." }],
+		"description": {
+			"definition": "Das Verb kann Fürsorge ausdrücken oder ein emotionales Besorgtsein über eine Person oder Entwicklung beschreiben.",
+			"translation": "To care for or be worried about."
+		},
+		"examples": [
+			{
+				"sentence": "Wenn sich Führungskräfte nicht systematisch um transparente Kommunikation sorgen, entstehen in kritischen Phasen schnell unnötige Unsicherheiten.",
+				"translation": "If leaders do not ensure transparent communication systematically, unnecessary uncertainties arise quickly in critical phases."
+			},
+			{
+				"sentence": "Nachdem sie sich über Wochen um die betroffenen Familien gesorgt hatte, hat sie zusätzliche Unterstützungsangebote organisiert.",
+				"translation": "After she had worried about the affected families for weeks, she organized additional support services."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -272,9 +555,19 @@
 		"main": "betreuen",
 		"suffix": "",
 		"meaning": "to care for (betreute, hat betreut)",
-		"description": "To supervise or look after.",
+		"description": {
+			"definition": "Das Verb beschreibt die kontinuierliche fachliche oder persönliche Begleitung von Menschen, Gruppen oder Projekten.",
+			"translation": "To supervise or look after."
+		},
 		"examples": [
-			{ "sentence": "Er betreut die neuen Teilnehmer.", "translation": "He looks after the new participants." }
+			{
+				"sentence": "Da die Anforderungen im Programm sehr unterschiedlich waren, musste jede Gruppe individuell betreut werden, um vergleichbare Lernfortschritte zu sichern.",
+				"translation": "Since the requirements in the program were very different, each group had to be supervised individually to ensure comparable learning progress."
+			},
+			{
+				"sentence": "Nachdem sie die neuen Teilnehmenden über mehrere Wochen betreut hatte, hat sich deren Selbstständigkeit deutlich erhöht.",
+				"translation": "After she had supervised the new participants for several weeks, their independence increased significantly."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -284,8 +577,20 @@
 		"main": "zunehmen",
 		"suffix": "",
 		"meaning": "to increase (nahm zu, hat zugenommen)",
-		"description": "To grow in amount or intensity.",
-		"examples": [{ "sentence": "Der Verkehr nimmt zu.", "translation": "Traffic is increasing." }],
+		"description": {
+			"definition": "Das Verb drückt aus, dass Menge, Intensität oder Häufigkeit einer Entwicklung messbar wächst.",
+			"translation": "To grow in amount or intensity."
+		},
+		"examples": [
+			{
+				"sentence": "Wenn die Nachfrage saisonal zunimmt, müssen Kapazitäten frühzeitig angepasst werden, damit Lieferketten stabil bleiben.",
+				"translation": "When demand increases seasonally, capacities must be adjusted early so that supply chains remain stable."
+			},
+			{
+				"sentence": "Nachdem die Komplexität der Aufgaben zugenommen hatte, hat das Team zusätzliche Abstimmungsrunden eingeführt.",
+				"translation": "After the complexity of the tasks had increased, the team introduced additional coordination rounds."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -294,9 +599,19 @@
 		"main": "feststellen",
 		"suffix": "",
 		"meaning": "to determine, notice (stellte fest, hat festgestellt)",
-		"description": "To identify or observe something clearly.",
+		"description": {
+			"definition": "Das Verb beschreibt das eindeutige Erkennen oder dokumentierte Festhalten eines Ergebnisses oder Zustands.",
+			"translation": "To identify or observe something clearly."
+		},
 		"examples": [
-			{ "sentence": "Der Arzt stellte eine Verbesserung fest.", "translation": "The doctor noticed an improvement." }
+			{
+				"sentence": "Durch den Vergleich mehrerer Messreihen ließ sich feststellen, dass die Maßnahme nicht nur kurzfristig, sondern auch langfristig wirksam war.",
+				"translation": "By comparing several measurement series, it could be determined that the measure was effective not only in the short term but also in the long term."
+			},
+			{
+				"sentence": "Nachdem die Prüferin alle Unterlagen ausgewertet hatte, hat sie eine klare Abweichung vom Standard festgestellt.",
+				"translation": "After the auditor had evaluated all documents, she determined a clear deviation from the standard."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -306,9 +621,19 @@
 		"main": "verstärken",
 		"suffix": "",
 		"meaning": "to strengthen (verstärkte, hat verstärkt)",
-		"description": "To make stronger.",
+		"description": {
+			"definition": "Das Verb bedeutet, eine Wirkung, Struktur oder Tendenz gezielt zu intensivieren.",
+			"translation": "To make stronger."
+		},
 		"examples": [
-			{ "sentence": "Wir müssen die Wirkung verstärken.", "translation": "We need to strengthen the effect." }
+			{
+				"sentence": "Um die Aussagekraft der Ergebnisse zu verstärken, wurden quantitative Daten mit qualitativen Rückmeldungen systematisch kombiniert.",
+				"translation": "To strengthen the explanatory power of the results, quantitative data was systematically combined with qualitative feedback."
+			},
+			{
+				"sentence": "Nachdem das Team die Kommunikation verstärkt hatte, hat sich die Abstimmung zwischen den Bereichen deutlich verbessert.",
+				"translation": "After the team had intensified communication, coordination between departments improved significantly."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -316,11 +641,18 @@
 		"type": "simple",
 		"main": "von ... bis zu reichen",
 		"meaning": "to range from ... to ...",
-		"description": "Use this structure to express limits on a scale, amount, or time span.",
+		"description": {
+			"definition": "Diese Struktur verwendet man, um Spannweiten bei Mengen, Werten oder Zeitangaben präzise auszudrücken.",
+			"translation": "Use this structure to express limits on a scale, amount, or time span."
+		},
 		"examples": [
 			{
-				"sentence": "Die Preise reichen von zehn bis zu fünfzig Euro.",
-				"translation": "The prices range from ten to fifty euros."
+				"sentence": "Die Bearbeitungsdauer kann je nach Komplexität von wenigen Stunden bis zu mehreren Wochen reichen, weshalb wir mit flexiblen Fristen planen.",
+				"translation": "Depending on complexity, processing time can range from a few hours to several weeks, which is why we plan with flexible deadlines."
+			},
+			{
+				"sentence": "Nachdem wir die historischen Daten ausgewertet hatten, hat sich gezeigt, dass die Kosten von 2.000 bis zu 12.000 Euro reichten.",
+				"translation": "After we had evaluated historical data, it became clear that costs ranged from 2,000 to 12,000 euros."
 			}
 		],
 		"reviewCount": 0
@@ -329,11 +661,18 @@
 		"type": "simple",
 		"main": "was die Musik angeht",
 		"meaning": "as far as music is concerned",
-		"description": "Use this pattern to introduce a topic and give your opinion about it.",
+		"description": {
+			"definition": "Mit dieser Wendung führt man ein Thema ein und markiert klar, aus welcher Perspektive man dazu Stellung nimmt.",
+			"translation": "Use this pattern to introduce a topic and give your opinion about it."
+		},
 		"examples": [
 			{
-				"sentence": "Was die Musik angeht, höre ich am liebsten Jazz.",
-				"translation": "As far as music is concerned, I prefer listening to jazz."
+				"sentence": "Was die Musik angeht, bevorzuge ich Kompositionen, die trotz komplexer Harmonik eine klare emotionale Entwicklung erkennen lassen.",
+				"translation": "As far as music is concerned, I prefer compositions that show a clear emotional development despite complex harmony."
+			},
+			{
+				"sentence": "Was die Musik angeht, hat sich mein Geschmack verändert, nachdem ich mich intensiver mit zeitgenössischen Arrangements beschäftigt hatte.",
+				"translation": "As far as music is concerned, my taste changed after I had engaged more intensively with contemporary arrangements."
 			}
 		],
 		"reviewCount": 0
@@ -344,8 +683,20 @@
 		"main": "laufen",
 		"suffix": "",
 		"meaning": "to run (lief, ist gelaufen)",
-		"description": "To run or function.",
-		"examples": [{ "sentence": "Er läuft jeden Morgen im Park.", "translation": "He runs in the park every morning." }],
+		"description": {
+			"definition": "Das Verb kann körperliche Bewegung bezeichnen oder beschreiben, dass ein Prozess technisch und organisatorisch funktioniert.",
+			"translation": "To run or function."
+		},
+		"examples": [
+			{
+				"sentence": "Damit die Einführung reibungslos laufen kann, wurden sämtliche Schnittstellen vorab getestet und mit klaren Verantwortlichkeiten dokumentiert.",
+				"translation": "So that the rollout can run smoothly, all interfaces were tested in advance and documented with clear responsibilities."
+			},
+			{
+				"sentence": "Nachdem das System mehrere Wochen stabil gelaufen war, haben wir zusätzliche Funktionen ohne Unterbrechung freigeschaltet.",
+				"translation": "After the system had run stably for several weeks, we enabled additional features without interruption."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -354,8 +705,20 @@
 		"main": "genießen",
 		"suffix": "",
 		"meaning": "to enjoy (genoss, hat genossen)",
-		"description": "To take pleasure in something.",
-		"examples": [{ "sentence": "Wir genießen das schöne Wetter.", "translation": "We enjoy the beautiful weather." }],
+		"description": {
+			"definition": "Das Verb drückt aus, dass man etwas bewusst als angenehm erlebt und diesen positiven Zustand wertschätzt.",
+			"translation": "To take pleasure in something."
+		},
+		"examples": [
+			{
+				"sentence": "Obwohl der Alltag oft hektisch ist, sollte man Momente genießen, in denen Konzentration, Ruhe und Klarheit gleichzeitig möglich werden.",
+				"translation": "Although daily life is often hectic, one should enjoy moments in which focus, calm, and clarity become possible at the same time."
+			},
+			{
+				"sentence": "Nachdem wir die Ergebnisse präsentiert hatten, haben wir den gemeinsamen Erfolg in entspannter Atmosphäre genossen.",
+				"translation": "After we had presented the results, we enjoyed the shared success in a relaxed atmosphere."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -364,11 +727,18 @@
 		"main": "gewöhnen",
 		"suffix": "sich an + Akk.",
 		"meaning": "to get used to someone/something (gewöhnte, hat gewöhnt)",
-		"description": "Reflexive verb used for becoming accustomed to a person or situation.",
+		"description": {
+			"definition": "Als reflexives Verb beschreibt es den Prozess, sich schrittweise an neue Bedingungen, Personen oder Abläufe anzupassen.",
+			"translation": "Reflexive verb used for becoming accustomed to a person or situation."
+		},
 		"examples": [
 			{
-				"sentence": "Ich habe mich schnell an meinen neuen Kollegen gewöhnt.",
-				"translation": "I got used to my new colleague quickly."
+				"sentence": "Wer in ein internationales Team wechselt, muss sich an unterschiedliche Kommunikationsstile gewöhnen, um Missverständnisse nachhaltig zu vermeiden.",
+				"translation": "Anyone moving to an international team must get used to different communication styles in order to avoid misunderstandings sustainably."
+			},
+			{
+				"sentence": "Nachdem sie sich an den neuen Arbeitsrhythmus gewöhnt hatte, hat sie komplexe Aufgaben deutlich effizienter organisiert.",
+				"translation": "After she had gotten used to the new work rhythm, she organized complex tasks much more efficiently."
 			}
 		],
 		"reviewCount": 0
@@ -379,8 +749,20 @@
 		"main": "übertreiben",
 		"suffix": "",
 		"meaning": "to exaggerate (übertrieb, hat übertrieben)",
-		"description": "To overdo or overstate.",
-		"examples": [{ "sentence": "Du übertreibst ein bisschen.", "translation": "You are exaggerating a little." }],
+		"description": {
+			"definition": "Das Verb bedeutet, etwas über das realistische Maß hinaus darzustellen oder in Intensität unverhältnismäßig zu steigern.",
+			"translation": "To overdo or overstate."
+		},
+		"examples": [
+			{
+				"sentence": "Wenn man Risiken übertreiben würde, könnten sinnvolle Innovationen aus reiner Vorsicht unnötig verzögert werden.",
+				"translation": "If risks were exaggerated, useful innovations could be unnecessarily delayed out of pure caution."
+			},
+			{
+				"sentence": "Nachdem der Bericht die Probleme stark übertrieben hatte, hat das Gremium die Bewertung mit belastbaren Daten korrigiert.",
+				"translation": "After the report had greatly exaggerated the problems, the committee corrected the assessment with reliable data."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -389,9 +771,19 @@
 		"main": "Gemeinschaft",
 		"suffix": "",
 		"meaning": "community (pl -en)",
-		"description": "A group living/working together.",
+		"description": {
+			"definition": "Der Begriff bezeichnet eine soziale Gruppe, die durch gemeinsame Werte, Ziele oder gegenseitige Verantwortung verbunden ist.",
+			"translation": "A group living/working together."
+		},
 		"examples": [
-			{ "sentence": "Die Gemeinschaft hilft allen Mitgliedern.", "translation": "The community helps all members." }
+			{
+				"sentence": "In einer belastbaren Gemeinschaft werden Konflikte nicht verdrängt, sondern transparent bearbeitet, damit langfristiges Vertrauen erhalten bleibt.",
+				"translation": "In a resilient community, conflicts are not suppressed but handled transparently so that long-term trust is maintained."
+			},
+			{
+				"sentence": "Nachdem die Gemeinschaft verbindliche Regeln beschlossen hatte, hat sich die Zusammenarbeit spürbar verbessert.",
+				"translation": "After the community had adopted binding rules, collaboration improved noticeably."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -401,11 +793,18 @@
 		"main": "Solidarität",
 		"suffix": "",
 		"meaning": "solidarity",
-		"description": "Unity and mutual support.",
+		"description": {
+			"definition": "Solidarität beschreibt die aktive Bereitschaft, Verantwortung zu teilen und andere auch unter Belastung verlässlich zu unterstützen.",
+			"translation": "Unity and mutual support."
+		},
 		"examples": [
 			{
-				"sentence": "In schwierigen Zeiten ist Solidarität wichtig.",
-				"translation": "Solidarity is important in difficult times."
+				"sentence": "Gerade in Krisenzeiten zeigt sich Solidarität daran, dass Ressourcen fair verteilt und besonders verletzliche Gruppen gezielt geschützt werden.",
+				"translation": "Especially in times of crisis, solidarity is shown by distributing resources fairly and protecting particularly vulnerable groups."
+			},
+			{
+				"sentence": "Nachdem die Belegschaft geschlossen Solidarität gezeigt hatte, hat die Geschäftsleitung mehrere strittige Maßnahmen zurückgenommen.",
+				"translation": "After the workforce had shown solidarity as one, management withdrew several disputed measures."
 			}
 		],
 		"reviewCount": 0
@@ -416,8 +815,20 @@
 		"main": "Ziel",
 		"suffix": "",
 		"meaning": "goal, target (pl -e)",
-		"description": "Something you aim to achieve.",
-		"examples": [{ "sentence": "Unser Ziel ist klar.", "translation": "Our goal is clear." }],
+		"description": {
+			"definition": "Ein Ziel ist ein konkret definierter Zustand, auf den Handlungen strategisch ausgerichtet werden.",
+			"translation": "Something you aim to achieve."
+		},
+		"examples": [
+			{
+				"sentence": "Damit das Ziel realistisch erreichbar bleibt, müssen Zwischenetappen klar formuliert und regelmäßig anhand messbarer Kriterien überprüft werden.",
+				"translation": "To keep the goal realistically achievable, intermediate stages must be clearly formulated and regularly reviewed against measurable criteria."
+			},
+			{
+				"sentence": "Nachdem das Team das strategische Ziel präzisiert hatte, hat sich die Priorisierung im Tagesgeschäft deutlich vereinfacht.",
+				"translation": "After the team had specified the strategic goal, prioritization in daily operations became much easier."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -426,9 +837,19 @@
 		"main": "Voraussetzung",
 		"suffix": "",
 		"meaning": "requirement (pl -en)",
-		"description": "A necessary condition.",
+		"description": {
+			"definition": "Eine Voraussetzung ist eine notwendige Bedingung, die erfüllt sein muss, bevor ein weiterer Schritt sinnvoll möglich ist.",
+			"translation": "A necessary condition."
+		},
 		"examples": [
-			{ "sentence": "Deutschkenntnisse sind eine Voraussetzung.", "translation": "German skills are a requirement." }
+			{
+				"sentence": "Für die Teilnahme am Programm ist eine stabile Datenbasis Voraussetzung, damit Entscheidungen nicht auf bloßen Annahmen beruhen.",
+				"translation": "A stable data basis is a prerequisite for participating in the program so that decisions are not based on mere assumptions."
+			},
+			{
+				"sentence": "Nachdem wir die technischen Voraussetzungen geschaffen hatten, hat die Einführung ohne größere Verzögerungen begonnen.",
+				"translation": "After we had created the technical prerequisites, the rollout began without major delays."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -438,11 +859,18 @@
 		"main": "Wohnungsgesellschaft",
 		"suffix": "",
 		"meaning": "housing company (pl -en)",
-		"description": "A company that manages residential buildings.",
+		"description": {
+			"definition": "Eine Wohnungsgesellschaft ist ein Unternehmen, das Wohngebäude verwaltet, instand hält und organisatorisch betreut.",
+			"translation": "A company that manages residential buildings."
+		},
 		"examples": [
 			{
-				"sentence": "Die Wohnungsgesellschaft renoviert das Gebäude.",
-				"translation": "The housing company is renovating the building."
+				"sentence": "Da die Wohnungsgesellschaft langfristig plant, wurden Sanierung, Energieeffizienz und soziale Infrastruktur in einem gemeinsamen Konzept gebündelt.",
+				"translation": "Since the housing company plans long-term, renovation, energy efficiency, and social infrastructure were bundled into one shared concept."
+			},
+			{
+				"sentence": "Nachdem die Wohnungsgesellschaft den Modernisierungsplan veröffentlicht hatte, hat sie zusätzliche Sprechstunden für die Mieter angeboten.",
+				"translation": "After the housing company had published the modernization plan, it offered additional consultation hours for tenants."
 			}
 		],
 		"reviewCount": 0
@@ -453,11 +881,18 @@
 		"main": "Umweltschutz",
 		"suffix": "",
 		"meaning": "environmental protection",
-		"description": "Actions that protect nature and the environment.",
+		"description": {
+			"definition": "Umweltschutz umfasst Maßnahmen, die natürliche Lebensgrundlagen erhalten und negative ökologische Folgen menschlichen Handelns reduzieren.",
+			"translation": "Actions that protect nature and the environment."
+		},
 		"examples": [
 			{
-				"sentence": "Umweltschutz ist heute sehr wichtig.",
-				"translation": "Environmental protection is very important today."
+				"sentence": "Effektiver Umweltschutz setzt voraus, dass Politik, Wirtschaft und Zivilgesellschaft abgestimmt handeln, statt isolierte Einzelmaßnahmen zu verfolgen.",
+				"translation": "Effective environmental protection requires coordinated action by politics, business, and civil society instead of isolated individual measures."
+			},
+			{
+				"sentence": "Nachdem die Stadt ein umfassendes Konzept für Umweltschutz beschlossen hatte, hat sie den Verkehr schrittweise emissionsärmer gestaltet.",
+				"translation": "After the city had adopted a comprehensive environmental protection concept, it gradually made transportation lower-emission."
 			}
 		],
 		"reviewCount": 0
@@ -468,11 +903,18 @@
 		"main": "umweltfreundlich",
 		"suffix": "",
 		"meaning": "environmentally friendly",
-		"description": "Not harmful to the environment.",
+		"description": {
+			"definition": "Das Adjektiv beschreibt Produkte oder Prozesse, die Ressourcen schonen und Umweltbelastungen möglichst gering halten.",
+			"translation": "Not harmful to the environment."
+		},
 		"examples": [
 			{
-				"sentence": "Wir benutzen umweltfreundliche Produkte.",
-				"translation": "We use environmentally friendly products."
+				"sentence": "Damit Produktionsketten wirklich umweltfreundlich werden, müssen Materialauswahl, Transportwege und Energiequellen gemeinsam optimiert werden.",
+				"translation": "To make production chains truly environmentally friendly, material selection, transport routes, and energy sources must be optimized together."
+			},
+			{
+				"sentence": "Nachdem das Unternehmen auf umweltfreundliche Verpackungen umgestellt hatte, hat es den Plastikverbrauch deutlich gesenkt.",
+				"translation": "After the company had switched to environmentally friendly packaging, it significantly reduced plastic consumption."
 			}
 		],
 		"reviewCount": 0
@@ -483,11 +925,18 @@
 		"main": "Meisterbetrieb",
 		"suffix": "",
 		"meaning": "master-certified business (pl -e)",
-		"description": "A company run by certified master craftspeople.",
+		"description": {
+			"definition": "Ein Meisterbetrieb ist ein Handwerksunternehmen mit qualifizierter Leitung, das hohe fachliche Standards und Ausbildungsqualität gewährleistet.",
+			"translation": "A company run by certified master craftspeople."
+		},
 		"examples": [
 			{
-				"sentence": "Das ist ein anerkannter Meisterbetrieb.",
-				"translation": "This is a recognized master-certified business."
+				"sentence": "Da ein Meisterbetrieb strenge Qualitätsrichtlinien einhält, erwarten Kundinnen und Kunden nachvollziehbare Prozesse sowie verlässliche Ergebnisse.",
+				"translation": "Since a master-certified business follows strict quality standards, customers expect transparent processes and reliable results."
+			},
+			{
+				"sentence": "Nachdem der Betrieb offiziell als Meisterbetrieb anerkannt worden war, hat sich die Nachfrage nach seinen Leistungen deutlich erhöht.",
+				"translation": "After the business had been officially recognized as a master-certified company, demand for its services increased significantly."
 			}
 		],
 		"reviewCount": 0
@@ -498,11 +947,18 @@
 		"main": "reagieren",
 		"suffix": "auf + Akk.",
 		"meaning": "to react (reagierte, hat reagiert)",
-		"description": "To respond to something.",
+		"description": {
+			"definition": "Das Verb beschreibt eine gezielte Antwort auf einen Impuls, ein Problem oder eine Veränderung.",
+			"translation": "To respond to something."
+		},
 		"examples": [
 			{
-				"sentence": "Sie reagiert schnell auf Probleme.",
-				"translation": "She reacts quickly to problems."
+				"sentence": "In dynamischen Projekten muss man flexibel reagieren, sobald neue Informationen die ursprünglichen Annahmen grundlegend verändern.",
+				"translation": "In dynamic projects, one must react flexibly as soon as new information fundamentally changes initial assumptions."
+			},
+			{
+				"sentence": "Nachdem das Team auf die Störung schnell reagiert hatte, hat es den Betrieb ohne längeren Ausfall stabilisiert.",
+				"translation": "After the team had reacted quickly to the disruption, it stabilized operations without a prolonged outage."
 			}
 		],
 		"reviewCount": 0
@@ -513,11 +969,18 @@
 		"main": "umweltbewusst",
 		"suffix": "",
 		"meaning": "environmentally conscious",
-		"description": "Aware of and careful about environmental impact.",
+		"description": {
+			"definition": "Das Adjektiv beschreibt eine Haltung, bei der ökologische Folgen im Alltag und bei Entscheidungen bewusst berücksichtigt werden.",
+			"translation": "Aware of and careful about environmental impact."
+		},
 		"examples": [
 			{
-				"sentence": "Er lebt sehr umweltbewusst.",
-				"translation": "He lives very environmentally consciously."
+				"sentence": "Wer wirklich umweltbewusst lebt, reduziert nicht nur Abfall, sondern hinterfragt auch Konsummuster, Mobilität und Energieeinsatz.",
+				"translation": "Those who truly live environmentally consciously not only reduce waste but also question consumption patterns, mobility, and energy use."
+			},
+			{
+				"sentence": "Nachdem sie ihr Verhalten schrittweise umweltbewusster gestaltet hatte, hat sie ihren ökologischen Fußabdruck messbar verringert.",
+				"translation": "After she had gradually made her behavior more environmentally conscious, she measurably reduced her ecological footprint."
 			}
 		],
 		"reviewCount": 0
@@ -528,11 +991,18 @@
 		"main": "Verantwortung",
 		"suffix": "für + Akk.",
 		"meaning": "responsibility",
-		"description": "Duty or accountability for something.",
+		"description": {
+			"definition": "Verantwortung bezeichnet die Verpflichtung, für Entscheidungen und deren Folgen nachvollziehbar einzustehen.",
+			"translation": "Duty or accountability for something."
+		},
 		"examples": [
 			{
-				"sentence": "Sie trägt Verantwortung für das Team.",
-				"translation": "She carries responsibility for the team."
+				"sentence": "Wer Verantwortung für ein Team übernimmt, muss Prioritäten transparent kommunizieren und Konflikte lösungsorientiert moderieren.",
+				"translation": "Anyone who takes responsibility for a team must communicate priorities transparently and moderate conflicts in a solution-oriented way."
+			},
+			{
+				"sentence": "Nachdem sie die Verantwortung für das Projekt übernommen hatte, hat sie die Rollenverteilung klarer strukturiert.",
+				"translation": "After she had taken responsibility for the project, she structured role distribution more clearly."
 			}
 		],
 		"reviewCount": 0
@@ -543,11 +1013,18 @@
 		"main": "Maßnahme",
 		"suffix": "",
 		"meaning": "measure, action (pl -n)",
-		"description": "A specific action taken to solve a problem.",
+		"description": {
+			"definition": "Eine Maßnahme ist ein gezielter Schritt, der zur Lösung eines Problems oder zur Erreichung eines Ziels dient.",
+			"translation": "A specific action taken to solve a problem."
+		},
 		"examples": [
 			{
-				"sentence": "Die Maßnahme war sehr effektiv.",
-				"translation": "The measure was very effective."
+				"sentence": "Damit die Maßnahme nachhaltig wirkt, muss sie nicht nur kurzfristige Symptome, sondern auch strukturelle Ursachen adressieren.",
+				"translation": "For the measure to have sustainable impact, it must address not only short-term symptoms but also structural causes."
+			},
+			{
+				"sentence": "Nachdem die Maßnahme in mehreren Pilotbereichen getestet worden war, hat man sie unter klaren Kriterien ausgerollt.",
+				"translation": "After the measure had been tested in several pilot areas, it was rolled out under clear criteria."
 			}
 		],
 		"reviewCount": 0
@@ -558,11 +1035,18 @@
 		"main": "Schritt",
 		"suffix": "",
 		"meaning": "step (pl -e)",
-		"description": "A stage in a process.",
+		"description": {
+			"definition": "Ein Schritt bezeichnet eine einzelne Etappe innerhalb eines größeren Ablaufs oder Entwicklungsprozesses.",
+			"translation": "A stage in a process."
+		},
 		"examples": [
 			{
-				"sentence": "Das ist der erste Schritt.",
-				"translation": "That is the first step."
+				"sentence": "Der entscheidende Schritt bestand darin, zunächst die Abhängigkeiten sichtbar zu machen, bevor weitere Aufgaben verteilt wurden.",
+				"translation": "The crucial step was to make dependencies visible first before assigning further tasks."
+			},
+			{
+				"sentence": "Nachdem der erste Schritt sauber dokumentiert worden war, hat sich der restliche Ablauf deutlich stabiler entwickelt.",
+				"translation": "After the first step had been properly documented, the rest of the process developed much more stably."
 			}
 		],
 		"reviewCount": 0
@@ -573,11 +1057,18 @@
 		"main": "Richtung",
 		"suffix": "",
 		"meaning": "direction (pl -en)",
-		"description": "Way or orientation.",
+		"description": {
+			"definition": "Richtung beschreibt eine räumliche oder strategische Orientierung, in die sich etwas bewegt oder entwickelt.",
+			"translation": "Way or orientation."
+		},
 		"examples": [
 			{
-				"sentence": "In welche Richtung gehen wir?",
-				"translation": "In which direction are we going?"
+				"sentence": "Damit Ressourcen effizient eingesetzt werden, muss die Richtung klar definiert sein und regelmäßig an neue Erkenntnisse angepasst werden.",
+				"translation": "For resources to be used efficiently, the direction must be clearly defined and regularly adapted to new insights."
+			},
+			{
+				"sentence": "Nachdem das Team eine gemeinsame Richtung festgelegt hatte, haben sich Prioritäten und Zuständigkeiten schneller geklärt.",
+				"translation": "After the team had defined a common direction, priorities and responsibilities were clarified faster."
 			}
 		],
 		"reviewCount": 0
@@ -588,11 +1079,18 @@
 		"main": "Seniorenheim",
 		"suffix": "",
 		"meaning": "nursing home (pl -e)",
-		"description": "A home for elderly people who need care.",
+		"description": {
+			"definition": "Ein Seniorenheim ist eine Einrichtung, in der ältere Menschen mit Unterstützungsbedarf professionell betreut werden.",
+			"translation": "A home for elderly people who need care."
+		},
 		"examples": [
 			{
-				"sentence": "Ihre Großmutter lebt im Seniorenheim.",
-				"translation": "Her grandmother lives in a nursing home."
+				"sentence": "Damit Bewohnerinnen und Bewohner im Seniorenheim selbstbestimmt leben können, braucht es neben Pflege auch soziale Teilhabeangebote.",
+				"translation": "So that residents in a nursing home can live self-determined lives, social participation opportunities are needed in addition to care."
+			},
+			{
+				"sentence": "Nachdem das Seniorenheim zusätzliche Fachkräfte eingestellt hatte, hat sich die Betreuungsqualität deutlich verbessert.",
+				"translation": "After the nursing home had hired additional skilled staff, the quality of care improved significantly."
 			}
 		],
 		"reviewCount": 0
@@ -603,11 +1101,18 @@
 		"main": "Pflege",
 		"suffix": "",
 		"meaning": "care, nursing",
-		"description": "Support and treatment for people in need.",
+		"description": {
+			"definition": "Pflege umfasst fachliche und menschliche Unterstützung für Personen, die im Alltag oder medizinisch Hilfe benötigen.",
+			"translation": "Support and treatment for people in need."
+		},
 		"examples": [
 			{
-				"sentence": "Die Pflege älterer Menschen ist anspruchsvoll.",
-				"translation": "Caring for older people is demanding."
+				"sentence": "Qualitativ gute Pflege erfordert nicht nur medizinisches Wissen, sondern auch kommunikative Kompetenz und langfristige Kontinuität.",
+				"translation": "High-quality care requires not only medical knowledge but also communication skills and long-term continuity."
+			},
+			{
+				"sentence": "Nachdem die Pflege interdisziplinär organisiert worden war, hat sich die Belastung im Team deutlich reduziert.",
+				"translation": "After care had been organized in an interdisciplinary way, the workload in the team was significantly reduced."
 			}
 		],
 		"reviewCount": 0
@@ -618,11 +1123,18 @@
 		"main": "Sinn",
 		"suffix": "",
 		"meaning": "sense, meaning (pl -e)",
-		"description": "Purpose or meaning of something.",
+		"description": {
+			"definition": "Sinn bezeichnet den Zweck, die inhaltliche Bedeutung oder den nachvollziehbaren Nutzen einer Handlung oder Aussage.",
+			"translation": "Purpose or meaning of something."
+		},
 		"examples": [
 			{
-				"sentence": "Was ist der Sinn dieser Übung?",
-				"translation": "What is the point of this exercise?"
+				"sentence": "Der Sinn dieser Methode erschließt sich erst dann vollständig, wenn man ihre Wirkung in verschiedenen Kontexten vergleicht.",
+				"translation": "The purpose of this method only becomes fully clear when you compare its effect across different contexts."
+			},
+			{
+				"sentence": "Nachdem wir den Sinn des Prozesses gemeinsam geklärt hatten, hat die Akzeptanz im Team spürbar zugenommen.",
+				"translation": "After we had clarified the purpose of the process together, acceptance in the team increased noticeably."
 			}
 		],
 		"reviewCount": 0
@@ -633,11 +1145,18 @@
 		"main": "sinnvoll",
 		"suffix": "",
 		"meaning": "meaningful, sensible",
-		"description": "Useful and reasonable.",
+		"description": {
+			"definition": "Das Adjektiv beschreibt Entscheidungen oder Handlungen, die begründet, nützlich und im Kontext angemessen sind.",
+			"translation": "Useful and reasonable."
+		},
 		"examples": [
 			{
-				"sentence": "Das ist eine sinnvolle Lösung.",
-				"translation": "That is a sensible solution."
+				"sentence": "Eine sinnvolle Priorisierung berücksichtigt sowohl kurzfristige Engpässe als auch langfristige strategische Ziele.",
+				"translation": "A sensible prioritization considers both short-term bottlenecks and long-term strategic goals."
+			},
+			{
+				"sentence": "Nachdem die Alternativen geprüft worden waren, hat sich die vorgeschlagene Lösung als besonders sinnvoll erwiesen.",
+				"translation": "After the alternatives had been reviewed, the proposed solution proved particularly sensible."
 			}
 		],
 		"reviewCount": 0
@@ -648,11 +1167,18 @@
 		"main": "Ernährung",
 		"suffix": "",
 		"meaning": "nutrition, diet",
-		"description": "The way people eat.",
+		"description": {
+			"definition": "Ernährung beschreibt Art und Qualität der Nahrungsaufnahme sowie deren Auswirkungen auf Gesundheit und Leistungsfähigkeit.",
+			"translation": "The way people eat."
+		},
 		"examples": [
 			{
-				"sentence": "Gesunde Ernährung ist wichtig.",
-				"translation": "A healthy diet is important."
+				"sentence": "Eine ausgewogene Ernährung trägt besonders dann zur Stabilität bei, wenn Arbeitsbelastung, Schlaf und Bewegung miteinander abgestimmt werden.",
+				"translation": "A balanced diet contributes to stability especially when workload, sleep, and exercise are aligned."
+			},
+			{
+				"sentence": "Nachdem sie ihre Ernährung schrittweise umgestellt hatte, hat sich ihr Energielevel über den Tag hinweg deutlich verbessert.",
+				"translation": "After she had gradually changed her diet, her energy level improved significantly throughout the day."
 			}
 		],
 		"reviewCount": 0
@@ -663,11 +1189,18 @@
 		"main": "Brandunfall",
 		"suffix": "",
 		"meaning": "fire accident (pl -fälle)",
-		"description": "An accident caused by fire.",
+		"description": {
+			"definition": "Ein Brandunfall ist ein Schadensereignis, bei dem durch Feuer Personen, Gebäude oder Infrastruktur gefährdet werden.",
+			"translation": "An accident caused by fire."
+		},
 		"examples": [
 			{
-				"sentence": "Der Brandunfall verursachte großen Schaden.",
-				"translation": "The fire accident caused major damage."
+				"sentence": "Da Sicherheitsabstände nicht eingehalten wurden, führte ein kleiner Defekt zu einem Brandunfall mit erheblichen Folgekosten.",
+				"translation": "Since safety distances were not observed, a minor defect led to a fire accident with significant follow-up costs."
+			},
+			{
+				"sentence": "Nachdem der Brandunfall detailliert untersucht worden war, hat das Unternehmen seine Schutzmaßnahmen deutlich verschärft.",
+				"translation": "After the fire accident had been investigated in detail, the company significantly tightened its safety measures."
 			}
 		],
 		"reviewCount": 0
@@ -678,11 +1211,18 @@
 		"main": "Umland",
 		"suffix": "",
 		"meaning": "surrounding area",
-		"description": "Area around a city or region.",
+		"description": {
+			"definition": "Das Umland bezeichnet die Gebiete außerhalb einer Stadt, die wirtschaftlich und infrastrukturell eng mit ihr verbunden sind.",
+			"translation": "Area around a city or region."
+		},
 		"examples": [
 			{
-				"sentence": "Viele Menschen wohnen im Umland.",
-				"translation": "Many people live in the surrounding area."
+				"sentence": "Damit Pendelwege reduziert werden, müssen Verkehrskonzepte die Verbindungen zwischen Stadtzentrum und Umland systematisch verbessern.",
+				"translation": "To reduce commuting distances, transport concepts must systematically improve connections between the city center and surrounding areas."
+			},
+			{
+				"sentence": "Nachdem sich die Mieten im Zentrum stark erhöht hatten, sind viele Familien ins Umland gezogen.",
+				"translation": "After rents in the center had risen sharply, many families moved to the surrounding area."
 			}
 		],
 		"reviewCount": 0
@@ -693,11 +1233,18 @@
 		"main": "Unaufmerksamkeit",
 		"suffix": "",
 		"meaning": "inattention",
-		"description": "Lack of attention.",
+		"description": {
+			"definition": "Unaufmerksamkeit beschreibt eine nachlassende Konzentration, durch die Fehler, Risiken oder Missverständnisse entstehen können.",
+			"translation": "Lack of attention."
+		},
 		"examples": [
 			{
-				"sentence": "Ein Unfall passierte wegen Unaufmerksamkeit.",
-				"translation": "An accident happened due to inattention."
+				"sentence": "Selbst kurze Unaufmerksamkeit kann in komplexen Abläufen gravierende Folgen haben, wenn sicherheitsrelevante Schritte übersprungen werden.",
+				"translation": "Even brief inattention can have serious consequences in complex processes if safety-relevant steps are skipped."
+			},
+			{
+				"sentence": "Nachdem der Vorfall auf Unaufmerksamkeit zurückgeführt worden war, hat das Team verbindliche Kontrollpunkte eingeführt.",
+				"translation": "After the incident had been traced back to inattention, the team introduced binding checkpoints."
 			}
 		],
 		"reviewCount": 0
@@ -708,11 +1255,18 @@
 		"main": "Überschrift",
 		"suffix": "",
 		"meaning": "headline (pl -en)",
-		"description": "Title at the top of an article or section.",
+		"description": {
+			"definition": "Eine Überschrift fasst den Kern eines Abschnitts prägnant zusammen und steuert die Erwartung der Lesenden.",
+			"translation": "Title at the top of an article or section."
+		},
 		"examples": [
 			{
-				"sentence": "Die Überschrift macht neugierig.",
-				"translation": "The headline makes you curious."
+				"sentence": "Eine präzise Überschrift sollte nicht nur Aufmerksamkeit erzeugen, sondern auch den inhaltlichen Rahmen des Textes klar markieren.",
+				"translation": "A precise headline should not only attract attention but also clearly mark the content scope of the text."
+			},
+			{
+				"sentence": "Nachdem die Redaktion die Überschrift überarbeitet hatte, hat sich die Lesedauer des Artikels deutlich erhöht.",
+				"translation": "After the editorial team had revised the headline, the article’s reading time increased significantly."
 			}
 		],
 		"reviewCount": 0
@@ -723,11 +1277,18 @@
 		"main": "Betreuungsstelle",
 		"suffix": "",
 		"meaning": "care office (pl -n)",
-		"description": "Office responsible for support and care services.",
+		"description": {
+			"definition": "Eine Betreuungsstelle ist eine organisatorische Anlaufstelle, die Unterstützung koordiniert und Betroffene fachlich begleitet.",
+			"translation": "Office responsible for support and care services."
+		},
 		"examples": [
 			{
-				"sentence": "Die Betreuungsstelle hilft den Familien.",
-				"translation": "The care office helps families."
+				"sentence": "Wenn soziale Leistungen fragmentiert sind, übernimmt die Betreuungsstelle eine zentrale Rolle bei der abgestimmten Fallkoordination.",
+				"translation": "When social services are fragmented, the care office takes a central role in coordinated case management."
+			},
+			{
+				"sentence": "Nachdem die Betreuungsstelle ihre Prozesse digitalisiert hatte, hat sie Anfragen schneller und transparenter bearbeitet.",
+				"translation": "After the care office had digitized its processes, it handled requests faster and more transparently."
 			}
 		],
 		"reviewCount": 0
@@ -738,11 +1299,18 @@
 		"main": "Verhältnis",
 		"suffix": "zu + Dat.",
 		"meaning": "relationship, ratio (pl -se)",
-		"description": "A relation between things or people.",
+		"description": {
+			"definition": "Verhältnis beschreibt eine Beziehung zwischen Personen, Größen oder Faktoren, die inhaltlich oder quantitativ bestimmt ist.",
+			"translation": "A relation between things or people."
+		},
 		"examples": [
 			{
-				"sentence": "Sie hat ein gutes Verhältnis zu ihren Kollegen.",
-				"translation": "She has a good relationship with her colleagues."
+				"sentence": "Ein stabiles Verhältnis zwischen Führung und Team entsteht nur dann, wenn Kritik transparent und respektvoll eingebracht werden kann.",
+				"translation": "A stable relationship between leadership and team only emerges when criticism can be expressed transparently and respectfully."
+			},
+			{
+				"sentence": "Nachdem sie das Verhältnis zu ihren Kolleginnen und Kollegen aktiv verbessert hatte, hat sich die Zusammenarbeit spürbar entspannt.",
+				"translation": "After she had actively improved her relationship with colleagues, collaboration became noticeably more relaxed."
 			}
 		],
 		"reviewCount": 0
@@ -753,11 +1321,18 @@
 		"main": "Vorsicht",
 		"suffix": "",
 		"meaning": "caution",
-		"description": "Carefulness to avoid danger.",
+		"description": {
+			"definition": "Vorsicht bezeichnet ein umsichtiges Verhalten, mit dem Risiken erkannt und potenzielle Schäden vermieden werden.",
+			"translation": "Carefulness to avoid danger."
+		},
 		"examples": [
 			{
-				"sentence": "Vorsicht auf der nassen Straße!",
-				"translation": "Caution on the wet road!"
+				"sentence": "Bei unklaren Rahmenbedingungen ist Vorsicht geboten, weil kleine Fehlannahmen in komplexen Prozessen schnell große Wirkung entfalten.",
+				"translation": "Under unclear conditions, caution is necessary because small wrong assumptions can quickly have major effects in complex processes."
+			},
+			{
+				"sentence": "Nachdem der Hinweis auf erhöhte Vorsicht veröffentlicht worden war, hat sich die Zahl der Zwischenfälle reduziert.",
+				"translation": "After the notice calling for increased caution had been published, the number of incidents decreased."
 			}
 		],
 		"reviewCount": 0
@@ -768,11 +1343,18 @@
 		"main": "Vorliebe",
 		"suffix": "für + Akk.",
 		"meaning": "preference (pl -n)",
-		"description": "A strong liking for something.",
+		"description": {
+			"definition": "Eine Vorliebe beschreibt eine ausgeprägte persönliche Präferenz für bestimmte Inhalte, Stile oder Handlungsweisen.",
+			"translation": "A strong liking for something."
+		},
 		"examples": [
 			{
-				"sentence": "Er hat eine Vorliebe für klassische Musik.",
-				"translation": "He has a preference for classical music."
+				"sentence": "Ihre Vorliebe für analytische Methoden hat die Projektplanung geprägt, weil Entscheidungen konsequent datenbasiert getroffen wurden.",
+				"translation": "Her preference for analytical methods shaped project planning because decisions were made consistently on a data basis."
+			},
+			{
+				"sentence": "Nachdem er seine Vorliebe für klassische Musik wiederentdeckt hatte, hat er regelmäßig Konzerte besucht.",
+				"translation": "After he had rediscovered his preference for classical music, he attended concerts regularly."
 			}
 		],
 		"reviewCount": 0
@@ -783,11 +1365,18 @@
 		"main": "Spannung",
 		"suffix": "",
 		"meaning": "tension, suspense (pl -en)",
-		"description": "Mental or physical strain; suspense.",
+		"description": {
+			"definition": "Spannung kann sowohl emotionale Erwartung als auch psychischen oder physischen Druck in einer Situation bezeichnen.",
+			"translation": "Mental or physical strain; suspense."
+		},
 		"examples": [
 			{
-				"sentence": "Die Spannung im Film war groß.",
-				"translation": "The suspense in the movie was high."
+				"sentence": "Die Spannung blieb bis zum Schluss erhalten, weil neue Informationen sorgfältig dosiert und strategisch platziert wurden.",
+				"translation": "The suspense remained until the end because new information was carefully dosed and strategically placed."
+			},
+			{
+				"sentence": "Nachdem die Spannung im Team über Wochen zugenommen hatte, hat die Moderation ein klärendes Gespräch initiiert.",
+				"translation": "After tension in the team had increased over weeks, moderation initiated a clarifying discussion."
 			}
 		],
 		"reviewCount": 0
@@ -798,11 +1387,18 @@
 		"main": "Förderung",
 		"suffix": "",
 		"meaning": "support, promotion (pl -en)",
-		"description": "Financial or practical support for development.",
+		"description": {
+			"definition": "Förderung umfasst finanzielle, strukturelle oder inhaltliche Unterstützung, die Entwicklung und Teilhabe erleichtert.",
+			"translation": "Financial or practical support for development."
+		},
 		"examples": [
 			{
-				"sentence": "Die Förderung hilft kleinen Unternehmen.",
-				"translation": "The support helps small companies."
+				"sentence": "Wirksame Förderung entsteht dann, wenn Mittel nicht pauschal verteilt, sondern entlang klarer Bedarfsanalysen priorisiert werden.",
+				"translation": "Effective support arises when funds are not distributed indiscriminately but prioritized along clear needs analyses."
+			},
+			{
+				"sentence": "Nachdem die Förderung bewilligt worden war, hat das Unternehmen die geplanten Investitionen schneller umgesetzt.",
+				"translation": "After funding had been approved, the company implemented the planned investments faster."
 			}
 		],
 		"reviewCount": 0
@@ -813,11 +1409,18 @@
 		"main": "Wohnanlage",
 		"suffix": "",
 		"meaning": "residential complex (pl -n)",
-		"description": "Group of residential buildings.",
+		"description": {
+			"definition": "Eine Wohnanlage ist ein baulich zusammenhängender Komplex mit mehreren Wohnungen und gemeinsamer Infrastruktur.",
+			"translation": "Group of residential buildings."
+		},
 		"examples": [
 			{
-				"sentence": "Die neue Wohnanlage hat einen Garten.",
-				"translation": "The new residential complex has a garden."
+				"sentence": "Moderne Wohnanlagen sollten nicht nur verdichtet bauen, sondern auch soziale Räume schaffen, die Begegnung und Teilhabe ermöglichen.",
+				"translation": "Modern residential complexes should not only build densely but also create social spaces that enable interaction and participation."
+			},
+			{
+				"sentence": "Nachdem die Wohnanlage umfassend saniert worden war, hat sich die Lebensqualität der Bewohner deutlich erhöht.",
+				"translation": "After the residential complex had been comprehensively renovated, residents’ quality of life increased significantly."
 			}
 		],
 		"reviewCount": 0
@@ -828,11 +1431,18 @@
 		"main": "Verband",
 		"suffix": "",
 		"meaning": "association (pl -ände)",
-		"description": "An organized group or federation.",
+		"description": {
+			"definition": "Ein Verband ist ein organisierter Zusammenschluss, der gemeinsame Interessen koordiniert und nach außen vertritt.",
+			"translation": "An organized group or federation."
+		},
 		"examples": [
 			{
-				"sentence": "Der Verband organisiert das Treffen.",
-				"translation": "The association organizes the meeting."
+				"sentence": "Der Verband übernimmt eine wichtige Koordinationsfunktion, wenn unterschiedliche Akteure mit teilweise konkurrierenden Interessen zusammenarbeiten.",
+				"translation": "The association takes on an important coordination role when different actors with partly competing interests work together."
+			},
+			{
+				"sentence": "Nachdem der Verband neue Standards beschlossen hatte, haben sich die Mitgliedsorganisationen daran schrittweise angepasst.",
+				"translation": "After the association had adopted new standards, member organizations adapted to them step by step."
 			}
 		],
 		"reviewCount": 0
@@ -843,11 +1453,18 @@
 		"main": "Schulden",
 		"suffix": "",
 		"meaning": "debts",
-		"description": "Money that someone owes.",
+		"description": {
+			"definition": "Schulden sind finanzielle Verpflichtungen, die gegenüber Gläubigern innerhalb vereinbarter Fristen zurückgezahlt werden müssen.",
+			"translation": "Money that someone owes."
+		},
 		"examples": [
 			{
-				"sentence": "Er hat keine Schulden mehr.",
-				"translation": "He has no debts anymore."
+				"sentence": "Ohne eine tragfähige Tilgungsstrategie können Schulden langfristig Handlungsspielräume einschränken und zusätzlichen Druck erzeugen.",
+				"translation": "Without a viable repayment strategy, debts can limit room for action in the long term and create additional pressure."
+			},
+			{
+				"sentence": "Nachdem er seine Schulden systematisch umstrukturiert hatte, hat sich seine finanzielle Situation stabilisiert.",
+				"translation": "After he had systematically restructured his debts, his financial situation stabilized."
 			}
 		],
 		"reviewCount": 0
@@ -858,11 +1475,18 @@
 		"main": "schuldenfrei",
 		"suffix": "",
 		"meaning": "debt-free",
-		"description": "Without any debts.",
+		"description": {
+			"definition": "Das Adjektiv beschreibt den Zustand, keine offenen finanziellen Verbindlichkeiten mehr zu haben.",
+			"translation": "Without any debts."
+		},
 		"examples": [
 			{
-				"sentence": "Nach Jahren ist sie endlich schuldenfrei.",
-				"translation": "After years, she is finally debt-free."
+				"sentence": "Wirklich schuldenfrei bleibt man nur dann, wenn Ausgaben, Rücklagen und langfristige Verpflichtungen realistisch austariert sind.",
+				"translation": "You remain truly debt-free only when expenses, reserves, and long-term obligations are balanced realistically."
+			},
+			{
+				"sentence": "Nachdem sie ihren Rückzahlungsplan konsequent umgesetzt hatte, war sie zum Jahresende vollständig schuldenfrei.",
+				"translation": "After she had implemented her repayment plan consistently, she was completely debt-free by year-end."
 			}
 		],
 		"reviewCount": 0
@@ -873,11 +1497,18 @@
 		"main": "Inhalt",
 		"suffix": "",
 		"meaning": "content (pl -e)",
-		"description": "What something contains.",
+		"description": {
+			"definition": "Inhalt bezeichnet die inhaltliche Substanz eines Textes, Vortrags oder Mediums, unabhängig von seiner äußeren Form.",
+			"translation": "What something contains."
+		},
 		"examples": [
 			{
-				"sentence": "Der Inhalt des Buches ist spannend.",
-				"translation": "The content of the book is exciting."
+				"sentence": "Der Inhalt sollte nicht nur informativ sein, sondern auch logisch aufgebaut, damit komplexe Argumente nachvollziehbar bleiben.",
+				"translation": "Content should not only be informative but also logically structured so that complex arguments remain understandable."
+			},
+			{
+				"sentence": "Nachdem wir den Inhalt neu strukturiert hatten, hat die Präsentation deutlich klarer gewirkt.",
+				"translation": "After we had restructured the content, the presentation appeared much clearer."
 			}
 		],
 		"reviewCount": 0
@@ -888,11 +1519,18 @@
 		"main": "kurzentschlossen",
 		"suffix": "",
 		"meaning": "decisive at short notice",
-		"description": "Making decisions quickly in a situation.",
+		"description": {
+			"definition": "Das Adjektiv beschreibt ein schnelles, entschlossenes Handeln in unerwarteten oder zeitkritischen Situationen.",
+			"translation": "Making decisions quickly in a situation."
+		},
 		"examples": [
 			{
-				"sentence": "Sie handelte kurzentschlossen.",
-				"translation": "She acted decisively at short notice."
+				"sentence": "In kritischen Momenten ist es hilfreich, kurzentschlossen zu handeln, sofern die wichtigsten Risiken parallel abgesichert werden.",
+				"translation": "In critical moments, it is helpful to act decisively at short notice, provided the key risks are mitigated in parallel."
+			},
+			{
+				"sentence": "Nachdem sie die Lage präzise eingeschätzt hatte, hat sie kurzentschlossen eingegriffen und größeren Schaden verhindert.",
+				"translation": "After she had assessed the situation precisely, she intervened decisively at short notice and prevented greater damage."
 			}
 		],
 		"reviewCount": 0
@@ -903,9 +1541,19 @@
 		"main": "bedeutend",
 		"suffix": "",
 		"meaning": "important, significant",
-		"description": "Having strong importance or influence.",
+		"description": {
+			"definition": "Das Adjektiv kennzeichnet Sachverhalte, die eine hohe Relevanz oder weitreichende Auswirkungen besitzen.",
+			"translation": "Having strong importance or influence."
+		},
 		"examples": [
-			{ "sentence": "Das ist eine bedeutende Entscheidung.", "translation": "That is a significant decision." }
+			{
+				"sentence": "Eine bedeutende Entscheidung sollte auf belastbaren Daten beruhen, damit kurzfristige Effekte nicht überbewertet werden.",
+				"translation": "A significant decision should be based on reliable data so that short-term effects are not overvalued."
+			},
+			{
+				"sentence": "Nachdem die Analyse abgeschlossen worden war, hat sich gezeigt, dass der Schritt strategisch bedeutend war.",
+				"translation": "After the analysis had been completed, it became clear that the step was strategically significant."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -915,11 +1563,18 @@
 		"main": "unbescholten",
 		"suffix": "",
 		"meaning": "of good character, with no criminal record",
-		"description": "Used to describe someone with a clean reputation.",
+		"description": {
+			"definition": "Das Adjektiv beschreibt eine Person mit einwandfreiem Ruf und ohne strafrechtliche Verfehlungen.",
+			"translation": "Used to describe someone with a clean reputation."
+		},
 		"examples": [
 			{
-				"sentence": "Er gilt als unbescholtener Bürger.",
-				"translation": "He is considered a citizen of good character."
+				"sentence": "Bei sensiblen Positionen wird häufig geprüft, ob Bewerbende als unbescholten gelten und dauerhaft verantwortungsvoll gehandelt haben.",
+				"translation": "For sensitive positions, it is often checked whether applicants are considered of good character and have acted responsibly over time."
+			},
+			{
+				"sentence": "Nachdem die Unterlagen vollständig geprüft worden waren, wurde sie offiziell als unbescholten eingestuft.",
+				"translation": "After the documents had been fully reviewed, she was officially classified as of good character."
 			}
 		],
 		"reviewCount": 0
@@ -930,11 +1585,18 @@
 		"main": "Umgangsform",
 		"suffix": "",
 		"meaning": "manner, social form (pl -en)",
-		"description": "Polite and accepted social behavior.",
+		"description": {
+			"definition": "Eine Umgangsform beschreibt sozial akzeptierte Verhaltensweisen, die respektvolle Kommunikation und Zusammenarbeit erleichtern.",
+			"translation": "Polite and accepted social behavior."
+		},
 		"examples": [
 			{
-				"sentence": "Gute Umgangsformen sind wichtig.",
-				"translation": "Good manners are important."
+				"sentence": "Professionelle Umgangsformen schaffen Vertrauen, weil sie auch in Konfliktsituationen klare Grenzen und gegenseitigen Respekt sichern.",
+				"translation": "Professional manners create trust because they ensure clear boundaries and mutual respect even in conflict situations."
+			},
+			{
+				"sentence": "Nachdem das Unternehmen neue Leitlinien zu Umgangsformen eingeführt hatte, hat sich das Arbeitsklima verbessert.",
+				"translation": "After the company had introduced new guidelines on manners, the working climate improved."
 			}
 		],
 		"reviewCount": 0
@@ -945,11 +1607,18 @@
 		"main": "Hauptportier",
 		"suffix": "",
 		"meaning": "chief porter (pl -s)",
-		"description": "Head concierge or chief doorman.",
+		"description": {
+			"definition": "Der Hauptportier koordiniert den Empfangsbereich, steuert Abläufe im Eingangsservice und ist zentrale Ansprechperson für Gäste.",
+			"translation": "Head concierge or chief doorman."
+		},
 		"examples": [
 			{
-				"sentence": "Der Hauptportier begrüßte die Gäste.",
-				"translation": "The chief porter welcomed the guests."
+				"sentence": "Der Hauptportier behielt auch in Stoßzeiten den Überblick, indem er Ankünfte koordinierte und Sonderwünsche präzise weiterleitete.",
+				"translation": "The chief porter kept an overview even during peak times by coordinating arrivals and forwarding special requests precisely."
+			},
+			{
+				"sentence": "Nachdem der Hauptportier die Schicht neu organisiert hatte, hat sich der Empfangsprozess deutlich beschleunigt.",
+				"translation": "After the chief porter had reorganized the shift, the reception process sped up significantly."
 			}
 		],
 		"reviewCount": 0
@@ -960,11 +1629,18 @@
 		"main": "Schreiben",
 		"suffix": "",
 		"meaning": "writing, letter",
-		"description": "A written message or letter.",
+		"description": {
+			"definition": "Ein Schreiben ist eine formelle schriftliche Mitteilung, die Informationen, Anfragen oder Entscheidungen verbindlich dokumentiert.",
+			"translation": "A written message or letter."
+		},
 		"examples": [
 			{
-				"sentence": "Ich habe Ihr Schreiben erhalten.",
-				"translation": "I received your letter."
+				"sentence": "Das Schreiben sollte klar strukturiert sein, damit auch komplexe Inhalte ohne Rückfragen nachvollzogen werden können.",
+				"translation": "The letter should be clearly structured so that even complex content can be understood without follow-up questions."
+			},
+			{
+				"sentence": "Nachdem ich Ihr Schreiben sorgfältig gelesen hatte, habe ich die angeforderten Unterlagen fristgerecht eingereicht.",
+				"translation": "After I had carefully read your letter, I submitted the requested documents on time."
 			}
 		],
 		"reviewCount": 0
@@ -975,8 +1651,20 @@
 		"main": "Ersatzteil",
 		"suffix": "",
 		"meaning": "spare part (pl -e)",
-		"description": "A replacement part for repair.",
-		"examples": [{ "sentence": "Wir brauchen ein neues Ersatzteil.", "translation": "We need a new spare part." }],
+		"description": {
+			"definition": "Ein Ersatzteil ist eine Komponente, die ein defektes Bauteil ersetzt, um die Funktion eines Systems wiederherzustellen.",
+			"translation": "A replacement part for repair."
+		},
+		"examples": [
+			{
+				"sentence": "Damit die Anlage ohne längeren Stillstand weiterlaufen kann, muss das passende Ersatzteil rechtzeitig verfügbar sein.",
+				"translation": "So that the system can continue running without a long outage, the right spare part must be available in time."
+			},
+			{
+				"sentence": "Nachdem das benötigte Ersatzteil geliefert worden war, hat das Team die Reparatur noch am selben Tag abgeschlossen.",
+				"translation": "After the required spare part had been delivered, the team completed the repair the same day."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -985,9 +1673,19 @@
 		"main": "Angestellte",
 		"suffix": "",
 		"meaning": "employee (pl -n)",
-		"description": "A person employed by a company.",
+		"description": {
+			"definition": "Eine Angestellte ist eine Person in einem vertraglichen Beschäftigungsverhältnis mit klar definierten Aufgaben und Rechten.",
+			"translation": "A person employed by a company."
+		},
 		"examples": [
-			{ "sentence": "Die Angestellte arbeitet im Büro.", "translation": "The employee works in the office." }
+			{
+				"sentence": "Als erfahrene Angestellte übernahm sie zusätzlich die Einarbeitung neuer Kolleginnen, damit Prozesse einheitlich umgesetzt wurden.",
+				"translation": "As an experienced employee, she additionally took over onboarding for new colleagues so that processes were implemented consistently."
+			},
+			{
+				"sentence": "Nachdem die Angestellte interne Schulungen besucht hatte, hat sie komplexe Aufgaben wesentlich eigenständiger bearbeitet.",
+				"translation": "After the employee had attended internal training, she handled complex tasks much more independently."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -997,9 +1695,19 @@
 		"main": "Senkung",
 		"suffix": "",
 		"meaning": "reduction, lowering (pl -en)",
-		"description": "A decrease in level or amount.",
+		"description": {
+			"definition": "Eine Senkung bezeichnet die gezielte Verringerung eines Werts, einer Belastung oder eines Kostenfaktors.",
+			"translation": "A decrease in level or amount."
+		},
 		"examples": [
-			{ "sentence": "Die Senkung der Kosten war nötig.", "translation": "The reduction of costs was necessary." }
+			{
+				"sentence": "Die Senkung der Betriebskosten gelang nur deshalb, weil Prozesse standardisiert und Energieverbräuche systematisch analysiert wurden.",
+				"translation": "The reduction of operating costs succeeded only because processes were standardized and energy consumption was analyzed systematically."
+			},
+			{
+				"sentence": "Nachdem die Senkung der Gebühren beschlossen worden war, hat die Nachfrage im nächsten Quartal deutlich zugenommen.",
+				"translation": "After the fee reduction had been decided, demand increased noticeably in the next quarter."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -1009,8 +1717,20 @@
 		"main": "erhören",
 		"suffix": "",
 		"meaning": "to grant a request (erhörte, hat erhört)",
-		"description": "To fulfill or grant what someone asks for.",
-		"examples": [{ "sentence": "Der Wunsch wurde erhört.", "translation": "The wish was granted." }],
+		"description": {
+			"definition": "Das Verb bedeutet, eine Bitte zu erfüllen, oft in einem formellen, literarischen oder emotional geprägten Kontext.",
+			"translation": "To fulfill or grant what someone asks for."
+		},
+		"examples": [
+			{
+				"sentence": "Der Antrag wurde schließlich erhört, nachdem die Antragstellenden ihre Argumente mit nachvollziehbaren Nachweisen ergänzt hatten.",
+				"translation": "The request was finally granted after the applicants had supplemented their arguments with verifiable evidence."
+			},
+			{
+				"sentence": "Nachdem sein langjähriger Wunsch erhört worden war, hat er die neue Aufgabe mit großer Verantwortung übernommen.",
+				"translation": "After his long-standing wish had been granted, he took on the new task with great responsibility."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1019,8 +1739,20 @@
 		"main": "beliebt",
 		"suffix": "bei + Dat.",
 		"meaning": "popular",
-		"description": "Liked by many people.",
-		"examples": [{ "sentence": "Das Restaurant ist sehr beliebt.", "translation": "The restaurant is very popular." }],
+		"description": {
+			"definition": "Das Adjektiv beschreibt Personen, Orte oder Angebote, die von vielen Menschen geschätzt und häufig gewählt werden.",
+			"translation": "Liked by many people."
+		},
+		"examples": [
+			{
+				"sentence": "Das Format ist besonders bei jungen Lernenden beliebt, weil es kurze Einheiten mit klaren Fortschrittsanzeigen kombiniert.",
+				"translation": "The format is especially popular among young learners because it combines short units with clear progress indicators."
+			},
+			{
+				"sentence": "Nachdem das Restaurant sein Konzept modernisiert hatte, ist es bei den Anwohnern noch beliebter geworden.",
+				"translation": "After the restaurant had modernized its concept, it became even more popular among local residents."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1029,8 +1761,20 @@
 		"main": "Erziehung",
 		"suffix": "",
 		"meaning": "upbringing, education (pl -en)",
-		"description": "The process of raising and educating children.",
-		"examples": [{ "sentence": "Eine gute Erziehung ist wichtig.", "translation": "A good upbringing is important." }],
+		"description": {
+			"definition": "Erziehung bezeichnet den langfristigen Prozess, in dem Werte, soziale Kompetenzen und Verantwortungsbewusstsein vermittelt werden.",
+			"translation": "The process of raising and educating children."
+		},
+		"examples": [
+			{
+				"sentence": "Eine reflektierte Erziehung fördert Selbstständigkeit, indem sie Grenzen setzt und zugleich Raum für eigene Entscheidungen lässt.",
+				"translation": "A reflective upbringing fosters independence by setting boundaries while leaving room for personal decisions."
+			},
+			{
+				"sentence": "Nachdem die Familie ihre Haltung zur Erziehung gemeinsam abgestimmt hatte, wurden Konflikte deutlich konstruktiver gelöst.",
+				"translation": "After the family had aligned its approach to upbringing, conflicts were resolved much more constructively."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1039,8 +1783,20 @@
 		"main": "unbedingt",
 		"suffix": "",
 		"meaning": "absolutely, definitely",
-		"description": "Expresses strong necessity or certainty.",
-		"examples": [{ "sentence": "Das musst du unbedingt sehen.", "translation": "You absolutely have to see that." }],
+		"description": {
+			"definition": "Das Adverb verstärkt eine Aussage und drückt aus, dass etwas zwingend notwendig oder sehr sicher ist.",
+			"translation": "Expresses strong necessity or certainty."
+		},
+		"examples": [
+			{
+				"sentence": "Wenn wir den Termin halten wollen, müssen wir die offenen Punkte unbedingt heute priorisieren und verbindlich zuordnen.",
+				"translation": "If we want to keep the deadline, we absolutely must prioritize the open points today and assign them bindingly."
+			},
+			{
+				"sentence": "Nachdem wir die Risiken neu bewertet hatten, mussten wir unbedingt zusätzliche Sicherheitsprüfungen einplanen.",
+				"translation": "After we had reassessed the risks, we absolutely had to schedule additional safety checks."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1049,8 +1805,20 @@
 		"main": "bequem",
 		"suffix": "",
 		"meaning": "comfortable",
-		"description": "Providing comfort.",
-		"examples": [{ "sentence": "Der Stuhl ist sehr bequem.", "translation": "The chair is very comfortable." }],
+		"description": {
+			"definition": "Das Adjektiv beschreibt etwas, das körperlich oder organisatorisch angenehm ist und wenig Anstrengung verursacht.",
+			"translation": "Providing comfort."
+		},
+		"examples": [
+			{
+				"sentence": "Eine bequem nutzbare Oberfläche reduziert Fehler, weil zentrale Funktionen ohne Umwege erreichbar bleiben.",
+				"translation": "A comfortably usable interface reduces errors because central functions remain accessible without detours."
+			},
+			{
+				"sentence": "Nachdem wir ergonomische Möbel getestet hatten, war der neue Arbeitsplatz deutlich bequemer als zuvor.",
+				"translation": "After we had tested ergonomic furniture, the new workspace was much more comfortable than before."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1059,8 +1827,20 @@
 		"main": "bisher",
 		"suffix": "",
 		"meaning": "so far, until now",
-		"description": "Refers to time up to the present.",
-		"examples": [{ "sentence": "Bisher läuft alles gut.", "translation": "So far everything is going well." }],
+		"description": {
+			"definition": "Das Adverb markiert den zeitlichen Verlauf bis zum aktuellen Zeitpunkt und verweist auf einen bisherigen Stand.",
+			"translation": "Refers to time up to the present."
+		},
+		"examples": [
+			{
+				"sentence": "Bisher haben wir die Ziele erreicht, obwohl mehrere externe Faktoren die ursprüngliche Planung erschwert haben.",
+				"translation": "So far we have reached the goals, although several external factors made the original planning more difficult."
+			},
+			{
+				"sentence": "Nachdem wir die Zahlen erneut geprüft hatten, blieb der Verlauf bisher stabiler als erwartet.",
+				"translation": "After we had rechecked the figures, the development remained more stable than expected so far."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1069,9 +1849,19 @@
 		"main": "dabei",
 		"suffix": "",
 		"meaning": "in the process, with it",
-		"description": "Used in many contexts to indicate participation or process.",
+		"description": {
+			"definition": "Das Wort zeigt Beteiligung, gleichzeitiges Geschehen oder den Verlauf eines laufenden Prozesses an.",
+			"translation": "Used in many contexts to indicate participation or process."
+		},
 		"examples": [
-			{ "sentence": "Ich bin gerade dabei zu lernen.", "translation": "I am currently in the process of studying." }
+			{
+				"sentence": "Wir sind dabei, die Abläufe zu standardisieren, damit Übergaben zwischen den Teams verlässlich funktionieren.",
+				"translation": "We are in the process of standardizing workflows so that handovers between teams function reliably."
+			},
+			{
+				"sentence": "Nachdem sie wochenlang dabei gewesen war, den Leitfaden zu überarbeiten, hat sie die finale Version veröffentlicht.",
+				"translation": "After she had been working on revising the guideline for weeks, she published the final version."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -1081,8 +1871,20 @@
 		"main": "Leiter",
 		"suffix": "",
 		"meaning": "ladder (pl -n)",
-		"description": "Tool used to climb up.",
-		"examples": [{ "sentence": "Stell die Leiter an die Wand.", "translation": "Place the ladder against the wall." }],
+		"description": {
+			"definition": "Eine Leiter ist ein Hilfsmittel zum sicheren Erreichen höherer Positionen bei Wartungs-, Bau- oder Haushaltsarbeiten.",
+			"translation": "Tool used to climb up."
+		},
+		"examples": [
+			{
+				"sentence": "Bevor die Arbeiten beginnen, muss die Leiter stabil gesichert werden, damit bei Belastung keine Unfallgefahr entsteht.",
+				"translation": "Before work begins, the ladder must be secured stably so that no accident risk arises under load."
+			},
+			{
+				"sentence": "Nachdem die Leiter korrekt positioniert worden war, hat das Team die Reparatur in kurzer Zeit abgeschlossen.",
+				"translation": "After the ladder had been positioned correctly, the team completed the repair in a short time."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1091,11 +1893,18 @@
 		"main": "Obdachlose",
 		"suffix": "",
 		"meaning": "homeless person",
-		"description": "A person without permanent housing.",
+		"description": {
+			"definition": "Das Substantiv bezeichnet eine Frau ohne festen Wohnsitz, die auf soziale Unterstützung angewiesen sein kann.",
+			"translation": "A person without permanent housing."
+		},
 		"examples": [
 			{
-				"sentence": "Die Obdachlose sucht einen Schlafplatz.",
-				"translation": "The homeless woman is looking for a place to sleep."
+				"sentence": "Die Obdachlose erhielt erst dann Zugang zu stabiler Hilfe, als mehrere Stellen ihre Angebote besser aufeinander abgestimmt hatten.",
+				"translation": "The homeless woman only gained access to stable support once several institutions had coordinated their services better."
+			},
+			{
+				"sentence": "Nachdem die Obdachlose eine feste Beratung bekommen hatte, hat sich ihre Wohnsituation schrittweise stabilisiert.",
+				"translation": "After the homeless woman had received consistent counseling, her housing situation gradually stabilized."
 			}
 		],
 		"reviewCount": 0
@@ -1106,8 +1915,20 @@
 		"main": "Schützling",
 		"suffix": "",
 		"meaning": "protégé, ward (pl -e)",
-		"description": "Someone under the protection or mentorship of another.",
-		"examples": [{ "sentence": "Der Trainer hilft seinem Schützling.", "translation": "The coach helps his protégé." }],
+		"description": {
+			"definition": "Ein Schützling ist eine Person, die unter besonderer Förderung, Betreuung oder dem Schutz einer erfahreneren Person steht.",
+			"translation": "Someone under the protection or mentorship of another."
+		},
+		"examples": [
+			{
+				"sentence": "Der Mentor unterstützte seinen Schützling gezielt, damit fachliche Stärken sichtbar wurden und Selbstvertrauen wachsen konnte.",
+				"translation": "The mentor supported his protégé purposefully so that professional strengths became visible and confidence could grow."
+			},
+			{
+				"sentence": "Nachdem der Schützling regelmäßig Feedback erhalten hatte, hat er seine Leistung konstant verbessert.",
+				"translation": "After the protégé had received regular feedback, he improved his performance consistently."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1116,8 +1937,20 @@
 		"main": "besonders",
 		"suffix": "",
 		"meaning": "especially",
-		"description": "Used to emphasize a specific point.",
-		"examples": [{ "sentence": "Ich mag besonders diesen Teil.", "translation": "I especially like this part." }],
+		"description": {
+			"definition": "Das Adverb hebt einen Aspekt hervor und verstärkt dessen Bedeutung innerhalb einer Aussage.",
+			"translation": "Used to emphasize a specific point."
+		},
+		"examples": [
+			{
+				"sentence": "Besonders in komplexen Projekten lohnt sich eine klare Dokumentation, weil spätere Entscheidungen darauf aufbauen.",
+				"translation": "Especially in complex projects, clear documentation is worthwhile because later decisions build on it."
+			},
+			{
+				"sentence": "Nachdem die Anforderungen konkretisiert worden waren, wurde besonders auf die Qualitätssicherung geachtet.",
+				"translation": "After the requirements had been specified, special attention was paid to quality assurance."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1126,11 +1959,18 @@
 		"main": "Einweg",
 		"suffix": "",
 		"meaning": "single-use",
-		"description": "Intended for one-time use only.",
+		"description": {
+			"definition": "Einweg beschreibt Produkte, die nur einmal verwendet und danach entsorgt werden.",
+			"translation": "Intended for one-time use only."
+		},
 		"examples": [
 			{
-				"sentence": "Einwegprodukte belasten die Umwelt.",
-				"translation": "Single-use products burden the environment."
+				"sentence": "Einwegverpackungen verursachen hohe Abfallmengen, wenn keine wirksamen Rücknahme- und Mehrwegsysteme etabliert werden.",
+				"translation": "Single-use packaging causes high waste volumes if no effective return and reusable systems are established."
+			},
+			{
+				"sentence": "Nachdem der Betrieb Einwegmaterialien reduziert hatte, hat sich sein ökologischer Fußabdruck merklich verbessert.",
+				"translation": "After the company had reduced single-use materials, its ecological footprint improved noticeably."
 			}
 		],
 		"reviewCount": 0
@@ -1141,8 +1981,20 @@
 		"main": "dagegen",
 		"suffix": "",
 		"meaning": "against it, on the other hand",
-		"description": "Used for opposition or contrast.",
-		"examples": [{ "sentence": "Ich bin dagegen.", "translation": "I am against it." }],
+		"description": {
+			"definition": "Das Wort wird genutzt, um Widerspruch auszudrücken oder einen kontrastierenden Standpunkt einzuleiten.",
+			"translation": "Used for opposition or contrast."
+		},
+		"examples": [
+			{
+				"sentence": "Viele befürworteten den Vorschlag, ich war dagegen, weil zentrale Risiken bislang nicht belastbar bewertet worden waren.",
+				"translation": "Many supported the proposal; I was against it because key risks had not yet been reliably assessed."
+			},
+			{
+				"sentence": "Nachdem zusätzliche Daten vorgelegen hatten, sprach jedoch kaum noch jemand dagegen.",
+				"translation": "After additional data had become available, hardly anyone argued against it anymore."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1151,8 +2003,20 @@
 		"main": "Hingabe",
 		"suffix": "",
 		"meaning": "devotion, dedication",
-		"description": "Strong commitment and dedication.",
-		"examples": [{ "sentence": "Sie arbeitet mit großer Hingabe.", "translation": "She works with great dedication." }],
+		"description": {
+			"definition": "Hingabe beschreibt ein intensives, engagiertes Handeln, bei dem Aufmerksamkeit und Einsatz über längere Zeit konstant bleiben.",
+			"translation": "Strong commitment and dedication."
+		},
+		"examples": [
+			{
+				"sentence": "Mit großer Hingabe entwickelte sie ein Konzept, das fachliche Präzision mit sozialer Verantwortung verknüpfte.",
+				"translation": "With great dedication, she developed a concept that combined professional precision with social responsibility."
+			},
+			{
+				"sentence": "Nachdem das Team monatelang mit Hingabe an der Lösung gearbeitet hatte, wurde das Ergebnis breit anerkannt.",
+				"translation": "After the team had worked on the solution with dedication for months, the result was widely recognized."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1161,11 +2025,18 @@
 		"main": "reich",
 		"suffix": "an + Dat.",
 		"meaning": "rich, abundant",
-		"description": "Used with the preposition an to describe abundance.",
+		"description": {
+			"definition": "In Verbindung mit \"an\" beschreibt das Adjektiv eine hohe Dichte oder Fülle bestimmter Eigenschaften oder Bestandteile.",
+			"translation": "Used with the preposition an to describe abundance."
+		},
 		"examples": [
 			{
-				"sentence": "Das Obst ist reich an Vitaminen.",
-				"translation": "The fruit is rich in vitamins."
+				"sentence": "Die Region ist reich an kulturellen Einflüssen, die sich in Sprache, Architektur und Alltagspraktiken widerspiegeln.",
+				"translation": "The region is rich in cultural influences reflected in language, architecture, and everyday practices."
+			},
+			{
+				"sentence": "Nachdem der Boden gezielt verbessert worden war, war das Gemüse deutlich reicher an Nährstoffen.",
+				"translation": "After the soil had been improved purposefully, the vegetables were much richer in nutrients."
 			}
 		],
 		"reviewCount": 0
@@ -1176,9 +2047,19 @@
 		"main": "Angehörige",
 		"suffix": "",
 		"meaning": "relative, family member",
-		"description": "A person belonging to one’s family.",
+		"description": {
+			"definition": "Angehörige sind nahestehende Familienmitglieder, die emotional, organisatorisch oder rechtlich eingebunden sein können.",
+			"translation": "A person belonging to one’s family."
+		},
 		"examples": [
-			{ "sentence": "Die Angehörigen waren sehr besorgt.", "translation": "The relatives were very worried." }
+			{
+				"sentence": "In schwierigen Situationen benötigen Angehörige transparente Informationen, damit sie Entscheidungen mittragen und unterstützen können.",
+				"translation": "In difficult situations, relatives need transparent information so they can support and share decisions."
+			},
+			{
+				"sentence": "Nachdem die Angehörigen umfassend informiert worden waren, hat sich die Zusammenarbeit mit dem Team stabilisiert.",
+				"translation": "After the relatives had been informed comprehensively, collaboration with the team stabilized."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -1188,8 +2069,20 @@
 		"main": "gemeinsam",
 		"suffix": "",
 		"meaning": "together",
-		"description": "Done jointly with others.",
-		"examples": [{ "sentence": "Wir lösen das gemeinsam.", "translation": "We will solve it together." }],
+		"description": {
+			"definition": "Das Adverb betont koordiniertes Handeln mehrerer Personen mit geteilter Verantwortung.",
+			"translation": "Done jointly with others."
+		},
+		"examples": [
+			{
+				"sentence": "Wenn wir Herausforderungen gemeinsam angehen, lassen sich unterschiedliche Perspektiven produktiv in tragfähige Lösungen übersetzen.",
+				"translation": "If we tackle challenges together, different perspectives can be translated productively into viable solutions."
+			},
+			{
+				"sentence": "Nachdem die Teams ihre Ziele gemeinsam abgestimmt hatten, hat sich die Umsetzung deutlich beschleunigt.",
+				"translation": "After the teams had aligned their goals together, implementation accelerated significantly."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1198,9 +2091,19 @@
 		"main": "allerdings",
 		"suffix": "",
 		"meaning": "however, though",
-		"description": "Introduces a contrast or limitation.",
+		"description": {
+			"definition": "Das Adverb leitet eine Einschränkung, einen Gegensatz oder eine differenzierende Ergänzung ein.",
+			"translation": "Introduces a contrast or limitation."
+		},
 		"examples": [
-			{ "sentence": "Es ist möglich, allerdings teuer.", "translation": "It is possible, however expensive." }
+			{
+				"sentence": "Die Lösung ist grundsätzlich realisierbar, allerdings erfordert sie zusätzliche Ressourcen und eine präzisere Zeitplanung.",
+				"translation": "The solution is fundamentally feasible; however, it requires additional resources and more precise scheduling."
+			},
+			{
+				"sentence": "Nachdem die Pilotphase erfolgreich abgeschlossen worden war, blieb allerdings die Skalierung weiterhin anspruchsvoll.",
+				"translation": "After the pilot phase had been completed successfully, scaling nevertheless remained challenging."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -1210,8 +2113,20 @@
 		"main": "verantwortlich",
 		"suffix": "für + Akk.",
 		"meaning": "responsible",
-		"description": "Having responsibility for something.",
-		"examples": [{ "sentence": "Wer ist dafür verantwortlich?", "translation": "Who is responsible for that?" }],
+		"description": {
+			"definition": "Das Adjektiv beschreibt eine Person oder Stelle, die für Aufgaben, Entscheidungen und Folgen rechenschaftspflichtig ist.",
+			"translation": "Having responsibility for something."
+		},
+		"examples": [
+			{
+				"sentence": "Für die Freigabe komplexer Änderungen ist ein klar benanntes Team verantwortlich, damit Entscheidungen nachvollziehbar bleiben.",
+				"translation": "A clearly designated team is responsible for approving complex changes so that decisions remain traceable."
+			},
+			{
+				"sentence": "Nachdem die Rollen präzisiert worden waren, war eindeutig nachvollziehbar, wer für welche Teilbereiche verantwortlich war.",
+				"translation": "After roles had been clarified, it was clearly traceable who had been responsible for which subareas."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1220,8 +2135,20 @@
 		"main": "nun",
 		"suffix": "",
 		"meaning": "now",
-		"description": "Used for transition or current state.",
-		"examples": [{ "sentence": "Nun beginnen wir mit der Übung.", "translation": "Now we begin with the exercise." }],
+		"description": {
+			"definition": "Das Wort markiert einen aktuellen Zeitpunkt oder leitet einen neuen argumentativen Schritt ein.",
+			"translation": "Used for transition or current state."
+		},
+		"examples": [
+			{
+				"sentence": "Nun müssen wir entscheiden, welche Option unter den gegebenen Rahmenbedingungen langfristig tragfähig bleibt.",
+				"translation": "Now we must decide which option remains sustainable in the long term under the given conditions."
+			},
+			{
+				"sentence": "Nachdem alle Daten ausgewertet worden waren, konnten wir nun den nächsten Schritt verbindlich festlegen.",
+				"translation": "After all data had been evaluated, we could now define the next step bindingly."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1230,8 +2157,20 @@
 		"main": "erreichbar",
 		"suffix": "",
 		"meaning": "reachable, attainable",
-		"description": "Possible to contact or achieve.",
-		"examples": [{ "sentence": "Das Ziel ist erreichbar.", "translation": "The goal is attainable." }],
+		"description": {
+			"definition": "Das Adjektiv beschreibt, dass etwas erreichbar ist, entweder im räumlichen Sinne oder als realistisches Ziel.",
+			"translation": "Possible to contact or achieve."
+		},
+		"examples": [
+			{
+				"sentence": "Das Ziel bleibt erreichbar, wenn Ressourcen priorisiert und Zwischenschritte realistisch geplant werden.",
+				"translation": "The goal remains attainable if resources are prioritized and intermediate steps are planned realistically."
+			},
+			{
+				"sentence": "Nachdem die Infrastruktur modernisiert worden war, waren abgelegene Regionen deutlich besser erreichbar.",
+				"translation": "After infrastructure had been modernized, remote regions became much more reachable."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1240,9 +2179,19 @@
 		"main": "Aufbau",
 		"suffix": "",
 		"meaning": "structure, setup (pl -ten)",
-		"description": "Arrangement or composition of parts.",
+		"description": {
+			"definition": "Aufbau bezeichnet die innere Struktur eines Systems, Textes oder Prozesses und deren funktionale Anordnung.",
+			"translation": "Arrangement or composition of parts."
+		},
 		"examples": [
-			{ "sentence": "Der Aufbau des Textes ist klar.", "translation": "The structure of the text is clear." }
+			{
+				"sentence": "Ein klarer Aufbau erleichtert das Verständnis, weil Informationen in einer logischen Reihenfolge verarbeitet werden können.",
+				"translation": "A clear structure facilitates understanding because information can be processed in a logical sequence."
+			},
+			{
+				"sentence": "Nachdem wir den Aufbau der Dokumentation überarbeitet hatten, konnten neue Teammitglieder schneller einsteigen.",
+				"translation": "After we had revised the structure of the documentation, new team members could onboard faster."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -1252,9 +2201,19 @@
 		"main": "befüllen",
 		"suffix": "mit + Dat.",
 		"meaning": "to fill (befüllte, hat befüllt)",
-		"description": "To fill a container with something.",
+		"description": {
+			"definition": "Das Verb bedeutet, einen Behälter oder ein System gezielt mit einer Substanz, Information oder Ressource zu füllen.",
+			"translation": "To fill a container with something."
+		},
 		"examples": [
-			{ "sentence": "Er befüllt die Flasche mit Wasser.", "translation": "He fills the bottle with water." }
+			{
+				"sentence": "Bevor das Formular befüllt wird, sollten Pflichtfelder klar markiert sein, damit Eingabefehler vermieden werden.",
+				"translation": "Before the form is filled, mandatory fields should be clearly marked so that input errors are avoided."
+			},
+			{
+				"sentence": "Nachdem die Behälter korrekt befüllt worden waren, hat die Produktion ohne Verzögerung begonnen.",
+				"translation": "After the containers had been filled correctly, production started without delay."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -1264,8 +2223,20 @@
 		"main": "überlegen",
 		"suffix": "",
 		"meaning": "to consider (überlegte, hat überlegt)",
-		"description": "To think carefully before deciding.",
-		"examples": [{ "sentence": "Ich muss es mir noch überlegen.", "translation": "I still have to think it over." }],
+		"description": {
+			"definition": "Das Verb beschreibt einen bewussten Denkprozess, in dem Optionen abgewogen und Folgen reflektiert werden.",
+			"translation": "To think carefully before deciding."
+		},
+		"examples": [
+			{
+				"sentence": "Bevor wir eine langfristige Zusage machen, sollten wir gründlich überlegen, welche Ressourcen dauerhaft verfügbar sind.",
+				"translation": "Before making a long-term commitment, we should think carefully about which resources are permanently available."
+			},
+			{
+				"sentence": "Nachdem sie alle Alternativen überlegt hatte, hat sie sich für die robusteste Lösung entschieden.",
+				"translation": "After she had considered all alternatives, she decided on the most robust solution."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1274,8 +2245,20 @@
 		"main": "Bescheid",
 		"suffix": "",
 		"meaning": "notice, information (pl -e)",
-		"description": "Information or official notification.",
-		"examples": [{ "sentence": "Gib mir bitte Bescheid.", "translation": "Please let me know." }],
+		"description": {
+			"definition": "Bescheid steht für eine Mitteilung oder amtliche Entscheidung, durch die jemand verbindlich informiert wird.",
+			"translation": "Information or official notification."
+		},
+		"examples": [
+			{
+				"sentence": "Bitte gib mir frühzeitig Bescheid, falls sich der Zeitplan ändert, damit wir die Abstimmung anpassen können.",
+				"translation": "Please let me know early if the schedule changes so that we can adjust coordination."
+			},
+			{
+				"sentence": "Nachdem der Bescheid zugestellt worden war, hat die Organisation umgehend die nächsten Schritte eingeleitet.",
+				"translation": "After the notice had been delivered, the organization immediately initiated the next steps."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1284,8 +2267,20 @@
 		"main": "klappen",
 		"suffix": "",
 		"meaning": "to work out (klappte, hat geklappt)",
-		"description": "To succeed or function as planned.",
-		"examples": [{ "sentence": "Der Plan hat gut geklappt.", "translation": "The plan worked out well." }],
+		"description": {
+			"definition": "Das Verb drückt aus, dass etwas funktioniert oder wie beabsichtigt erfolgreich umgesetzt wird.",
+			"translation": "To succeed or function as planned."
+		},
+		"examples": [
+			{
+				"sentence": "Damit die Übergabe klappt, müssen Verantwortlichkeiten klar benannt und offene Punkte transparent dokumentiert sein.",
+				"translation": "For the handover to work out, responsibilities must be clearly named and open points transparently documented."
+			},
+			{
+				"sentence": "Nachdem alle Abhängigkeiten abgestimmt worden waren, hat der Start des Projekts problemlos geklappt.",
+				"translation": "After all dependencies had been coordinated, the project start worked out smoothly."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1294,8 +2289,20 @@
 		"main": "bestimmt",
 		"suffix": "",
 		"meaning": "certainly, definitely",
-		"description": "Expresses confidence or certainty.",
-		"examples": [{ "sentence": "Das wird bestimmt gut.", "translation": "That will certainly be good." }],
+		"description": {
+			"definition": "Das Wort verstärkt eine Aussage und signalisiert hohe Sicherheit oder feste Erwartung.",
+			"translation": "Expresses confidence or certainty."
+		},
+		"examples": [
+			{
+				"sentence": "Mit dieser Vorbereitung wird das Vorhaben bestimmt gelingen, sofern die Umsetzung konsequent begleitet wird.",
+				"translation": "With this preparation, the project will certainly succeed, provided implementation is consistently supported."
+			},
+			{
+				"sentence": "Nachdem die letzten Tests erfolgreich gewesen waren, war das Team bestimmt, den Release freizugeben.",
+				"translation": "After the final tests had been successful, the team was certain about approving the release."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1304,9 +2311,19 @@
 		"main": "unvergesslich",
 		"suffix": "",
 		"meaning": "unforgettable",
-		"description": "So remarkable that it is not forgotten.",
+		"description": {
+			"definition": "Das Adjektiv beschreibt Erlebnisse, die wegen ihrer Intensität oder Bedeutung dauerhaft in Erinnerung bleiben.",
+			"translation": "So remarkable that it is not forgotten."
+		},
 		"examples": [
-			{ "sentence": "Das war ein unvergesslicher Abend.", "translation": "That was an unforgettable evening." }
+			{
+				"sentence": "Der gemeinsame Abschluss war unvergesslich, weil professionelle Leistung und persönliche Wertschätzung zusammenkamen.",
+				"translation": "The shared finale was unforgettable because professional achievement and personal appreciation came together."
+			},
+			{
+				"sentence": "Nachdem wir das Projekt trotz großer Hürden beendet hatten, blieb dieser Moment für alle unvergesslich.",
+				"translation": "After we had completed the project despite major hurdles, that moment remained unforgettable for everyone."
+			}
 		],
 		"reviewCount": 0
 	},
@@ -1316,8 +2333,20 @@
 		"main": "höchstens",
 		"suffix": "",
 		"meaning": "at most",
-		"description": "Indicates an upper limit.",
-		"examples": [{ "sentence": "Wir bleiben höchstens eine Stunde.", "translation": "We will stay at most one hour." }],
+		"description": {
+			"definition": "Das Adverb markiert eine klare Obergrenze, die nicht überschritten werden soll oder kann.",
+			"translation": "Indicates an upper limit."
+		},
+		"examples": [
+			{
+				"sentence": "Die Umstellung darf höchstens zwei Tage dauern, damit der Betrieb ohne kritische Unterbrechungen weiterläuft.",
+				"translation": "The migration may take at most two days so that operations continue without critical interruptions."
+			},
+			{
+				"sentence": "Nachdem wir alle Risiken bewertet hatten, lag die geschätzte Verzögerung höchstens bei wenigen Stunden.",
+				"translation": "After we had assessed all risks, the estimated delay was at most a few hours."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1326,8 +2355,20 @@
 		"main": "gespannt",
 		"suffix": "auf + Akk.",
 		"meaning": "excited, curious",
-		"description": "Looking forward to something with interest.",
-		"examples": [{ "sentence": "Ich bin gespannt auf das Ergebnis.", "translation": "I am excited about the result." }],
+		"description": {
+			"definition": "Das Adjektiv beschreibt eine erwartungsvolle, interessierte Haltung gegenüber einem kommenden Ereignis oder Ergebnis.",
+			"translation": "Looking forward to something with interest."
+		},
+		"examples": [
+			{
+				"sentence": "Wir sind gespannt auf die Auswertung, weil sie zeigt, ob die getroffenen Maßnahmen tatsächlich wirksam waren.",
+				"translation": "We are excited about the evaluation because it shows whether the adopted measures were actually effective."
+			},
+			{
+				"sentence": "Nachdem die Teams ihre Ergebnisse vorgestellt hatten, waren alle gespannt auf die finale Entscheidung.",
+				"translation": "After the teams had presented their results, everyone was excited about the final decision."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1336,8 +2377,20 @@
 		"main": "schlank",
 		"suffix": "",
 		"meaning": "slim",
-		"description": "Having a slender body shape.",
-		"examples": [{ "sentence": "Sie ist groß und schlank.", "translation": "She is tall and slim." }],
+		"description": {
+			"definition": "Das Adjektiv beschreibt eine schmale, reduzierte Form, körperlich oder übertragen auf Prozesse und Strukturen.",
+			"translation": "Having a slender body shape."
+		},
+		"examples": [
+			{
+				"sentence": "Ein schlank gestalteter Prozess reduziert unnötige Schritte und erhöht die Geschwindigkeit komplexer Abläufe.",
+				"translation": "A leanly designed process reduces unnecessary steps and increases the speed of complex workflows."
+			},
+			{
+				"sentence": "Nachdem die Organisation ihre Struktur verschlankt hatte, wurden Entscheidungen schneller und klarer getroffen.",
+				"translation": "After the organization had streamlined its structure, decisions were made faster and more clearly."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1346,8 +2399,20 @@
 		"main": "Turnverein",
 		"suffix": "",
 		"meaning": "gymnastics club (pl -e)",
-		"description": "A sports club focused on gymnastics and training.",
-		"examples": [{ "sentence": "Er ist im Turnverein aktiv.", "translation": "He is active in the gymnastics club." }],
+		"description": {
+			"definition": "Ein Turnverein ist ein Sportverein, der gemeinsames Training, Bewegung und oft auch soziale Aktivitäten organisiert.",
+			"translation": "A sports club focused on gymnastics and training."
+		},
+		"examples": [
+			{
+				"sentence": "Der Turnverein fördert nicht nur körperliche Fitness, sondern stärkt durch regelmäßige Angebote auch den sozialen Zusammenhalt.",
+				"translation": "The gymnastics club not only promotes physical fitness but also strengthens social cohesion through regular activities."
+			},
+			{
+				"sentence": "Nachdem der Turnverein ein inklusives Kursprogramm eingeführt hatte, stieg die Zahl der Teilnehmenden deutlich.",
+				"translation": "After the gymnastics club had introduced an inclusive course program, the number of participants rose significantly."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1356,8 +2421,20 @@
 		"main": "nötig",
 		"suffix": "",
 		"meaning": "necessary",
-		"description": "Required for a specific purpose.",
-		"examples": [{ "sentence": "Das ist nicht nötig.", "translation": "That is not necessary." }],
+		"description": {
+			"definition": "Das Adjektiv kennzeichnet etwas als erforderlich, damit ein Ziel erreicht oder ein Problem gelöst werden kann.",
+			"translation": "Required for a specific purpose."
+		},
+		"examples": [
+			{
+				"sentence": "Für eine belastbare Entscheidung sind zusätzliche Daten nötig, weil die aktuelle Grundlage noch zu lückenhaft ist.",
+				"translation": "Additional data is necessary for a robust decision because the current basis is still too incomplete."
+			},
+			{
+				"sentence": "Nachdem die Ausgangslage neu bewertet worden war, wurden keine weiteren Maßnahmen mehr nötig.",
+				"translation": "After the initial situation had been reassessed, no further measures were necessary."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1366,8 +2443,20 @@
 		"main": "unheimlich",
 		"suffix": "",
 		"meaning": "incredibly, eerie",
-		"description": "Can mean very/intensely or spooky depending on context.",
-		"examples": [{ "sentence": "Das war unheimlich spannend.", "translation": "That was incredibly exciting." }],
+		"description": {
+			"definition": "Je nach Kontext kann das Wort eine starke Intensität ausdrücken oder eine unheimliche, beklemmende Wirkung beschreiben.",
+			"translation": "Can mean very/intensely or spooky depending on context."
+		},
+		"examples": [
+			{
+				"sentence": "Die Diskussion war unheimlich produktiv, weil unterschiedliche Positionen präzise argumentiert und konstruktiv verbunden wurden.",
+				"translation": "The discussion was incredibly productive because different positions were argued precisely and connected constructively."
+			},
+			{
+				"sentence": "Nachdem das Licht ausgefallen war, wirkte der leere Flur unheimlich still und angespannt.",
+				"translation": "After the lights had gone out, the empty hallway felt eerily quiet and tense."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1376,8 +2465,20 @@
 		"main": "beweglich",
 		"suffix": "",
 		"meaning": "flexible, mobile",
-		"description": "Able to move easily.",
-		"examples": [{ "sentence": "Kinder sind oft sehr beweglich.", "translation": "Children are often very flexible." }],
+		"description": {
+			"definition": "Das Adjektiv beschreibt körperliche oder funktionale Flexibilität, durch die Bewegung und Anpassung leichter möglich werden.",
+			"translation": "Able to move easily."
+		},
+		"examples": [
+			{
+				"sentence": "Ein bewegliches Arbeitsmodell ermöglicht schnellere Reaktionen, wenn sich Anforderungen kurzfristig verändern.",
+				"translation": "A flexible work model enables faster reactions when requirements change at short notice."
+			},
+			{
+				"sentence": "Nachdem sie regelmäßig trainiert hatte, war sie deutlich beweglicher und belastbarer als zuvor.",
+				"translation": "After she had trained regularly, she was noticeably more flexible and resilient than before."
+			}
+		],
 		"reviewCount": 0
 	},
 	{
@@ -1386,9 +2487,19 @@
 		"main": "nämlich",
 		"suffix": "",
 		"meaning": "namely",
-		"description": "Used to explain or specify.",
+		"description": {
+			"definition": "Das Wort leitet eine genauere Erklärung, Begründung oder Spezifizierung einer vorherigen Aussage ein.",
+			"translation": "Used to explain or specify."
+		},
 		"examples": [
-			{ "sentence": "Ich kann heute nicht, nämlich ich bin krank.", "translation": "I can't today, namely I'm sick." }
+			{
+				"sentence": "Wir haben den Termin verschoben, nämlich weil mehrere Schlüsselpersonen an der Abstimmung beteiligt sein müssen.",
+				"translation": "We postponed the appointment, namely because several key people must be involved in the coordination."
+			},
+			{
+				"sentence": "Nachdem die Gründe transparent erläutert worden waren, akzeptierte das Team die Änderung, nämlich den neuen Ablaufplan.",
+				"translation": "After the reasons had been explained transparently, the team accepted the change, namely the new process plan."
+			}
 		],
 		"reviewCount": 0
 	}

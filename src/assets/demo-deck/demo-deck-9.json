@@ -1,0 +1,244 @@
+[
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "reich",
+		"suffix": "an + Dat.",
+		"meaning": "rich, abundant",
+		"extra": {
+			"info": "In Verbindung mit \"an\" beschreibt das Adjektiv eine hohe Dichte oder Fülle bestimmter Eigenschaften oder Bestandteile.",
+			"subInfo": "Used with the preposition an to describe abundance."
+		},
+		"examples": [
+			{
+				"sentence": "Die Region ist reich an kulturellen Einflüssen, die sich in Sprache, Architektur und Alltagspraktiken widerspiegeln.",
+				"translation": "The region is rich in cultural influences reflected in language, architecture, and everyday practices."
+			},
+			{
+				"sentence": "Nachdem der Boden gezielt verbessert worden war, war das Gemüse deutlich reicher an Nährstoffen.",
+				"translation": "After the soil had been improved purposefully, the vegetables were much richer in nutrients."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Angehörige",
+		"suffix": "",
+		"meaning": "relative, family member",
+		"extra": {
+			"info": "Angehörige sind nahestehende Familienmitglieder, die emotional, organisatorisch oder rechtlich eingebunden sein können.",
+			"subInfo": "A person belonging to one’s family."
+		},
+		"examples": [
+			{
+				"sentence": "In schwierigen Situationen benötigen Angehörige transparente Informationen, damit sie Entscheidungen mittragen und unterstützen können.",
+				"translation": "In difficult situations, relatives need transparent information so they can support and share decisions."
+			},
+			{
+				"sentence": "Nachdem die Angehörigen umfassend informiert worden waren, hat sich die Zusammenarbeit mit dem Team stabilisiert.",
+				"translation": "After the relatives had been informed comprehensively, collaboration with the team stabilized."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "gemeinsam",
+		"suffix": "",
+		"meaning": "together",
+		"extra": {
+			"info": "Das Adverb betont koordiniertes Handeln mehrerer Personen mit geteilter Verantwortung.",
+			"subInfo": "Done jointly with others."
+		},
+		"examples": [
+			{
+				"sentence": "Wenn wir Herausforderungen gemeinsam angehen, lassen sich unterschiedliche Perspektiven produktiv in tragfähige Lösungen übersetzen.",
+				"translation": "If we tackle challenges together, different perspectives can be translated productively into viable solutions."
+			},
+			{
+				"sentence": "Nachdem die Teams ihre Ziele gemeinsam abgestimmt hatten, hat sich die Umsetzung deutlich beschleunigt.",
+				"translation": "After the teams had aligned their goals together, implementation accelerated significantly."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "allerdings",
+		"suffix": "",
+		"meaning": "however, though",
+		"extra": {
+			"info": "Das Adverb leitet eine Einschränkung, einen Gegensatz oder eine differenzierende Ergänzung ein.",
+			"subInfo": "Introduces a contrast or limitation."
+		},
+		"examples": [
+			{
+				"sentence": "Die Lösung ist grundsätzlich realisierbar, allerdings erfordert sie zusätzliche Ressourcen und eine präzisere Zeitplanung.",
+				"translation": "The solution is fundamentally feasible; however, it requires additional resources and more precise scheduling."
+			},
+			{
+				"sentence": "Nachdem die Pilotphase erfolgreich abgeschlossen worden war, blieb allerdings die Skalierung weiterhin anspruchsvoll.",
+				"translation": "After the pilot phase had been completed successfully, scaling nevertheless remained challenging."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "verantwortlich",
+		"suffix": "für + Akk.",
+		"meaning": "responsible",
+		"extra": {
+			"info": "Das Adjektiv beschreibt eine Person oder Stelle, die für Aufgaben, Entscheidungen und Folgen rechenschaftspflichtig ist.",
+			"subInfo": "Having responsibility for something."
+		},
+		"examples": [
+			{
+				"sentence": "Für die Freigabe komplexer Änderungen ist ein klar benanntes Team verantwortlich, damit Entscheidungen nachvollziehbar bleiben.",
+				"translation": "A clearly designated team is responsible for approving complex changes so that decisions remain traceable."
+			},
+			{
+				"sentence": "Nachdem die Rollen präzisiert worden waren, war eindeutig nachvollziehbar, wer für welche Teilbereiche verantwortlich war.",
+				"translation": "After roles had been clarified, it was clearly traceable who had been responsible for which subareas."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "nun",
+		"suffix": "",
+		"meaning": "now",
+		"extra": {
+			"info": "Das Wort markiert einen aktuellen Zeitpunkt oder leitet einen neuen argumentativen Schritt ein.",
+			"subInfo": "Used for transition or current state."
+		},
+		"examples": [
+			{
+				"sentence": "Nun müssen wir entscheiden, welche Option unter den gegebenen Rahmenbedingungen langfristig tragfähig bleibt.",
+				"translation": "Now we must decide which option remains sustainable in the long term under the given conditions."
+			},
+			{
+				"sentence": "Nachdem alle Daten ausgewertet worden waren, konnten wir nun den nächsten Schritt verbindlich festlegen.",
+				"translation": "After all data had been evaluated, we could now define the next step bindingly."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "erreichbar",
+		"suffix": "",
+		"meaning": "reachable, attainable",
+		"extra": {
+			"info": "Das Adjektiv beschreibt, dass etwas erreichbar ist, entweder im räumlichen Sinne oder als realistisches Ziel.",
+			"subInfo": "Possible to contact or achieve."
+		},
+		"examples": [
+			{
+				"sentence": "Das Ziel bleibt erreichbar, wenn Ressourcen priorisiert und Zwischenschritte realistisch geplant werden.",
+				"translation": "The goal remains attainable if resources are prioritized and intermediate steps are planned realistically."
+			},
+			{
+				"sentence": "Nachdem die Infrastruktur modernisiert worden war, waren abgelegene Regionen deutlich besser erreichbar.",
+				"translation": "After infrastructure had been modernized, remote regions became much more reachable."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Aufbau",
+		"suffix": "",
+		"meaning": "structure, setup (pl -ten)",
+		"extra": {
+			"info": "Aufbau bezeichnet die innere Struktur eines Systems, Textes oder Prozesses und deren funktionale Anordnung.",
+			"subInfo": "Arrangement or composition of parts."
+		},
+		"examples": [
+			{
+				"sentence": "Ein klarer Aufbau erleichtert das Verständnis, weil Informationen in einer logischen Reihenfolge verarbeitet werden können.",
+				"translation": "A clear structure facilitates understanding because information can be processed in a logical sequence."
+			},
+			{
+				"sentence": "Nachdem wir den Aufbau der Dokumentation überarbeitet hatten, konnten neue Teammitglieder schneller einsteigen.",
+				"translation": "After we had revised the structure of the documentation, new team members could onboard faster."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "befüllen",
+		"suffix": "mit + Dat.",
+		"meaning": "to fill (befüllte, hat befüllt)",
+		"extra": {
+			"info": "Das Verb bedeutet, einen Behälter oder ein System gezielt mit einer Substanz, Information oder Ressource zu füllen.",
+			"subInfo": "To fill a container with something."
+		},
+		"examples": [
+			{
+				"sentence": "Bevor das Formular befüllt wird, sollten Pflichtfelder klar markiert sein, damit Eingabefehler vermieden werden.",
+				"translation": "Before the form is filled, mandatory fields should be clearly marked so that input errors are avoided."
+			},
+			{
+				"sentence": "Nachdem die Behälter korrekt befüllt worden waren, hat die Produktion ohne Verzögerung begonnen.",
+				"translation": "After the containers had been filled correctly, production started without delay."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "überlegen",
+		"suffix": "",
+		"meaning": "to consider (überlegte, hat überlegt)",
+		"extra": {
+			"info": "Das Verb beschreibt einen bewussten Denkprozess, in dem Optionen abgewogen und Folgen reflektiert werden.",
+			"subInfo": "To think carefully before deciding."
+		},
+		"examples": [
+			{
+				"sentence": "Bevor wir eine langfristige Zusage machen, sollten wir gründlich überlegen, welche Ressourcen dauerhaft verfügbar sind.",
+				"translation": "Before making a long-term commitment, we should think carefully about which resources are permanently available."
+			},
+			{
+				"sentence": "Nachdem sie alle Alternativen überlegt hatte, hat sie sich für die robusteste Lösung entschieden.",
+				"translation": "After she had considered all alternatives, she decided on the most robust solution."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Bescheid",
+		"suffix": "",
+		"meaning": "notice, information (pl -e)",
+		"extra": {
+			"info": "Bescheid steht für eine Mitteilung oder amtliche Entscheidung, durch die jemand verbindlich informiert wird.",
+			"subInfo": "Information or official notification."
+		},
+		"examples": [
+			{
+				"sentence": "Bitte gib mir frühzeitig Bescheid, falls sich der Zeitplan ändert, damit wir die Abstimmung anpassen können.",
+				"translation": "Please let me know early if the schedule changes so that we can adjust coordination."
+			},
+			{
+				"sentence": "Nachdem der Bescheid zugestellt worden war, hat die Organisation umgehend die nächsten Schritte eingeleitet.",
+				"translation": "After the notice had been delivered, the organization immediately initiated the next steps."
+			}
+		],
+		"reviewCount": 0
+	}
+]

@@ -1,0 +1,244 @@
+[
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "bedeutend",
+		"suffix": "",
+		"meaning": "important, significant",
+		"extra": {
+			"info": "Das Adjektiv kennzeichnet Sachverhalte, die eine hohe Relevanz oder weitreichende Auswirkungen besitzen.",
+			"subInfo": "Having strong importance or influence."
+		},
+		"examples": [
+			{
+				"sentence": "Eine bedeutende Entscheidung sollte auf belastbaren Daten beruhen, damit kurzfristige Effekte nicht überbewertet werden.",
+				"translation": "A significant decision should be based on reliable data so that short-term effects are not overvalued."
+			},
+			{
+				"sentence": "Nachdem die Analyse abgeschlossen worden war, hat sich gezeigt, dass der Schritt strategisch bedeutend war.",
+				"translation": "After the analysis had been completed, it became clear that the step was strategically significant."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "unbescholten",
+		"suffix": "",
+		"meaning": "of good character, with no criminal record",
+		"extra": {
+			"info": "Das Adjektiv beschreibt eine Person mit einwandfreiem Ruf und ohne strafrechtliche Verfehlungen.",
+			"subInfo": "Used to describe someone with a clean reputation."
+		},
+		"examples": [
+			{
+				"sentence": "Bei sensiblen Positionen wird häufig geprüft, ob Bewerbende als unbescholten gelten und dauerhaft verantwortungsvoll gehandelt haben.",
+				"translation": "For sensitive positions, it is often checked whether applicants are considered of good character and have acted responsibly over time."
+			},
+			{
+				"sentence": "Nachdem die Unterlagen vollständig geprüft worden waren, wurde sie offiziell als unbescholten eingestuft.",
+				"translation": "After the documents had been fully reviewed, she was officially classified as of good character."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Umgangsform",
+		"suffix": "",
+		"meaning": "manner, social form (pl -en)",
+		"extra": {
+			"info": "Eine Umgangsform beschreibt sozial akzeptierte Verhaltensweisen, die respektvolle Kommunikation und Zusammenarbeit erleichtern.",
+			"subInfo": "Polite and accepted social behavior."
+		},
+		"examples": [
+			{
+				"sentence": "Professionelle Umgangsformen schaffen Vertrauen, weil sie auch in Konfliktsituationen klare Grenzen und gegenseitigen Respekt sichern.",
+				"translation": "Professional manners create trust because they ensure clear boundaries and mutual respect even in conflict situations."
+			},
+			{
+				"sentence": "Nachdem das Unternehmen neue Leitlinien zu Umgangsformen eingeführt hatte, hat sich das Arbeitsklima verbessert.",
+				"translation": "After the company had introduced new guidelines on manners, the working climate improved."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Hauptportier",
+		"suffix": "",
+		"meaning": "chief porter (pl -s)",
+		"extra": {
+			"info": "Der Hauptportier koordiniert den Empfangsbereich, steuert Abläufe im Eingangsservice und ist zentrale Ansprechperson für Gäste.",
+			"subInfo": "Head concierge or chief doorman."
+		},
+		"examples": [
+			{
+				"sentence": "Der Hauptportier behielt auch in Stoßzeiten den Überblick, indem er Ankünfte koordinierte und Sonderwünsche präzise weiterleitete.",
+				"translation": "The chief porter kept an overview even during peak times by coordinating arrivals and forwarding special requests precisely."
+			},
+			{
+				"sentence": "Nachdem der Hauptportier die Schicht neu organisiert hatte, hat sich der Empfangsprozess deutlich beschleunigt.",
+				"translation": "After the chief porter had reorganized the shift, the reception process sped up significantly."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "das",
+		"main": "Schreiben",
+		"suffix": "",
+		"meaning": "writing, letter",
+		"extra": {
+			"info": "Ein Schreiben ist eine formelle schriftliche Mitteilung, die Informationen, Anfragen oder Entscheidungen verbindlich dokumentiert.",
+			"subInfo": "A written message or letter."
+		},
+		"examples": [
+			{
+				"sentence": "Das Schreiben sollte klar strukturiert sein, damit auch komplexe Inhalte ohne Rückfragen nachvollzogen werden können.",
+				"translation": "The letter should be clearly structured so that even complex content can be understood without follow-up questions."
+			},
+			{
+				"sentence": "Nachdem ich Ihr Schreiben sorgfältig gelesen hatte, habe ich die angeforderten Unterlagen fristgerecht eingereicht.",
+				"translation": "After I had carefully read your letter, I submitted the requested documents on time."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "das",
+		"main": "Ersatzteil",
+		"suffix": "",
+		"meaning": "spare part (pl -e)",
+		"extra": {
+			"info": "Ein Ersatzteil ist eine Komponente, die ein defektes Bauteil ersetzt, um die Funktion eines Systems wiederherzustellen.",
+			"subInfo": "A replacement part for repair."
+		},
+		"examples": [
+			{
+				"sentence": "Damit die Anlage ohne längeren Stillstand weiterlaufen kann, muss das passende Ersatzteil rechtzeitig verfügbar sein.",
+				"translation": "So that the system can continue running without a long outage, the right spare part must be available in time."
+			},
+			{
+				"sentence": "Nachdem das benötigte Ersatzteil geliefert worden war, hat das Team die Reparatur noch am selben Tag abgeschlossen.",
+				"translation": "After the required spare part had been delivered, the team completed the repair the same day."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Angestellte",
+		"suffix": "",
+		"meaning": "employee (pl -n)",
+		"extra": {
+			"info": "Eine Angestellte ist eine Person in einem vertraglichen Beschäftigungsverhältnis mit klar definierten Aufgaben und Rechten.",
+			"subInfo": "A person employed by a company."
+		},
+		"examples": [
+			{
+				"sentence": "Als erfahrene Angestellte übernahm sie zusätzlich die Einarbeitung neuer Kolleginnen, damit Prozesse einheitlich umgesetzt wurden.",
+				"translation": "As an experienced employee, she additionally took over onboarding for new colleagues so that processes were implemented consistently."
+			},
+			{
+				"sentence": "Nachdem die Angestellte interne Schulungen besucht hatte, hat sie komplexe Aufgaben wesentlich eigenständiger bearbeitet.",
+				"translation": "After the employee had attended internal training, she handled complex tasks much more independently."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Senkung",
+		"suffix": "",
+		"meaning": "reduction, lowering (pl -en)",
+		"extra": {
+			"info": "Eine Senkung bezeichnet die gezielte Verringerung eines Werts, einer Belastung oder eines Kostenfaktors.",
+			"subInfo": "A decrease in level or amount."
+		},
+		"examples": [
+			{
+				"sentence": "Die Senkung der Betriebskosten gelang nur deshalb, weil Prozesse standardisiert und Energieverbräuche systematisch analysiert wurden.",
+				"translation": "The reduction of operating costs succeeded only because processes were standardized and energy consumption was analyzed systematically."
+			},
+			{
+				"sentence": "Nachdem die Senkung der Gebühren beschlossen worden war, hat die Nachfrage im nächsten Quartal deutlich zugenommen.",
+				"translation": "After the fee reduction had been decided, demand increased noticeably in the next quarter."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "erhören",
+		"suffix": "",
+		"meaning": "to grant a request (erhörte, hat erhört)",
+		"extra": {
+			"info": "Das Verb bedeutet, eine Bitte zu erfüllen, oft in einem formellen, literarischen oder emotional geprägten Kontext.",
+			"subInfo": "To fulfill or grant what someone asks for."
+		},
+		"examples": [
+			{
+				"sentence": "Der Antrag wurde schließlich erhört, nachdem die Antragstellenden ihre Argumente mit nachvollziehbaren Nachweisen ergänzt hatten.",
+				"translation": "The request was finally granted after the applicants had supplemented their arguments with verifiable evidence."
+			},
+			{
+				"sentence": "Nachdem sein langjähriger Wunsch erhört worden war, hat er die neue Aufgabe mit großer Verantwortung übernommen.",
+				"translation": "After his long-standing wish had been granted, he took on the new task with great responsibility."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "beliebt",
+		"suffix": "bei + Dat.",
+		"meaning": "popular",
+		"extra": {
+			"info": "Das Adjektiv beschreibt Personen, Orte oder Angebote, die von vielen Menschen geschätzt und häufig gewählt werden.",
+			"subInfo": "Liked by many people."
+		},
+		"examples": [
+			{
+				"sentence": "Das Format ist besonders bei jungen Lernenden beliebt, weil es kurze Einheiten mit klaren Fortschrittsanzeigen kombiniert.",
+				"translation": "The format is especially popular among young learners because it combines short units with clear progress indicators."
+			},
+			{
+				"sentence": "Nachdem das Restaurant sein Konzept modernisiert hatte, ist es bei den Anwohnern noch beliebter geworden.",
+				"translation": "After the restaurant had modernized its concept, it became even more popular among local residents."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "die",
+		"main": "Erziehung",
+		"suffix": "",
+		"meaning": "upbringing, education (pl -en)",
+		"extra": {
+			"info": "Erziehung bezeichnet den langfristigen Prozess, in dem Werte, soziale Kompetenzen und Verantwortungsbewusstsein vermittelt werden.",
+			"subInfo": "The process of raising and educating children."
+		},
+		"examples": [
+			{
+				"sentence": "Eine reflektierte Erziehung fördert Selbstständigkeit, indem sie Grenzen setzt und zugleich Raum für eigene Entscheidungen lässt.",
+				"translation": "A reflective upbringing fosters independence by setting boundaries while leaving room for personal decisions."
+			},
+			{
+				"sentence": "Nachdem die Familie ihre Haltung zur Erziehung gemeinsam abgestimmt hatte, wurden Konflikte deutlich konstruktiver gelöst.",
+				"translation": "After the family had aligned its approach to upbringing, conflicts were resolved much more constructively."
+			}
+		],
+		"reviewCount": 0
+	}
+]

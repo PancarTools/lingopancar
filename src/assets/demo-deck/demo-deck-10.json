@@ -1,0 +1,244 @@
+[
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "klappen",
+		"suffix": "",
+		"meaning": "to work out (klappte, hat geklappt)",
+		"extra": {
+			"info": "Das Verb drückt aus, dass etwas funktioniert oder wie beabsichtigt erfolgreich umgesetzt wird.",
+			"subInfo": "To succeed or function as planned."
+		},
+		"examples": [
+			{
+				"sentence": "Damit die Übergabe klappt, müssen Verantwortlichkeiten klar benannt und offene Punkte transparent dokumentiert sein.",
+				"translation": "For the handover to work out, responsibilities must be clearly named and open points transparently documented."
+			},
+			{
+				"sentence": "Nachdem alle Abhängigkeiten abgestimmt worden waren, hat der Start des Projekts problemlos geklappt.",
+				"translation": "After all dependencies had been coordinated, the project start worked out smoothly."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "bestimmt",
+		"suffix": "",
+		"meaning": "certainly, definitely",
+		"extra": {
+			"info": "Das Wort verstärkt eine Aussage und signalisiert hohe Sicherheit oder feste Erwartung.",
+			"subInfo": "Expresses confidence or certainty."
+		},
+		"examples": [
+			{
+				"sentence": "Mit dieser Vorbereitung wird das Vorhaben bestimmt gelingen, sofern die Umsetzung konsequent begleitet wird.",
+				"translation": "With this preparation, the project will certainly succeed, provided implementation is consistently supported."
+			},
+			{
+				"sentence": "Nachdem die letzten Tests erfolgreich gewesen waren, war das Team bestimmt, den Release freizugeben.",
+				"translation": "After the final tests had been successful, the team was certain about approving the release."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "unvergesslich",
+		"suffix": "",
+		"meaning": "unforgettable",
+		"extra": {
+			"info": "Das Adjektiv beschreibt Erlebnisse, die wegen ihrer Intensität oder Bedeutung dauerhaft in Erinnerung bleiben.",
+			"subInfo": "So remarkable that it is not forgotten."
+		},
+		"examples": [
+			{
+				"sentence": "Der gemeinsame Abschluss war unvergesslich, weil professionelle Leistung und persönliche Wertschätzung zusammenkamen.",
+				"translation": "The shared finale was unforgettable because professional achievement and personal appreciation came together."
+			},
+			{
+				"sentence": "Nachdem wir das Projekt trotz großer Hürden beendet hatten, blieb dieser Moment für alle unvergesslich.",
+				"translation": "After we had completed the project despite major hurdles, that moment remained unforgettable for everyone."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "höchstens",
+		"suffix": "",
+		"meaning": "at most",
+		"extra": {
+			"info": "Das Adverb markiert eine klare Obergrenze, die nicht überschritten werden soll oder kann.",
+			"subInfo": "Indicates an upper limit."
+		},
+		"examples": [
+			{
+				"sentence": "Die Umstellung darf höchstens zwei Tage dauern, damit der Betrieb ohne kritische Unterbrechungen weiterläuft.",
+				"translation": "The migration may take at most two days so that operations continue without critical interruptions."
+			},
+			{
+				"sentence": "Nachdem wir alle Risiken bewertet hatten, lag die geschätzte Verzögerung höchstens bei wenigen Stunden.",
+				"translation": "After we had assessed all risks, the estimated delay was at most a few hours."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "gespannt",
+		"suffix": "auf + Akk.",
+		"meaning": "excited, curious",
+		"extra": {
+			"info": "Das Adjektiv beschreibt eine erwartungsvolle, interessierte Haltung gegenüber einem kommenden Ereignis oder Ergebnis.",
+			"subInfo": "Looking forward to something with interest."
+		},
+		"examples": [
+			{
+				"sentence": "Wir sind gespannt auf die Auswertung, weil sie zeigt, ob die getroffenen Maßnahmen tatsächlich wirksam waren.",
+				"translation": "We are excited about the evaluation because it shows whether the adopted measures were actually effective."
+			},
+			{
+				"sentence": "Nachdem die Teams ihre Ergebnisse vorgestellt hatten, waren alle gespannt auf die finale Entscheidung.",
+				"translation": "After the teams had presented their results, everyone was excited about the final decision."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "schlank",
+		"suffix": "",
+		"meaning": "slim",
+		"extra": {
+			"info": "Das Adjektiv beschreibt eine schmale, reduzierte Form, körperlich oder übertragen auf Prozesse und Strukturen.",
+			"subInfo": "Having a slender body shape."
+		},
+		"examples": [
+			{
+				"sentence": "Ein schlank gestalteter Prozess reduziert unnötige Schritte und erhöht die Geschwindigkeit komplexer Abläufe.",
+				"translation": "A leanly designed process reduces unnecessary steps and increases the speed of complex workflows."
+			},
+			{
+				"sentence": "Nachdem die Organisation ihre Struktur verschlankt hatte, wurden Entscheidungen schneller und klarer getroffen.",
+				"translation": "After the organization had streamlined its structure, decisions were made faster and more clearly."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "der",
+		"main": "Turnverein",
+		"suffix": "",
+		"meaning": "gymnastics club (pl -e)",
+		"extra": {
+			"info": "Ein Turnverein ist ein Sportverein, der gemeinsames Training, Bewegung und oft auch soziale Aktivitäten organisiert.",
+			"subInfo": "A sports club focused on gymnastics and training."
+		},
+		"examples": [
+			{
+				"sentence": "Der Turnverein fördert nicht nur körperliche Fitness, sondern stärkt durch regelmäßige Angebote auch den sozialen Zusammenhalt.",
+				"translation": "The gymnastics club not only promotes physical fitness but also strengthens social cohesion through regular activities."
+			},
+			{
+				"sentence": "Nachdem der Turnverein ein inklusives Kursprogramm eingeführt hatte, stieg die Zahl der Teilnehmenden deutlich.",
+				"translation": "After the gymnastics club had introduced an inclusive course program, the number of participants rose significantly."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "nötig",
+		"suffix": "",
+		"meaning": "necessary",
+		"extra": {
+			"info": "Das Adjektiv kennzeichnet etwas als erforderlich, damit ein Ziel erreicht oder ein Problem gelöst werden kann.",
+			"subInfo": "Required for a specific purpose."
+		},
+		"examples": [
+			{
+				"sentence": "Für eine belastbare Entscheidung sind zusätzliche Daten nötig, weil die aktuelle Grundlage noch zu lückenhaft ist.",
+				"translation": "Additional data is necessary for a robust decision because the current basis is still too incomplete."
+			},
+			{
+				"sentence": "Nachdem die Ausgangslage neu bewertet worden war, wurden keine weiteren Maßnahmen mehr nötig.",
+				"translation": "After the initial situation had been reassessed, no further measures were necessary."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "unheimlich",
+		"suffix": "",
+		"meaning": "incredibly, eerie",
+		"extra": {
+			"info": "Je nach Kontext kann das Wort eine starke Intensität ausdrücken oder eine unheimliche, beklemmende Wirkung beschreiben.",
+			"subInfo": "Can mean very/intensely or spooky depending on context."
+		},
+		"examples": [
+			{
+				"sentence": "Die Diskussion war unheimlich produktiv, weil unterschiedliche Positionen präzise argumentiert und konstruktiv verbunden wurden.",
+				"translation": "The discussion was incredibly productive because different positions were argued precisely and connected constructively."
+			},
+			{
+				"sentence": "Nachdem das Licht ausgefallen war, wirkte der leere Flur unheimlich still und angespannt.",
+				"translation": "After the lights had gone out, the empty hallway felt eerily quiet and tense."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "beweglich",
+		"suffix": "",
+		"meaning": "flexible, mobile",
+		"extra": {
+			"info": "Das Adjektiv beschreibt körperliche oder funktionale Flexibilität, durch die Bewegung und Anpassung leichter möglich werden.",
+			"subInfo": "Able to move easily."
+		},
+		"examples": [
+			{
+				"sentence": "Ein bewegliches Arbeitsmodell ermöglicht schnellere Reaktionen, wenn sich Anforderungen kurzfristig verändern.",
+				"translation": "A flexible work model enables faster reactions when requirements change at short notice."
+			},
+			{
+				"sentence": "Nachdem sie regelmäßig trainiert hatte, war sie deutlich beweglicher und belastbarer als zuvor.",
+				"translation": "After she had trained regularly, she was noticeably more flexible and resilient than before."
+			}
+		],
+		"reviewCount": 0
+	},
+	{
+		"type": "detailed",
+		"prefix": "",
+		"main": "nämlich",
+		"suffix": "",
+		"meaning": "namely",
+		"extra": {
+			"info": "Das Wort leitet eine genauere Erklärung, Begründung oder Spezifizierung einer vorherigen Aussage ein.",
+			"subInfo": "Used to explain or specify."
+		},
+		"examples": [
+			{
+				"sentence": "Wir haben den Termin verschoben, nämlich weil mehrere Schlüsselpersonen an der Abstimmung beteiligt sein müssen.",
+				"translation": "We postponed the appointment, namely because several key people must be involved in the coordination."
+			},
+			{
+				"sentence": "Nachdem die Gründe transparent erläutert worden waren, akzeptierte das Team die Änderung, nämlich den neuen Ablaufplan.",
+				"translation": "After the reasons had been explained transparently, the team accepted the change, namely the new process plan."
+			}
+		],
+		"reviewCount": 0
+	}
+]

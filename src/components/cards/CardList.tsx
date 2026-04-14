@@ -23,6 +23,7 @@ export default function CardList({ cards, onCardDeleted }: CardListProps) {
 		<div className="grid gap-3 sm:gap-4">
 			{cards.map((card) => {
 				const examples = Array.isArray(card.examples) ? card.examples : [];
+				const extra = typeof card.extra === "string" ? { info: card.extra, subInfo: "" } : card.extra;
 
 				return (
 					<div
@@ -42,8 +43,11 @@ export default function CardList({ cards, onCardDeleted }: CardListProps) {
 								</div>
 								<p className="text-lg text-secondary dark:text-secondary font-medium mb-3">{card.meaning}</p>
 
-								{card.description && (
-									<p className="text-dark dark:text-light mb-3 italic font-light">{card.description}</p>
+								{extra && (
+									<div className="mb-3 space-y-1">
+										<p className="text-dark dark:text-light italic font-light">{extra.info}</p>
+										<p className="text-secondary dark:text-secondary italic font-light">{extra.subInfo}</p>
+									</div>
 								)}
 
 								{examples.length > 0 && (

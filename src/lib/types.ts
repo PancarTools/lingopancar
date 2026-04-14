@@ -3,6 +3,11 @@ export interface Example {
 	translation?: string;
 }
 
+export interface CardExtra {
+	info: string;
+	subInfo: string;
+}
+
 export const CARD_TYPE = {
 	SIMPLE: "simple",
 	DETAILED: "detailed",
@@ -17,7 +22,7 @@ export interface SimpleCard {
 	type: CardType;
 	main: string;
 	meaning: string;
-	description: string;
+	extra?: CardExtra | string;
 	examples?: Example[];
 	createdAt: number;
 	updatedAt: number;
