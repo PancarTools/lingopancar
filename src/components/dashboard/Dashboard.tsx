@@ -97,7 +97,7 @@ export default function Dashboard() {
 
 	if (loading) {
 		return (
-			<div className="flex items-center justify-center min-h-screen w-full bg-light dark:bg-dark">
+			<div className="flex items-center justify-center min-h-screen w-full bg-background">
 				<LoadingSpinner />
 			</div>
 		);
@@ -108,27 +108,27 @@ export default function Dashboard() {
 	}
 
 	return (
-		<div className="min-h-dvh w-full bg-light dark:bg-dark">
+		<div className="min-h-dvh w-full bg-background text-foreground">
 			{isLoadingDemoDeck && (
-				<div className="fixed inset-0 z-60 flex items-center justify-center bg-dark/60 backdrop-blur-sm">
-					<div className="flex flex-col items-center gap-3 rounded-xl border-2 border-primary border-opacity-30 bg-light dark:bg-dark px-6 py-5 shadow-2xl">
+				<div className="fixed inset-0 z-60 flex items-center justify-center bg-overlay backdrop-blur-sm">
+					<div className="flex flex-col items-center gap-3 rounded-xl border-2 border-border bg-surface px-6 py-5 shadow-2xl">
 						<LoadingSpinner />
-						<LoadingText className="text-sm font-medium text-primary dark:text-primary" />
+						<LoadingText className="text-sm font-medium text-primary" />
 					</div>
 				</div>
 			)}
 
-			<nav className="bg-linear-to-r from-primary to-primary/80 dark:from-primary dark:to-primary/70 shadow-lg border-b-4 border-secondary">
+			<nav className="bg-linear-to-r from-primary to-primary/80 shadow-lg border-b-4 border-secondary">
 				<div className="w-full max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-3 sm:py-4 flex justify-between items-center gap-2 sm:gap-4">
-					<h1 className="text-2xl sm:text-3xl font-bold text-light dark:text-light font-serif truncate">LingoPancar</h1>
+					<h1 className="text-2xl sm:text-3xl font-bold text-primary-foreground font-serif truncate">LingoPancar</h1>
 					<div className="flex items-center gap-2 sm:gap-4">
-						<span className="text-xs sm:text-sm text-light dark:text-light font-light truncate hidden sm:inline">
+						<span className="text-xs sm:text-sm text-primary-foreground font-light truncate hidden sm:inline">
 							{user?.displayName || user?.email}
 						</span>
 						<Button
 							onClick={signOut}
 							variant="destructive"
-							className="text-xs sm:text-sm px-2 sm:px-4 py-1 sm:py-2 bg-secondary hover:bg-secondary/90 dark:bg-secondary dark:hover:bg-secondary/80 text-light dark:text-light"
+							className="text-xs sm:text-sm px-2 sm:px-4 py-1 sm:py-2 bg-secondary hover:bg-secondary/90 text-secondary-foreground"
 						>
 							Sign Out
 						</Button>
@@ -138,7 +138,7 @@ export default function Dashboard() {
 
 			<main className="w-full max-w-225 mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-6 sm:py-8">
 				<div className="mb-6 sm:mb-8 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
-					<h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary dark:text-primary font-serif">
+					<h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-primary font-serif">
 						{deck?.name || "My Deck"}
 					</h2>
 					<div className="flex gap-2 sm:gap-3 w-full sm:w-auto">
@@ -147,20 +147,20 @@ export default function Dashboard() {
 								onClick={handleLoadDemoDeck}
 								disabled={isLoadingDemoDeck}
 								variant="outline"
-								className="flex-1 sm:flex-none border-2 border-secondary text-secondary dark:text-secondary hover:text-secondary dark:hover:text-secondary hover:bg-secondary hover:bg-opacity-10 dark:hover:bg-opacity-20 font-semibold text-xs sm:text-sm px-2 sm:px-4 py-2"
+								className="flex-1 sm:flex-none border-2 border-secondary text-secondary hover:text-secondary hover:bg-secondary/10 font-semibold text-xs sm:text-sm px-2 sm:px-4 py-2"
 							>
 								{isLoadingDemoDeck ? <LoadingText className="text-xs sm:text-sm" /> : "Load Demo Deck"}
 							</Button>
 						)}
 						<Button
 							onClick={() => setShowStudyOptions(true)}
-							className="flex-1 sm:flex-none bg-secondary hover:bg-secondary/90 dark:bg-secondary dark:hover:bg-secondary/80 text-light dark:text-light font-semibold text-xs sm:text-sm px-2 sm:px-4 py-2"
+							className="flex-1 sm:flex-none bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold text-xs sm:text-sm px-2 sm:px-4 py-2"
 						>
 							Study ({Math.min(cards.length, 10)})
 						</Button>
 						<Button
 							onClick={() => setShowForm(!showForm)}
-							className="flex-1 sm:flex-none bg-primary hover:bg-primary/90 dark:bg-primary dark:hover:bg-primary/80 text-light dark:text-light font-semibold text-xs sm:text-sm px-2 sm:px-4 py-2"
+							className="flex-1 sm:flex-none bg-primary hover:bg-primary/90 text-primary-foreground font-semibold text-xs sm:text-sm px-2 sm:px-4 py-2"
 						>
 							{showForm ? "Cancel" : "+ Add"}
 						</Button>
@@ -178,13 +178,13 @@ export default function Dashboard() {
 					/>
 				)}
 
-				<div className="bg-light dark:bg-dark rounded-xl shadow-md p-3 sm:p-4 mb-6 sm:mb-8 border-2 border-primary border-opacity-20">
+				<div className="bg-surface rounded-xl shadow-md p-3 sm:p-4 mb-6 sm:mb-8 border-2 border-border">
 					<input
 						type="text"
 						placeholder="Search cards..."
 						value={searchQuery}
 						onChange={(e) => setSearchQuery(e.target.value)}
-						className="w-full px-4 py-3 border-2 border-secondary border-opacity-30 dark:border-secondary dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light placeholder-secondary placeholder-opacity-50 dark:placeholder-opacity-60"
+						className="w-full px-4 py-3 border-2 border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground placeholder:text-muted-foreground"
 					/>
 				</div>
 
@@ -206,27 +206,23 @@ export default function Dashboard() {
 				/>
 
 				{showStudyOptions && (
-					<div className="fixed inset-0 z-50 flex items-center justify-center bg-dark/60 p-4">
-						<div className="w-full max-w-md rounded-xl border-2 border-primary border-opacity-30 bg-light dark:bg-dark p-6 shadow-2xl">
-							<h3 className="text-xl font-semibold text-primary dark:text-primary font-serif mb-2">
-								Start Study Session
-							</h3>
-							<p className="text-sm text-secondary dark:text-secondary mb-6">
-								Choose how to select this 10-card batch.
-							</p>
+					<div className="fixed inset-0 z-50 flex items-center justify-center bg-overlay p-4">
+						<div className="w-full max-w-md rounded-xl border-2 border-border bg-surface p-6 shadow-2xl">
+							<h3 className="text-xl font-semibold text-primary font-serif mb-2">Start Study Session</h3>
+							<p className="text-sm text-muted-foreground mb-6">Choose how to select this 10-card batch.</p>
 
 							<div className="space-y-3">
 								<Button
 									onClick={handleStartDueStudy}
 									disabled={cards.length === 0}
-									className="w-full bg-secondary hover:bg-secondary/90 dark:bg-secondary dark:hover:bg-secondary/80 text-light dark:text-light font-semibold"
+									className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold"
 								>
 									Study Due ({getTopReviewCards(cards, 10).length})
 								</Button>
 								<Button
 									onClick={handleStartRandomStudy}
 									disabled={cards.length === 0}
-									className="w-full bg-primary hover:bg-primary/90 dark:bg-primary dark:hover:bg-primary/80 text-light dark:text-light font-semibold"
+									className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
 								>
 									Study Random ({Math.min(cards.length, 10)})
 								</Button>
@@ -236,7 +232,7 @@ export default function Dashboard() {
 								<Button
 									onClick={() => setShowStudyOptions(false)}
 									variant="outline"
-									className="border-2 border-secondary text-secondary dark:text-secondary hover:bg-secondary hover:bg-opacity-10 dark:hover:bg-opacity-20"
+									className="border-2 border-secondary text-secondary hover:bg-secondary/10"
 								>
 									Cancel
 								</Button>

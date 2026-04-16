@@ -24,15 +24,15 @@ export default function AuthPage() {
 	};
 
 	return (
-		<div className="flex flex-col items-center justify-center min-h-screen w-full bg-light dark:bg-dark px-4 py-8">
-			<div className="bg-light dark:bg-dark rounded-2xl shadow-2xl p-6 sm:p-8 md:p-12 w-full max-w-md border-2 border-primary">
+		<div className="flex flex-col items-center justify-center min-h-screen w-full bg-background px-4 py-8 text-foreground">
+			<div className="bg-surface rounded-2xl shadow-2xl p-6 sm:p-8 md:p-12 w-full max-w-md border-2 border-border">
 				<h1 className="text-4xl sm:text-5xl font-bold text-center text-primary mb-2 font-serif">LingoPancar</h1>
-				<p className="text-center text-secondary dark:text-secondary mb-8 text-base sm:text-lg font-light">
+				<p className="text-center text-muted-foreground mb-8 text-base sm:text-lg font-light">
 					Learn languages with elegance
 				</p>
 
 				{error && (
-					<div className="bg-primary/10 dark:bg-primary/20 border-2 border-primary text-primary dark:text-primary px-4 py-3 rounded-lg mb-6 font-medium">
+					<div className="bg-muted border-2 border-border text-primary px-4 py-3 rounded-lg mb-6 font-medium">
 						{error}
 					</div>
 				)}
@@ -40,12 +40,12 @@ export default function AuthPage() {
 				<Button
 					onClick={handleGoogleSignIn}
 					disabled={loading}
-					className="w-full bg-primary hover:bg-primary/90 dark:bg-primary dark:hover:bg-primary/80 text-light dark:text-light font-semibold py-3 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
+					className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold py-3 rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl"
 				>
-					{loading ? <LoadingText className="text-light dark:text-light" /> : "Sign in with Google"}
+					{loading ? <LoadingText className="text-primary-foreground" /> : "Sign in with Google"}
 				</Button>
 
-				<p className="text-center text-secondary dark:text-secondary text-sm mt-8 font-light">
+				<p className="text-center text-muted-foreground text-sm mt-8 font-light">
 					Sign in to create and study flashcards
 				</p>
 			</div>

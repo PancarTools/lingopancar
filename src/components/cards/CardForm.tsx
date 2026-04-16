@@ -100,18 +100,18 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 	return (
 		<form
 			onSubmit={handleSubmit}
-			className="bg-light dark:bg-dark rounded-xl shadow-lg p-4 sm:p-6 md:p-8 space-y-4 mb-6 sm:mb-8 border-2 border-primary border-opacity-30"
+			className="bg-surface rounded-xl shadow-lg p-4 sm:p-6 md:p-8 space-y-4 mb-6 sm:mb-8 border-2 border-border"
 		>
 			<div className="flex justify-between items-center">
-				<h3 className="text-2xl font-semibold text-primary dark:text-primary font-serif">Add New Card</h3>
+				<h3 className="text-2xl font-semibold text-primary font-serif">Add New Card</h3>
 				<div className="flex items-center gap-3">
-					<span className="text-sm font-medium text-secondary dark:text-secondary">
+					<span className="text-sm font-medium text-secondary">
 						{cardType === CARD_TYPE.SIMPLE ? "Simple" : "Detailed"}
 					</span>
 					<button
 						type="button"
 						onClick={() => setCardType(cardType === CARD_TYPE.SIMPLE ? CARD_TYPE.DETAILED : CARD_TYPE.SIMPLE)}
-						className={`relative inline-flex h-8 w-14 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 dark:focus:ring-offset-dark ${
+						className={`relative inline-flex h-8 w-14 items-center rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background ${
 							cardType === CARD_TYPE.DETAILED
 								? "bg-primary hover:bg-primary/90"
 								: "bg-secondary/30 hover:bg-secondary/40"
@@ -119,7 +119,7 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 						aria-label="Toggle card type"
 					>
 						<span
-							className={`inline-block h-6 w-6 transform rounded-full bg-light shadow-lg transition-transform ${
+							className={`inline-block h-6 w-6 transform rounded-full bg-background shadow-lg transition-transform ${
 								cardType === CARD_TYPE.DETAILED ? "translate-x-7" : "translate-x-1"
 							}`}
 						/>
@@ -128,50 +128,46 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 			</div>
 
 			{error && (
-				<div className="bg-primary/10 dark:bg-primary/20 border-2 border-primary text-primary dark:text-primary px-4 py-3 rounded-lg font-medium">
-					{error}
-				</div>
+				<div className="bg-muted border-2 border-border text-primary px-4 py-3 rounded-lg font-medium">{error}</div>
 			)}
 
 			{cardType === CARD_TYPE.SIMPLE ? (
 				<div className="space-y-4">
 					<div>
-						<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Main *</label>
+						<label className="block text-sm font-medium text-secondary mb-1">Main *</label>
 						<input
 							type="text"
 							value={main}
 							onChange={(e) => setMain(e.target.value)}
 							placeholder="e.g., Haus"
-							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+							className="w-full px-3 py-2 border-2 border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
 						/>
 					</div>
 
 					<div>
-						<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Meaning *</label>
+						<label className="block text-sm font-medium text-secondary mb-1">Meaning *</label>
 						<input
 							type="text"
 							value={meaning}
 							onChange={(e) => setMeaning(e.target.value)}
 							placeholder="Translation in your native language"
-							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+							className="w-full px-3 py-2 border-2 border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
 						/>
 					</div>
 
 					<div>
-						<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">
-							Definition (German, optional)
-						</label>
+						<label className="block text-sm font-medium text-secondary mb-1">Definition (German, optional)</label>
 						<textarea
 							value={extraInfo}
 							onChange={(e) => setExtraInfo(e.target.value)}
 							placeholder="Kurze Erklärung auf Deutsch"
 							rows={3}
-							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+							className="w-full px-3 py-2 border-2 border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
 						></textarea>
 					</div>
 
 					<div>
-						<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">
+						<label className="block text-sm font-medium text-secondary mb-1">
 							Definition Translation (English, optional)
 						</label>
 						<textarea
@@ -179,29 +175,24 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 							onChange={(e) => setExtraSubInfo(e.target.value)}
 							placeholder="English translation of the German definition"
 							rows={3}
-							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+							className="w-full px-3 py-2 border-2 border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
 						></textarea>
 					</div>
 
 					<div className="space-y-3">
 						<div className="flex justify-between items-center">
-							<label className="block text-sm font-medium text-secondary dark:text-secondary">
-								Example Sentences (optional)
-							</label>
+							<label className="block text-sm font-medium text-secondary">Example Sentences (optional)</label>
 							<button
 								type="button"
 								onClick={() => setExamples([...examples, { sentence: "", translation: "" }])}
-								className="text-sm text-primary hover:text-primary/80 dark:text-primary dark:hover:text-primary/70 font-medium"
+								className="text-sm text-primary hover:text-primary/80 font-medium"
 							>
 								+ Add Example
 							</button>
 						</div>
 
 						{examples.map((example, index) => (
-							<div
-								key={index}
-								className="space-y-2 p-3 bg-light border-2 border-secondary border-opacity-20 rounded-lg"
-							>
+							<div key={index} className="space-y-2 p-3 bg-muted border-2 border-border rounded-lg">
 								<input
 									type="text"
 									value={example.sentence}
@@ -211,7 +202,7 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 										setExamples(newExamples);
 									}}
 									placeholder="Example sentence"
-									className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white text-dark"
+									className="w-full px-3 py-2 border-2 border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
 								/>
 								<input
 									type="text"
@@ -222,7 +213,7 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 										setExamples(newExamples);
 									}}
 									placeholder="Translation (optional)"
-									className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white text-dark"
+									className="w-full px-3 py-2 border-2 border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
 								/>
 								{examples.length > 1 && (
 									<button
@@ -241,95 +232,84 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 				<div className="space-y-4">
 					<div className="grid grid-cols-3 gap-4">
 						<div>
-							<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">
-								Prefix (optional)
-							</label>
+							<label className="block text-sm font-medium text-secondary mb-1">Prefix (optional)</label>
 							<input
 								type="text"
 								value={prefix}
 								onChange={(e) => setPrefix(e.target.value)}
 								placeholder="e.g., der"
-								className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+								className="w-full px-3 py-2 border-2 border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
 							/>
 						</div>
 						<div>
-							<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Main *</label>
+							<label className="block text-sm font-medium text-secondary mb-1">Main *</label>
 							<input
 								type="text"
 								value={main}
 								onChange={(e) => setMain(e.target.value)}
 								placeholder="e.g., Haus"
-								className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+								className="w-full px-3 py-2 border-2 border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
 							/>
 						</div>
 						<div>
-							<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">
-								Suffix (optional)
-							</label>
+							<label className="block text-sm font-medium text-secondary mb-1">Suffix (optional)</label>
 							<input
 								type="text"
 								value={suffix}
 								onChange={(e) => setSuffix(e.target.value)}
 								placeholder="e.g., (n)"
-								className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+								className="w-full px-3 py-2 border-2 border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
 							/>
 						</div>
 					</div>
 
 					<div>
-						<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">Meaning *</label>
+						<label className="block text-sm font-medium text-secondary mb-1">Meaning *</label>
 						<input
 							type="text"
 							value={meaning}
 							onChange={(e) => setMeaning(e.target.value)}
 							placeholder="Translation in your native language"
-							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+							className="w-full px-3 py-2 border-2 border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
 						/>
 					</div>
 
 					<div>
-						<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">
-							Definition (German)
-						</label>
+						<label className="block text-sm font-medium text-secondary mb-1">Definition (German)</label>
 						<textarea
 							value={extraInfo}
 							onChange={(e) => setExtraInfo(e.target.value)}
 							placeholder="Erklärung auf Deutsch"
 							rows={3}
-							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+							className="w-full px-3 py-2 border-2 border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
 						></textarea>
 					</div>
 
 					<div>
-						<label className="block text-sm font-medium text-secondary dark:text-secondary mb-1">
-							Definition Translation (English)
-						</label>
+						<label className="block text-sm font-medium text-secondary mb-1">Definition Translation (English)</label>
 						<textarea
 							value={extraSubInfo}
 							onChange={(e) => setExtraSubInfo(e.target.value)}
 							placeholder="English translation"
 							rows={3}
-							className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 dark:border-opacity-40 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white dark:bg-dark text-dark dark:text-light"
+							className="w-full px-3 py-2 border-2 border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
 						></textarea>
 					</div>
 
 					<div className="space-y-3">
 						<div className="flex justify-between items-center">
-							<label className="block text-sm font-medium text-secondary dark:text-secondary">Example Sentences</label>
+							<label className="block text-sm font-medium text-secondary">Example Sentences</label>
 							<button
 								type="button"
 								onClick={() => setExamples([...examples, { sentence: "", translation: "" }])}
-								className="text-sm text-primary hover:text-primary/80 dark:text-primary dark:hover:text-primary/70 font-medium"
+								className="text-sm text-primary hover:text-primary/80 font-medium"
 							>
 								+ Add Example
 							</button>
 						</div>
 
 						{examples.map((example, index) => (
-							<div
-								key={index}
-								className="space-y-2 p-3 bg-light border-2 border-secondary border-opacity-20 rounded-lg"
-							>
+							<div key={index} className="space-y-2 p-3 bg-muted border-2 border-border rounded-lg">
 								<input
 									type="text"
 									value={example.sentence}
@@ -339,7 +319,7 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 										setExamples(newExamples);
 									}}
 									placeholder="Example sentence"
-									className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white text-dark"
+									className="w-full px-3 py-2 border-2 border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
 								/>
 								<input
 									type="text"
@@ -350,7 +330,7 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 										setExamples(newExamples);
 									}}
 									placeholder="Translation (optional)"
-									className="w-full px-3 py-2 border-2 border-secondary border-opacity-30 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-white text-dark"
+									className="w-full px-3 py-2 border-2 border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground"
 								/>
 								{examples.length > 1 && (
 									<button
@@ -372,14 +352,14 @@ export default function CardForm({ deckId, onCardAdded, onCancel }: CardFormProp
 					type="button"
 					onClick={onCancel}
 					variant="outline"
-					className="border-2 border-secondary text-secondary hover:bg-secondary hover:bg-opacity-10"
+					className="border-2 border-secondary text-secondary hover:bg-secondary/10"
 				>
 					Cancel
 				</Button>
 				<Button
 					type="submit"
 					disabled={isSubmitting}
-					className="bg-primary hover:bg-primary/90 text-light font-semibold"
+					className="bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
 				>
 					{isSubmitting ? "Creating..." : "Create Card"}
 				</Button>

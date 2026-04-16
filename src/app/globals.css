@@ -1,17 +1,56 @@
 @import "tailwindcss";
 
-@theme {
-	--color-primary: #a63446;
-	--color-secondary: #0c6291;
-	--color-accent: #3d7b46;
-	--color-light: #fbfef9;
-	--color-dark: #121212;
+:root {
+	--brand-burgundy: #a63446;
+	--brand-blue: #0c6291;
+	--accent-sage: #3d7b46;
+	--neutral-ivory: #fbfef9;
+	--neutral-charcoal: #121212;
+
+	--background: var(--neutral-ivory);
+	--foreground: var(--neutral-charcoal);
+	--surface: color-mix(in srgb, var(--neutral-ivory) 96%, white);
+	--surface-foreground: var(--neutral-charcoal);
+	--primary: var(--brand-burgundy);
+	--primary-foreground: var(--neutral-ivory);
+	--secondary: var(--brand-blue);
+	--secondary-foreground: var(--neutral-ivory);
+	--accent: var(--accent-sage);
+	--accent-foreground: var(--neutral-ivory);
+	--border: color-mix(in srgb, var(--brand-burgundy) 72%, var(--neutral-ivory));
+	--input: color-mix(in srgb, var(--brand-blue) 28%, var(--neutral-ivory));
+	--muted: color-mix(in srgb, var(--accent-sage) 18%, var(--neutral-ivory));
+	--muted-foreground: color-mix(in srgb, var(--brand-blue) 76%, var(--neutral-charcoal));
+	--overlay: color-mix(in srgb, var(--neutral-charcoal) 60%, transparent);
+}
+
+@theme inline {
+	--color-brand-burgundy: var(--brand-burgundy);
+	--color-brand-blue: var(--brand-blue);
+	--color-accent-sage: var(--accent-sage);
+	--color-neutral-ivory: var(--neutral-ivory);
+	--color-neutral-charcoal: var(--neutral-charcoal);
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--color-surface: var(--surface);
+	--color-surface-foreground: var(--surface-foreground);
+	--color-primary: var(--primary);
+	--color-primary-foreground: var(--primary-foreground);
+	--color-secondary: var(--secondary);
+	--color-secondary-foreground: var(--secondary-foreground);
+	--color-accent: var(--accent);
+	--color-accent-foreground: var(--accent-foreground);
+	--color-border: var(--border);
+	--color-input: var(--input);
+	--color-muted: var(--muted);
+	--color-muted-foreground: var(--muted-foreground);
+	--color-overlay: var(--overlay);
 	--card-hover-scale: 1.01;
 }
 
 body {
-	background: var(--color-light);
-	color: var(--color-dark);
+	background: var(--background);
+	color: var(--foreground);
 	font-family: Arial, Helvetica, sans-serif;
 }
 
