@@ -1,33 +1,42 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { AuthProvider } from "./providers";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const siteUrl = "https://pancartools.github.io/lingopancar";
+const siteTitle = "LingoPancar - Beautiful Language Flashcards That Stick";
+const siteDescription =
+	"Study vocabulary with elegant flashcards, spaced repetition, and fast review sessions for German, English, and more.";
+const ogImageUrl = `${siteUrl}/og-image.png`;
+
+export const viewport: Viewport = {
+	width: "device-width",
+	initialScale: 1,
+	maximumScale: 5,
+};
+
 export const metadata: Metadata = {
-	metadataBase: new URL("https://pancartools.github.io"),
-	title: "LingoPancar - Learn Languages with Elegance",
-	description:
-		"Master vocabulary with beautiful flashcards. Learn German, English, and more with our elegant language learning app.",
-	viewport: "width=device-width, initial-scale=1.0, maximum-scale=5.0",
+	metadataBase: new URL(siteUrl),
+	title: siteTitle,
+	description: siteDescription,
 	icons: {
-		icon: "/lingopancarrr.png",
-		shortcut: "/lingopancarrr.png",
-		apple: "/lingopancarrr.png",
+		icon: `${siteUrl}/lingopancarrr.png`,
+		shortcut: `${siteUrl}/lingopancarrr.png`,
+		apple: `${siteUrl}/lingopancarrr.png`,
 	},
 	openGraph: {
-		title: "LingoPancar - Learn Languages with Elegance",
-		description:
-			"Master vocabulary with beautiful flashcards. Learn German, English, and more with our elegant language learning app.",
-		url: "https://pancartools.github.io/lingopancar/",
+		title: siteTitle,
+		description: siteDescription,
+		url: siteUrl,
 		siteName: "LingoPancar",
 		images: [
 			{
-				url: "https://pancartools.github.io/lingopancar/lingoog.png",
+				url: ogImageUrl,
 				width: 1200,
 				height: 630,
-				alt: "LingoPancar - Learn Languages with Elegance",
+				alt: "LingoPancar - Beautiful language flashcards with spaced repetition",
 			},
 		],
 		locale: "en_US",
@@ -35,10 +44,9 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: "summary_large_image",
-		title: "LingoPancar - Learn Languages with Elegance",
-		description:
-			"Master vocabulary with beautiful flashcards. Learn German, English, and more with our elegant language learning app.",
-		images: ["https://pancartools.github.io/lingopancar/lingoog.png"],
+		title: siteTitle,
+		description: siteDescription,
+		images: [ogImageUrl],
 	},
 };
 
