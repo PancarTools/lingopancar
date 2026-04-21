@@ -90,17 +90,17 @@ export default function ReviewMode({ cards, userId, onExit }: ReviewModeProps) {
 					onClick={() => setIsFlipped(!isFlipped)}
 				>
 					{!isFlipped ? (
-						<div className="text-center px-4">
+						<div className="w-full max-w-full text-center px-4">
 							<p className="text-muted-foreground text-xs sm:text-sm mb-4 font-light">Front (click to reveal)</p>
-							<div className="flex items-baseline justify-center gap-2 mb-4 flex-wrap">
+							<div className="mb-4 flex flex-wrap items-baseline justify-center gap-x-2 gap-y-1">
 								{currentCard.prefix && (
-									<span className="text-secondary italic text-lg font-light">{currentCard.prefix}</span>
+									<span className="text-secondary italic text-lg font-light wrap-anywhere">{currentCard.prefix}</span>
 								)}
-								<span className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary font-serif">
+								<span className="text-4xl sm:text-5xl md:text-6xl font-bold text-primary font-serif wrap-anywhere">
 									{currentCard.main}
 								</span>
 								{currentCard.suffix && (
-									<span className="text-secondary italic text-lg font-light">{currentCard.suffix}</span>
+									<span className="text-secondary italic text-lg font-light wrap-anywhere">{currentCard.suffix}</span>
 								)}
 							</div>
 						</div>

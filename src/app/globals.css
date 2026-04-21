@@ -6,6 +6,10 @@
 	--accent-sage: #3d7b46;
 	--neutral-ivory: #fbfef9;
 	--neutral-charcoal: #121212;
+	--neutral-night: #0f1115;
+	--neutral-night-surface: #181c23;
+	--neutral-night-elevated: #222834;
+	--neutral-mist: #eef3f8;
 
 	--background: var(--neutral-ivory);
 	--foreground: var(--neutral-charcoal);
@@ -22,6 +26,24 @@
 	--muted: color-mix(in srgb, var(--accent-sage) 18%, var(--neutral-ivory));
 	--muted-foreground: color-mix(in srgb, var(--brand-blue) 76%, var(--neutral-charcoal));
 	--overlay: color-mix(in srgb, var(--neutral-charcoal) 60%, transparent);
+}
+
+:root[data-theme="dark"] {
+	--background: var(--neutral-night);
+	--foreground: var(--neutral-mist);
+	--surface: color-mix(in srgb, var(--neutral-night-surface) 88%, black);
+	--surface-foreground: var(--neutral-mist);
+	--primary: color-mix(in srgb, var(--brand-burgundy) 84%, white);
+	--primary-foreground: var(--neutral-mist);
+	--secondary: color-mix(in srgb, var(--brand-blue) 82%, white);
+	--secondary-foreground: var(--neutral-mist);
+	--accent: color-mix(in srgb, var(--accent-sage) 86%, white);
+	--accent-foreground: var(--neutral-mist);
+	--border: color-mix(in srgb, var(--neutral-night-elevated) 70%, var(--neutral-mist));
+	--input: color-mix(in srgb, var(--neutral-night-elevated) 82%, var(--brand-blue));
+	--muted: color-mix(in srgb, var(--neutral-night-elevated) 72%, var(--neutral-night));
+	--muted-foreground: color-mix(in srgb, var(--neutral-mist) 72%, var(--brand-blue));
+	--overlay: color-mix(in srgb, var(--neutral-night) 76%, transparent);
 }
 
 @theme inline {
@@ -46,6 +68,14 @@
 	--color-muted-foreground: var(--muted-foreground);
 	--color-overlay: var(--overlay);
 	--card-hover-scale: 1.01;
+}
+
+html {
+	color-scheme: light;
+}
+
+html[data-theme="dark"] {
+	color-scheme: dark;
 }
 
 body {

@@ -1,7 +1,10 @@
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
+import Script from "next/script";
 import "./globals.css";
 import { AuthProvider } from "./providers";
+import { ThemeProvider } from "./theme-provider";
+import { themeInitScript } from "@/lib/theme";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -52,9 +55,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
-		<html lang="en">
+		<html lang="en" suppressHydrationWarning>
 			<body className={inter.className}>
-				<AuthProvider>{children}</AuthProvider>
+				<Script id="theme-init" strategy="beforeInteractive">
+					{themeInitScript}
+				</Script>
+				<ThemeProvider>
+					<AuthProvider>{children}</AuthProvider>
+				</ThemeProvider>
 			</body>
 		</html>
 	);

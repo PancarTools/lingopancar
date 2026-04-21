@@ -4,6 +4,7 @@ import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 import { auth } from "@/lib/firebase";
 import { Button } from "@/components/ui/button";
 import LoadingText from "@/components/ui/loading-text";
+import ThemeToggle from "@/components/ui/theme-toggle";
 import { useState } from "react";
 
 export default function AuthPage() {
@@ -25,6 +26,9 @@ export default function AuthPage() {
 
 	return (
 		<div className="flex flex-col items-center justify-center min-h-screen w-full bg-background px-4 py-8 text-foreground">
+			<div className="mb-4 flex w-full max-w-md justify-end">
+				<ThemeToggle />
+			</div>
 			<div className="bg-surface rounded-2xl shadow-2xl p-6 sm:p-8 md:p-12 w-full max-w-md border-2 border-border">
 				<h1 className="text-4xl sm:text-5xl font-bold text-center text-primary mb-2 font-serif">LingoPancar</h1>
 				<p className="text-center text-muted-foreground mb-8 text-base sm:text-lg font-light">

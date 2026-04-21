@@ -55,10 +55,10 @@ export default function CardList({ cards, onCardDeleted, onCardUpdated }: CardLi
 								</Button>
 							</div>
 							<div>
-								<div className="flex items-baseline gap-2 mb-2 pr-20">
-									{card.prefix && <span className="text-secondary italic font-light">{card.prefix}</span>}
-									<span className="text-3xl font-bold text-primary font-serif">{card.main}</span>
-									{card.suffix && <span className="text-secondary italic font-light">{card.suffix}</span>}
+								<div className="mb-2 flex flex-wrap items-baseline gap-x-2 gap-y-1 pr-20">
+									{card.prefix && <span className="text-secondary italic font-light wrap-anywhere">{card.prefix}</span>}
+									<span className="text-3xl font-bold text-primary font-serif wrap-anywhere">{card.main}</span>
+									{card.suffix && <span className="text-secondary italic font-light wrap-anywhere">{card.suffix}</span>}
 								</div>
 								<p className="text-lg text-secondary font-medium mb-3">{card.meaning}</p>
 

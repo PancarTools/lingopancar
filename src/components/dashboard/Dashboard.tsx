@@ -17,6 +17,7 @@ import type { Card, Deck } from "@/lib/types";
 import { getTopReviewCards } from "@/lib/spaced-repetition";
 import LoadingSpinner from "@/components/ui/loading-spinner";
 import LoadingText from "@/components/ui/loading-text";
+import ThemeToggle from "@/components/ui/theme-toggle";
 
 export default function Dashboard() {
 	const { user, signOut } = useAuth();
@@ -122,6 +123,7 @@ export default function Dashboard() {
 				<div className="w-full max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-3 sm:py-4 flex justify-between items-center gap-2 sm:gap-4">
 					<h1 className="text-2xl sm:text-3xl font-bold text-primary-foreground font-serif truncate">LingoPancar</h1>
 					<div className="flex items-center gap-2 sm:gap-4">
+						<ThemeToggle />
 						<span className="text-xs sm:text-sm text-primary-foreground font-light truncate hidden sm:inline">
 							{user?.displayName || user?.email}
 						</span>
