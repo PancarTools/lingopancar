@@ -15,7 +15,7 @@ export default function LoadingSpinner() {
 					className="rounded-lg"
 				/>
 			</div>
-			<LoadingText className="text-muted-foreground mt-4 font-light" />
+			<LoadingText className="text-muted-foreground mt-4" />
 		</div>
 	);
 }

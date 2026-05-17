@@ -23,6 +23,7 @@ export interface SimpleCard {
 	main: string;
 	meaning: string;
 	extra?: CardExtra | string;
+	description?: string;
 	examples?: Example[];
 	createdAt: number;
 	updatedAt: number;

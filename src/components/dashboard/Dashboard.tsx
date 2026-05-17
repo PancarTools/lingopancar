@@ -3,6 +3,7 @@
 import { useAuth } from "@/app/providers";
 import { useState, useEffect, useCallback } from "react";
 import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
 import CardList from "@/components/cards/CardList";
 import CardForm from "@/components/cards/CardForm";
 import ReviewMode from "@/components/review/ReviewMode";
@@ -18,6 +19,7 @@ import { getTopReviewCards } from "@/lib/spaced-repetition";
 import LoadingSpinner from "@/components/ui/loading-spinner";
 import LoadingText from "@/components/ui/loading-text";
 import ThemeToggle from "@/components/ui/theme-toggle";
+import { Modal } from "@/components/ui/modal";
 
 export default function Dashboard() {
 	const { user, signOut } = useAuth();
@@ -98,7 +100,7 @@ export default function Dashboard() {
 
 	if (loading) {
 		return (
-			<div className="flex items-center justify-center min-h-screen w-full bg-background">
+			<div className="flex items-center justify-center min-h-dvh w-full bg-background">
 				<LoadingSpinner />
 			</div>
 		);
@@ -112,26 +114,22 @@ export default function Dashboard() {
 		<div className="min-h-dvh w-full bg-background text-foreground">
 			{isLoadingDemoDeck && (
 				<div className="fixed inset-0 z-60 flex items-center justify-center bg-overlay backdrop-blur-sm">
-					<div className="flex flex-col items-center gap-3 rounded-xl border-2 border-border bg-surface px-6 py-5 shadow-2xl">
+					<div className="flex flex-col items-center gap-3 rounded-md border border-border bg-surface px-6 py-5 shadow-lg">
 						<LoadingSpinner />
 						<LoadingText className="text-sm font-medium text-primary" />
 					</div>
 				</div>
 			)}
 
-			<nav className="bg-linear-to-r from-primary to-primary/80 shadow-lg border-b-4 border-secondary">
+			<nav className="bg-primary border-b-4 border-double border-brand-brass">
 				<div className="w-full max-w-7xl mx-auto px-3 sm:px-4 md:px-6 lg:px-8 py-3 sm:py-4 flex justify-between items-center gap-2 sm:gap-4">
 					<h1 className="text-2xl sm:text-3xl font-bold text-primary-foreground font-serif truncate">LingoPancar</h1>
 					<div className="flex items-center gap-2 sm:gap-4">
 						<ThemeToggle />
-						<span className="text-xs sm:text-sm text-primary-foreground font-light truncate hidden sm:inline">
+						<span className="text-xs sm:text-sm text-primary-foreground truncate hidden sm:inline">
 							{user?.displayName || user?.email}
 						</span>
-						<Button
-							onClick={signOut}
-							variant="destructive"
-							className="text-xs sm:text-sm px-2 sm:px-4 py-1 sm:py-2 bg-secondary hover:bg-secondary/90 text-secondary-foreground"
-						>
+						<Button onClick={signOut} variant="secondary" className="text-xs sm:text-sm px-2 sm:px-4 py-1 sm:py-2">
 							Sign Out
 						</Button>
 					</div>
@@ -149,7 +147,7 @@ export default function Dashboard() {
 								onClick={handleLoadDemoDeck}
 								disabled={isLoadingDemoDeck}
 								variant="outline"
-								className="flex-1 sm:flex-none border-2 border-secondary text-secondary hover:text-secondary hover:bg-secondary/10 font-semibold text-xs sm:text-sm px-2 sm:px-4 py-2"
+								className="flex-1 sm:flex-none border-secondary text-secondary hover:text-secondary hover:bg-secondary/10 font-semibold text-xs sm:text-sm px-2 sm:px-4 py-2"
 							>
 								{isLoadingDemoDeck ? <LoadingText className="text-xs sm:text-sm" /> : "Load Demo Deck"}
 							</Button>
@@ -180,13 +178,13 @@ export default function Dashboard() {
 					/>
 				)}
 
-				<div className="bg-surface rounded-xl shadow-md p-3 sm:p-4 mb-6 sm:mb-8 border-2 border-border">
-					<input
+				<div className="bg-surface rounded-md shadow-sm p-3 sm:p-4 mb-6 sm:mb-8 border border-border">
+					<Input
 						type="text"
 						placeholder="Search cards..."
 						value={searchQuery}
 						onChange={(e) => setSearchQuery(e.target.value)}
-						className="w-full px-4 py-3 border-2 border-input rounded-lg focus:outline-none focus:ring-2 focus:ring-primary bg-background text-foreground placeholder:text-muted-foreground"
+						className="px-4 py-3"
 					/>
 				</div>
 
@@ -207,41 +205,37 @@ export default function Dashboard() {
 					}}
 				/>
 
-				{showStudyOptions && (
-					<div className="fixed inset-0 z-50 flex items-center justify-center bg-overlay p-4">
-						<div className="w-full max-w-md rounded-xl border-2 border-border bg-surface p-6 shadow-2xl">
-							<h3 className="text-xl font-semibold text-primary font-serif mb-2">Start Study Session</h3>
-							<p className="text-sm text-muted-foreground mb-6">Choose how to select this 10-card batch.</p>
+				<Modal open={showStudyOptions} onClose={() => setShowStudyOptions(false)} size="md">
+					<h3 className="text-xl font-bold text-primary font-serif mb-2">Start Study Session</h3>
+					<p className="text-sm text-muted-foreground mb-6">Choose how to select this 10-card batch.</p>
 
-							<div className="space-y-3">
-								<Button
-									onClick={handleStartDueStudy}
-									disabled={cards.length === 0}
-									className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold"
-								>
-									Study Due ({getTopReviewCards(cards, 10).length})
-								</Button>
-								<Button
-									onClick={handleStartRandomStudy}
-									disabled={cards.length === 0}
-									className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
-								>
-									Study Random ({Math.min(cards.length, 10)})
-								</Button>
-							</div>
-
-							<div className="mt-4 flex justify-end">
-								<Button
-									onClick={() => setShowStudyOptions(false)}
-									variant="outline"
-									className="border-2 border-secondary text-secondary hover:bg-secondary/10"
-								>
-									Cancel
-								</Button>
-							</div>
-						</div>
+					<div className="space-y-3">
+						<Button
+							onClick={handleStartDueStudy}
+							disabled={cards.length === 0}
+							className="w-full bg-secondary hover:bg-secondary/90 text-secondary-foreground font-semibold"
+						>
+							Study Due ({getTopReviewCards(cards, 10).length})
+						</Button>
+						<Button
+							onClick={handleStartRandomStudy}
+							disabled={cards.length === 0}
+							className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
+						>
+							Study Random ({Math.min(cards.length, 10)})
+						</Button>
 					</div>
-				)}
+
+					<div className="mt-4 flex justify-end">
+						<Button
+							onClick={() => setShowStudyOptions(false)}
+							variant="outline"
+							className="border-secondary text-secondary hover:bg-secondary/10"
+						>
+							Cancel
+						</Button>
+					</div>
+				</Modal>
 			</main>
 		</div>
 	);

@@ -1,10 +1,11 @@
 @import "tailwindcss";
 
 :root {
-	--brand-burgundy: #a63446;
-	--brand-blue: #0c6291;
-	--accent-sage: #3d7b46;
-	--neutral-ivory: #fbfef9;
+	--brand-burgundy: #7c1e2c;
+	--brand-blue: #1b3a5b;
+	--brand-brass: #b68b3a;
+	--accent-sage: #3a6a44;
+	--neutral-ivory: #f5ecd9;
 	--neutral-charcoal: #121212;
 	--neutral-night: #0f1115;
 	--neutral-night-surface: #181c23;
@@ -26,12 +27,14 @@
 	--muted: color-mix(in srgb, var(--accent-sage) 18%, var(--neutral-ivory));
 	--muted-foreground: color-mix(in srgb, var(--brand-blue) 76%, var(--neutral-charcoal));
 	--overlay: color-mix(in srgb, var(--neutral-charcoal) 60%, transparent);
+	--destructive: #a53c4b;
+	--destructive-foreground: var(--neutral-ivory);
 }
 
 :root[data-theme="dark"] {
 	--background: var(--neutral-night);
 	--foreground: var(--neutral-mist);
-	--surface: color-mix(in srgb, var(--neutral-night-surface) 88%, black);
+	--surface: color-mix(in srgb, var(--neutral-night-surface) 80%, var(--neutral-night-elevated));
 	--surface-foreground: var(--neutral-mist);
 	--primary: color-mix(in srgb, var(--brand-burgundy) 84%, white);
 	--primary-foreground: var(--neutral-mist);
@@ -44,11 +47,32 @@
 	--muted: color-mix(in srgb, var(--neutral-night-elevated) 72%, var(--neutral-night));
 	--muted-foreground: color-mix(in srgb, var(--neutral-mist) 72%, var(--brand-blue));
 	--overlay: color-mix(in srgb, var(--neutral-night) 76%, transparent);
+	--destructive: color-mix(in srgb, #a53c4b 80%, white);
+	--destructive-foreground: var(--neutral-mist);
 }
 
 @theme inline {
+	--font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+	/* --- Serif comparison toggle (uncomment exactly ONE) --- */
+
+	/* sturdy newspaper, 300/400/700/900 only */
+	/* --font-serif: var(--font-merriweather), ui-serif, Georgia, serif; */
+
+	/* warm German book serif, full range */
+	/* --font-serif: var(--font-vollkorn), ui-serif, Georgia, serif; */
+
+	/* slab-serif, very heavy + legible */
+	/* --font-serif: var(--font-bitter), ui-serif, Georgia, serif; */
+
+	/* dramatic Edwardian display */
+	/* --font-serif: var(--font-playfair), ui-serif, Georgia, serif; */
+
+	/* classical Garamond, refined  */
+	--font-serif: var(--font-eb-garamond), ui-serif, Georgia, serif;
+
 	--color-brand-burgundy: var(--brand-burgundy);
 	--color-brand-blue: var(--brand-blue);
+	--color-brand-brass: var(--brand-brass);
 	--color-accent-sage: var(--accent-sage);
 	--color-neutral-ivory: var(--neutral-ivory);
 	--color-neutral-charcoal: var(--neutral-charcoal);
@@ -67,6 +91,8 @@
 	--color-muted: var(--muted);
 	--color-muted-foreground: var(--muted-foreground);
 	--color-overlay: var(--overlay);
+	--color-destructive: var(--destructive);
+	--color-destructive-foreground: var(--destructive-foreground);
 	--card-hover-scale: 1.01;
 }
 
@@ -81,7 +107,32 @@ html[data-theme="dark"] {
 body {
 	background: var(--background);
 	color: var(--foreground);
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+	line-height: 1.6;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-rendering: optimizeLegibility;
+	font-feature-settings: "kern", "liga", "calt";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	line-height: 1.2;
+	letter-spacing: -0.005em;
+}
+
+.label-vintage {
+	font-variant: small-caps;
+	letter-spacing: 0.08em;
+	text-transform: lowercase;
+}
+
+.nums-oldstyle {
+	font-variant-numeric: oldstyle-nums;
 }
 
 @keyframes pulse-scale {

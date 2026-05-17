@@ -89,6 +89,15 @@ export async function getDemoDeckLoadedState(userId: string): Promise<boolean> {
 	return snapshot.exists() ? Boolean(snapshot.val()) : false;
 }
 
+export async function getAllowAiState(userId: string): Promise<boolean> {
+	if (!database) throw new Error("Firebase not initialized");
+
+	const allowAiRef = ref(database, `users/${userId}/meta/allowAi`);
+	const snapshot = await get(allowAiRef);
+
+	return snapshot.exists() ? Boolean(snapshot.val()) : false;
+}
+
 export async function loadDemoDeck(userId: string, deckId: string): Promise<number> {
 	if (!database) throw new Error("Firebase not initialized");
 
