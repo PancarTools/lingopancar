@@ -52,7 +52,6 @@ export async function POST(req: NextRequest) {
 				{ role: "system", content: SYSTEM_PROMPT },
 				{ role: "user", content: input },
 			],
-			temperature: 0.3,
 		});
 
 		const raw = completion.choices[0]?.message?.content ?? "{}";
@@ -60,7 +59,8 @@ export async function POST(req: NextRequest) {
 
 		return NextResponse.json(data);
 	} catch (err) {
+		const message = err instanceof Error ? err.message : "AI request failed";
 		console.error("ai-fill error:", err);
-		return NextResponse.json({ error: "AI request failed" }, { status: 500 });
+		return NextResponse.json({ error: message }, { status: 500 });
 	}
 }
