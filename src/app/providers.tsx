@@ -17,7 +17,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 export function AuthProvider({ children }: { children: ReactNode }) {
 	const [user, setUser] = useState<User | null>(null);
 	const [loading, setLoading] = useState(true);
-	const [allowAi, setAllowAi] = useState(false);
+	const [allowAi, setAllowAi] = useState(true);
 
 	useEffect(() => {
 		const unsubscribe = onAuthStateChanged(auth!, async (currentUser) => {
@@ -27,13 +27,13 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 				try {
 					const deck = await createOrGetDeck(currentUser.uid);
 					await ensureWelcomeCard(currentUser.uid, deck.id);
-					const aiEnabled = await getAllowAiState(currentUser.uid);
-					setAllowAi(aiEnabled);
+					// const aiEnabled = await getAllowAiState(currentUser.uid);
+					// setAllowAi(aiEnabled);
 				} catch (error) {
 					console.error("Error during auth bootstrap:", error);
 				}
 			} else {
-				setAllowAi(false);
+				setAllowAi(true);
 			}
 
 			setLoading(false);
