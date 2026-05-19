@@ -65,7 +65,7 @@ const ebGaramond = EB_Garamond({
 	display: "swap",
 });
 
-const siteUrl = "https://pancartools.github.io/lingopancar";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://pancartools.github.io/lingopancar";
 const siteTitle = "LingoPancar - Beautiful Language Flashcards That Stick";
 const siteDescription =
 	"Study vocabulary with elegant flashcards, spaced repetition, and fast review sessions for German, English, and more.";
